@@ -1,51 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bryan Jodon – Clarity for Small Business</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="hero">
-    <h1>I Help Small Businesses Clarify, Improve, and Launch Smarter</h1>
-    <p>Strategy, structure, and support—when you don’t have a full team</p>
-    <a href="#contact" class="cta-button">Let’s Talk</a>
-  </header>
+/* style.css for bryanjodon.com */
 
-  <section class="about">
-    <h2>About Me</h2>
-    <p>I'm Bryan Jodon—a fixer, explainer, and builder. I work with small business owners who don’t have time, money, or headspace to hire full teams. I bring clarity to your chaos, whether it’s cleaning up a launch, tightening your messaging, or improving your back-end operations.</p>
-  </section>
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FAF9F6;
+  color: #2D2D2D;
+  line-height: 1.6;
+}
 
-  <section class="services">
-    <h2>How I Help</h2>
-    <div class="service">
-      <h3>Quick Fix</h3>
-      <p>One focused improvement (site, messaging, email). Delivered in 1 week. Flat fee.</p>
-    </div>
-    <div class="service">
-      <h3>Co-Pilot</h3>
-      <p>Ongoing monthly support—strategy and execution. Like having a strategist on call.</p>
-    </div>
-    <div class="service">
-      <h3>Launch Cleanup</h3>
-      <p>2–4 week engagement to get your next launch polished, ready, and right.</p>
-    </div>
-  </section>
+header.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #5C715E;
+  color: #FAF9F6;
+}
 
-  <section class="fit">
-    <h2>Who I Work Best With</h2>
-    <p>You’re a good fit if you run a small business, are wearing too many hats, and want help from someone who just gets it—quietly, clearly, and without the agency price tag.</p>
-  </section>
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
 
-  <section class="contact" id="contact">
-    <h2>Let’s Talk</h2>
-    <p>Email me directly at <a href="mailto:bryan@bryanjodon.com">bryan@bryanjodon.com</a> or message me through the contact form (coming soon).</p>
-  </section>
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
 
-  <footer>
-    <p>&copy; 2025 Bryan Jodon. Built with clarity and coffee.</p>
-  </footer>
-</body>
-</html>
+.cta-button {
+  background-color: #A7727D;
+  color: #FAF9F6;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+section {
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.services .service {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #5C715E;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: #5C715E;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #5C715E;
+  color: #FAF9F6;
+  font-size: 0.9rem;
+}
+
+a {
+  color: #A7727D;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
