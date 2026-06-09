@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Art School, But DIY</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f7f5f2;
+      --surface: #ffffff;
+      --border: #e4e0d8;
+      --accent: #2d6a4f;
+      --accent-light: #d8f3dc;
+      --accent-hover: #1b4332;
+      --text: #1a1a1a;
+      --muted: #6b7280;
+      --tag-done: #2d6a4f;
+      --tag-pending: #9ca3af;
+      --sidebar-w: 240px;
+      --radius: 10px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      min-height: 100vh;
+    }
+
+    /* ── Sidebar ── */
+    #sidebar {
+      width: var(--sidebar-w);
+      min-height: 100vh;
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 0; left: 0; bottom: 0;
+      overflow-y: auto;
+    }
+
+    .sidebar-header {
+      padding: 24px 20px 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .sidebar-header .course-tag {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+
+    .sidebar-header h1 {
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.3;
+      color: var(--text);
+    }
+
+    .term-label {
+      padding: 20px 20px 8px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .lesson-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      padding: 10px 20px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      text-align: left;
+      border-radius: 0;
+      transition: background .15s;
+      color: var(--text);
+      font-size: 13px;
+    }
+
+    .lesson-btn:hover { background: var(--bg); }
+    .lesson-btn.active { background: var(--accent-light); color: var(--accent); font-weight: 600; }
+    .lesson-btn.locked { color: var(--muted); cursor: default; }
+
+    .lesson-num {
+      width: 22px; height: 22px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px; font-weight: 700;
+      flex-shrink: 0;
+      background: var(--border);
+      color: var(--muted);
+    }
+
+    .lesson-btn.active .lesson-num { background: var(--accent); color: white; }
+    .lesson-btn.done .lesson-num { background: var(--accent); color: white; }
+
+    .lesson-title-text { line-height: 1.3; }
+
+    .overall-progress {
+      margin: auto 20px 20px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+
+    .overall-progress .prog-label {
+      font-size: 11px; color: var(--muted); margin-bottom: 6px;
+      display: flex; justify-content: space-between;
+    }
+
+    .prog-bar-outer {
+      height: 6px; background: var(--border); border-radius: 99px; overflow: hidden;
+    }
+
+    .prog-bar-inner {
+      height: 100%; background: var(--accent); border-radius: 99px;
+      transition: width .4s ease;
+    }
+
+    /* ── Main ── */
+    #main {
+      margin-left: var(--sidebar-w);
+      flex: 1;
+      padding: 40px 48px;
+      max-width: 900px;
+    }
+
+    .lesson-panel { display: none; }
+    .lesson-panel.active { display: block; }
+
+    /* Header */
+    .lesson-header {
+      margin-bottom: 32px;
+    }
+
+    .lesson-header .eyebrow {
+      font-size: 11px; font-weight: 700; letter-spacing: .1em;
+      text-transform: uppercase; color: var(--accent); margin-bottom: 8px;
+    }
+
+    .lesson-header h2 {
+      font-size: 28px; font-weight: 800; margin-bottom: 12px;
+    }
+
+    .lesson-progress-bar {
+      display: flex; align-items: center; gap: 12px; margin-top: 16px;
+    }
+
+    .lesson-progress-bar .prog-bar-outer { flex: 1; height: 8px; }
+    .lesson-progress-bar .pct { font-size: 13px; font-weight: 600; color: var(--accent); min-width: 36px; }
+
+    /* Goals */
+    .section { margin-bottom: 36px; }
+
+    .section-title {
+      font-size: 13px; font-weight: 700; letter-spacing: .06em;
+      text-transform: uppercase; color: var(--muted);
+      margin-bottom: 14px; display: flex; align-items: center; gap: 8px;
+    }
+
+    .section-title::after {
+      content: ''; flex: 1; height: 1px; background: var(--border);
+    }
+
+    .goals-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+
+    .goal-item {
+      display: flex; align-items: center; gap: 12px;
+      padding: 12px 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-size: 14px;
+    }
+
+    .goal-item .check-icon {
+      width: 20px; height: 20px;
+      background: var(--accent-light);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      font-size: 11px; color: var(--accent);
+    }
+
+    /* Weekly plan */
+    .weeks-grid {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
+    }
+
+    .week-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+    }
+
+    .week-card .wk-num {
+      font-size: 11px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .08em; color: var(--muted); margin-bottom: 6px;
+    }
+
+    .week-card .wk-focus {
+      font-size: 13px; font-weight: 600; color: var(--text); line-height: 1.4;
+    }
+
+    .week-card .wk-desc {
+      font-size: 12px; color: var(--muted); margin-top: 6px; line-height: 1.5;
+    }
+
+    /* Resources */
+    .resources-list { display: flex; flex-direction: column; gap: 10px; }
+
+    .resource-card {
+      display: flex; align-items: flex-start; gap: 14px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      transition: border-color .15s, box-shadow .15s;
+    }
+
+    .resource-card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 2px 8px rgba(45,106,79,.08);
+    }
+
+    .resource-card.done {
+      opacity: .7;
+      background: #fafaf9;
+    }
+
+    .resource-check {
+      width: 20px; height: 20px;
+      border: 2px solid var(--border);
+      border-radius: 5px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      flex-shrink: 0;
+      margin-top: 1px;
+      transition: all .15s;
+    }
+
+    .resource-check:hover { border-color: var(--accent); }
+    .resource-check.checked { background: var(--accent); border-color: var(--accent); }
+
+    .resource-check.checked::after {
+      content: '✓'; color: white; font-size: 12px; font-weight: 700;
+    }
+
+    .resource-body { flex: 1; }
+
+    .resource-name {
+      font-size: 14px; font-weight: 600; color: var(--text);
+      margin-bottom: 3px;
+    }
+
+    .resource-desc {
+      font-size: 12px; color: var(--muted); margin-bottom: 6px;
+      line-height: 1.4;
+    }
+
+    .resource-meta { display: flex; align-items: center; gap: 8px; }
+
+    .resource-link {
+      font-size: 11px; color: var(--accent);
+      text-decoration: none; font-weight: 500;
+    }
+
+    .resource-link:hover { text-decoration: underline; }
+
+    .resource-type {
+      font-size: 10px; font-weight: 600; letter-spacing: .06em;
+      text-transform: uppercase; padding: 2px 7px;
+      border-radius: 99px; background: var(--bg);
+      color: var(--muted); border: 1px solid var(--border);
+    }
+
+    /* Coming soon */
+    .coming-soon {
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      min-height: 340px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .coming-soon .cs-icon { font-size: 48px; margin-bottom: 16px; }
+    .coming-soon h3 { font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+    .coming-soon p { font-size: 14px; max-width: 320px; line-height: 1.6; }
+
+    .badge-coming {
+      display: inline-block;
+      font-size: 10px; font-weight: 700; letter-spacing: .06em;
+      text-transform: uppercase; padding: 3px 10px;
+      border-radius: 99px; background: #fef9c3;
+      color: #713f12; border: 1px solid #fde047;
+      margin-top: 14px;
+    }
+
+    /* Responsive */
+    @media (max-width: 700px) {
+      #sidebar { display: none; }
+      #main { margin-left: 0; padding: 24px 20px; }
+      .weeks-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══ SIDEBAR ═══ -->
+<nav id="sidebar">
+  <div class="sidebar-header">
+    <div class="course-tag">1st Term</div>
+    <h1>Art School,<br>But DIY</h1>
+  </div>
+
+  <div class="term-label">Lessons</div>
+
+  <button class="lesson-btn active" onclick="showLesson(1, this)">
+    <span class="lesson-num">1</span>
+    <span class="lesson-title-text">Linework &amp; Basic Shapes</span>
+  </button>
+  <button class="lesson-btn locked" onclick="showLesson(2, this)">
+    <span class="lesson-num">2</span>
+    <span class="lesson-title-text">Perspective &amp; Volume</span>
+  </button>
+  <button class="lesson-btn locked" onclick="showLesson(3, this)">
+    <span class="lesson-num">3</span>
+    <span class="lesson-title-text">Proportions</span>
+  </button>
+  <button class="lesson-btn locked" onclick="showLesson(4, this)">
+    <span class="lesson-num">4</span>
+    <span class="lesson-title-text">Light &amp; Shadow</span>
+  </button>
+  <button class="lesson-btn locked" onclick="showLesson(5, this)">
+    <span class="lesson-num">5</span>
+    <span class="lesson-title-text">Shading &amp; Texture</span>
+  </button>
+  <button class="lesson-btn locked" onclick="showLesson(6, this)">
+    <span class="lesson-num">6</span>
+    <span class="lesson-title-text">Color Fundamentals</span>
+  </button>
+
+  <div class="overall-progress">
+    <div class="prog-label">
+      <span>Overall Progress</span>
+      <span id="overall-pct">0%</span>
+    </div>
+    <div class="prog-bar-outer">
+      <div class="prog-bar-inner" id="overall-bar" style="width:0%"></div>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══ MAIN ═══ -->
+<main id="main">
+
+  <!-- ── Lesson 1 ── -->
+  <div class="lesson-panel active" id="lesson-1">
+    <div class="lesson-header">
+      <div class="eyebrow">Lesson 1 · 1st Term</div>
+      <h2>Linework &amp; Basic Shapes</h2>
+      <div class="lesson-progress-bar">
+        <div class="prog-bar-outer">
+          <div class="prog-bar-inner" id="l1-bar" style="width:0%"></div>
+        </div>
+        <span class="pct" id="l1-pct">0%</span>
+      </div>
+    </div>
+
+    <!-- Goals -->
+    <div class="section">
+      <div class="section-title">Goals</div>
+      <ul class="goals-list">
+        <li class="goal-item">
+          <span class="check-icon">✓</span>
+          Practice consistent line control
+        </li>
+        <li class="goal-item">
+          <span class="check-icon">✓</span>
+          Understand and draw basic geometric shapes
+        </li>
+        <li class="goal-item">
+          <span class="check-icon">✓</span>
+          Learn to combine shapes to form objects
+        </li>
+      </ul>
+    </div>
+
+    <!-- Weekly Plan -->
+    <div class="section">
+      <div class="section-title">4-Week Plan</div>
+      <div class="weeks-grid">
+        <div class="week-card">
+          <div class="wk-num">Week 1</div>
+          <div class="wk-focus">Pencil Control &amp; Mark-Making</div>
+          <div class="wk-desc">Learn pencil grips, pressure, and basic mark-making exercises.</div>
+        </div>
+        <div class="week-card">
+          <div class="wk-num">Week 2</div>
+          <div class="wk-focus">Lines &amp; Exercises</div>
+          <div class="wk-desc">Practice straight lines, curved lines, ghosted lines, and ellipses.</div>
+        </div>
+        <div class="week-card">
+          <div class="wk-num">Week 3</div>
+          <div class="wk-focus">Basic Shapes</div>
+          <div class="wk-desc">Draw boxes, circles, triangles, and cylinders from observation and imagination.</div>
+        </div>
+        <div class="week-card">
+          <div class="wk-num">Week 4</div>
+          <div class="wk-focus">Combining Shapes</div>
+          <div class="wk-desc">Break down objects into basic shapes. Draw from reference using shape analysis.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resources -->
+    <div class="section">
+      <div class="section-title">Resources &amp; Exercises <span style="font-size:11px;color:var(--muted);text-transform:none;letter-spacing:0;font-weight:400;" id="l1-done-count">(0 / 11 reviewed)</span></div>
+      <div class="resources-list" id="l1-resources">
+
+        <div class="resource-card" data-id="r1">
+          <div class="resource-check" onclick="toggleResource('r1')"></div>
+          <div class="resource-body">
+            <div class="resource-name">How to Hold and Control Your Pencil</div>
+            <div class="resource-desc">Proko lesson covering pencil basics — grip, pressure, and control fundamentals.</div>
+            <div class="resource-meta">
+              <a class="resource-link" href="https://youtu.be/pMC0Cx3Uk84?si=jduuFz8ssGTNF969" target="_blank">↗ Watch on YouTube</a>
+              <span class="resource-type">Video</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card" data-id="r2">
+          <div class="resource-check" onclick="toggleResource('r2')"></div>
+          <div class="resource-body">
+            <div class="resource-name">Holding Grips</div>
+            <div class="resource-desc">Overview of different pencil grips and when to use each one.</div>
+            <div class="resource-meta">
+              <a class="resource-link" href="https://youtu.be/YKGJWdmrSxw?si=ORFYZQJD-I54hv99" target="_blank">↗ Watch on YouTube</a>
+              <span class="resource-type">Video</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card" data-id="r3">
+          <div class="resource-check" onclick="toggleResource('r3')"></div>
+          <div class="resource-body">
+            <div class="resource-name">Making Marks – New Masters Academy</div>
+            <div class="resource-desc">Complete overview of what the pencil can do — a must-watch for beginners.</div>
+            <div class="resource-meta">
+              <a class="resource-link" href="https://www.youtube.com/watch?v=b_w_hdwafV8" target="_blank">↗ Watch on YouTube</a>
+              <span class="resource-type">Video</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card" data-id="r4">
+          <div class="resource-check" onclick="toggleResource('r4')"></div>
+          <div class="resource-body">
+            <div class="resource-name">Draw a Box – Lesson 1 (1–4)</div>
+            <div class="resource-desc">DAB Lesson 1 focused on lines. One of the best free structured drawing programs available.</div>
+            <div class="resource-meta">
+              <a class="resource-link" href="https://drawabox.com/lesson/1" target="_blank">↗ drawabox.com/lesson/1</a>
+              <span class="resource-type">Course</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card" data-id="r5">
+          <div class="resource-check" onclick="toggleResource('r5')"></div>
+          <div class="resource-body">
+            <div class="resource-name">Drawing Basics Course – Lines</div>
+            <div class="resource-desc">Watch the videos on lines first — great structured intro to line quality.</div>
+            <div class="resource-meta">
+              <a class="resource-link" href="https://www.youtube.com/watch?v=tx5kJvI14Jg&list=PLtG4P3lq8RHHMNwxuVk0IcGRtPGHi4vN9&index=2" target="_blank">↗ Watch on YouTube</a>
+              <span class="resource-type">Video Series</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card" data-id="r6">
+          <div class="resource-check" onclick="toggleResource('r6')"></div>
+          <div class="resource-body">
+            <div class="resource-name">Linework Exercises (Pinterest Board)</div>
+            <div class="resource-desc">A curated Pinterest board full of practical exercises for practicing linework. Print or screenshot your favorites.</div>
+            <div class="resource-meta">
+              <a class="resource-link" href="https://br.pinterest.com/bbbelartsy/art-school-diy/lines-and-shapes/" target="_blank">↗ View on Pinterest</a>
+              <span class="resource-type">Exercises</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card" data-id="r7">
+          <div class="resource-check" onclick="toggleResource('r7')"></div>
+          <div class="resource-body">
+            <div class="resource-name">Learn How to Draw Pt. 1: Lines, Lines, Lines</div>
+            <div class="resource-desc">First video in a 3-part series focused on building strong line habits through exercises.</div>
+            <div class="resource-meta">
+              <a class="resource-link" href="https://www.youtube.com/watch?v=ing1x95WZ_I&t=130s" target="_blank">↗ Watch on YouTube</a>
+              <span class="resource-type">Video</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card" data-id="r8">
+          <div class="resource-check" onclick="toggleResource('r8')"></div>
+          <div class="resource-body">
+            <div class="resource-name">Art Warm Up &amp; Exercises</div>
+            <div class="resource-desc">Video with warm-up exercises to do before each drawing session — great daily habit to build.</div>
+            <div class="resource-meta">
+              <a class="resource-link" href="https://www.youtube.com/watch?v=D6tmUJAv_k8" target="_blank">↗ Watch on YouTube</a>
+              <span class="resource-type">Video</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card" data-id="r9">
+          <div class="resource-check" onclick="toggleResource('r9')"></div>
+          <div class="resource-body">
+            <div class="resource-name">Skillshare – How to Draw: Beginner's Guide</div>
+            <div class="resource-desc">Complete guide to start drawing. Focus on lessons 1–7 for lines in this lesson.</div>
+            <div class="resource-meta">
+              <a class="resource-link" href="https://www.skillshare.com/en/classes/how-to-draw-a-beginners-guide-part-1-of-the-drawing-laboratory/1607370408?via=user-profile" target="_blank">↗ View on Skillshare</a>
+              <span class="resource-type">Course</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card" data-id="r10">
+          <div class="resource-check" onclick="toggleResource('r10')"></div>
+          <div class="resource-body">
+            <div class="resource-name">How to Improve Line Quality</div>
+            <div class="resource-desc">Draftsmen podcast advice on making your lines feel confident and intentional.</div>
+            <div class="resource-meta">
+              <a class="resource-link" href="https://youtu.be/AlmR-WKdi3c?si=4MituuOubY3KE0YE" target="_blank">↗ Watch on YouTube</a>
+              <span class="resource-type">Video</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card" data-id="r11">
+          <div class="resource-check" onclick="toggleResource('r11')"></div>
+          <div class="resource-body">
+            <div class="resource-name">Rendering in Pen and Ink – Exercises</div>
+            <div class="resource-desc">Videos 3–7 focused on smooth lines with ink. Excellent for building line confidence.</div>
+            <div class="resource-meta">
+              <a class="resource-link" href="https://www.youtube.com/playlist?list=PLpQwDE6RLPv8y_vrCZlO4HgRC0eYqX6bQ" target="_blank">↗ Watch Playlist</a>
+              <span class="resource-type">Video Series</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Sketchbook reminder -->
+    <div class="section">
+      <div class="section-title">Sketchbook Practice</div>
+      <div style="background:var(--accent-light);border:1px solid #b7e4c7;border-radius:var(--radius);padding:16px 20px;font-size:14px;line-height:1.7;color:#1b4332;">
+        <strong>Every day:</strong> Fill at least one page with line exercises before doing anything else. Try ghosted lines, ellipses, hatching, and boxes. The goal isn't perfect lines — it's building muscle memory through repetition.<br><br>
+        <strong>Weekly:</strong> Pick one everyday object and draw it using only basic shapes. Don't worry about detail — just shapes.
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Lessons 2–6 (placeholders) ── -->
+  <div class="lesson-panel" id="lesson-2">
+    <div class="lesson-header">
+      <div class="eyebrow">Lesson 2 · 1st Term</div>
+      <h2>Perspective &amp; Volume</h2>
+    </div>
+    <div class="coming-soon">
+      <div class="cs-icon">📐</div>
+      <h3>Coming Soon</h3>
+      <p>This lesson will cover 1-point and 2-point perspective, how to draw forms in space, and giving your shapes a sense of depth and volume.</p>
+      <span class="badge-coming">Unlock after completing Lesson 1</span>
+    </div>
+  </div>
+
+  <div class="lesson-panel" id="lesson-3">
+    <div class="lesson-header">
+      <div class="eyebrow">Lesson 3 · 1st Term</div>
+      <h2>Proportions</h2>
+    </div>
+    <div class="coming-soon">
+      <div class="cs-icon">📏</div>
+      <h3>Coming Soon</h3>
+      <p>This lesson will cover measuring proportions, comparative sizing, and how to train your eye to see accurate relationships between shapes.</p>
+      <span class="badge-coming">Unlock after completing Lesson 2</span>
+    </div>
+  </div>
+
+  <div class="lesson-panel" id="lesson-4">
+    <div class="lesson-header">
+      <div class="eyebrow">Lesson 4 · 1st Term</div>
+      <h2>Light &amp; Shadow</h2>
+    </div>
+    <div class="coming-soon">
+      <div class="cs-icon">💡</div>
+      <h3>Coming Soon</h3>
+      <p>This lesson will cover understanding light sources, core shadows, cast shadows, and how light wraps around three-dimensional forms.</p>
+      <span class="badge-coming">Unlock after completing Lesson 3</span>
+    </div>
+  </div>
+
+  <div class="lesson-panel" id="lesson-5">
+    <div class="lesson-header">
+      <div class="eyebrow">Lesson 5 · 1st Term</div>
+      <h2>Shading &amp; Texture</h2>
+    </div>
+    <div class="coming-soon">
+      <div class="cs-icon">🖊️</div>
+      <h3>Coming Soon</h3>
+      <p>This lesson will cover hatching, cross-hatching, blending, stippling, and how to render different surface textures convincingly.</p>
+      <span class="badge-coming">Unlock after completing Lesson 4</span>
+    </div>
+  </div>
+
+  <div class="lesson-panel" id="lesson-6">
+    <div class="lesson-header">
+      <div class="eyebrow">Lesson 6 · 1st Term</div>
+      <h2>Color Fundamentals</h2>
+    </div>
+    <div class="coming-soon">
+      <div class="cs-icon">🎨</div>
+      <h3>Coming Soon</h3>
+      <p>This lesson will cover the color wheel, hue, saturation, value, color temperature, and how to build harmonious palettes.</p>
+      <span class="badge-coming">Unlock after completing Lesson 5</span>
+    </div>
+  </div>
+
+</main>
+
+<script>
+  const TOTAL_RESOURCES = 11;
+
+  // Load state from localStorage
+  const state = JSON.parse(localStorage.getItem('artschool_diy') || '{}');
+
+  function save() {
+    localStorage.setItem('artschool_diy', JSON.stringify(state));
+  }
+
+  function toggleResource(id) {
+    state[id] = !state[id];
+    save();
+    renderLesson1();
+  }
+
+  function renderLesson1() {
+    const cards = document.querySelectorAll('#l1-resources .resource-card');
+    let done = 0;
+
+    cards.forEach(card => {
+      const id = card.dataset.id;
+      const check = card.querySelector('.resource-check');
+      if (state[id]) {
+        check.classList.add('checked');
+        card.classList.add('done');
+        done++;
+      } else {
+        check.classList.remove('checked');
+        card.classList.remove('done');
+      }
+    });
+
+    const pct = Math.round((done / TOTAL_RESOURCES) * 100);
+    document.getElementById('l1-bar').style.width = pct + '%';
+    document.getElementById('l1-pct').textContent = pct + '%';
+    document.getElementById('l1-done-count').textContent = `(${done} / ${TOTAL_RESOURCES} reviewed)`;
+
+    // Overall: lesson 1 is only lesson with real content = 1/6 of total
+    const overallPct = Math.round(pct / 6);
+    document.getElementById('overall-bar').style.width = overallPct + '%';
+    document.getElementById('overall-pct').textContent = overallPct + '%';
+  }
+
+  function showLesson(num, btn) {
+    document.querySelectorAll('.lesson-panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.lesson-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('lesson-' + num).classList.add('active');
+    btn.classList.add('active');
+  }
+
+  // Init
+  renderLesson1();
+</script>
+</body>
+</html>
