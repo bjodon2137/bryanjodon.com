@@ -1,293 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 5847
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 4  \267  2ND TERM  \267  LIGHT & SHADOW) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Occlusion Shadow) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (Contact shadows that ground objects in space) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (Occlusion shadows \227 also called ambient occlusion or contact shadows \227 are the very dark) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (shadows that form where surfaces come together and block light from all directions.) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (They're subtle but critical for making objects feel grounded.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (What Causes It) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (When two surfaces are very close together, all) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (ambient light is blocked, creating a very dark,) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (concentrated shadow. The crack under a door, the) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (fold of an ear, the contact point where an object) Tj T* ET
-BT 1 0 0 1 43.2 488.2 Tm (meets the ground \227 these all have occlusion) Tj T* ET
-BT 1 0 0 1 43.2 475.2 Tm (shadows.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (How It Differs from Cast Shadow) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (Cast shadows are directional \(they indicate the) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (light source\). Occlusion shadows are ambient \227) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (they exist regardless of the light direction. They) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (can coexist with cast shadows, and often the) Tj T* ET
-BT 1 0 0 1 313.2 488.2 Tm (deepest part of a cast shadow near the casting) Tj T* ET
-BT 1 0 0 1 313.2 475.2 Tm (object is largely occlusion.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 428.2 Tm (Using It Effectively) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 416.2 m 288.8 416.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 404.2 Tm (Add occlusion shadows last, as a final darkening) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (step. Apply them carefully to creases, contact) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (points, and narrow gaps. Don't overdo it \227 a) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (little goes a long way. Even a thin, dark line) Tj T* ET
-BT 1 0 0 1 43.2 352.2 Tm (where an object meets the ground dramatically) Tj T* ET
-BT 1 0 0 1 43.2 339.2 Tm (improves the feeling of solidity.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 292.2 Tm (Ambient Occlusion in Context) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 280.2 m 558.8 280.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 268.2 Tm (In digital art and 3D rendering, ambient occlusion) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (is automatically calculated. In traditional) Tj T* ET
-BT 1 0 0 1 313.2 242.2 Tm (drawing, you must observe and add it manually.) Tj T* ET
-BT 1 0 0 1 313.2 229.2 Tm (Look for the very darkest spots in your reference) Tj T* ET
-BT 1 0 0 1 313.2 216.2 Tm (\227 they're often occlusion shadows.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 161.2 m 568.8 161.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 144.2 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 128.2 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 128.2 Tm (Draw 5 objects on a table. Add only the occlusion shadows \(contact points\). See the) Tj T* ET
-BT 1 0 0 1 54 115.2 Tm (difference.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 98.2 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 98.2 Tm (Draw a folded piece of fabric \227 study the occlusion in every fold crease.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 81.2 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 81.2 Tm (Copy a portrait study and identify every occlusion shadow \(corners of eyes, under nose,) Tj T* ET
-BT 1 0 0 1 54 68.2 Tm (etc.\).) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 4: Light & Shadow \227 Occlusion Shadow) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1647
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gatm:gMYb8&:O:SbZ!g3/h9io`u&qs(Im2u!f?u+=cjqCj!C&F>tRu.^1W`Gj]h'c%1MR>^!*"7F3Z21!WLOBR[6G*$i96b8ngbQ'r@[97#NS,=Iab&8HuM;3$-McGIKc8ipd<b:$3BSVU_`2pGe=ZQVXIbQ3MECk+u<?Ra+C?P`jF=1`p7Q+/Zqi]F+2X4s^=b@lgr`9d[E@L(+qom<#b=<S/S-/UsJ5-X+0G1uCNX4.3"%\;r:=,JJtY+>K&D9MeSA)<8VjP&*<$%-P]j:9W;s>N+@%=Z3*,^"rngM/G5OYe(]LR.MgQo21rO-^;i]F?Gsi17Jg&q;`.[8II\V/9W5,7I8WODAo^@`HR"VNt,Ssg>W(XP9^l&W;)#>%r]',Q8G%*P6jDj\p<kp/F0QgZWL#30tZ&Wo8C)En(q>tGTO_HGc]]-X4X5MfHKOtB[]g654Bm>aCiG]4t*%ajn#95<Y1,qj_j1<o!I/U4PX*1NE`BP4dF6BXQu0g`J5aC)OoXDRW>C<$3r,[-B_m#C^DttHip[;W[o@)KGIiUp7]Z^R]9acMO*rDGo_M'8!]$a=rKRdVO1#6ga:H>;^;raQ:Q]Zc>VG^h<bAe:"Z*gi]WkWA`/Cr`\(LD<Nm!L',03F=s)si[>XNRLd?&c"dR.)FP52F='2U4KN\OK?r).(:hdCp[8ZsUrmkLfS+&E&=Wbj?5B/<+lC+!5?tj1'@]H80e+^j2W@BY(3eue-dc"W&]YLXkfQ-;7Pr+nPX;h0njc!fl>Q9b)rjY-Vs*/gqGTIn'oGHumPQR]YL2q_`,_Kp'iJtnF.2hXl%9b;C<t5!:Wkjs9_dA5#X`h-&+V&ukXXodHWMFT4*bAi5``>p4EUr`eb6,>,KTu7q@2g6CG8jQdh1D3f`\YIgLu]/*J;7tE4BBID?P7\PO/,p2s1,C@Lh#rY%)Q0(iO`C'U:;#S'D*Hg**i(d5f(UA!QSCrG/.P,gp6B".R7%R=/7ga`7`kt20eEZQHd/:!I2IOgDo;`26*A^,3p@LYG-@&ep'%pKn.l#<@'?9L/uk>XlcCDG[5:#m"<qj.gT<?e,oNK]3F5mR"E]hQ--5V\o)Egff@Qk8E_XLNqB:=XV$BUK9X?LgJok14_D$$#1c]t45P#.7mi)MI`#r0"'"PXQe3gTb#pWoUVXX:hr/h81AluoIdm;$r=60]&".fpICO`IEH?2HrU0@/o*Eh@r4c"AF>3USpj:glWB5N-1,%"_*,U:2TLnIr$N64t;=X/M.-)_*$#?I(NQs[=@G:t_h!$-.nJVN6ZR^B=EGcHrSti3kJk!OGg*lK?"7u72RmmVeZS"O&h<dPp>6_9jqC4T5S8TnU\`)*Q0F,fc50'lhNeu[n"h$Dl(.Y/?BA[IQ1$%U1Y+g?W+"%C9!$D"?CQ3iK.W((?,`g`?3H!@ZgVl@krRlD1$DB4sZ9O@_R?-_G$.3a*Kd(bX(7"a&QM"HnJF'uh7$lj>BcPCUNbd;dqJYYPhT2e;f]BEI::WN%K:IKC=Hm!*kKm/h!h:,_H[PBG!3Q<#^4Wg(=/0c>&A?NI;PUX>T/0__\L4&f0,!Y2D'QP,\mqM2VHBgGmt9W7CcL-5*hq"(6+&rVT[;n!f89htAf,0pd3-L4H-j[JDKN(_~>endstream
 endobj
 xref
-0 10
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000500 00000 n 
-0000006399 00000 n 
-0000006506 00000 n 
-0000006613 00000 n 
-0000006725 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 10
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<357eedd687734149aa6de4c82704ec09><357eedd687734149aa6de4c82704ec09>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-6837
+2659
 %%EOF

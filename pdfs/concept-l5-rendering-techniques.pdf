@@ -1,315 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 6053
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 5  \267  3RD TERM  \267  SHADING & TEXTURE) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Rendering Techniques) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (The major approaches to applying tone) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (Rendering is the process of applying tone \227 value, texture, and surface quality \227 to a) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (drawing. There are many techniques, each with its strengths. Mastering even two or three) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (gives you enormous expressive range.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (Blending) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (Using a blending stump, finger, or soft brush to) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (smooth and merge pencil marks into seamless) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (gradients. Excellent for smooth surfaces, skin,) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (glass. Risk: over-blending loses texture and mark) Tj T* ET
-BT 1 0 0 1 43.2 488.2 Tm (quality. Use sparingly.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (Hatching & Cross-Hatching) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (Building tone with parallel or crossed lines. More) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (expressive than blending \227 the individual marks) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (are visible. Great for pen/ink and when you want) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (mark-making to be part of the aesthetic.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 441.2 Tm (Scumbling) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 429.2 m 288.8 429.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 417.2 Tm (Loose, circular or random overlapping marks that) Tj T* ET
-BT 1 0 0 1 43.2 404.2 Tm (build up irregular textures. Good for rough) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (surfaces, foliage, grass, fur. Feels more) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (painterly than hatching. Works well with charcoal) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (and soft pencils.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 318.2 Tm (Stippling) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 306.2 m 558.8 306.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 294.2 Tm (Building tone entirely with dots. The closer the) Tj T* ET
-BT 1 0 0 1 313.2 281.2 Tm (dots, the darker the tone. Extremely time-) Tj T* ET
-BT 1 0 0 1 313.2 268.2 Tm (consuming but produces beautiful, unique results.) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (Associated with pen and ink, etching, and medical) Tj T* ET
-BT 1 0 0 1 313.2 242.2 Tm (illustration.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 187.2 m 568.8 187.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 170.2 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 154.2 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 154.2 Tm (Do a 3-value sphere using ONLY blending. Then redo it with ONLY hatching. Compare.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 137.2 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 137.2 Tm (Do a full-page texture sampler: 6 different techniques, each filling a box.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 120.2 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 120.2 Tm (Draw a portrait using only stippling. Focus on patience and dot density.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 105.2 m 568.8 105.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 88.2 Tm (FURTHER READING) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 72.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Rendering Techniques) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 61.2 Tm (https://youtu.be/OcJPNMFFKHs) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 46.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( New Masters \226 Mark Making) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 35.2 Tm (https://www.youtube.com/watch?v=b_w_hdwafV8) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 5: Shading & Texture \227 Rendering Techniques) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1646
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /ZapfDingbats
-/Name /F3
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gatm:a_p,u&A@6Wl82$j@Z;\WZB`V+"/M8LUR/o?(a'W`.Tm`iU7.n;n_[+W[:Gj#Tn=Jr/;\b^]_@:<bipbjT<\[2fYHtE@u(fNPRs`i$Cf@\\N0J*'$]%M@_%$0hfa4lK]O('>3-&mK_"NPG?PUiRqJdX*mJd&PVmBEY1Dh]L+$?)q)kA>7D)`VXU%._66bn[KX209,TP",YHY7jTUK.:Hkf4O^OaWoY^+E#IXd6Ejme0(FRqKQ(G_R<7^Q??<Y/h8\k!u:o(@Bm;e0kD)4`Pm/E%pI<cD?$Jms8f@"\LUcJhWoaJLA[4H8B$##Uu1b:JE^S^6=YH]ig.B:hF%RZX[=qH);`BGl)JZ>.mM%c'pRQg"br_h%ge4GdOmM@0CIqs))Gb8SgZ.a$sI_tC@*-HVLus46PiDC,n*H#`Z=e!D_S="gJUN70kqTk[_;[1W'd)KgHgdO1XX2.<X/Q*<a*37rCHLL,-UGgkRgpqES;+IW@:B1jB[IWRn,ItZ+$V8DY+"Ifb_;Dkgllim`Rk@6]RQ12*="ZN?]YX3-TTN-X4k04c7CRgmMHUTe5X[D@KkOb57WblnY7U^\S\(-^3J'1\-SBcpNRn%Oo.!,7cV`QE_8pLPL5utip,;cpa(gles+[ar5><Qjn0nNA*G$<N^c'pX(>RFV"CJE2J:([h5Q>!PnTT.Xr2C&,^^`En9KIqLB#YMsWVT,m,%X]Q@TF`O+#X47P:lZYp.Yf0"Bc:n!Q)s1,\$IK1fM"/L@"`3no>OfBg7uu3B\q<U*0qOB%&&o7lnQ=`:Z^]Gg)Pn\rdM"S'V/<:VtG&H1Nk,a,tD!(0,$=iZ_"tY4@u<u5jd[6aYV30G5W/$If+M3nb8sIc-+clQJ!;40?\G-2/oKs$=p`*gYi!,/(0$&JiU^BKnHr]@L@S@>![("U,RogJoB;cL]TBpMC3EUl-)HGii+cD-q-Xrj#<fJ)WU'_Y:qL3N>q%HeZH)_0^&=95\q\a#LV+)-p]?3GY8BFmXZ5,UDW`biQ27Y$6*@mDgIpp0Xk_.PH$"\(?e9k7lTurYkl'D;&!YR'd[lo_7u_"9)L47e[4pE</U8!bC]<S[\I2^CaP-V[7Ak`6/)T?6e/*n$Z8ah(R?*l7H3#G[eK.OPW`MWM`mhtS/n(eE6+,+_>["(Ot>bR":2Kt?V&bj0UrL)K-uRsm"6=ROt`jD[%SMbH\*cMWM))TfjTN1A,5kJp_-@S(@.R"cTG?)j6$"k\X9R,ARp8%qYL3^qYJ[m0CM*>S7.rNY;eGT=]5sP89Uf5W=:E'C%ffiXt`59JKB\pLok:_*iPd.$qg^\RTbC<(.7Cf/U"h?VM8P_.]J4]qA@%1dRZeD6!%]-8_GtTW9H=]_#p#E,"u8Z=3@+,/Bl+hJB=P3RBGTc;m[2\SK[<Zb^A=n:Ou"l5KLT91n,nl5N!RO0UT6f3pGK?X!ea[F[mtt_6Ia_X$!Ve$pHG?:!sNHLfAC!P8!I<WC_gAj5DFt)H-LY<lk6b)Ce-^Bb^:TUH*6`Fa"2OM<Q%-M6s9onUkMs6s@d*7Al+',XY!KO,Q@G;$Yc8d\c.Iqb_`9NSfkR#-TcC*G"BX"R$)NkYMXgWAY_"%S3bCa,AdTC8r$gXYa$;8NbQSSGWU6WN<#~>endstream
 endobj
 xref
-0 11
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000511 00000 n 
-0000006616 00000 n 
-0000006723 00000 n 
-0000006830 00000 n 
-0000006942 00000 n 
-0000007054 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 11
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<e9d22e38224bd72d6e1ebfae8b374f73><e9d22e38224bd72d6e1ebfae8b374f73>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-7138
+2658
 %%EOF

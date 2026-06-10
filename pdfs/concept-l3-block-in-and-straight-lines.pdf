@@ -1,315 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 6116
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 3  \267  2ND TERM  \267  PROPORTIONS) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Block-In & Straight Lines) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (Carving form with straight lines before adding curves) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (Blocking in with straight lines before adding curves is a fundamental accuracy technique.) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (Straight lines are easier to measure and compare than curves, making it easier to judge) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (proportions and angles in the early stages.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (Why Straights First) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (A curve is defined by its endpoints and the apex) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (of its arc. If the endpoints are in the wrong) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (place, the curve will be wrong no matter how) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (beautifully drawn. Establish the endpoints with) Tj T* ET
-BT 1 0 0 1 43.2 488.2 Tm (straight lines; add the curve last.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (Faceting) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (Faceting is the process of approximating a curved) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (form with a series of straight flat planes. Like a) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (cut diamond \227 many small flat planes create the) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (impression of a smooth curve. Start with a faceted) Tj T* ET
-BT 1 0 0 1 313.2 488.2 Tm (version; refine gradually.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 441.2 Tm (The Block-In Process) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 429.2 m 288.8 429.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 417.2 Tm (1\) Draw the major structural lines straight. 2\)) Tj T* ET
-BT 1 0 0 1 43.2 404.2 Tm (Subdivide with more straight lines. 3\) Check) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (angles and proportions. 4\) Slowly introduce) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (curves. 5\) Never add curves until the straight) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (structure is correct.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 318.2 Tm (Applying to Figures) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 306.2 m 558.8 306.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 294.2 Tm (Block in the torso as a box. Block in the limbs as) Tj T* ET
-BT 1 0 0 1 313.2 281.2 Tm (cylinders. Block in the head as a sphere or egg.) Tj T* ET
-BT 1 0 0 1 313.2 268.2 Tm (Get these volumes right before softening the forms) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (and adding anatomical detail.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 200.2 m 568.8 200.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 183.2 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 167.2 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 167.2 Tm (Draw a portrait: start with straight lines only, then slowly curve \227 take 30 min.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 150.2 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 150.2 Tm (Draw your hand 3 ways: straight lines only, faceted, and then fully curved.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 133.2 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 133.2 Tm (Draw 5 objects, blocking each in with straight lines before any curves.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 118.2 m 568.8 118.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 101.2 Tm (FURTHER READING) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 85.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Block-In Method) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 74.2 Tm (https://youtu.be/H9e9P9HJmLs) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 59.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Vilppu \226 Construction Drawing) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 48.2 Tm (https://www.youtube.com/watch?v=KBjRCu-YRKQ) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 3: Proportions \227 Block-In & Straight Lines) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1501
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /ZapfDingbats
-/Name /F3
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gatm:?#SIU'Re<2\5,Im`2`K=bMJg//F>1q:"pL%#4.&0BSh]oC*XP7qt3%;P3"[J&tf\k=K4dGF*Mp>Y<n];?g*!GRco,fDr6<a7^UlGQim_tY39>;o$9l]>t"36VT2b:S2>]k*0\f^6q5Vec,jTl$&@O31r-0V'#.SoV35q_`$#<+/6P^m>iRM5I4=*0,:.llT$G3ZM3uJc.qNV:<]*;r>T%(`rg?eoC%[3pIf:+,^'mNeFMXIrR*T`8:_52pds1]g\Daf]_#n%9CNW!!r>e<UI58Ca`[T`r(\$T4rXm5A6)"OLIeu='a=A;_P;#\n\45Fn^8,/AS;,3I(t.YoV6epuAOA]0NAEm9V5#QkaHuC/aW<[B/cP`/#sqrVFFSE2nmU1nRZ]K:k.%JUk/j>poUV^G8"4dQn_s'!a,;Us04>V\fYTqAGq[A_oeBX="LGuuni\[*O*TD\-UgdV6\CL,St`;BGLH%\5oYqXdY9Z[k[<RY)4A$MG=KmEaD&dblhCY0Z_GH8.9];Ij[uhrhX$SN>4EZ-Pd)j6(!d^d9_](Q8Rp_R*nZ[t8XPs2V+TQ94D]/J.kj;sXjQmC(61CbYVK?-HTO.^!%@:>ZR*L3B=.(H6Zs=qM[Ie:8m<1[\]dHS%s4`t.^6(eb=[r7.VX.<?b<s9W$+\n\t2<RO,0MZ.TSnnK8]h:2ir!V4"A4?Ud@-remZ:h9H0:_<:bp_).#1^`=6$MK>RsPC_P;!^E'YR7ei7R\>m)N+dLetB="aU*LIf%'dX[GO@.B`_o+oX@Fg\P?8,b(pBH$)9c0[Y2.s*.Y@MXOqBPP,rVHHiYKNEco;de9df\;7a,:u+eX^)XYt`tN%S>?O%1d6:qgcM>#fXEUncMk9jq*N!i"Jsb/i.(PA\?P$BfUQRUEs[F'rAPJi>nuuQ0:N!n1H4k4%s-k>NmR)bWbSBc*e=VLd+Pki4YRXY]9.rQl<Md-YqDF"!GH=P+'n[(A5?9CqngIano*W,nU1'Z;]=WZE8d]CX$<:*#XRZ&I4r"ro"o31(C+eF;[Hu/Y.KKZK5"TaB/NVbs7k1a/>0)CErq)]f'EJ0KIO>F=2r@NbNoc*5OdhW<^^&I#UJoJV3C$cQ$]/:c/3;1T!+6YN30Yc]1nj]K\L=SZ"U.OMqVqE)Z.1#[<fg]cE_iF6E_0(Uc=!h@G;"Y^Q@grVkg=k48B/];t*r(sSq]f[#QZf>?=2C2k08HO%I)OpuT.'tD&VB>];Aq=4?LX$SgWCobhJOHX:#Lhq!9C8=7o#H'7".+T."Gb!:DfWF7ih;6nj5Kl"$6GC(odKtU`)rEFVE]t&7khG@s?$#;kakh=\(dBnW%>i5=29rAsG/F3@eiX+-0#*stJh\_Q:bHm@j!ZliW9b=&]7R(6@1#$"RAbK<6bfRTL46R<UlR>?.Q@.;o;@R7'>p_;mQ4[5eiT,[Qd2\NTkSE[%RJ[679]:A#6lD@R(_b!1PQ\5L"I<'1ZsnDki=snrE]@~>endstream
 endobj
 xref
-0 11
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000511 00000 n 
-0000006679 00000 n 
-0000006786 00000 n 
-0000006893 00000 n 
-0000007005 00000 n 
-0000007117 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 11
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<1f12e434d9065308a44875d187c5736c><1f12e434d9065308a44875d187c5736c>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-7201
+2513
 %%EOF

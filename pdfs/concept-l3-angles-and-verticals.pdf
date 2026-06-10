@@ -1,314 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 5995
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 3  \267  2ND TERM  \267  PROPORTIONS) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Angles & Verticals) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (Building structure with straight lines) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (Angles are the skeleton of accurate drawing. By finding and transferring the angles of) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (major edges and landmarks, you can build a structurally accurate drawing before adding any) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (curves or detail.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (Sighting Angles) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (Hold your pencil at arm's length and align it with) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (the angle you want to measure \227 a shoulder line,) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (the edge of a jaw, the tilt of a torso. Keep your) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (arm locked and transfer this angle to your paper.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (Vertical Reference) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (Vertical is your most important reference.) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (Everything in your drawing is either vertical,) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (horizontal, or at an angle relative to those two) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (axes. Check every major line: is it more vertical,) Tj T* ET
-BT 1 0 0 1 313.2 488.2 Tm (more horizontal, or 45\260?) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 441.2 Tm (Tilt & Counter-Tilt) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 429.2 m 288.8 429.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 417.2 Tm (In figure drawing, the body rarely stands) Tj T* ET
-BT 1 0 0 1 43.2 404.2 Tm (perfectly vertical. The shoulders tilt one way;) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (the hips counter-tilt the other. These angles) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (create contrapposto \227 the natural weight-shift) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (that makes figures feel alive.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 318.2 Tm (Line of Action) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 306.2 m 558.8 306.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 294.2 Tm (The line of action is a single angle or curve that) Tj T* ET
-BT 1 0 0 1 313.2 281.2 Tm (captures the dominant movement of a pose. Find it) Tj T* ET
-BT 1 0 0 1 313.2 268.2 Tm (first. Everything else in the drawing supports) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (this primary angle.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 200.2 m 568.8 200.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 183.2 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 167.2 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 167.2 Tm (Draw 5 poses using ONLY straight lines \227 no curves. Get the angles right first.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 150.2 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 150.2 Tm (Practice sighting: hold pencil up, measure 10 different angles around the room.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 133.2 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 133.2 Tm (Draw a figure, focusing only on the angles of the major bones \(not the flesh\).) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 118.2 m 568.8 118.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 101.2 Tm (FURTHER READING) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 85.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Angles and Measuring) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 74.2 Tm (https://youtu.be/C8XGCelJzXE) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 59.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Vilppu \226 Line of Action) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 48.2 Tm (https://www.youtube.com/watch?v=KBjRCu-YRKQ) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 3: Proportions \227 Angles & Verticals) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1527
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /ZapfDingbats
-/Name /F3
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gatm:?$"aY&:F5U\>Rp&\;Wt,pFVtV&pKj!>LT"coE?F)&IA`I!,+gsp"]^!;0Et,RX.(C+]?,Dh<j&JV%N^TGg1#uo+erdSPkp(Whaa"9PAQ;(TWb7:Qj*L)c+Lrs6_cm->oGadsRRGP>o7Uq1L>6J,!iOi72LtCL6U0PPJZC:+;T)-d,AAq`#VBj&*Tf&!R'#7llRL-=\[+Tot*C>@f^P#Z[&BqA3=`VUZ'Oq<?eHZXnHuSM-?d-*o$9'2#Rl@PhD?+#b3_Bo'Q+dX,bC9RgX,S3B!g=;R2ZrX&MU!WNYNN'X`Q+8tbQ7Tmr[ZCI`TI"m!6:1m3l(<]RdS:MiS^+pWZ4oIcu8DrVs56X0?m"&*hirAb:,is95n9aoq2gl-NR`ss:$nG%2%j%0N5FB^^:)2).hH[dEIrYF3#h/<@mJ;dc\r>uQn"\,Ta`JpQYCS]pR!f#>"=e>dgMJHtV)$Qdl&:9EBHom[#D169Eb\MV;P'tPA4qABV=6eI5[1Mb'J-5pEV<H$,<9TNarli0XV:L_Tsn&=['Qm07[dRr&ckDcT06n&2PH#T6"tiQC(44VW("cX:hEhGm$WL8[1!cu*Y<=/N2hr6'<!$\fiAp;+YNUB[\T1N][fstr`Z9ZXcj'n.VU<O!G/>)Ne.qaQdPo"8Ocg8alJ3o73c))mk"%6Q5aCoF<8)9fHF>)of+>.cH3^`JMX\KY+Woup!&pJ1g*>X]p*M-/m=>2OJ0&qC2apY.@H/#Y?25D_fmi8ngI0a'5(,WP`;W')^hIHUMZ>6:8dS4M'jR8N]Y?Gn0Ull]bmZnAuNg\3;*:glKsAuo04mH<f]a0?B,5sk;:\n1%qW&^qR+fm+P*V/(bH4F>)&j40"PViX>0*Urojl4$<#Z4eAW=!_sXJQo04%P=;Th<HL:kg,@>*&8W^!#RZHOZ6=%\[_ZII[G@E/5&@(dW"mX%Vc&EaUliUsYSSf[K`P,hc=3n;X&.I&N\C#3`t05ZIu,2`=rjs>)cV)ZG,*f<*CUo1/rgojOQ,N$l.n>kU8'n/Gb74q-Mj*rQ"jbF?0@(upL]53HOI\.[<4ip6HeAM9]2//9po9o["&fn=,ItcA.VB-7`3WFM[W8G92N]m+W,<RWcKP56@8=*e(t1FL,T'Zc5KK-FR\11f#R(eY:jd2/jI!uFnL!4fm*F%`ta&nI+M[$MKICP7FSI^<&Y:ZgR9=4MKJr:$Yl33ECKI-;*eBN_b=as60oJGn)9TAl4m<?cic`hNJB0ATuCc]QAUI74,b.`FK.D=DUZbG,F72O[BME`fim/.bHET_fK(PBoE)RuB!*9VTYBg23])c&A-V\aoR)@i_J`$Xn%+=p"P7:nT6sCk@W*$=n;jsEg\'_hL-3e>*L];81M/PI((NEKbbBlZHtT4'rjhG^DCODEb%c#G2Dl,!b#I2U1^Bs_$KO&[aV=#@'ePeF/Se2RLnY=1+g;1RP*,09hKRY<43>q_6f)<$CUIa`J<_.D',/lJ1AIfCZse-`[Irt%+6hi.6sab_~>endstream
 endobj
 xref
-0 11
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000511 00000 n 
-0000006558 00000 n 
-0000006665 00000 n 
-0000006772 00000 n 
-0000006884 00000 n 
-0000006996 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 11
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<04c51799449fa07f2673cb02b2918bae><04c51799449fa07f2673cb02b2918bae>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-7080
+2539
 %%EOF

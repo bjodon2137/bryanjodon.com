@@ -1,317 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 6238
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 5  \267  3RD TERM  \267  SHADING & TEXTURE) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Implied Texture) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (Suggesting complexity with minimal marks) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (Implied texture means letting the viewer's brain fill in detail you haven't explicitly) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (drawn. Mastery of implied texture is what distinguishes economical, powerful drawings from) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (overworked, detail-obsessed ones.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (The Principle of Suggestion) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (You don't need to draw every hair on a head \227 draw) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (enough to establish the pattern, rhythm, and) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (direction, then stop. The brain completes the) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (rest. This is economy of means: maximum impression) Tj T* ET
-BT 1 0 0 1 43.2 488.2 Tm (with minimum marks.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (Edge Quality as Texture) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (The quality of an edge implies texture without) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (drawing the texture itself. A rough, broken edge) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (implies rough surface. A smooth, continuous edge) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (implies smooth surface. Varying edge quality) Tj T* ET
-BT 1 0 0 1 313.2 488.2 Tm (throughout a drawing creates rich texture) Tj T* ET
-BT 1 0 0 1 313.2 475.2 Tm (differentiation with very few marks.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 428.2 Tm (Selective Detail) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 416.2 m 288.8 416.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 404.2 Tm (Place your most detailed, explicit texture work at) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (the focal point. Move away from the focal point) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (toward simplification and suggestion. This) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (gradient from explicit to implied guides the eye) Tj T* ET
-BT 1 0 0 1 43.2 352.2 Tm (and creates depth.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 305.2 Tm (Knowing When to Stop) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 293.2 m 558.8 293.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 281.2 Tm (The hardest skill in drawing is knowing when to) Tj T* ET
-BT 1 0 0 1 313.2 268.2 Tm (stop. Over-rendering kills implied texture \227 it) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (becomes explicit texture, and then it becomes) Tj T* ET
-BT 1 0 0 1 313.2 242.2 Tm (noise. Stop before you think you're done; look at) Tj T* ET
-BT 1 0 0 1 313.2 229.2 Tm (it fresh in an hour.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 174.2 m 568.8 174.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 157.2 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 141.2 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 141.2 Tm (Draw a head of hair with only 20 total strokes. Imply the rest.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 124.2 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 124.2 Tm (Draw a furry animal with no more than 50 marks. Use edge quality to imply texture.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 107.2 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 107.2 Tm (Copy a master sketch \227 count how few marks the master uses to imply texture.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 92.2 m 568.8 92.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 75.2 Tm (FURTHER READING) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 59.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Economy of Marks) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 48.2 Tm (https://youtu.be/OcJPNMFFKHs) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 33.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Ctrl+Paint \226 Implied Detail) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 22.2 Tm (https://www.ctrlpaint.com/videos/implied-detail) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 5: Shading & Texture \227 Implied Texture) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1639
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /ZapfDingbats
-/Name /F3
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gau0B?#Sa]&:Dg-fV^VjjA\d<AZK_c+EpP"aF1ul;4oS$6qP$fUlV><qVQKf9"KC-=.h"*=GfLeAp7m2S^IR(C&"cUU@Tu8r&1B.UMWA4T&d8,:D_cLY:%G$P:]j/H?_=7M$huFCg*/C),AGWP>BhoNe\G:"KrRe5-*N^Q*3.B18Q7'jlI](FdXl6i@*W^1F7SGJ^,UHaZPngfC@S!K2Crq\Lsk'rtB7ad.Wa&q<9VO;5P#pj29=W?\isc0p;4L7n$"S_G*cs<c/\r'$TS34h"HB>1&sF[\iANe_i\Wd$F^n#/e3nU6o(/AY,dbJs%l^=%,^&VHfp.nL45X7\<NnMNMaBpm:qS$=<a*e5\]+VKBW2D^S-A"%(9T>X,tBbLfb-?7,pE,[EW[BU6o:r+!=0/7`q-OQRGK0!DE15!L.+.a>`%N<q+E_C!cfBINXj;GOgmpV:%kbFXXF,@Ln),%_hZL@!9qgcAfnBu**FNkPqQ&Yk(&W+Y8DP(E26_,dFH'I3-22b0mY@mVO7Ar>mH!_+WSiBX<C@FcL!&R<mdCMl^X7uDpqgjLDMbrq8p1(#Vm)SS#_EoiZ%HVW-0I>e'J"oc.=n$>Pcn$nh%(BN+T=G9RO=PA\EQMc[eG;8g)i!4.KZufdpehf_9Be9m%6GI;AHU;uP'^%s@+;L%(KR;u5=+f3'`(6T+CH>A#SYM_Y,<S=NNoBN%dh5LeVSS1D[N,^-hd3&\<q#O]',>T&E^&[2!0T(e1Sj!0jp$?KJY@a$rBXA4ZpTsE-."Im)`3QqOq<M1<MF+XdW4P>ePTn&=N4@!V`iJrESZSM&c(_u#YG>=DQ.*f_m69Ua@l*:W:R<NU42)rSubGmY?oGYH1C:Os'jYg5FeAGEI#6G5.]jUpkJM%QM&pc=F%ji)n]XjjAg.fOHm"M66D!HN$sk:[Ki1c8&H<,.>IG]PfL>9Xd=6.ZJs)%XpXo_Y*c#U(<T@4(dqgrJN]2!LRs`_CY`Y-<C;@S+5sF3daZ:?DWDf]NG$&4GI9K$Z/pk4TYr8+#L+c&MYB2V*80+$MZl/UW.rYBmWYBo<edJ*[uCZ0DhIMR1HMY?pI-o+b[&2HM-fR,JeY64VFNEDet"^Ai)7:L"Ta[go6r@`2F?P'P/+;3L/gDrhVULYClXOp>,.jH/eEEVW#J_'4Vol+/Wj9t[H=nQBL[&`iQ'6!@<]?s%Jg<Er>fB#Q^]DZ-f1rf3V7@3>V=S\1.si\rp]X@qYKd#eXQ<Z8!oV(s$';-<I?ZNpqb8^M!FC.dgBEMk%7GNE*2UP&6ONFnf9cp*nkKajfQr9l/`g@1(FY3RRE,k70<tB1\?(p+&:]$45b-d?uRaN_&S1Y$QFClBcHE<rL4\-(J=<e5H7@r$nKN6r36YDXMm.R][Enp_#U5BUNmNaAd7gJE:ErGVUAB>nH0KD48\!Dk.Oe4jH55eSqdOS;beB`)?"Ye1ooeR5CPhRNQn\5Ck"e.L:F0N_s(Z_?r#Qu<hJ1UbP7UQ[>LAo>/=jU7P$t&$Gg9B\C+=Q6oN!n"uKekAB^E"Pn-'P\(\;`iO&-38)p*/0OfCImiNd[+iLC?%5$A%IddH(SESA3;0c+U'DPFk6P#A]j'^jU>V*CbHmQ.Ik[cgN)_Rbm])~>endstream
 endobj
 xref
-0 11
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000511 00000 n 
-0000006801 00000 n 
-0000006908 00000 n 
-0000007015 00000 n 
-0000007127 00000 n 
-0000007239 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 11
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<5523f278acd45391b71b617b7402b626><5523f278acd45391b71b617b7402b626>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-7323
+2651
 %%EOF

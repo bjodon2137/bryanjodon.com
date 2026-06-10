@@ -1,317 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 6140
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 5  \267  3RD TERM  \267  SHADING & TEXTURE) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Value & Contrast Control) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (Designing where attention goes) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (Value contrast is the most powerful compositional tool in drawing. Where you place your) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (highest contrast determines where the eye goes. Learning to control this is learning to) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (direct the viewer's experience.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (Focal Point Contrast) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (Place your darkest dark adjacent to your lightest) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (light at the center of interest. This creates) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (maximum contrast and draws the eye there first.) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (Everything else in the drawing should have less) Tj T* ET
-BT 1 0 0 1 43.2 488.2 Tm (contrast.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (Contrast Gradients) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (The contrast in your drawing should gradually) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (decrease as you move away from the focal point.) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (Edges soften, values come closer together, detail) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (decreases. This gradient creates a sense of) Tj T* ET
-BT 1 0 0 1 313.2 488.2 Tm (atmosphere and depth.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 441.2 Tm (Squint Test) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 429.2 m 288.8 429.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 417.2 Tm (Squint at your drawing until everything blurs.) Tj T* ET
-BT 1 0 0 1 43.2 404.2 Tm (What you see is the value design. Is the focal) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (point clearly the highest contrast area? If) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (multiple areas compete for attention, simplify the) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (lesser ones.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 318.2 Tm (Value Notan) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 306.2 m 558.8 306.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 294.2 Tm (Notan \(Japanese concept\) is the harmony of dark) Tj T* ET
-BT 1 0 0 1 313.2 281.2 Tm (and light as flat shapes. A good notan design) Tj T* ET
-BT 1 0 0 1 313.2 268.2 Tm (works as an abstract black-and-white pattern. Draw) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (the notan before drawing the subject \227 it will) Tj T* ET
-BT 1 0 0 1 313.2 242.2 Tm (guide all your value decisions.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 187.2 m 568.8 187.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 170.2 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 154.2 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 154.2 Tm (Draw a portrait with one spot of extreme contrast and everything else soft.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 137.2 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 137.2 Tm (Do a notan sketch of your composition before starting the full drawing.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 120.2 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 120.2 Tm (Apply the squint test to 5 drawings in your sketchbook. Note what the value design) Tj T* ET
-BT 1 0 0 1 54 107.2 Tm (communicates.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 92.2 m 568.8 92.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 75.2 Tm (FURTHER READING) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 59.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Ctrl+Paint \226 Contrast) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 48.2 Tm (https://www.ctrlpaint.com/videos/contrast) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 33.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Notan) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 22.2 Tm (https://youtu.be/V3WmrWUEIJo) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 5: Shading & Texture \227 Value & Contrast Control) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1606
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /ZapfDingbats
-/Name /F3
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gatm:?$"aY&:F5U\>R?gfW7V@Pa";LXcka)3fU9+9P=8)OcTj<";h]WU4;&`J>+('Z.j!4+/DHcp24gCTU84DM>dIe-9>;VYO>qX'3_Ic:8=$hkB+9ppi6q*B$#9QVZ!Q$+)&DP_kuZ\+Y.:"lJOJ,`-q,k)WB4[NrOCLU!i0V*QJkjPB8u\E#m!ZW=K11GXr/![81GtZUm-C6W_FIMN-'M7^t4r:&U4j2mdhKBn$%&2k.iLh!]m9^-5ooLbYXgN2r[$S)>Wi.%/CNj#Jli_fOM>7am$nP@R9eV'qE-rB^nfeTFnVP=>1i()^bIbX*'O-(ajET#U:W__m8ufpneiHkam_T>b03l6K2U1YQ!Z\o;/ZBAb0%%R-a!r]VAk0inSMpTBkOqgR+\:8^sD]8Ea4%@SP07t8V7UE*(Cl0-7Rqm23=e'"X^R#L'P[%<U8n?PF;8"6C'A1+'q`:q';HH\0>JpJFXdFNE(#9Kj$)lhE!F<kroKs8$3n"edNP2!+mL_ch_>Ic&V>JEq@j@\At"E'&4#^!X.kcdmaQ*aHPP*XO5Ut#8QIS4RTE3c<%eTR[]`\`.\b2i>nZpTZ#7J$Ub++PAPG'uI^/In`)OFP4Lf.T]TCrdVE.nOV)WOeCL!b/QskT".uLfpe<fGTZZ3$]Zsn-#Gdb[hq``LckWSB,#SUj^X:N9,4QCrQ&6&7/;a3M/j!]M[3B[Kt2pK6pTW`]Be6\3U#Ni*0APs#`l<F:\6oX&`-!I(7<AT)g'\7V;0MaR#$JEA[%d3;I888n[lqs,W"#Hoa:`qs8(fFENtVpLsTP6l;O\1/XE-46+*\Jf6/#0p3IXmZl2HD'<uNiqA28EHKZLM]j3K8BZuJS\oakd>;*GbPkToXaO:Fqg='V?TOJ0P1uAa>3X<uD*Ea+FiBZ4Q-!sX96C7*64u5smb=iq70@CF<)mq\G>d>Q-:BDd>4kYIPV=-^2[J1rQ%8d0"5K^?i#]0`M'+NH!UY<86ga6@[oI42U/msqP/UV5Y>Ie=Cb[('diT$R]pXE'9W!<#2[(sGg/3oJ0IUc)+l;]5KD^..^MX&Cldo/O*%p^HSL!^B'<6[r?kFD_(XX<kM`&s$(o]c!eK3O.'icc:#9Mq6_I9(TB?gs6-p(g_`bMLM=c"d;*JhJJ>[)B:^kabH*i'V$1F=,<-:,Y4]GV3jT4lYmP5^]0ma''PmnU'hc9>OH4b(&[,gQDTC%m9Xq8<X<o!nq0=f8YmgUt=I#5^@2LB\t;_@7tW_U-n:=0]IHZakO1`5?\8.E`Ff(=nr!cuHh8jUDb;NfKh@fH/@7MF(?YM$WUTr!EtC/\FJsBbX=ar]I=K:9319^G_rsXZ&Ad=[$&;)W5X7!=-AV\%Ij6KBjP<bD7c^]nE0hL[teN+*.p>VHBN3qqmZ)WdXlR&[2g"$3e)9'@X'Fpg8+r#.W\j1n#[m#')YEaR&`4\gui#0tk`1%O@LGm2LRdG-kb.Pi$K>r6Q-;&khIgc6_'_f!0(9p`kj3.lC-=dI6Ete+h<^NO5gKKWce-nFoj&MBR\BI3%Zf,mGj/pCf#X6^eOV)lE/JRbCutQ!M)Q66W^G"_$VFZsqptFRTg-o8gE~>endstream
 endobj
 xref
-0 11
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000511 00000 n 
-0000006703 00000 n 
-0000006810 00000 n 
-0000006917 00000 n 
-0000007029 00000 n 
-0000007141 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 11
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<80d154bc0c65b5f79ed00a5cfdadfc37><80d154bc0c65b5f79ed00a5cfdadfc37>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-7225
+2618
 %%EOF

@@ -1,317 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 6279
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 2  \267  1ST TERM  \267  PERSPECTIVE & VOLUME) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Horizon Line & Eye Level) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (The invisible line that controls everything) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (The horizon line is the most important construction element in perspective drawing. It) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (represents the viewer's eye level and determines how every object in the scene is seen \227) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (from above, below, or straight on.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (Eye Level = Horizon) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (Your horizon line is always at your eye level,) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (regardless of what's in the scene. Even if you're) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (drawing a mountainous landscape with no visible) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (horizon, the perspective math still works from the) Tj T* ET
-BT 1 0 0 1 43.2 488.2 Tm (same invisible eye-level line.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (Above & Below the Horizon) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (Objects above the horizon line are seen from below) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (\227 you see their underside. Objects below the) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (horizon are seen from above \227 you see their top.) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (This is constant and universal. Use it to check) Tj T* ET
-BT 1 0 0 1 313.2 488.2 Tm (your drawings for perspective errors.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 441.2 Tm (Moving the Horizon) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 429.2 m 288.8 429.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 417.2 Tm (Placing the horizon line high in the composition) Tj T* ET
-BT 1 0 0 1 43.2 404.2 Tm (emphasizes the foreground and ground plane \(great) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (for landscapes\). Placing it low emphasizes the sky) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (and height \(great for architecture\). Center) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (horizon is neutral and static.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 318.2 Tm (Multiple Eye Levels) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 306.2 m 558.8 306.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 294.2 Tm (In a single scene, there is only one eye level.) Tj T* ET
-BT 1 0 0 1 313.2 281.2 Tm (All perspective lines must converge on the same) Tj T* ET
-BT 1 0 0 1 313.2 268.2 Tm (horizon \227 they cannot have different eye levels.) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (This is a common mistake: mixing perspectives from) Tj T* ET
-BT 1 0 0 1 313.2 242.2 Tm (different heights.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 187.2 m 568.8 187.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 170.2 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 154.2 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 154.2 Tm (Draw the same interior 3 times: horizon high, center, and low. Compare the mood.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 137.2 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 137.2 Tm (Find 5 photos and identify the horizon/eye level in each. Draw the line.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 120.2 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 120.2 Tm (Draw a street scene and deliberately place figures at different heights relative to the) Tj T* ET
-BT 1 0 0 1 54 107.2 Tm (horizon.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 92.2 m 568.8 92.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 75.2 Tm (FURTHER READING) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 59.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( CTRL+Paint \226 Eye Level) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 48.2 Tm (https://www.ctrlpaint.com/videos/eye-level) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 33.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Horizon Line Explained) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 22.2 Tm (https://youtu.be/nAlCyQqEZSU) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 2: Perspective & Volume \227 Horizon Line & Eye Level) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1517
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /ZapfDingbats
-/Name /F3
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gatm:>>O9=(k(RKHqu8)"PG+rDnAet"9U.W1Jk3\&he.^1`dVuCHHXL^OD67U_bG`d\;UGQ0iY,b;l2OBn/u!^9`^\Ceh`O`"XRU0.9SjPigS>5!So@-lPdCiFkd.T4WAE_XT>j9kF\L:;uCkml1r(i8[C^V83St=ll@*aYY$X'W%RH2G!<W`ktAu!e7ih$05(lB,[L9Hn<=@jLJ\LTp@QWAX)HE'?u$Rr3Hq*qb,f9/FIdjK#]%LOR^,-7$FUrMPBVH0.B?3CcWEY&/cKqF)/1XKH?:e6Jo;X2:%e;iq*WWWF]#uG6/X(%V4o.8Z$>I#pl;;d4C:;aV`>L*fXeH9kT*'2@b:CC*W^D,hGA.mdi<6C];9647o;TViPPG^H[aQfI)IN5C;78m93[j3giBG]Lf\!#b!$.VS66FK2#)6RX0/Vp$1]%r9iqd7`0Jof%"?eetm#-c8J7h;6Q^=i8;@2$(UUM;q[F6qGIYn9Wm"d%nCEk(ucsGoVHDOc@<.Da`U!QKjQ23WE[DB%PaQ:DujC@)b5UKL!sSO:F\>JI9srrp+)eB)Vq?>K4T$bf..STEhdChdC]Ti`LMS3BYcLU=AB.BXBc-)g4K!C@)(f.D<M>%/"DiM71[FiL:7CQ%8`2YLJNR+G#@#]*>/O/Q=qAVl$>^,)cNsL=:nhRR1l?aX%^Su0#sckl*d+R;JQ/$27(S@*9ui^D!FcI+8LRBlo(gpb*L]3&<VjMQCJ_MCX7"K70p3IJB*JE[$#4)KWQQ[7(SO_>WGGDTn?("GNu&_NSY7U4D[H2?mUg[SNKCaB!HHh7K#Fd]=^9gqs3NrrcWH%_csSLAhhN]f.>KKW_dhFnDFkXono65OhNWZL@U%!:e4W%OeK["a:#6@H=f-XgsVBfMLA_7m4@5"XU=^[#:;1,U/g5VJ7UM`"&p_8jU3X%D7el,;EStAS1CtGaHkNf!88k_G=%nXHto^=0K$?pg9fQ`ojY0Aes!G\0LBedYXUYaKE:""Qm!_mH:c[15,$]o]ZL)K]TEK/QGT1r`4'75Sa'T"goB^kfA0#6?#".?<J-q[i5?Ldj\*<#Y(XcC6e6rn2EN_<3t-p.iTVI'N6o'L*I$alj03';Nu9SC5:roqDL7Vo:V2dbd]S3:L))gW@s,me/obt/oN*=t+bt1Z6;K]LS0FKA^]Ed`*ZU20X\',*Ci6coo\_Dp5NJ:1G'A:QIXciiHh6@qm0o3;n,ol*=+$AC"3k3_L<4]f/<kks#t&(@WfsA_*u:t\Wo-!q;IoK3:ClFXoFlTs?"d.3G!i+k$+LArDXb5Z7S@D%(AAYb,]4f2XYi$=UEAn4iusLI2,\G3('<o+LWF]mg42+]6:tqJ0H]KbP1hiW;lqci%1%NYd!5WUf/72qCrKq3+&u"NRLGnh%[apA`3uNOBF)99!Hs3X7r`+-0adW3kQ57go,KR3O,9'+B9pluZMc^*1YV[@<IU1&Fr3:CJ[i!/%<ST#VOO4oo?'!Je&HT4_0=4r6q@7YAXI@r~>endstream
 endobj
 xref
-0 11
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000511 00000 n 
-0000006842 00000 n 
-0000006949 00000 n 
-0000007056 00000 n 
-0000007168 00000 n 
-0000007280 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 11
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<faf87fc71685d52d03bfbf67c4e0e698><faf87fc71685d52d03bfbf67c4e0e698>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-7364
+2529
 %%EOF

@@ -1,316 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 6076
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 3  \267  2ND TERM  \267  PROPORTIONS) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Simple Shapes Method) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (Breaking down complexity into geometric primitives) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (The simple shapes method is a way of seeing \227 stripping away detail and surface) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (information to find the underlying geometric structure. It is one of the fastest routes) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (from 'can't draw' to 'can draw anything'.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (Squinting) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (Squint at your reference. This blurs detail and) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (reveals the main shapes. What big shape is this? A) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (rectangle? An oval? An irregular blob? Draw that) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (shape first. Get its proportions right before) Tj T* ET
-BT 1 0 0 1 43.2 488.2 Tm (adding detail.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (Bounding Boxes) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (For complex subjects, start with a bounding box \227) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (the simplest rectangle that contains the whole) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (subject. Then subdivide this box to find where) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (major elements sit relative to the whole.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 441.2 Tm (Shape Hierarchy) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 429.2 m 288.8 429.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 417.2 Tm (Draw from large to small. The whole head before) Tj T* ET
-BT 1 0 0 1 43.2 404.2 Tm (the eye; the whole torso before the muscles; the) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (whole hand before the fingers. Each level of) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (detail should fit within the larger shape you) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (established first.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 318.2 Tm (When to Stop Simplifying) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 306.2 m 558.8 306.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 294.2 Tm (Simplify until you've captured the essential) Tj T* ET
-BT 1 0 0 1 313.2 281.2 Tm (gesture and proportion. Then add one level of) Tj T* ET
-BT 1 0 0 1 313.2 268.2 Tm (detail at a time. The test: would someone) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (recognize the subject from the simple shape stage?) Tj T* ET
-BT 1 0 0 1 313.2 242.2 Tm (If yes, move on.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 187.2 m 568.8 187.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 170.2 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 154.2 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 154.2 Tm (Draw 10 animals using only circles, ovals, and rectangles. No detail.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 137.2 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 137.2 Tm (Take a complex portrait reference and draw only the major shape of the head and) Tj T* ET
-BT 1 0 0 1 54 124.2 Tm (features.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 107.2 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 107.2 Tm (Draw a cityscape as bounding rectangles only \227 no windows, no doors.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 92.2 m 568.8 92.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 75.2 Tm (FURTHER READING) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 59.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Simple Shapes) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 48.2 Tm (https://youtu.be/H9e9P9HJmLs) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 33.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Ctrl+Paint \226 Shape Design) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 22.2 Tm (https://www.ctrlpaint.com/videos/shape-design) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 3: Proportions \227 Simple Shapes Method) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1560
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /ZapfDingbats
-/Name /F3
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gatm:gN)%,&:O:Sls$$>_MT$r8U[p\-ZR2;=u2Slp]Vib&hut^!%:9chm4Fo=gf"<P4;Ye!8+WEF*8GL(k87Z9e2t0-2m[$UbJP)R_h%?BmEF>bEK\9K(1sl9IKK%C@[SB+&?ih[YW!q>/*2qKHjoD4IH@T)DCTL<bs7Wc/VAd5s1,Cis=7.315%j^^g[:!+'qpk2)S`I5uG(b`(2S3cB[%JlGf)B_dpZ0A4TGO)^@P38i*Eln\ge'K7`Md:,;2/A@/aNk7,mi+m&/Y%^53;)G&/7Q9$\V/,r:IWE52`*kVu-s/mr1g*X/?];lknd%JEn0<g<)5=[^^JS!09"HH>,;$TmY0biXd*m4M*RY`'J"-Wb7uWZs\:/nU=0\KE2@C/QQ#uVnd4"jPq2C@!G^fJNlM^V'cT_nJ3k8>*5&3`V[6<eBZrnAB%gD$@@*Uf,\^mEdcQ<4R.$IE)dZRq#W->E&pYZ`@rG=sJm)WnH;Nc&G/D701[]@5J)=%>bUS=kY9l#l#T7rha9W*1]9&<s@F5F3A]YeSDnWN:L[*mV;V_T`taEW%]b^Q%DW=sD\!cG&D6)cUg59LNk(/gGVTOi]!C>e'OEA1_;aW*$Rl*T$%<arHUU@s\Ko)f<'U66dj`b:JMoM26:/-..l9s'\"kIf=/*?S8R;t3e$Ui:?>++$sQCBMIYD=2q+W:-NuOIEI;auW5eUJZ<qW%!kEJA*."h)[+&6gJ8=)R`<"W,9U"ND:C[q32<0Y2OAk8Q5'0>O+tP]%4s\)2<j/NaY_bKYabQhXm`1-_;E]rZD*OrG[5bkLIiJa3gT_*mjnSIaBa_Vk5:,jbNu'DaUmpcjW.E]GeJKB&/csc^K$g7Eoit1<]os.uGtQLEWeA"Z*]p6]jJ8l[\fQgkDt7.edY8=#/*/Gq0ccV>qDnFU2[F)hB$f17!UboNGtl!.;trK<DVb%U(mc:arucV[M5Sm0csfe&L[hKnB_neDjO;^-Op+3;1H!"!jXB:iS,$X;b;[PeDK"J-)p/7<f)DH4e#EA0J:c+>KAWOmI3>ZAdhpfPL9Gr!dsC95ULa+`"!;#2?;p_Xmg3KlouW@NG!iRet:*42q13X3HucF4a+u8,C6R.CV=]4&-Ua=EB'+>p\nKl9?kSalP$$'Y+k0f@IM?SjBs).VYL%iab+;f_WP/0Znj=(+2uW;eF_'cQ?J#hV;@aG^jo8is;D6q7#t^)*O]JCODPC0G"Qc;CZcY4Rkg$euH%MLq]"l"+b5?<iT-EO$$b/JbY$sSgV1tae?+Y+dZ$?1FhM;]O'p0,B0^+Sli!*\Z3>M6*J(2/A5(EqD2FLIdfli_go7;^E!%@"f*Y<FDb'DA'!ZZn+U<OK2GqA7\5HTFY9m;HS0KLW8Pr'"@%>\l\UD?]m1Ld2qHOfo3cnu54esF!I2\s(."ePaM&mqKeNR+2Af=mjn5RALQ&fo+mY+C\n2t%!E.U\#K,!"6P8aGYX;TJ8IOWjg=ld9"oVTlYeD?<*fP@%>4-`;><:l(cVh-FirT^kh5A5js0b2b$545)DKOQ4O%(Lfr!f^sHLL~>endstream
 endobj
 xref
-0 11
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000511 00000 n 
-0000006639 00000 n 
-0000006746 00000 n 
-0000006853 00000 n 
-0000006965 00000 n 
-0000007077 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 11
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<62aefaf89e5b4c11deb903b2a1bdcfa5><62aefaf89e5b4c11deb903b2a1bdcfa5>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-7161
+2572
 %%EOF

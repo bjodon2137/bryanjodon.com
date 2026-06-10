@@ -1,318 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 6339
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 1  \267  1ST TERM  \267  LINEWORK & BASIC SHAPES) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Organic vs Geometric Lines) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (Understanding the two families of line) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (Not all lines are alike. There are two fundamental types of line in drawing: geometric) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (\(straight, precise, measured\) and organic \(curved, flowing, natural\). Understanding when) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (and how to use each is essential to drawing convincingly.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (Geometric Lines) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (Straight lines, precise angles, measured) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (proportions. These describe man-made objects:) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (architecture, furniture, vehicles, tools. They) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (convey precision, rigidity, and structure. Master) Tj T* ET
-BT 1 0 0 1 43.2 488.2 Tm (straight-line control before trying to incorporate) Tj T* ET
-BT 1 0 0 1 43.2 475.2 Tm (curves.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (Organic Lines) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (Flowing curves, irregular rhythms, natural) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (variation. These describe the living world:) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (figures, plants, animals, landscapes. Organic) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (lines breathe. They're never perfectly smooth \227) Tj T* ET
-BT 1 0 0 1 313.2 488.2 Tm (slight irregularity is what makes them feel alive.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 428.2 Tm (C, S & J Curves) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 416.2 m 288.8 416.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 404.2 Tm (The three primary organic curve types. C-curves) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (are simple arcs. S-curves reverse direction \(like) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (a spine or a flame\). J-curves are C-curves with a) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (straight end. Practicing these three shapes gives) Tj T* ET
-BT 1 0 0 1 43.2 352.2 Tm (you the vocabulary for virtually all organic) Tj T* ET
-BT 1 0 0 1 43.2 339.2 Tm (forms.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 292.2 Tm (Combining Both) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 280.2 m 558.8 280.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 268.2 Tm (Most drawings require both. A figure sits in a) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (chair \227 the figure is organic, the chair is) Tj T* ET
-BT 1 0 0 1 313.2 242.2 Tm (geometric. The interplay between the two types) Tj T* ET
-BT 1 0 0 1 313.2 229.2 Tm (creates visual contrast and interest. Learn to) Tj T* ET
-BT 1 0 0 1 313.2 216.2 Tm (identify which type each element calls for.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 161.2 m 568.8 161.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 144.2 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 128.2 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 128.2 Tm (Fill one page with ONLY straight lines in various angles and lengths.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 111.2 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 111.2 Tm (Fill one page with ONLY C, S, and J curves of varying sizes.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 94.2 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 94.2 Tm (Draw a still life: geometric objects on the left, organic \(plants/fruit\) on the right.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 79.2 m 568.8 79.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 62.2 Tm (FURTHER READING) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 46.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( New Masters \226 Types of Lines) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 35.2 Tm (https://www.youtube.com/watch?v=b_w_hdwafV8) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 20.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Organic Drawing) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 9.2 Tm (https://youtu.be/OcJPNMFFKHs) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 1: Linework & Basic Shapes \227 Organic vs Geometric Lines) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1789
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /ZapfDingbats
-/Name /F3
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gatm:=``=U&:XAWfVcaV335YJ#MZ/dFcMJ$-amVBS`pMQJg;NO:]O=Lo'<mqnF.0jSRt"8"_,gHqfZJ:iEtqYM\b5u"$aPZ+\lED6(CCnCbF[UF7SQ@R]VeL@Li.i9mrc6od*pJAI01`eP@R]nOhRU?`kS8RUu7tZt(XlXj_P(;7]<)=b?,6GeWaGd!n04K[*dDcItdP:b8NIiMBrfU$<Y>9iU?M8(`3Bbtf&9qhKWe=ZlJ-BKZ"aq2AtI,?h2u.u9K!r/a70AF%o2_oUd.P$=t%hYfN-<cBK%5A7BW+5iYl;8>oDG2.NkQK8rVPbiB4>!eH"nR@nP[*E9'[X:o(AZ.lrM/Ptkp-lJH2,i^\DrDG_/U%E6:e9IN@$(p"`,NNl5>Ir?1;kNpHbY$[pU,]s[>L:F8]&`I7[%B,lDsT)['RlFcCSCUHLpjt`V%\//E1dBf%4dWC,^CNmgTl5(n_ShkVN'?H(S%.,ZP?lU=VHD7,>@/fGS!$bPd2o'TV:<L\;r"q]!,`91:'F03i/Zfp:SU`Qdo]Qn%Xlc:1/nA)enS7;)>,49K"#Y<0i7?B\juQlj;!LKp0t>Du00j_Snrph)Xp&cAW16P;.73ji8m&Yl[/B]YUXBE4G&04;g06.u\/OACBS%#TcGK28qdG=qtdA!*u:Ni?3:Gj)6oN"Y2soQCeKnOL1:eRpjJBY'L,"Q_@iCL64.M(drfd"hbl*I"$FUn#88k\OT3b&PW#NZLVF,O&"u_KJVq,F$&S(53.Bf7JAkF_@A6$S6M#+Ht.XDQ%=f_s\M.G2CV4k;aG!i^OpO/X8SJ';NU\'=&m9U%7;U^iYa/k6$20``:^meMMRjf4hZ%\:3KaNE/4%(Z14[l#O*+IouUElMUR`2`I5(Z^]:IakOR?D*2$PQ*qV7da2o`#gTtBE3@43;-t["$L9eGYsW!)>^$[(7Na^^j!Gm<3-m9KHXq1];2>Vfjg]?&n,oO3G_aX9bY6<D3BN4Z_Q^,N!@>4L<kS'%&I"/[P*`r#0&5iH*dp2Y0Yl6YBUEt;Lk'6e'%a8B2,oKc3HR$N*GNN.m^\>dD``g"jgqehpreoQUg.TiDRh89KIgPWasa22Q'n;(kjH+3q.PM7\'/Z8W-`tpU*_`YS!$*,nfkso0U=2n8,Zk?)G#R+#E:3f1;b5I`O7\9;^KkRPK`7n1F3l8Mm:/ir:O+\YeCOHialefTS==b:oe.l[j)lZ'd'H03=9W-jBkHVmcmi5Gf[GTPs>MTbd;;Y:*n&Z0"0(t5:tN><L*7bnI<XeP;nZ`Od"HXjLu_tPAKqu#5,UoX-XV]2fGkU^:8PO_`1s%f3o[IMm(S.`Z8VU3XYkS#E'c'%)h@VN!p_Q8-nPJ/MIF&,13gX_as>L)WbKoNA>*iIVoe[Z+%a31XGCfi4Tm08#2"oa-TtDamedWQSR/_ifNh[K5QC[3IP*WBQ3`L5C/dn__L5ICC$.jQ;f"h!n4ranFORG"a='r"pLc]!^:%O_Vp/0(K/*TYB2bkT8bA\l#08`$+!aHf/WU.nM(C(M=Nh<Ht]W/Z=<+s1M15Ned<dpobJg44A9eFL[mW)No%i/9&g81JrE.H'cHV/-0C7Ki8F=`;+Y-f/dOsL=7@B5(7)^C3>E/%h_7!KB812!&QT_6e\k)c<s:3N@E1C4,KZ"cG*8SHWUQrThq=[p&U\9%R`+&u0s(PAg)sq+$<KE.VKGCDD*qH0FH^bV0rF;gS),>aRUE/_b4=bsLZK)S>kq+@bJ1&!d@!RR$gbK:\0_Q,?Y/0V+)V]64T~>endstream
 endobj
 xref
-0 11
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000511 00000 n 
-0000006902 00000 n 
-0000007009 00000 n 
-0000007116 00000 n 
-0000007228 00000 n 
-0000007340 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 11
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<84552c36c806e1b50acce55abde9ae49><84552c36c806e1b50acce55abde9ae49>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-7424
+2801
 %%EOF

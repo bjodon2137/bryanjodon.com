@@ -1,316 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 6238
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 1  \267  1ST TERM  \267  LINEWORK & BASIC SHAPES) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Ellipses & Circles) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (Drawing perfect ovals freehand) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (Ellipses appear in nearly every drawing \227 wheels, cups, cylinders, arches, eyes. The) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (ability to draw a clean, confident ellipse freehand is a core skill that takes deliberate) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (practice to develop.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (What is an Ellipse?) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (An ellipse is a circle seen in perspective. The) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (degree of the ellipse \(how open or closed it is\)) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (indicates the viewing angle. A circle viewed) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (straight-on is a full circle \(90\260\); viewed from) Tj T* ET
-BT 1 0 0 1 43.2 488.2 Tm (the side it becomes a flat line \(0\260\).) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (Drawing Ellipses) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (Ghost the motion 3\2265 times before committing. Draw) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (through the ellipse \227 complete 2\2263 full rotations,) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (then lift. This produces a more confident,) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (symmetrical shape than stopping at one pass. Draw) Tj T* ET
-BT 1 0 0 1 313.2 488.2 Tm (from the shoulder, not the wrist.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 441.2 Tm (Major & Minor Axes) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 429.2 m 288.8 429.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 417.2 Tm (Every ellipse has two axes: the major axis) Tj T* ET
-BT 1 0 0 1 43.2 404.2 Tm (\(longest diameter\) and the minor axis \(shortest\).) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (These are always perpendicular to each other. Use) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (them as construction guides \227 draw the axes first,) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (then the ellipse around them.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 318.2 Tm (Common Mistakes) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 306.2 m 558.8 306.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 294.2 Tm (1\) Pointy ends \227 caused by lifting the pen at the) Tj T* ET
-BT 1 0 0 1 313.2 281.2 Tm (sides; keep the motion going. 2\) Flat sides \227) Tj T* ET
-BT 1 0 0 1 313.2 268.2 Tm (caused by moving too fast through the middle. 3\)) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (Wrong degree \227 practice matching different degrees) Tj T* ET
-BT 1 0 0 1 313.2 242.2 Tm (\(15\260, 30\260, 45\260, 60\260, 90\260\).) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 187.2 m 568.8 187.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 170.2 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 154.2 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 154.2 Tm (Fill a page with ellipses of varying degrees \(flat to round\). Ghost each one.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 137.2 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 137.2 Tm (Draw a cylinder: two ellipses connected by vertical lines. Repeat in 3 orientations.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 120.2 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 120.2 Tm (Draw a glass, cup, or bottle from observation \227 focus on getting the ellipses right.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 105.2 m 568.8 105.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 88.2 Tm (FURTHER READING) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 72.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Draw a Box \226 Ellipses) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 61.2 Tm (https://drawabox.com/lesson/1/2) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 46.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 How to Draw Ellipses) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 35.2 Tm (https://youtu.be/Zp2-j3e7HJc) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 1: Linework & Basic Shapes \227 Ellipses & Circles) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1956
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /ZapfDingbats
-/Name /F3
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gatm;gMYe)&:O:SbZ!I'[^sn%Dokr53b\pG2_P^Vn-`;j8W5)q+XP=dYO<?,]5h`.C!j^4X\<afB?m$@A")=+p:mqkk\Nu.^5aX;BUr(l7ObGmk^7gNodH7[PNcmUpRelRWr;HJ%P:]f=\8G\UQ7AI&'!dj#YU?rIV0Cb8f,Zm)H2mGda]VZEuIgjhA#n.LQLH,o&2-J1^V3Cgm2tr7Bc!N&T&CsVKt_t0=62R@=EUfGJ8t/INKJhI==B?$2]Mo9?rEhq$\?CMNZM110l%Y3kg^$R2T_AP%6ipWg:?'fCTHA$)]Pi/4Cf>%q:qk*m:'`8X:NcKG'>pZqBA'0ul),BCcj,bLIkEc$_/+>-#Y7#OfDVS*;"USu$eS1%k>;o-fJV1OsuDq<?.#c\g/i,+@PUVTVJh-HVsUho5!1MC.4[o^)M#gNW,35<YRS/5A]R"![>eaPQ62DlESM:SE$MTAakMI=<e[9fpg$X)q!d163WYRTq'm)/?8'[3Y7$>18STH(2os.4OTPDXlSM;JNd?ZBnc.0N@)Ed)1.ZmSc1'8.ZO/_?Llm(X\q4!\GX8UtrkWPqUe&4/%XJ>86cV35JP]pan;%FqLi:/??)B*At^BU`:QnUVk6aQ5XHU"N12DG8msoQO:9+,\O&QFb[W)X(.d.+>%AQoo,)FJ?ZmEo[_LqojS`b.ld"YhWVdk.:BnL,]9H*iQl1$,&S"LeT%e$P+t>J/W>TKR!#5k!lLU5=DN5!]6Y7?gDVMCf>t$n2tCLX&cgAd_VG<\)JcSSK\W`1,\&(kR'eS<bp\c,MGr]MQ1HD_fog-%+XDd&XgFL:."V[u@)WIQPU!CNNDDP:K?u.=KmA3q:\_U-.Q[VK%eGFk5GsVg$bcEa3ak_f&6):6(=]rA`t1[8G=&m0LJE))-&i[-O3E&VT;V;.lMp,?5Mi$'rUol)rH*53l"]kan+o/</AKs'gaBfP5`s2/\rS+MB";]mHt+aC',W.).dBXW/\!P'<o4I.i#a].<I<Z_kp2^nJ-V*]1n^iRC':$iTcO[+=cpP7jneQuKZ3t.#A.g=:Tsj>aK4)8BPZ>l/=K$+NC9.h&cFm)D'-[6qe#`0jJhEe.qf7Nb.;b(C(<K&(u!&WX0PJ.('VVgd:^j=_<k8=<m&e<Q%=7G;J]-'IHV%S;\m63N,M\aM/k1ONolA.Q_PE^VN&-`gmX,=`W0?'[ZT;9iOnWAJ4h'?YrRj%Pc-)k/O76j7a;@.HGn0b]WgkCK*jS?71V^6[U"X^hJ>)p7fX":^`+7[CDAOpSu)a2X^_55&U7S042@f6NjbeqIth&BaQM.b\dYnrE14a5n*[2=lDlU./-6$5]^E<0]`Cui@X;EM<ar#o9/%VnarRaY@c4cc<\\[t`!fHD=N_ok;LTk`%jY_T`1cE:=d^8Lma%)]A2X03=,.<YhS27h]R9VUh5cI31Q9fEJ%\%aam?XFnc=WAgt4cXWDWRGo<\N?F!e$I2c(,DCh6Yu61[C"^cr6EXZIRX]J#69]tL.-D+F$9W^.G0!i+D"3LtNV@r1[_hoM<lBr_TkH?Vh?q!\lIL)>uGK?YD&.G;DI6Uc8NZ?Dnl3)TYIi3p&!@KT;*ecc>r)T1B:,Ar:ikM)FY':_mZ((BGR_S*`9O"o]G<Y.JuLWfr<!u"]CXGfpQc,g?aW'tL%J6/%Z<b/i$8l]dI0lD)h,g331kcl6K>6QQ3InSm0_L2L[S\*q:H!(66]7\EKUV"\74#?rb\SI%H_p*^mlEMV;.gk')>S&2]"_GAUjj>^nZ15<&__)?%<\YTr+%s^]NrN?D""Uc4]dm*8]koF!Q[oLSjj<GR$FR#6<CkW>o(tS*+:<XQ.hI4jH#OW'-_X&!]R8^n#BQH<>HuTHPkh=ab7YNWYeeD"b7&U5dV.EppnEFcW,PUc';1VooB=/O'+T%Z-l2iLKM,,Ap;'a`NrB&6*D5o~>endstream
 endobj
 xref
-0 11
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000511 00000 n 
-0000006801 00000 n 
-0000006908 00000 n 
-0000007015 00000 n 
-0000007127 00000 n 
-0000007239 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 11
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<3450a4a5f77f20dd1aee6eedbb5c70f8><3450a4a5f77f20dd1aee6eedbb5c70f8>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-7323
+2968
 %%EOF

@@ -1,317 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 6231
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 1  \267  1ST TERM  \267  LINEWORK & BASIC SHAPES) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Basic Geometric Shapes) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (Squares, circles, triangles & the forms they build) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (Every object in the world can be broken down into basic geometric shapes. Mastering these) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (flat 2D primitives \227 and their 3D counterparts \227 gives you a universal vocabulary for) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (drawing anything.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (The Six Primitives) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (2D: circle, square, triangle. 3D: sphere, cube,) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (cone \(and cylinder\). These six forms are the) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (building blocks of everything. A car is a box. A) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (head is a sphere. A finger is a cylinder. Learning) Tj T* ET
-BT 1 0 0 1 43.2 488.2 Tm (to see this way transforms how you draw from) Tj T* ET
-BT 1 0 0 1 43.2 475.2 Tm (observation.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (Drawing Accurate Squares) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (Draw two parallel vertical lines first. Then add) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (the horizontal top and bottom, checking that) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (they're parallel and equal in width. Use light) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (construction lines and check diagonals \227 they) Tj T* ET
-BT 1 0 0 1 313.2 488.2 Tm (should be equal length and bisect at the center.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 428.2 Tm (Shape Analysis) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 416.2 m 288.8 416.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 404.2 Tm (When drawing from reference, squint to blur detail) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (\227 this reveals the underlying shape structure.) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (Ask: what big shape is this? What smaller shapes) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (break it down? Draw the largest shape first, then) Tj T* ET
-BT 1 0 0 1 43.2 352.2 Tm (subdivide.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 305.2 Tm (Combining Shapes) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 293.2 m 558.8 293.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 281.2 Tm (Complex objects are combinations of simple shapes.) Tj T* ET
-BT 1 0 0 1 313.2 268.2 Tm (A lamp: cylinder + sphere. A chair: boxes. A hand:) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (a flat box \(palm\) with cylinders \(fingers\).) Tj T* ET
-BT 1 0 0 1 313.2 242.2 Tm (Practice this analytical thinking with everything) Tj T* ET
-BT 1 0 0 1 313.2 229.2 Tm (you see.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 174.2 m 568.8 174.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 157.2 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 141.2 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 141.2 Tm (Draw 5 household objects using only flat geometric shapes \(no detail\).) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 124.2 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 124.2 Tm (Create a 'shape library': draw each primitive 20\327 in different orientations.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 107.2 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 107.2 Tm (Pick one complex object and do a shape-breakdown diagram of it.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 92.2 m 568.8 92.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 75.2 Tm (FURTHER READING) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 59.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Ctrl+Paint \226 Basic Shapes) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 48.2 Tm (https://www.ctrlpaint.com/videos/basic-shapes) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 33.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Draw a Box \226 Boxes) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 22.2 Tm (https://drawabox.com/lesson/1/4) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 1: Linework & Basic Shapes \227 Basic Geometric Shapes) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1817
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /ZapfDingbats
-/Name /F3
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gatm:gN)%,&:O:Slr2qV*1!C<QLiI[>:4F2'0!1.3h>LC84"S2&l8R)MZ1>&!Jti5a%<1s3$q?Np?_25DFQ)SA`7jd&Y1T=Qe**d3A$P]NKZ(KY39>7o][bq:\2tE7/*=^518Ed'UNG'S?/OJo:u&iP3nK0B*jUH3I[;8WuB;Za.nTVnROaXF$)tGBGOPJ59!8tGSeRa%G'TVbHYtrA]7.'H6ms&Pc">G(*@8\SBZH]&9g1]p:(WuB>M@@EQT-?m$,2XA3.QMR$)iGRZ?O7N/k*;F%53X5C#Gf/#D@IfN\3/c@o1Ch)&Reh)B/<%^mYSEL+kHPg&`817_?a3`!*XoK`n_0a9Z"+XQqu#XX2l,>BQ!rEf!8GRpCn#64]_8i$)M$+Ta-n7J$9NlJD.1<!Hj2ifH5o>.3*`pV6Uk$MZlr8Pu_]6>&5Sp"P*N=T^7\4pJgp8I`5OT!;8N3\]*JN4+*(Md`o^-O'mf(?m\'ltm=.8"l;B.5Ar]TqI%U/u3Nnj,r0l9lr?/BKi4+;_>&7]!D%/):NB:VF!\Og08JNiakGcuh;`\q4Z3s%I+R5U1`bn\B1F>IA4F9&Z&_01gFQCR(5e[-a.tZ_=5#*H;hRp+'mRW*%'.^2>&:oH*ZoR\XXU*KOm=TjtDE/W%?G-+d\Oo3J"OF82NaZ3I!O#]5fEaE>:^2LKKQ8Zf&ppfA\_#b8@jKfA=.Mc^g:#R5ObLJJ"g&Sa5DLi>ZD/\/UjLk&;FTi][&f^SQen'fFJU6QaZ6$(h%VHjRW8a'&6cgE"N:2KaO-%+(cr"/(Rc@%%m9Oo=qJFFGP77XCZP^M"p)?&ZMLalq;d,IKu20d?be@hkm$ectMX`ql.cig8jX%k!;=7CGuN>;B4aZ,^UC4#Nhpc4oe[/M.r^:c]ps82A!n[*M8dJSOgIJh=;e#sC+JZ-&X;a+$.F.N=Pj%`;&gJB@0mte[aL#bdR<mGc3N?Gf!nsNRBqGhC#X%R5):3S59Rj!XY4-RfU]b83kA`7N,gR`CH#fIe,&L:X>dY?<aWIF$/m#,g:&H2Yca9;)$BtnAj!A^:CFDa:kD[l;5f/!3`@afmNjfW)r.K]3,\C,m<[Ki"JodAN^#!DC]7(oV/0tm3chW8Y&RdrA@ER2Uf(gHtTFIg6%iV2jj9WnO_@/@''1RoG0B0)lCp/GoqQ:b<rP>#j=UQ3^/PXZm=b^BLr)]%Hr*NWeb++*(3YF$BZ,c`tJ>;:XOaYE<?3;`\0TQF(F7m3@#OG1blO;nSjH6%=t:-@1(5kVO!qbB>6i*HtlKI60t-KJ<?_BUGm0Z/>ZcguGY6g!m1+0JsXgtZ.@^O(+r["m=Vnm?&";d=fPXbAB=FXUh/4q*++?&lX$@4$f9U#&)Df[@<1<S[t06<=AV\!sC99e@o.=1B'Dp6S4Z<-<,'h#MNC[a<2WZ"C7<m=kYAr'dZ(jdoMEH"5qK"i-[=,A]ePp`:Xt']l4?>FmfR8M=&$aa,?Z_;f?g,ndm"l<CfbD&dW/:/jb9Z-nA&HcO%Nnn:7t/=k;i,p-Xn$UcAhUQ@0$'[G>t<d+asQ;9uV8XR/hD%j:ZQ0T=Ae>c4+26+?+"DXFJ<Cs*'%A#tW!b^4@=mKM@'Xhh^J<ZXX#8a6(66nIKA.!fHn&7RQ<f9&X7ScH6_SiMidh;31@,lCq6N6KiY*(38EP.:LrTM7*"*:31/qdU<0%3o!(tgkl)MLV:m?P</fa:sT8te:S[o!DM)LAZkL(Cn);S^6*\:mK>'d(JL7TG4=Nlpq2><r9D0<oWXJOm!`AAq^dE>;_195G-moBLM6FjSONf]qh]~>endstream
 endobj
 xref
-0 11
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000511 00000 n 
-0000006794 00000 n 
-0000006901 00000 n 
-0000007008 00000 n 
-0000007120 00000 n 
-0000007232 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 11
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<0970015dfa13b36be930b192f3a08f13><0970015dfa13b36be930b192f3a08f13>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-7316
+2829
 %%EOF

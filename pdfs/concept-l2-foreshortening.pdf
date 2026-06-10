@@ -1,316 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 6059
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 2  \267  1ST TERM  \267  PERSPECTIVE & VOLUME) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Foreshortening) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (Objects receding toward the viewer) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (Foreshortening is the visual effect that makes an object appear shorter or compressed when) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (it's oriented toward or away from the viewer. It's one of the most challenging but) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (essential perspective skills.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (What It Is) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (When you point your arm directly at the viewer,) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (your arm appears much shorter than its actual) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (length. This is foreshortening. The more directly) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (an object recedes toward the viewer, the more) Tj T* ET
-BT 1 0 0 1 43.2 488.2 Tm (compressed it appears.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (Why It's Hard) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (Our brains know how long an arm is and resist) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (drawing it 'too short'. The solution: measure,) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (don't think. Compare the foreshortened length to) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (other measurements. Trust your observation over) Tj T* ET
-BT 1 0 0 1 313.2 488.2 Tm (your assumption.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 441.2 Tm (Ellipses as a Clue) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 429.2 m 288.8 429.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 417.2 Tm (When a cylinder \(finger, limb, barrel\) points) Tj T* ET
-BT 1 0 0 1 43.2 404.2 Tm (toward you, the circles at each end become) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (ellipses. The degree of the ellipse tells you how) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (much foreshortening is occurring. Very flat) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (ellipse = extreme foreshortening.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 318.2 Tm (Overlapping to Aid Depth) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 306.2 m 558.8 306.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 294.2 Tm (Use overlapping shapes to reinforce the sense of) Tj T* ET
-BT 1 0 0 1 313.2 281.2 Tm (depth in a foreshortened object. Multiple) Tj T* ET
-BT 1 0 0 1 313.2 268.2 Tm (overlapping ellipses on a limb communicate far) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (better than trying to draw the full length) Tj T* ET
-BT 1 0 0 1 313.2 242.2 Tm (accurately.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 187.2 m 568.8 187.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 170.2 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 154.2 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 154.2 Tm (Draw your own hand pointing directly toward you \227 study the foreshortening.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 137.2 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 137.2 Tm (Draw a cylinder pointing at the viewer at 3 different angles.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 120.2 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 120.2 Tm (Draw a foreshortened figure lying on the ground \(feet toward viewer\).) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 105.2 m 568.8 105.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 88.2 Tm (FURTHER READING) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 72.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Foreshortening) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 61.2 Tm (https://youtu.be/6ZXQX2QJxZE) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 46.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Draw a Box \226 Foreshortening) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 35.2 Tm (https://drawabox.com/lesson/1) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 2: Perspective & Volume \227 Foreshortening) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1680
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /ZapfDingbats
-/Name /F3
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gatm:gN)%,&:O:Slr34^A6,KS8kP]7)(0Qiaj"R53n"n$>Y0`CJ,qp9lIYb]W/G/tc=H4F/5datB5_Dn;B"OJNSe;7F?ZU0?_s!!1ga.L-TTH/dDc%ElU`k%Au"mPmU"`7`5M$H2GId$3MtoEP>BhomYhsG"L!P9I$]h[asYYcPZ![*o@Yh8Fd.n5d1l*!K1c2_U-$if9d[TEL,E%-D7!HR.]ei^2S[W:$dG<#S"K-/(:/+DHf'&dj,4K["XBF/,q;NE0lD#(ZIs=ZR_^d@IE12K6Q,ifAJ=p]cF7$_IDb[jrF,#piU8a(*#qO^H(%J88nM3e/nU>AB>\glge0o[-Qo08eg$[(%(rm+rS"iu#$L^2kW%IPVR42>S!,+_OHB,sf?^XEKkr009TfI$2-i@Y1s6Akr+Ekf/7nNL.F0YR?bV#>nbM\d`bBligZ>L"o<h*%Mh[CUpUub#jW9eQ#EhSme[B9VD:WModF,U\ZmTEc2-3akLD&3C$?i1L7FmUTW%BTlD.m^s!B'.Gbih<$8@a-sVs);>8=ll8?IBIEfMQFl$*rCmVt=_`>s[gRD=+a/kSLHR]^HVom0e/<F'Qt`7,RJ3!!eNLWaVfK(2A9BoVM.&`aT$eFBFa9%F_^nV?O.\bj1A;AWT/q[-ptR#fS%`(su"2RD9<HFuhO+m!/;N#k)R8q@BpsN92'?>p'sd!5%d\)Q>oW[5Fuc/\2K8mRSioG',*tNMN]@b&ndc]7f<AI,D#LC%9CL1:D\<`u[]DGqFgYSb#Gm"$2T'*ncOC6psoRPZ@s@]gX!e$?!eV0988HS4_%S+!MbA0CETT9d+9^Ya@Q0VtmFXqt,FuGr"&qnG(+-Qkr8ns+c<CI5jIkoC?YqG]]^#EC>.g((0*#@HBSk%@]VbZ\t7k;SI&\,n'QU-#4?WZE[:SZgtKc\p[>E(IO'`%-#7"GdTF\X9Fjfa-qPGNgK+bPRK>71&J+*K:$#P&G%I*Z]2+Q*iFUuA=%;\\"-I`B$iPt(,?n,<S^cN@#\=JBrN*JYFT\N!+E!g/7(*`r^A*%&3%2We&:`J7F$1;-:ZVtA?>3O+2F\#_.H'beu2')Qo-B#Bud^!m;7GR3X-lUT-!?,M%#M^-sOrrPneJq#MZ8DA/]Y/63k/=>t0=)UBlS4%D+ppU_&@^#$?QfBc3pfB2HI4-]ArX!9=8fC#*[<MQ>mBT>BB]@+-!!$C)48>CDQiUX?Geed(&*%V#!N<#c>p:EkT:5C[p#EHQF"iVgrDO%5R4ZQBq$F?'4"4tb6*9"5_g!CaYDhV#1*3?FMk:olur`u_0UT'?`lNJ&pl.r4Q!80*SERWBbt>h?R[Z)qO!Pg4T)juG>06GJF]+$bt@%9V!!PBn`D<t%Y.DCZ/BW`*)[Ib0kDeq")FPn#1/P#3kRRe]h#FebTO.Pa8GqJLZQ+$ap)qH!K"O3iP&QZ<*9mKZjHNPW2N/!>aGdb`BM$?EG0aoq)HnYQX8V'./W7[;Tt<kH?EB7F!E"G+?:NnRRg<m+E]p,K]/SWK-(+gH%)+VFSl'm!"h7qI\5-A%(qNR7Nu*"c#g--dnE*A;2_C_!3-WnLr@.Y@b@Hd:Da&J`J8a,CLu(6Pt19+mkT%lYVFFL)QB?gup).*G(J<i5etn@6FtMgUBFO-A=E$n2Uc8hY:g_`c/kahR,X[ZL~>endstream
 endobj
 xref
-0 11
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000511 00000 n 
-0000006622 00000 n 
-0000006729 00000 n 
-0000006836 00000 n 
-0000006948 00000 n 
-0000007060 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 11
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<bfe0665bd8bd43b885028ae98a3b0fb4><bfe0665bd8bd43b885028ae98a3b0fb4>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-7144
+2692
 %%EOF

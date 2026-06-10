@@ -1,316 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 6076
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 3  \267  2ND TERM  \267  PROPORTIONS) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Comparative Measuring) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (Using one part as a unit to measure the whole) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (Comparative measuring is the foundational proportional method. Pick one part of the) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (subject \227 often the head, or a key unit of length \227 and use it as a repeatable ruler to) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (establish every other measurement in the drawing.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (The Unit) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (Choose a reference unit: the height of the head,) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (the width of the torso, the length of one finger.) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (Hold your pencil at arm's length, close one eye,) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (and measure the unit against your reference. This) Tj T* ET
-BT 1 0 0 1 43.2 488.2 Tm (is your yardstick.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (Plumb Lines) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (A plumb line is a vertical reference line dropped) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (from a key point. It tells you what is directly) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (above or below something else. 'The left knee) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (aligns vertically with the chin.' Essential for) Tj T* ET
-BT 1 0 0 1 313.2 488.2 Tm (accuracy.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 441.2 Tm (Horizontal Alignments) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 429.2 m 288.8 429.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 417.2 Tm (Use horizontal sighting lines to find what aligns) Tj T* ET
-BT 1 0 0 1 43.2 404.2 Tm (across the figure. 'The bottom of the ear aligns) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (with the bottom of the nose.' These relationships) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (create an invisible grid that structures the) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (drawing.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 318.2 Tm (Checking Your Work) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 306.2 m 558.8 306.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 294.2 Tm (After placing major landmarks, check them against) Tj T* ET
-BT 1 0 0 1 313.2 281.2 Tm (your reference unit. Does the torso measure 2.5) Tj T* ET
-BT 1 0 0 1 313.2 268.2 Tm (heads? Does the arm reach to mid-thigh? Use) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (measuring to check \227 not as the only way to draw.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 200.2 m 568.8 200.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 183.2 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 167.2 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 167.2 Tm (Draw a figure, measuring every proportion against the head height. Aim for the 8-head) Tj T* ET
-BT 1 0 0 1 54 154.2 Tm (canon.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 137.2 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 137.2 Tm (Draw a still life, using the tallest object as your reference unit.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 120.2 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 120.2 Tm (Draw a portrait, using the eye width as the base measuring unit.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 105.2 m 568.8 105.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 88.2 Tm (FURTHER READING) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 72.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Figure Proportions) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 61.2 Tm (https://youtu.be/nJ6QivnCQqg) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 46.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 How to Measure) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 35.2 Tm (https://youtu.be/C8XGCelJzXE) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 3: Proportions \227 Comparative Measuring) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1590
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /ZapfDingbats
-/Name /F3
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gatm:bAu>q']&X:m]K=)@7BHI0q1klE>!J#k@&M\R;<uO&eT`r"+X;%YO;K_M6`\j9q1[/KLt*nq`<mqV%N^TGi][fq1='DPu='u@SQ)4RF'rN/f#h,:Qj*f)c+Lrs)'bC3ZapP:gR[C"g+Dg]Z6/A2a5Cu]G_Npng^#qjR^JQV.;?P'Vc*2EB;C?.H%*/QN1>\GNR;B/GO8N9<kd=-hX?K^.c&9T$ZI1/Y3/*h`o&M($P`XT*Lu;R8'rR:m)RbdCAs0DE@(2&:q$<F%4WG5%[qmn#WLJp!ROJ#l\YU0.(D%cR:6JF?1p#R2;X*Qp&6WFnchcYmf;Jir<VjRT\e7<mVq?\],fuO'ka2HgHu?q#,Z)U`j:0r8.Cilb8;m:%CE7@AW2MX%'G^5:/5!;onQgf9b+@(E^@5_K:0)^-6D?/o>sbqe5dNR19r?CLH98E`h^M(fo?fj20M`6.k2=XJn(:-.a\4$1<X1@Rk($Qi*0#`Y)4-d$/'[YqF^bF8EnT<G/$ARS-'X7VqaU,:3!%QY47%E?ZTa<h'cN.i=Hh*R/k.#9Ugg5JNDr4FS#]+4,<m'=q%],s#:<2V!skAd=6K.V<T2Ju]'ACWZHU6m]5/>2$7T/D;b2gm!8K?4+,5kh>A5=?L1m4=BCQNhomd=BNsf`^AhJ"hfKu\0BNXBMln`[s,Zp4Z&"tYcTQG5-7Xe=l:`F%WSaG:nsjO,A4jo9sUrr0*B#u7Ou#U$QEPpno#q<2-':Ncc]HB;a$3Xfu+!U=\IOP)cHE$,GsM(&\ml`:%H"eVa$/QPPJVZs3U,Wg[k$O/oMN_Nt1_BT`$s@6!&PpB!G+0Gj%=,MEn=e?;slAoR\`a%X%,r=p\OSo\Icon@WQ6qOuuADP_,Ffp:4;3Zm*XK?<+JGGD!Z.JRb32AG'l?I96n]t4[?<Q9=<1=`V*MAu#kU,Mk9=`1'M>i2^RUm/96hRTO$mk".M!N@*lI39,M%)]-*G"\^`47li)B4N)_!W<!6W=bpL,UCeHrG2n-T]X9B*D_`eTV_->+Zd!-Y(_j]U<F)tDlbbNR8/*T(Ct3+V>C[[XA7tTjH:[pTHm.HTBL(tD$s?);C<Ti_'5*FSjOKclF-,EO,Q_<*Y>)Y"JKtOk3YsDp(8L/VpheK^[gM@mX?>la4]OObe&'@hS-S2\[d*7rUT7N&Z/"eUGFPDc+hB?QTeBqRPd9:cn-Z)6?fE8qq\GMfZ7nC#T%8(j7CT)R.NZl[C8UOo[4*nd8i,gg107K_@;);B#h5+_Y6%2GUWYeF_SMA=B;1?n;oSpnWouJ^i%<qM?-Ytkc@G@;Q7[pH"^[@)1-`&flJ'S?:CD>/"mrb6>2aI&<l;t_M'M@42,M?B?Nb!gHH_#\X%]3Acjc&,jpSl(d`*h7p`m1K^7f3:ZC*LJb?:Qqn^@U5q]do67pHblZG.FEm<P1nBDO:.F)WEgBcVcE.DN#/^k\*$jmgbZ%la\)%..6r%0/rj]Mq$/1^nD&@dWCnGn5P+LX2:Ea>Z`(Ui"M1P+-9ZUT>AD:^Ips*+i5kK##%\j4kl#aAB+@>'\KeG)5j8)F[-8Z9;a%sUerrr<JSTR[~>endstream
 endobj
 xref
-0 11
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000511 00000 n 
-0000006639 00000 n 
-0000006746 00000 n 
-0000006853 00000 n 
-0000006965 00000 n 
-0000007077 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 11
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<43a5f3f1196a2e6fd87143f27fd6996f><43a5f3f1196a2e6fd87143f27fd6996f>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-7161
+2602
 %%EOF

@@ -1,312 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 6344
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 4  \267  2ND TERM  \267  LIGHT & SHADOW) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Five Elements of Shading) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (The components that create convincing light on form) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (Every lit form can be broken down into five distinct value zones. Understanding these) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (zones \227 and where they appear on different shapes \227 gives you a systematic approach to) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (shading any subject convincingly.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (1. Highlight) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (The lightest area, where the light source strikes) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (the form most directly. On a shiny surface, this) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (is a bright specular highlight. On a matte) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (surface, it's a broader, softer light area. The) Tj T* ET
-BT 1 0 0 1 43.2 488.2 Tm (highlight moves as the viewer moves.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (2. Midtone / Light) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (The area receiving light but not the direct) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (highlight. This is usually the largest lit area.) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (It shows the form's local color under normal light) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (conditions. Gradients within the midtone reveal) Tj T* ET
-BT 1 0 0 1 313.2 488.2 Tm (curvature.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 441.2 Tm (3. Core Shadow) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 429.2 m 288.8 429.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 417.2 Tm (The darkest part of the form shadow, just inside) Tj T* ET
-BT 1 0 0 1 43.2 404.2 Tm (the terminator. This is where no direct or) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (reflected light reaches. It should be the darkest) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (value on the form \(though not necessarily in the) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (whole drawing\).) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 318.2 Tm (4. Reflected Light) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 306.2 m 558.8 306.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 294.2 Tm (Light bouncing back onto the shadow side from) Tj T* ET
-BT 1 0 0 1 313.2 281.2 Tm (nearby surfaces \(the ground, a wall, etc.\).) Tj T* ET
-BT 1 0 0 1 313.2 268.2 Tm (Reflected light lightens the shadow side slightly.) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (Common mistake: making reflected light too bright) Tj T* ET
-BT 1 0 0 1 313.2 242.2 Tm (\227 it should remain darker than the midtone.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 195.2 Tm (5. Cast Shadow) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 183.2 m 288.8 183.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 171.2 Tm (The shadow cast by the form onto surrounding) Tj T* ET
-BT 1 0 0 1 43.2 158.2 Tm (surfaces. Generally darker near the form and) Tj T* ET
-BT 1 0 0 1 43.2 145.2 Tm (lighter farther away. Has a defined shape that) Tj T* ET
-BT 1 0 0 1 43.2 132.2 Tm (describes the form's silhouette and the direction) Tj T* ET
-BT 1 0 0 1 43.2 119.2 Tm (of the light source.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 131.6 m 568.8 131.6 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 114.6 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 98.6 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 98.6 Tm (Set up a sphere under a lamp. Map all 5 zones with labels before drawing.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 81.6 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 81.6 Tm (Create a value scale: white ) Tj /F3 9 Tf 10.8 TL (\256) Tj /F1 9 Tf 10.8 TL ( highlight ) Tj /F3 9 Tf 10.8 TL (\256) Tj /F1 9 Tf 10.8 TL ( midtone ) Tj /F3 9 Tf 10.8 TL (\256) Tj /F1 9 Tf 10.8 TL ( core shadow ) Tj /F3 9 Tf 10.8 TL (\256) Tj /F1 9 Tf 10.8 TL ( reflected light ) Tj /F3 9 Tf 10.8 TL (\256) Tj /F1 9 Tf 10.8 TL ( cast) Tj T* ET
-BT 1 0 0 1 54 68.6 Tm (shadow.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 51.6 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 51.6 Tm (Draw a portrait using only the 5-element framework. Label each zone lightly.) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 4: Light & Shadow \227 Five Elements of Shading) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1695
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /Symbol
-/Name /F3
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gatm:9lo&I&A@sBm&:YBA6,M?do/BhV!`Jt-J#"L^-Eql+pJ&`!3N37^2H;0Z6e+:-Q.sk;W-utO10%qdL^nBr6/rNb9d,X5,C*2AP),G):S/2Y*N^MSL)1!2O]TgptMps9JiBYBXZ"'8Lf3RqZN+iG<VQD3#XF=RFge?4I_C%.4+#rGVRG34\A5NkR.+L4sY[10q<NJ-KA4bKM!"TCm8'],#h-OlZ66YU#jT?k,2/5kp"sBSiTYWIPKk+@jJB@B19paJr;?0fj[,b/J&f5\WP`Q"2"F]S'd4!=+Pgp]1Nc\o8O<Yq[eq03)+$a8etPjR4]nU08A_#HBS-390K%$Fs<Ergu#/&8QT*HdKE@SN9I4Y2rH(D*ILHur;V53Umr2MJ+W^86f6+V`j8f'`Kd=4(S,0k5,Wl^g5G@BT!e1\lGN;^mFCCO;jaB@"'T'BBihhcl7j4252#HR*V)'AB+ab#;7\>n(!*Pla?5Qfm)DuGec"5@),'iTF=Z5]kXH;5X^f-7R=;M`Hm:c_)]NHh8T;CjTMfGsD11'uo;5=o&:/\Q5)@LU3a,0$S^9)*iM>*hj!1Q"LC2u]aK%Wk""Gk=1dHh!?M0&":a\mF<*ASH"Sm3UFDic@=@49#[$;*:esu=Flj-]Sr8)^$g",5#ABU-p'Q1>7U\WK+,+"mr&>k8$El$itjPfIFO>Xk;kfp(c]0B*T(5^,bQ"M*L>0!ccMWmM\K$&);*RLgG$#I.qG]k=?Sf/t>VB_cRJA`u>l(s>i3GAibfZ)+4mG95kWOeCL&jbeMB!llF['d#oWN\<um/n78^tbAK'l/uF:>YMMg6),`PArADBg)9#UH+ne]RJ1?rq>mQo$?X6jm1TZ-IW(NGE:mll5F^e4-]mO74gG6,G;WaU=RMneKdBjat&lEBSBfOf#;7m^i\lC<3RLA+2flGBR[*&#s.Fb/"/qGWKqfU9ZO,c3.M9e`DTomF!K<8/F?n5,UW]64(4mNA\gqQ#!MYX*\6eN/'t9FR(JV!3Hug^Qi8;X>5=Jpl@ZLjJ<0>Y@97KO%"uP`V_'_/`h\;mGO4M)::^W\,mH6s26n:md,`>6Fc6lInQ"+V:!,^R]F%kt085>Nha98E,9?X.-'@e,S>[5SAKtI48PEi(h*3ci0.fqaM0d'p6+U5;&ZiT/B>j#LmI:7('q_O\1-;G"/[d&p0#3I1ejL*S8WDnR@J5ij-h,D!Iq*jrUNoB!(J\T>Xn:YnG;PigONmXBkE#)8md@5BhS-UI4i;B5rSR"2%d3k?L21!ac+Oh@a?luqR\pTFVJ`ajE?,a"X?[93U)K81D<ne;9PXmhALD.RVHiuQWKm+r]4V+-J2p6cD?\#1ZNpQ,eNk#YQTX0o=:1]0-'SG/]R6u/?j2gVH\Ae]%=+>%G,gRRqFWUdKF/YI9ts?42<+*l)V5?Fg0h^C6)n(g$AHQ4^pZ[VrQ%(o\+?uI3=OkTni3J;l\0.70WDJK@U?>#oOZ[;?Tl9k/N"<tM"bIo>X5/$ifIN"6W[%1/qUe#+h.ggqtjGI.RN"ZG;sj.72r)GfV`c+n_%rtnR9^oF0uXl53-=@L(Yp&n[a(t$/FFbFTQmU/<;,g;6::ZjVt?S92u(R!a0hUp`LNg:Z)41\qkPOUls-k!Dn61H&G`]e<1`XNc^5N"XCi.FFY+(DYU5kg82sMNtm5krW,0Ahc9~>endstream
 endobj
 xref
-0 11
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000511 00000 n 
-0000006907 00000 n 
-0000007014 00000 n 
-0000007121 00000 n 
-0000007233 00000 n 
-0000007345 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 11
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<d3e7d1e586ce812ac4e89d4c30bdfcf3><d3e7d1e586ce812ac4e89d4c30bdfcf3>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-7423
+2707
 %%EOF

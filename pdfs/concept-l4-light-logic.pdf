@@ -1,317 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 6282
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 4  \267  2ND TERM  \267  LIGHT & SHADOW) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Light Logic) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (Consistent, believable lighting) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (Light logic means that every shadow and light in your drawing is consistent with a single,) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (coherent light source. Inconsistent lighting is one of the most common ways a drawing) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (feels 'off' even when the drawing is technically correct.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (One Light Source Rule) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (Unless you're deliberately working with multiple) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (light sources \(studio lighting, candlelight +) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (window, etc.\), establish ONE light source and make) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (everything consistent with it. Decide: where is) Tj T* ET
-BT 1 0 0 1 43.2 488.2 Tm (the light? How high is it? How far?) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (Light Families) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (Group your values into two families: the light) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (family \(highlight + midtone\) and the shadow family) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (\(core shadow + reflected light + cast shadow\). The) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (lightest shadow should always be darker than the) Tj T* ET
-BT 1 0 0 1 313.2 488.2 Tm (darkest light. This separation reads clearly at) Tj T* ET
-BT 1 0 0 1 313.2 475.2 Tm (any distance.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 428.2 Tm (Mapping Before Rendering) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 416.2 m 288.8 416.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 404.2 Tm (Before shading, do a simple black-and-white map:) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (light side = white, shadow side = black. No) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (gradients. This forces you to commit to the light) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (logic before you get lost in rendering. If the map) Tj T* ET
-BT 1 0 0 1 43.2 352.2 Tm (doesn't read, the rendering won't either.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 305.2 Tm (Shadow Direction) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 293.2 m 558.8 293.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 281.2 Tm (Cast shadows always fall opposite to the light) Tj T* ET
-BT 1 0 0 1 313.2 268.2 Tm (source direction. If light comes from upper left,) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (shadows fall lower right. Check every cast shadow) Tj T* ET
-BT 1 0 0 1 313.2 242.2 Tm (in your drawing \227 do they all point the same) Tj T* ET
-BT 1 0 0 1 313.2 229.2 Tm (direction?) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 174.2 m 568.8 174.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 157.2 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 141.2 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 141.2 Tm (Draw an arrangement of 3 objects with a single lamp. Before shading, make a B&W map.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 124.2 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 124.2 Tm (Copy a master drawing and check: is every shadow consistent with one light source?) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 107.2 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 107.2 Tm (Draw the same object with light from 4 different directions. Map the shadows each time.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 92.2 m 568.8 92.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 75.2 Tm (FURTHER READING) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 59.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Understanding Light) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 48.2 Tm (https://youtu.be/V3WmrWUEIJo) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 33.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Watts Atelier \226 Light Logic) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 22.2 Tm (https://www.youtube.com/watch?v=fFwmvzCIXAM) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 4: Light & Shadow \227 Light Logic) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1625
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /ZapfDingbats
-/Name /F3
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gatm:_/e9g&A@rkp=)qq1+Q6:.Aj#SF])j7EF\=_R9h"V,pFN>"otdhn,!)_PS1URTcVr$9n<,t0&G>o82L0sr\La7Y#b2<]9'mc<Z;D++K![@?*>lp>QhBE1geJkqes0]B`-ls*_Nbp1t1U3`@!b\%`+>c^sXdOB3r2HEOq+l+U.B[c=R[&kM\PrTn"5FPQ5$:3_RdGEa0s"j?ed<CppIMAWWthB3K_\eJh$Mdo5$I$]henK82WTTCL-6"R4?G77"5p78-"3/SFY`b\2%?`i'*fr=_UKh9'SKkpLd*7A9E>TTG*HJh.DL1nc%M_F9VbYfp]fQ97`%ku3Wkng>#$II98^XkLqq#De<5L`"P]Iig:pct.f<J+nBkIQ5*2i\V)W>ZLFcCsXRKe+h6M4aVe.2^`imrVks>a6WVh;cn_C$#M(kdMM5*qE5`lH?#0C3-3]e9[>1i$:DD*fM"jn"\D?+<E3dP#camR=,i?^Eau.;5^,rJFAO!c1>e4eb(hC@k1iSZ9Sjio+)D60P&/oKIEZ@[.$X#B=B[MP"dE%FE.fM^C*nT33<uo@EU?1_:m[i_qE"#I>1QGf`e(6!f'la6<e7]W5D&^U<\lfU8;,P<hefddOJ8['U]n7/SHnYe$0[8UZ>!QSTe5gnUc(bm8<cPLP$3?)[NgrO$>p_'Y!Tf4>f_miV5-,tP"GO!ld#A,)Fb1V[>HoOIsfMOkR>)8#LHk?D%DX>DB*(<B>G"S^=q&3;JHH&a+E]T/JShY.;F",P=-b<lMeW1/=?,WC[RlZ/W`D$gh+T@l;ga"[RF6bKT=,0%pC*1_23Z:O8ed"gu)`ea'$guq3dL-8-au)?Ho?eEf0^CD#3>Ne^`P9&$)&'RkKp<g+1j`EXe&%G"BkC+pS8tO2c5VpsKJ)mI8[KBjM,uEm*/cj)i;S"PdauATR"bn[p1Z>r1bSN%Z[<*;2]d(qF6eSPF]4>]R+2@M#1%l@\]``lhVdMCdBKXK\6:[6)c@#oD-VZ:.OiM-Q]$R,,T0)E;UAkfj;YkaR`nFGB+)4GSjeD8jgf6Ddcc,bX$,Yi7CV4sa.&.J-^]>WLDS8;gLa:pl?i8EV:3TD*0hi's*@YI\7c%Q-4t7';e0W5mQf`"$@&/V1G6h]62]=3`N0P$WbW5Dh=]i9!mOe^Q2[Ekr7K65]8%VlGL#`u1W]a[]Ka%2c^Se$gdt"!c+Sb?h3pXJFmXGs*CtBBcJ@bJ3K6hH`?.gt[>UmIoWM_^p0-RG"',Rbh3:;CAp>:*Gr5f>=O>Zr8#npQSK'g^3XUpIpR;-D5^gf,A\9]eQ'9I.,t_Tt`B)1M1.0TRsWiB#[P2ba&_PN":BGo`jpA)Y6^U9BDT6!a#?ilSjAc?8Ctq,jBDb>4h@0l-3qJ;7c0FbZV&+Gdm"@h^T*,5Z;O!L>4Id]N\P_)sdJX<e;#*)pjS:$9>TH%FODh6Uh[=Pr.Tj>ABuA+/ohj3gYp*Q:a8Ykpc]l<2u8_"un;<Y$q9dqX;II35ge[[f[o''C_I]%ei6o0,b+qoEfB<oPSn4)=\\LMoKK9VShY-(=lb9F(+$0.r/MB66)l0BCEn"IAnY0d+iPPh;sH(L-FRsmG9j`P8PX'-bcC7IfVe<RgT~>endstream
 endobj
 xref
-0 11
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000511 00000 n 
-0000006845 00000 n 
-0000006952 00000 n 
-0000007059 00000 n 
-0000007171 00000 n 
-0000007283 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 11
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<72c6fc1069179107b41e0d6557ec2304><72c6fc1069179107b41e0d6557ec2304>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-7367
+2637
 %%EOF

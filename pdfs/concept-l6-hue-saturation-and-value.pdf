@@ -1,325 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
-/F3 10 0 R
-/F4 11 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 6208
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 6  \267  3RD TERM  \267  COLOR FUNDAMENTALS) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Hue, Saturation & Value) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (The three dimensions of color) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (Every color has three independent properties: hue \(which color\), saturation \(how pure\),) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (and value \(how light or dark\). Understanding these three independently is the foundation) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (of all color knowledge.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (Hue) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (Hue is the pure color identity \227 red, orange,) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (yellow, green, blue, violet. The full spectrum of) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (hues forms a color wheel. Hues that sit opposite) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (each other on the wheel are complementary;) Tj T* ET
-BT 1 0 0 1 43.2 488.2 Tm (adjacent hues are analogous.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (Saturation) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (Saturation \(chroma\) measures how pure or grey a) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (color is. Full saturation = the most vivid version) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (of that hue. Zero saturation = pure grey. Most) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (colors in nature are relatively desaturated. High) Tj T* ET
-BT 1 0 0 1 313.2 488.2 Tm (saturation should be used sparingly for emphasis.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 441.2 Tm (Value) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 429.2 m 288.8 429.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 417.2 Tm (Value is the lightness or darkness of a color,) Tj T* ET
-BT 1 0 0 1 43.2 404.2 Tm (independent of its hue. Yellow is naturally high-) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (value; violet is naturally low-value. You can have) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (a dark, saturated red or a light, desaturated red) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (\227 these are different values of the same hue.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 318.2 Tm (Adjusting Independently) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 306.2 m 558.8 306.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 294.2 Tm (Practice adjusting one property while holding the) Tj T* ET
-BT 1 0 0 1 313.2 281.2 Tm (others constant. This builds understanding of how) Tj T* ET
-BT 1 0 0 1 313.2 268.2 Tm (each dimension works. When a color looks 'wrong',) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (ask: is the hue wrong? The saturation? The value?) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 200.2 m 568.8 200.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 183.2 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 167.2 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 167.2 Tm (Create a hue wheel with 12 colors from primary mixing alone.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 150.2 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 150.2 Tm (Take one hue and make a 7-step saturation scale \(full ) Tj /F3 9 Tf 10.8 TL (\256) Tj /F1 9 Tf 10.8 TL ( grey\).) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 133.2 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 133.2 Tm (Mix a 5-step value scale with one hue \(dark ) Tj /F3 9 Tf 10.8 TL (\256) Tj /F1 9 Tf 10.8 TL ( light without changing hue\).) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 118.2 m 568.8 118.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 101.2 Tm (FURTHER READING) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 85.2 Tm /F4 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Ctrl+Paint \226 Color Theory Basics) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 74.2 Tm (https://www.ctrlpaint.com/videos/color-theory) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 59.2 Tm /F4 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Understanding Color) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 48.2 Tm (https://youtu.be/AZhO4VjQUPE) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 6: Color Fundamentals \227 Hue, Saturation & Value) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1580
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /Symbol
-/Name /F3
-/Subtype /Type1
-/Type /Font
->>
-endobj
-11 0 obj
-<<
-/BaseFont /ZapfDingbats
-/Name /F4
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gatm:d;I\s'Rf^Wgnu;E*7^3`g$To9AOr7(6*eL"LB2[o-/)fqM$ci-p##5"P%D[NP@4iN=GBE(F7-a)>UlNMr^-XQ(.@>,H@Hf1(t!_&@3!3B^S-R2n#7*3-IHchUuS@Zoh']r_4gBU,0aitY4if(_DZWo%^7dWi\N/kW-CF]LEQik.%Unm4GVm7lpCe<lmMnIn8p"K:#rgSfUQTCD+(q7R*C7_'rNng9(R7ek3)2QPA/\.N[KiC"j%$W@LAjoA2'PQ*&eioAamJog_a$h64ZpMVE^;ERP*n]@g+M;PNESu8OqeY<oU?XM*lN;),]H&+&(]K*%,u#i@(*l0UWEfB`b#NE`M]pc'YUjZN>N'TeB*jr"\j$]L*3DKE"`\+EY/hpd`[-O)7)hMT=a"_)Frl*sR_!s&dt<=\$dk5$m.'?JN;c_C1B;BPgn8VCXgY@l/:VZu;f<%a;2u]NB6gV:7FYB816*3N#KMMJF`Pkn>R'P+:bL9#ED#RS's@:r+4C.4c3VRM0='E(s@FbJ)QI2DG;#Rn.XiE2rTO8M+5PB%I94-0s$G9;sgt>"I7KV-1@GZ`8-oH#VDN@451r&uF]d5q)+YnU3N9ps:0:L$!$\>`"V*(k5YhEk*LF7!-cn(iMtrj2_j8lkTU<1r@t?8fY8L1Lp:O3@;!@[FnQ:o$J88;9!lMW>:3Z%KkI>ZFM?If<3>Ug61nn-C.<-@3o)==;0%g3QI6t7On(EBVQ<R+j(:U;8l?BoE]S=25L^Ob[]C';t3g<77p>]k]-aVCZEM=S[9X=g[:DVk!ogF6[tX`CG0H\SgKFtJ$9Ojj&X-o2fiGum%aP%-XPW"TDs=&S%kI67eIhih`5Zrs3umH<4GaYN[QBR/V=%,NuWM0QI(3F9FCDIm2GErl<=tLp!S[^[gM\H99n'j[J^2eFpAU0_lhShB:6O\2s<Ji?G$Xu"^eTijM]Z3U,]Ap'ARiC_bt6[4E`3_G)/=Hgf/tWZ'd1Y"9#]cD'<OW_5AUAa@=!Nrds+S'fL7uGmTp^71)7"Qkoe/3cuD8\`HMS]MC&TKukKb'[(@r\jt;r&6ib%oGoOQH)cS[0PVF#fC('*iMj`5ppZJh0&o-\b51\m>%2epEe32*1/t3d0H@neq:9Due7BPI?OHsZ[,HICCn0+*=\K"ej[sEC=&_-t2(JO?b5S8_4-'iGpe>Y<5O\%n04qQV]A)4]?Ht53P;g/ESBn?M?dSG(b>t9BDGEH4PsUb!Bd[JNig%:u9fmX&;R.=m_AYYc+k53Q-S6,?#/ZlHCfMrtbl&!HET&p2G*I&\9BMeS+58k2\a;b%74$c.h;!bA>]c?qIq+0l\;QJA#LqI5__QHI,@bke3oTK^J5K_6!lNpV/AkcEKXEhHNM;\!OSZjdZ`@+'[M#R7\%gql*dFn0;+b)R[L)eLg8@8JB3(:*KL!,Fm#l.f&m$c:$i9,8Uus@1"6^FbHs)bug&;KQC_.#0K.o\X2fsXqcJ;bT49bc)n8O9\=-D)b'=Jcfql:<M`#Q,iV1Rqh(h.hn<T768(GF>,IE#hu)m&Bc$p6Ed-dkMfO3L80IfKN0N%Y~>endstream
 endobj
 xref
-0 12
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000522 00000 n 
-0000006782 00000 n 
-0000006889 00000 n 
-0000006996 00000 n 
-0000007108 00000 n 
-0000007220 00000 n 
-0000007298 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 12
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<41e8d329daf4e237303f9ce28f4ffb15><41e8d329daf4e237303f9ce28f4ffb15>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-7382
+2592
 %%EOF

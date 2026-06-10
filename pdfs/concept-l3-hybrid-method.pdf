@@ -1,327 +1,74 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (The Drawing Path \204 thedrawingpath\056com)
-/Author (The Drawing Path)
-/Creator (The Drawing Path)
+/F1 2 0 R /F2 3 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Contents 5 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font <<
-/F1 6 0 R
-/F1-0 7 0 R
-/F2 8 0 R
-/F2-0 9 0 R
-/F3 10 0 R
-/F4 11 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 5 0 obj
 <<
-/Length 6326
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-.05098 .05098 .05098 rg
-n 0 0 612 792 re f*
-.788235 .658824 .298039 rg
-n 0 789 612 3 re f*
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 759.6 Tm (LESSON 3  \267  2ND TERM  \267  PROPORTIONS) Tj T* ET
-BT /F2 28 Tf 33.6 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 716.4 Tm (Hybrid Method) Tj T* ET
-BT /F1 13 Tf 15.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 691.2 Tm (Visual blocking + structural correction) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 676.8 m 568.8 676.8 l S
-BT /F1 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 655.2 Tm (The hybrid method combines visual blocking \(intuitive, gestural\) with structural measuring) Tj T* ET
-BT 1 0 0 1 43.2 640.2 Tm (\(analytical, corrective\). Use your eye to get close; use measurement to get it right. The) Tj T* ET
-BT 1 0 0 1 43.2 625.2 Tm (best of both approaches.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 599.2 m 568.8 599.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 564.2 Tm (Block-In First) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 552.2 m 288.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 540.2 Tm (Start by visually blocking in the major shapes) Tj T* ET
-BT 1 0 0 1 43.2 527.2 Tm (with confident, light marks. Don't measure at this) Tj T* ET
-BT 1 0 0 1 43.2 514.2 Tm (stage \227 just respond to what you see. Get the big) Tj T* ET
-BT 1 0 0 1 43.2 501.2 Tm (relationships: where the top is, where the bottom) Tj T* ET
-BT 1 0 0 1 43.2 488.2 Tm (is, how wide vs. tall.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 564.2 Tm (Measure to Correct) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 552.2 m 558.8 552.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 540.2 Tm (Once you have a rough block-in, switch to) Tj T* ET
-BT 1 0 0 1 313.2 527.2 Tm (measuring. Check each measurement against your) Tj T* ET
-BT 1 0 0 1 313.2 514.2 Tm (unit. Where are you off? Adjust the construction) Tj T* ET
-BT 1 0 0 1 313.2 501.2 Tm (lines. Don't start rendering until the) Tj T* ET
-BT 1 0 0 1 313.2 488.2 Tm (construction is accurate.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 441.2 Tm (Iteration) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 43.2 429.2 m 288.8 429.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 43.2 417.2 Tm (The hybrid method is iterative: block ) Tj /F3 9 Tf 10.8 TL (\256) Tj /F1 9 Tf 10.8 TL ( check ) Tj /F3 9 Tf 10.8 TL (\256) Tj /F1 9 Tf 10.8 TL T* ET
-BT 1 0 0 1 43.2 404.2 Tm (adjust ) Tj /F3 9 Tf 10.8 TL (\256) Tj /F1 9 Tf 10.8 TL ( check ) Tj /F3 9 Tf 10.8 TL (\256) Tj /F1 9 Tf 10.8 TL ( refine. Don't try to get it right) Tj T* ET
-BT 1 0 0 1 43.2 391.2 Tm (in one pass. Each round of checking narrows the) Tj T* ET
-BT 1 0 0 1 43.2 378.2 Tm (error. 3 rounds of checking will get you to 95%) Tj T* ET
-BT 1 0 0 1 43.2 365.2 Tm (accuracy.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 313.2 318.2 Tm (When to Use Which) Tj T* ET
-.788235 .658824 .298039 RG
-.5 w
-n 313.2 306.2 m 558.8 306.2 l S
-BT /F1 9 Tf 10.8 TL ET
-.784314 .764706 .737255 rg
-BT 1 0 0 1 313.2 294.2 Tm (Gesture and quick studies: mostly visual.) Tj T* ET
-BT 1 0 0 1 313.2 281.2 Tm (Portraits, figure drawings, technical) Tj T* ET
-BT 1 0 0 1 313.2 268.2 Tm (illustrations: mostly measuring. Long-pose figure) Tj T* ET
-BT 1 0 0 1 313.2 255.2 Tm (studies: hybrid throughout, with more measuring as) Tj T* ET
-BT 1 0 0 1 313.2 242.2 Tm (you refine.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 187.2 m 568.8 187.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 170.2 Tm (PRACTICE EXERCISES) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 154.2 Tm (1.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 154.2 Tm (Do a 20-minute portrait: first 5 min visual blocking, then 15 min of checking and) Tj T* ET
-BT 1 0 0 1 54 141.2 Tm (refining.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 124.2 Tm (2.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 124.2 Tm (Draw the same still life twice: once pure visual, once pure measuring. Compare.) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 107.2 Tm (3.) Tj T* ET
-BT /F1 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 54 107.2 Tm (Practice the 'check step': after each 5 minutes of drawing, pause and measure 3 things.) Tj T* ET
-.145098 .145098 .145098 RG
-.5 w
-n 43.2 92.2 m 568.8 92.2 l S
-BT /F1 7 Tf 8.4 TL ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 43.2 75.2 Tm (FURTHER READING) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 59.2 Tm /F4 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Sight-Size Method) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 48.2 Tm (https://youtu.be/C8XGCelJzXE) Tj T* ET
-BT /F2 9 Tf 10.8 TL ET
-.941176 .921569 .890196 rg
-BT 1 0 0 1 43.2 33.2 Tm /F4 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( New Masters Academy \226 Measuring) Tj T* ET
-BT /F1 8 Tf 9.6 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 22.2 Tm (https://www.youtube.com/watch?v=b_w_hdwafV8) Tj T* ET
-.078431 .078431 .078431 rg
-n 0 0 612 28.8 re f*
-BT /F1 7 Tf 8.4 TL ET
-.478431 .458824 .439216 rg
-BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 3: Proportions \227 Hybrid Method) Tj T* ET
-.788235 .658824 .298039 rg
-BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
- 
-
-Q
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.05098 0.05098 0.05098 rg
-n
-0 764 612 28 re
-f*
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.788235 0.658824 0.298039 rg
-BT
-1 0 0 1 20 774 Tm
-(THE DRAWING PATH) Tj
-T*
-ET
-BT
-/F1-0 6.5 Tf
-7.8 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 527.689 774 Tm
-(Teach Yourself to See) Tj
-T*
-ET
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 763 m
-612 763 l
-S
-0.05098 0.05098 0.05098 rg
-n
-0 0 612 22 re
-f*
-0.788235 0.658824 0.298039 RG
-0.4 w
-n
-0 22 m
-612 22 l
-S
-BT
-/F1-0 6 Tf
-7.2 TL
-ET
-0.478431 0.458824 0.439216 rg
-BT
-1 0 0 1 20 8 Tm
-(thedrawingpath\056com) Tj
-T*
-ET
-BT
-1 0 0 1 537.892 8 Tm
-(\251 The Drawing Path) Tj
-T*
-ET
-Q
-
-endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260610052941+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260610052941+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 7 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1461
 >>
-endobj
-9 0 obj
-<<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
->>
-endobj
-10 0 obj
-<<
-/BaseFont /Symbol
-/Name /F3
-/Subtype /Type1
-/Type /Font
->>
-endobj
-11 0 obj
-<<
-/BaseFont /ZapfDingbats
-/Name /F4
-/Subtype /Type1
-/Type /Font
->>
+stream
+Gau0B9lJcG&A@sBbV:\IXn?OT:CWDo=`ficnYJK'PXJZ5,uPnc)#EutTk)hOdU]VP71`Z7aa#[\hAb1(3WAjB1N*9=<q+.B+8c+>-2<T=_<Mu0Y@dMbDnZLo3/#?0H9IJ[G_1_!AH8/dq0r#>O8*5S,kZ+j^;S@1ThnUtLdE2r.#sVb!5Clc9O0'bpSX5e]Q*0e>W)WEEagP*BXSXrh(i2[\SC!;l4-k`.Err1EKd4`iMI"*)8%67LBtP#\X8/qhrFS)JHcAWN>nW<KQ%k5.=BaI<S@d+bq&S2*e,('I[Yer%/`(fK""k-rFPO&58iqm#[A=#Ku<rEB3H#=2n,&%?GVSq*Ms?Or;UQpq,AharTO.TbLjN5U,;NUI&c/ffq:Y#08U*t)L-H)jl5k%r;,Lfip`UX,@/DVf+.I.=rM\V^2rq*R&Ru.<?/#i^W,dKW1-IODSU-)YdW)>jV9]rTbQ55;oi^=Da6iY]tl*VGS$`^Fkst&8_+"4q'fG%),"bYlL_6T'9sH<*uN,[p>%1:OO+l*i66;3[Tf>);VZJ\JHCKo1aXY)Xa+eIpo-;VF6i<ODCh_!11dLPIe\'f.lB7#Q==)!0"G<_[!SkGL7i^hD?ZW/E%K<sc12o2Q>a@#p6si?hI+4rQm6OZ`%4rSOILZ$,mXmdfPkMl7OE@S%tsM9#QSA&[K@*20dJre#'X@XVP"09:bn$W>3UTlU%[O+YXqZ1b=$3[=!Zg]K4LQVn\'#Y;uC6^L_flds2>OVYKkFB?JMVgXpt]t*poR;![lkuL+jV/-Za))Z^,A_BWaWaP<0]L2"lT+1cE]`iWEB$=Tj(U.X`^Z-VRJff3<gN70-(fA@V/i!]MNS-:R?-A2TRJjP$.gOPM$iW@[EJEp#&Q0e`u[QA#&ZY8u>P\``i]*$WF-3%=V)Y>oAbbI/'b4J6kqfo6tB_uC^0\5*+YMI?[`*fXA^/^HkBrnrE8Vi2Np9QH[c8BP6`/??g.#O]_;7RjD]*k2D))YBl\nsJHr@h3N<1rSol=N_^<LV/X-6]LLU3'!RN!iat=LilpeX*Wu/_2VPi?;Qu.AW9X,+?S5BX:mJ)hD/@V:)R@Mrbd%pil3[4#JE=-1>P]Dkf,<4hW0"ZIXUnbr9!/$lLNE5QR`K]n:/-GVTFWE]31/Rb%];a,UNh-B<;h9.Ft;I(->5kL/P'aSFn;V7c[JinOt*rp2-X+\#rQiGc&;r9_YJi<X[B$n-K11>Y24t'"(l+PMGd79ii:$8sJP"h1bJ_5G$pE/\]^)QA]m>QN1TFm!2<X^9(CrR`*hDECuna0o`9s%;fO.^ah/NWc<XC4,hGn<a_>oL$_IhpRTAa(eYPK--G)@MtM-$8jc/Sh!k;&+,j"Njq[;l''Q"Fhb1(,K,r@['Mq@>BGJ5:<heaR*sTfTmVV&,C\eKj(FIfJBeNaUa"67h%;^nZ%?lhn#.%Z_&R7*~>endstream
 endobj
 xref
-0 12
+0 9
 0000000000 65535 f 
-0000000015 00000 n 
-0000000147 00000 n 
-0000000206 00000 n 
-0000000255 00000 n 
-0000000522 00000 n 
-0000006900 00000 n 
-0000007007 00000 n 
-0000007114 00000 n 
-0000007226 00000 n 
-0000007338 00000 n 
-0000007416 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000862 00000 n 
+0000000921 00000 n 
 trailer
 <<
-/Size 12
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<d85b9d5a04463c966c72f096ab8f01f5><d85b9d5a04463c966c72f096ab8f01f5>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
 >>
 startxref
-7500
+2473
 %%EOF
