@@ -1,86 +1,326 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R
+/Producer (The Drawing Path \204 thedrawingpath\056com)
+/Author (The Drawing Path)
+/Creator (The Drawing Path)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/BaseFont /Symbol /Name /F3 /Subtype /Type1 /Type /Font
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/BaseFont /ZapfDingbats /Name /F4 /Subtype /Type1 /Type /Font
+/Length 6222
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.05098 .05098 .05098 rg
+n 0 0 612 792 re f*
+.788235 .658824 .298039 rg
+n 0 789 612 3 re f*
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 759.6 Tm (LESSON 1  \267  1ST TERM  \267  LINEWORK & BASIC SHAPES) Tj T* ET
+BT /F2 28 Tf 33.6 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 716.4 Tm (Hatching & Texture Marks) Tj T* ET
+BT /F1 13 Tf 15.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 691.2 Tm (Building tone with line) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 676.8 m 568.8 676.8 l S
+BT /F1 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 655.2 Tm (Hatching is the technique of using parallel lines to suggest tone and shadow. It's one of) Tj T* ET
+BT 1 0 0 1 43.2 640.2 Tm (the oldest mark-making traditions in drawing and a foundational skill for pencil, pen, and) Tj T* ET
+BT 1 0 0 1 43.2 625.2 Tm (ink work.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 599.2 m 568.8 599.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 564.2 Tm (Types of Hatching) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 552.2 m 288.8 552.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 540.2 Tm (Hatching: parallel lines in one direction. Cross-) Tj T* ET
+BT 1 0 0 1 43.2 527.2 Tm (hatching: two or more layers of hatching at) Tj T* ET
+BT 1 0 0 1 43.2 514.2 Tm (different angles. Contour hatching: lines that) Tj T* ET
+BT 1 0 0 1 43.2 501.2 Tm (follow the form of the object. Scribble/random) Tj T* ET
+BT 1 0 0 1 43.2 488.2 Tm (hatching: loose marks for texture.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 564.2 Tm (Building Value) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 552.2 m 558.8 552.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 540.2 Tm (The closer the lines are spaced, the darker the) Tj T* ET
+BT 1 0 0 1 313.2 527.2 Tm (tone appears. Start with widely spaced lines and) Tj T* ET
+BT 1 0 0 1 313.2 514.2 Tm (add layers. Never try to get dark values in one) Tj T* ET
+BT 1 0 0 1 313.2 501.2 Tm (pass \227 build up gradually. Consistent line weight) Tj T* ET
+BT 1 0 0 1 313.2 488.2 Tm (makes cleaner-looking hatching.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 441.2 Tm (Directional Hatching) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 429.2 m 288.8 429.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 417.2 Tm (The direction of your hatching lines communicates) Tj T* ET
+BT 1 0 0 1 43.2 404.2 Tm (form. Lines that follow the surface of a sphere) Tj T* ET
+BT 1 0 0 1 43.2 391.2 Tm (will read differently than flat vertical lines \227) Tj T* ET
+BT 1 0 0 1 43.2 378.2 Tm (the former suggests roundness, the latter suggests) Tj T* ET
+BT 1 0 0 1 43.2 365.2 Tm (flatness. Use direction intentionally.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 318.2 Tm (Pen vs Pencil) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 306.2 m 558.8 306.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 294.2 Tm (Ink hatching must commit to each line \227 no) Tj T* ET
+BT 1 0 0 1 313.2 281.2 Tm (erasing. Pencil allows correction but requires) Tj T* ET
+BT 1 0 0 1 313.2 268.2 Tm (more care not to smudge. Pen hatching is typically) Tj T* ET
+BT 1 0 0 1 313.2 255.2 Tm (crisper and higher contrast; pencil hatching is) Tj T* ET
+BT 1 0 0 1 313.2 242.2 Tm (softer and more blendable.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 187.2 m 568.8 187.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 170.2 Tm (PRACTICE EXERCISES) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 154.2 Tm (1.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 154.2 Tm (Create a 5-step value scale using only parallel hatching \(white ) Tj /F3 9 Tf 10.8 TL (\256) Tj /F1 9 Tf 10.8 TL ( black\).) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 137.2 Tm (2.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 137.2 Tm (Draw a sphere using contour hatching \227 lines that wrap around the form.) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 120.2 Tm (3.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 120.2 Tm (Fill a page with cross-hatching experiments: vary spacing, angle, and layers.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 105.2 m 568.8 105.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 88.2 Tm (FURTHER READING) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 72.2 Tm /F4 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Hatching Techniques) Tj T* ET
+BT /F1 8 Tf 9.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 61.2 Tm (https://youtu.be/OcJPNMFFKHs) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 46.2 Tm /F4 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( New Masters \226 Mark Making) Tj T* ET
+BT /F1 8 Tf 9.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 35.2 Tm (https://www.youtube.com/watch?v=b_w_hdwafV8) Tj T* ET
+.078431 .078431 .078431 rg
+n 0 0 612 28.8 re f*
+BT /F1 7 Tf 8.4 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 1: Linework & Basic Shapes \227 Hatching & Texture Marks) Tj T* ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
+ 
+
+Q
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.05098 0.05098 0.05098 rg
+n
+0 764 612 28 re
+f*
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.788235 0.658824 0.298039 rg
+BT
+1 0 0 1 20 774 Tm
+(THE DRAWING PATH) Tj
+T*
+ET
+BT
+/F1-0 6.5 Tf
+7.8 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 527.689 774 Tm
+(Teach Yourself to See) Tj
+T*
+ET
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 763 m
+612 763 l
+S
+0.05098 0.05098 0.05098 rg
+n
+0 0 612 22 re
+f*
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 22 m
+612 22 l
+S
+BT
+/F1-0 6 Tf
+7.2 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 20 8 Tm
+(thedrawingpath\056com) Tj
+T*
+ET
+BT
+1 0 0 1 537.892 8 Tm
+(\251 The Drawing Path) Tj
+T*
+ET
+Q
+
+endstream
 endobj
 6 0 obj
 <<
-/Contents 10 0 R /MediaBox [ 0 0 612 792 ] /Parent 9 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 7 0 obj
 <<
-/PageMode /UseNone /Pages 9 0 R /Type /Catalog
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/Author (anonymous) /CreationDate (D:20260610004312+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260610004312+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (unspecified) /Title (untitled) /Trapped /False
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 9 0 obj
 <<
-/Count 1 /Kids [ 6 0 R ] /Type /Pages
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 10 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2044
+/BaseFont /Symbol
+/Name /F3
+/Subtype /Type1
+/Type /Font
 >>
-stream
-Gatm<D,8nW&H9tYQqqq5!lsa_S5(F;TqpdEM;,X78Cb`:,]4S`p"HqOpG]_@2'rbEcj7b50:A6!H01O8COhFpL,_XqJ?of5(Bt^'KMsR@c%b]p#2t-14*oi&do.t_aM]`;I,><*-n%dH+)%87S!F/FlejucBP-2g<hNdnr':1qP-7NF*r"k_3dfcirkOV(gQmScSNq6>>f,IM?p)0:_>A1i\fQAV%NugNY1<3qn7M1YmH>5]!GA=j@3<LUVg!d`3s`Sgpn#)4_3eX,4;uE&G+3FPgFt`+[(nL<2ZV)5F<bb6L1@`@'c>4B.AM0Oc-T`eJ!LhPpR2d([cn=oD2EX%O8`tA[k.\=>;"gAd.::fDIDCbq`CjA2!4e[4JP_#jW)\oUE+R)ATdY(5]`U<qD9N^=7]i,NpG`9\Op;c7]VG\c.D-uFW;97S"#'s3N#^%BV$M7.LPtc.`S*^83t[gVIC/4<Xu4"bpY*3ooUd02CEKNCG7=>AAE-Ge#1<9lJ:$fGO@1]@r?(='ffT`KudIaihT9=N'WUm>`bE3jc0U?o.#Y)In3IFM^2$e<WO_>77hgDcU[oX?1(Fpp`s'/SJM[9>8kCsH>DQR;&Uefn>Jt.>]i[1p+CB5;b$Lqn.kf/2uUQu\>;(>?@9f$V2'$'_Lc6j'ae7X;9(C[*_]r%6!SR'&;VHOI+0JEgBk!-Y3kHjY%N$Wj(o127>ZoiA.sh+%M#p,.;6X3Tg?H7)*?\PI)klTeTkr<XE-W4/TW1lPcSRBEh]--.<jH$<&3KE3i*#)8qc(QV$r!uZSJ]kGk<7CBYN5sY)$VWVeKIq^-mo5GuUMJ-JrgV)N:F8R7pN4.hM4GEed4*X0]A%1s[$SD9#$LPmoTcH\.\t4N1JsMI/nX]oEJs.>]n%fd"q@kn\"WVDh+%0nm\j;_Na4?n2l;pdj2"0k\`=gJ]_a[Rb1IEj_X;5ZE\8;O#F*W0<UGCM@!5H]G_6eJ<'KN[7jd\=jEqTOQ1!Gt(F=,!>?gX"N(>Zpic-0SVsKoO,Q%"k<rl8B)Bfh-'fI-*6/EkJ9JZPM,jO-o[G6JVVa8Ys^#e)(gj\I"LSt*;>/u#48j&cFIBgS/#u*384j&*7nH_LZ<3glN"-M1#D-[/osR"7/:k+AP#9^b'%p>DRTaH/2aqP=U.!H_Q%(&\Dt:/6?%t?[DSllWgfH<gk(\+>/io<U\,%m.CqbiQ5H@UBF^nFG!-!?`Gu5pW@o)&I+Y2/eheG:00>5=R<@&=k:pra)LQ/Q'IOd=Z%*$FH`s5X)/;li1kQ#;G=%h4Jb(GKm;QBQ[3s6U!sOi2Wh:,@b6kWoa'$:@*DdA+ijBq`/Do"EVQV[?$c8a8-<C\1UQ4BD;!FTO-%b>NL%T\fNmafZ&dTT*&a/.)(U:5V(!iiJnJFKWZ0N.F?b5*.[oL4'7+hoE`T?2$q$d:_E,ahEb.jaRm$cgGe5k:_jjR,]'QN/t7b*C:2b6Z\pGu3Y\_;tk1d!YhmRF,QE7c8Ji4m+,59+V=(>Ao!(HZXOer3rsD$u5.e7t$"1##2^.WNI[F,]-neP&/7L]T%j@e'q!Wg/W^4mrpIH%NdF;=uQCVnjA0RuT!@D8^^U,pgsurnS@Tpmk)]C*8mjbuAKP*'^<(^6cBe2KW]_l]53al@Q*6"`Z;8`TWoFD(6r;HX1i2p4?'lJd@ac0ChY].C;aF5EQ&2-&r+OK((3-<JF;0)EBH7.[Ak:6P&KX[thrQ?@'-3<u7K!iT4GMUVZ3jnE.UrWq2+M'M3)R$[\WV1>*]1Ap<#Fq'+ueEa.K+U"W`'ZL]7uH@e*C];VDZ0?Y(ll1Ik5Q'F8$^"_c2h9GW3`M^md*<&u"D"lKE\=kcbj$_k`Q6Ic*!t#QsVh4QMP@6Hjaf+N/'+(('%EEduk/I,YiU=mtqV+-8an1MK7C+U0D4I6b0U`uu480.j*cI5cN;"%$M8mq*cdO*u6Z$d+r7]NE'l#\W$c\$bZ$a$8mi%q5LgW=m/#b3E62(3thoiUR0`k)$4-<6p29ESqELu\'G3m&]s)B$,o)~>endstream
+endobj
+11 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
 endobj
 xref
-0 11
+0 12
 0000000000 65535 f 
-0000000061 00000 n 
-0000000122 00000 n 
-0000000229 00000 n 
-0000000341 00000 n 
-0000000418 00000 n 
-0000000501 00000 n 
-0000000695 00000 n 
-0000000763 00000 n 
-0000001024 00000 n 
-0000001083 00000 n 
+0000000015 00000 n 
+0000000147 00000 n 
+0000000206 00000 n 
+0000000255 00000 n 
+0000000522 00000 n 
+0000006796 00000 n 
+0000006903 00000 n 
+0000007010 00000 n 
+0000007122 00000 n 
+0000007234 00000 n 
+0000007312 00000 n 
 trailer
 <<
-/ID 
-[<96a88eac9f38ea1cc26f3137a7b66a26><96a88eac9f38ea1cc26f3137a7b66a26>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 8 0 R
-/Root 7 0 R
-/Size 11
+/Size 12
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-3219
+7396
 %%EOF

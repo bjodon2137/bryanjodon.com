@@ -1,74 +1,292 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R
+/Producer (The Drawing Path \204 thedrawingpath\056com)
+/Author (The Drawing Path)
+/Creator (The Drawing Path)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/PageMode /UseNone /Pages 7 0 R /Type /Catalog
+/Length 5712
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.05098 .05098 .05098 rg
+n 0 0 612 792 re f*
+.788235 .658824 .298039 rg
+n 0 789 612 3 re f*
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 759.6 Tm (LESSON 5  \267  3RD TERM  \267  SHADING & TEXTURE) Tj T* ET
+BT /F2 28 Tf 33.6 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 716.4 Tm (Surface Texture) Tj T* ET
+BT /F1 13 Tf 15.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 691.2 Tm (Communicating material through mark-making) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 676.8 m 568.8 676.8 l S
+BT /F1 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 655.2 Tm (Every surface has texture \227 smooth, rough, glossy, matte, porous, fibrous. Capturing) Tj T* ET
+BT 1 0 0 1 43.2 640.2 Tm (texture convincingly in a drawing comes down to choosing the right marks, at the right) Tj T* ET
+BT 1 0 0 1 43.2 625.2 Tm (scale, with the right distribution.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 599.2 m 568.8 599.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 564.2 Tm (Texture vs Pattern) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 552.2 m 288.8 552.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 540.2 Tm (Texture is about the physical quality of a surface) Tj T* ET
+BT 1 0 0 1 43.2 527.2 Tm (\(rough, smooth\). Pattern is about visual) Tj T* ET
+BT 1 0 0 1 43.2 514.2 Tm (repetition \(stripes, dots\). Textures in drawing) Tj T* ET
+BT 1 0 0 1 43.2 501.2 Tm (are implied \227 you don't draw every grain of wood,) Tj T* ET
+BT 1 0 0 1 43.2 488.2 Tm (but suggest enough that the brain fills in the) Tj T* ET
+BT 1 0 0 1 43.2 475.2 Tm (rest.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 564.2 Tm (Mark Types for Common Textures) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 552.2 m 558.8 552.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 540.2 Tm (Wood: parallel lines following the grain) Tj T* ET
+BT 1 0 0 1 313.2 527.2 Tm (direction, irregular knots. Stone: random) Tj T* ET
+BT 1 0 0 1 313.2 514.2 Tm (stippling and broken edges. Fabric: subtle) Tj T* ET
+BT 1 0 0 1 313.2 501.2 Tm (parallel lines following the drape. Skin: minimal) Tj T* ET
+BT 1 0 0 1 313.2 488.2 Tm (texture, focus on value. Hair: flowing parallel) Tj T* ET
+BT 1 0 0 1 313.2 475.2 Tm (strokes in the growth direction.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 428.2 Tm (Texture Perspective) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 416.2 m 288.8 416.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 404.2 Tm (Texture gets smaller and more compressed in the) Tj T* ET
+BT 1 0 0 1 43.2 391.2 Tm (distance, just like anything else in perspective.) Tj T* ET
+BT 1 0 0 1 43.2 378.2 Tm (The bricks in the foreground are large; in the) Tj T* ET
+BT 1 0 0 1 43.2 365.2 Tm (background, they're implied by tiny marks or faint) Tj T* ET
+BT 1 0 0 1 43.2 352.2 Tm (lines. Inconsistent texture scale breaks the) Tj T* ET
+BT 1 0 0 1 43.2 339.2 Tm (perspective illusion.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 292.2 Tm (Selective Texture) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 280.2 m 558.8 280.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 268.2 Tm (Don't render texture everywhere equally. Emphasize) Tj T* ET
+BT 1 0 0 1 313.2 255.2 Tm (texture at the focal point; simplify or eliminate) Tj T* ET
+BT 1 0 0 1 313.2 242.2 Tm (it toward the edges. This guides the eye and) Tj T* ET
+BT 1 0 0 1 313.2 229.2 Tm (prevents the drawing from feeling busy and) Tj T* ET
+BT 1 0 0 1 313.2 216.2 Tm (overworked.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 161.2 m 568.8 161.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 144.2 Tm (PRACTICE EXERCISES) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 128.2 Tm (1.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 128.2 Tm (Create a texture library: 8 different surfaces, each in a 2\3272 inch box.) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 111.2 Tm (2.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 111.2 Tm (Draw a still life with 3 different surface textures \(ceramic, wood, fabric\).) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 94.2 Tm (3.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 94.2 Tm (Draw the same surface twice: once close up \(large texture marks\), once far away \(small) Tj T* ET
+BT 1 0 0 1 54 81.2 Tm (or implied\).) Tj T* ET
+.078431 .078431 .078431 rg
+n 0 0 612 28.8 re f*
+BT /F1 7 Tf 8.4 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 5: Shading & Texture \227 Surface Texture) Tj T* ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
+ 
+
+Q
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.05098 0.05098 0.05098 rg
+n
+0 764 612 28 re
+f*
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.788235 0.658824 0.298039 rg
+BT
+1 0 0 1 20 774 Tm
+(THE DRAWING PATH) Tj
+T*
+ET
+BT
+/F1-0 6.5 Tf
+7.8 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 527.689 774 Tm
+(Teach Yourself to See) Tj
+T*
+ET
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 763 m
+612 763 l
+S
+0.05098 0.05098 0.05098 rg
+n
+0 0 612 22 re
+f*
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 22 m
+612 22 l
+S
+BT
+/F1-0 6 Tf
+7.2 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 20 8 Tm
+(thedrawingpath\056com) Tj
+T*
+ET
+BT
+1 0 0 1 537.892 8 Tm
+(\251 The Drawing Path) Tj
+T*
+ET
+Q
+
+endstream
 endobj
 6 0 obj
 <<
-/Author (anonymous) /CreationDate (D:20260610004312+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260610004312+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (unspecified) /Title (untitled) /Trapped /False
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 7 0 obj
 <<
-/Count 1 /Kids [ 4 0 R ] /Type /Pages
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1966
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-stream
-Gatm<flGh*'Rf^Wgo"a%PneMkGtMTnnMH0E;Q%Wq?Q][i&Wm2(J6(=+mfg3l[UmHM24bBrPNQiH*aI'H.K8#_2^na`/E)Z!2V8Kj;m8F.KB3?*0@-`!5E-ntHOu[Qd_$IUo3q!9TTHlMZbe,2>T^&_`tJt7-]Y'AgcliLZ$F1Q*q)dWg1%EJpc&Pn@!?L8Y(`2?fEu"h_"/*.`T$J:n,[Es+9ZYe046fTrn(R2hS6e7r:CJJ_n09AIpLB-_"&Eq?YY55%0rCoqr,+)Z#q>cCc`'@MB1F^@^)SOC<+.f8*iM<O,bc+OckC7P($K?T_H]=JmFRJIrE=7,L<d6o"''/(C_EC'>ug.C,7YP'QqM1U0+sWJg`)ca['Kif:*1eM!aX7g#>4,4ErE`fC.!9+*Lb]ek-c]&JX..&K]]-*#:mA;\O]Qo2uEJ^N4mR918rgb>h"WW&A!b/ggd)E3?JQQs_8FagmY\7#.c*"=fH+jTJJidO,gS8;6NhNV.j>Dq`n4/LA'BAS$IsjUJF,#cn3_l#\8bTG#h'=+]FnA=Q;@>@eKOgLSI&(EFW5IrEQ<dt]LgP%+JRVQp<223UY:<NR)kXi#24?JBPqNq^]Xa"dSej_Ct/b4Y)Vj[W)/pRh&\0`1c^2SWEJ*]D<I'>b9mc9g,8E%Bm>=':bPcWf:N9Hp"J,f3e,,U,-Q:@V[Y-EukK/I]:2MZ/?JkkP-S56pcOIPM4?`Trfi<Rs]W`>nlV8^:9;4@M/NllI=)mt;_Jc1?t\/b<me=FD+]Q>W*Ypb=b?c_d?M<D;ujDOtWa<>=]/k"9CL/dA:Hhbeh2FkUU@d;]t&cKMiVdtZH[>!>jh#,l8$N?F%8);&rCSr<Yr=JciNWK5`dCoC;u9-[gol^DU#i)5m(`a?A9"r[8)#,JP"6rhjQbLM[+rNL)lViYp">)G&^I9(iT[iKQ\>i.ahEBEB8\US*LcClG6j>kI.B;P,_chX^[2cI<Jl0Zh%_QK<"M'gjXQk4@<k=!+o7#"jK:qWUe+@s'*`@0M,=K,DV`'Q]X-*0,adLta^).C?cZ4\]K7u"*Er^c]D]Rd)X@3Si)MJhG=GRam-=n,Tu[BP"PG"W&m4Zo\i@+B0e?6e$J_SeI1SWVe*.-Norlq\&!B/^TWmr3Oh&pu/E[gh=bpOqmj$<_(9\+Jhuf>Fk+YINuMBb]0ghHq-Y<(W<ESQK<&;K/su(DSj!6qR6K3k3*"UfUf!-<S?-2/5n3[M0l(Q0IS]>Z)#3m5&73TnYp,NEi`!44Fo)JRUcXoN$ktp;i!&H@hnXc]&Z2[Oo9_^XG;,OPj+@3;bZ$0ENXj.<b14*9-hnH>^=2K$+d>+GmY%V&BOl1S\=tPT]6%r,gu5htFS^Pj2GDOLT/B3-"EbK'&W#LGSX&("\;>#E%8BSOdakT]a4H=W.Gqf>uT.]k3D^AQ5;eE?T6OQkpKt_!KrUEH?ln\VKHN8CSh'4XuK2Ig+9),Af7ZB[0H1E,.-7lh,O7#fh-WX:8nl^<6rJO%mmM<497Th'qYe6t]n]^h?@eHdt"5QjR.b8uY\b<@s[^iYbnHGT:e6j'k[5^G%"hJUK4![oXppPARLiWiPI;ZfU:b%eD@Fle1B/IUlPE6EMUS)T:BZcs'""qkWBF]`Zn)2SI!(%V3h(LIFUP%M>j6Bo8]<<Bo*p5Y4P1[6#c!`cXTQcgf#4Im;BXs!M]rf59]HE=]8iH@!P]?(l@KbUICQB^Wd2qohU$WtQsR_3.AOkb@ogmDo&!Up7s'\(jo:5+n@cFa$GUd!_!;QJ_b`EJ9&KpYHVL$3N30f>%j%m+f7@[#_%CrfJ48oR902dDm1E9h0W[;4tLclu(+MC%jXKhXSl=-V*q#kXVGHIoL+qL`X5F$5RrsT24ASDFlH5^UF$0%ldtTXQQ4n+sUm*>JKiH:]%rf++9_]C>Y&Rl1DcVQ"W_aNT90D9('pME:tC%&/>u~>endstream
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
 endobj
 xref
-0 9
+0 10
 0000000000 65535 f 
-0000000061 00000 n 
-0000000102 00000 n 
-0000000209 00000 n 
-0000000321 00000 n 
-0000000514 00000 n 
-0000000582 00000 n 
-0000000843 00000 n 
-0000000902 00000 n 
+0000000015 00000 n 
+0000000147 00000 n 
+0000000206 00000 n 
+0000000255 00000 n 
+0000000500 00000 n 
+0000006264 00000 n 
+0000006371 00000 n 
+0000006478 00000 n 
+0000006590 00000 n 
 trailer
 <<
-/ID 
-[<c47a512e496d826a1f8b3275bf38d0f9><c47a512e496d826a1f8b3275bf38d0f9>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 6 0 R
-/Root 5 0 R
-/Size 9
+/Size 10
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-2959
+6702
 %%EOF

@@ -1,80 +1,316 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R
+/Producer (The Drawing Path \204 thedrawingpath\056com)
+/Author (The Drawing Path)
+/Creator (The Drawing Path)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/BaseFont /ZapfDingbats /Name /F3 /Subtype /Type1 /Type /Font
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/Contents 9 0 R /MediaBox [ 0 0 612 792 ] /Parent 8 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 6126
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.05098 .05098 .05098 rg
+n 0 0 612 792 re f*
+.788235 .658824 .298039 rg
+n 0 789 612 3 re f*
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 759.6 Tm (LESSON 5  \267  3RD TERM  \267  SHADING & TEXTURE) Tj T* ET
+BT /F2 28 Tf 33.6 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 716.4 Tm (Smooth Gradients) Tj T* ET
+BT /F1 13 Tf 15.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 691.2 Tm (Building seamless value transitions) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 676.8 m 568.8 676.8 l S
+BT /F1 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 655.2 Tm (The ability to build a smooth, even gradient \227 from light to dark without visible jumps or) Tj T* ET
+BT 1 0 0 1 43.2 640.2 Tm (streaks \227 is one of the most fundamental and demanding shading skills. It describes) Tj T* ET
+BT 1 0 0 1 43.2 625.2 Tm (rounded, smooth surfaces like skin and glass.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 599.2 m 568.8 599.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 564.2 Tm (Layering) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 552.2 m 288.8 552.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 540.2 Tm (Build gradients in light layers. Start with a) Tj T* ET
+BT 1 0 0 1 43.2 527.2 Tm (light even tone over the whole shaded area. Add a) Tj T* ET
+BT 1 0 0 1 43.2 514.2 Tm (second pass over the darker portion. Add a third) Tj T* ET
+BT 1 0 0 1 43.2 501.2 Tm (over the darkest area. Each pass overlaps slightly) Tj T* ET
+BT 1 0 0 1 43.2 488.2 Tm (into the lighter zone, creating an even) Tj T* ET
+BT 1 0 0 1 43.2 475.2 Tm (transition.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 564.2 Tm (Even Pressure) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 552.2 m 558.8 552.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 540.2 Tm (Inconsistent pressure creates streaks and jumps.) Tj T* ET
+BT 1 0 0 1 313.2 527.2 Tm (Practice applying absolutely even pressure across) Tj T* ET
+BT 1 0 0 1 313.2 514.2 Tm (each stroke. Let the number of layers create the) Tj T* ET
+BT 1 0 0 1 313.2 501.2 Tm (value variation, not the pressure. This is harder) Tj T* ET
+BT 1 0 0 1 313.2 488.2 Tm (than it sounds.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 428.2 Tm (Circular Motion) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 416.2 m 288.8 416.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 404.2 Tm (For very smooth gradients, use small, overlapping) Tj T* ET
+BT 1 0 0 1 43.2 391.2 Tm (circular strokes rather than straight hatching.) Tj T* ET
+BT 1 0 0 1 43.2 378.2 Tm (This breaks up the direction of the marks and) Tj T* ET
+BT 1 0 0 1 43.2 365.2 Tm (blends better optically, even without a physical) Tj T* ET
+BT 1 0 0 1 43.2 352.2 Tm (blending tool.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 305.2 Tm (The 5-Step Test) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 293.2 m 558.8 293.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 281.2 Tm (To test your gradient control, draw a 5-step scale) Tj T* ET
+BT 1 0 0 1 313.2 268.2 Tm (from white to black. Each step should be clearly) Tj T* ET
+BT 1 0 0 1 313.2 255.2 Tm (distinct but transition smoothly to its neighbor.) Tj T* ET
+BT 1 0 0 1 313.2 242.2 Tm (No visible stroke direction, no jumps, no stripes.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 187.2 m 568.8 187.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 170.2 Tm (PRACTICE EXERCISES) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 154.2 Tm (1.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 154.2 Tm (Draw a 10-step gradient scale. Each step must be even and smooth.) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 137.2 Tm (2.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 137.2 Tm (Shade a sphere with a gradient from highlight to core shadow with no visible strokes.) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 120.2 Tm (3.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 120.2 Tm (Draw a cylindrical form with a smooth gradient showing its roundness.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 105.2 m 568.8 105.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 88.2 Tm (FURTHER READING) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 72.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Ctrl+Paint \226 Gradients) Tj T* ET
+BT /F1 8 Tf 9.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 61.2 Tm (https://www.ctrlpaint.com/videos/gradients) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 46.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Shading Techniques) Tj T* ET
+BT /F1 8 Tf 9.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 35.2 Tm (https://youtu.be/OcJPNMFFKHs) Tj T* ET
+.078431 .078431 .078431 rg
+n 0 0 612 28.8 re f*
+BT /F1 7 Tf 8.4 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 5: Shading & Texture \227 Smooth Gradients) Tj T* ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
+ 
+
+Q
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.05098 0.05098 0.05098 rg
+n
+0 764 612 28 re
+f*
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.788235 0.658824 0.298039 rg
+BT
+1 0 0 1 20 774 Tm
+(THE DRAWING PATH) Tj
+T*
+ET
+BT
+/F1-0 6.5 Tf
+7.8 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 527.689 774 Tm
+(Teach Yourself to See) Tj
+T*
+ET
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 763 m
+612 763 l
+S
+0.05098 0.05098 0.05098 rg
+n
+0 0 612 22 re
+f*
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 22 m
+612 22 l
+S
+BT
+/F1-0 6 Tf
+7.2 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 20 8 Tm
+(thedrawingpath\056com) Tj
+T*
+ET
+BT
+1 0 0 1 537.892 8 Tm
+(\251 The Drawing Path) Tj
+T*
+ET
+Q
+
+endstream
 endobj
 6 0 obj
 <<
-/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 7 0 obj
 <<
-/Author (anonymous) /CreationDate (D:20260610004312+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260610004312+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (unspecified) /Title (untitled) /Trapped /False
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/Count 1 /Kids [ 5 0 R ] /Type /Pages
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 9 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1995
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-stream
-Gatm<gN&cS&:O:SoM[6/FYNP_hAf`p]Q"pX7&lEMI2TlR&-Khq%+]1.IX>Z,>p?=s;;!7KJC?[;Vb]83J;o&=rlf,-O"$T(38h<.hLacl5,;768WPDaY`fn^&,bjod8,LAJ!@IY.GVX!ZD'=%]`>,f^b7lRDA(]11>EqiM138+DspCib$r"=pc&OCi:LpaSqWJ_`!RZiiU,0+2Z%Y,!PmT1(]em1F%@\-YJ^2&oBH)4od>!:^]$d=:FCWWq?t_qb+Npq"ZKJ2Gb.5YN[2@!6m5ZhlNCVt<h.f;'(0k[$'kPSaK/uI(@[0E]VLN$gNG9fSrRcoZK"H[ml=eOrITG./aftZ-4YJS4!2)?b0/oW"=81ZKn'D+FVH)KN@8A[RW[)?`H:t@a9l=+feMtnBZ3e8&B8rOB,/W[cY`'[qu$5B6.#M"()4j&X@g#+a^D9;!<e&cgG.%[g;$u94Ns?8_(B:W<97C/eH7hjpTQ&W_)_l5V'tLAKjS-A$=J6;fUErWG41!DS<A5-^e9'VTtkP3U16%o&oP<.-T.>?'p'btSCVr3Te;-]hNq4g/@^ph;.R>0;mFZU4"QsZ`2<?M^K_<j^Eja4\@d0g?lNtQXs-27lfiJ<;ghljXn2cgJtGF,bh61r?=%81m.Mt)1AM5hhlb9P2sK]'&pcQ(K$`s<>`g>o)!0qe2[E[%HoKX"f4SmB:UG$u?5hFV<JP6bkXROW)0q>`"?X:9aeR$s,cC^eR%\,ggdY&_,iMW7'Z_=j"E)^6R`@;SV5E5SjdM-dJg%N:k9s@:En5ik4Pu4b$rI]qA&tG]M6oTK[=_gj`g&a[E-S5?q*%W%d%!fQ//@3qKOi'E;FRf(KjIceg]QkPQ4.T_?sP9br=GFm&*%U;)1kL]DPY\=fnU:O't08ilTk+7S5"H-<2OOm.W3;kZUidpodgQ("1#:h*bfrR@/<;@Uf,UKGLf.reRhWCV);F;Xkg8L;+IYCE0A<u6NM,[C8k,f(TcmIXd4^XUFD@G-6<c<*d6To<W#.TfKHY#MFu-IVQ8lN"VbQI=hXFlg0W9kXJR"%&7,u<LLY"b5otE\+>$Fhn\62/ViNYF"1obX/<Gmg"JMW=4)hCP5i3T@S<Z5&.`1-p;nbJ'$@SF7<`3VV%O6\A4f%IsEPQm-%aAf(`FJ*7$<Ks%l?JDDG#Qet;8$tPabHW263uKPPGVjqj,Ukd/XHX'=b2Zq&D(;Z6TB4[kD&S6CD<l21fLY"><b`KY)%L^i?0p9FC=fN:8QAhem_Y;C7"ns15mR`g0uM\V1#"f]+1j@8hsEf<k^\CIJsT1cQm?N71"HpJ@UNG-=H!&5Q^)f!tA/p#cbcn=iXV8+Gq)C!a1e0ZG>r6mtFr$^^0C/"ZIF"TSLWX;(<m.l*DSeIG_gK''9Z#q]*#LU4bb^^j=LMW6J1Rb9iE4cH<O$]W[8d:V%iI$OoPuc5GN?\#qq,igPi?Y,R-jD3^V/mFL1aEnSm-b`#::Xj)gell\*Z'+N4MApSch?Cjl!nmaF<]:;T=9TD2:o415)TLd@H7C.W,:TBl!?\:L#A92S)[ZQQ<G3eLo4(Km_7uMn4XsX019)1?fonIYV*d"q;lqC-DlBSG>h51&u]3;VFTE9C$^63&dRlQ`cbh^N%Dg1lrf7^p[W9#$V"=%`TnSD?n:!T#S__'pA&<!ZFVc70"FBb$?I`6*dMr*>2XjU]2lEc,mi]+VVI%R:.-W?C-oQJ:hZLWr;OC#@j0"aoG[q:0d%K7rL8RD@@6V?sM+7@l@d@2r6MtTi!Sl/,4M@V'^MoEQUcuQ/q>8aJ;*m1!.EH:f@q,bPS&"al/)_;n>68Im$*)`4?:&.So^!lJ^fQb55Cp;g>cC34GDqSJVf3^0`^3nei8$[L*XlIEMTW?_WGDGYO%[rcXK;\KF4j+20])P:eZKIQ=bmr#6ef)!Ni56D32]/WGV0WNs2sf4[HWg^Z:1DoMRP/`r,gA!.j%C`)B+5B3rWaFfBA*~>endstream
+endobj
+10 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
 endobj
 xref
-0 10
+0 11
 0000000000 65535 f 
-0000000061 00000 n 
-0000000112 00000 n 
-0000000219 00000 n 
-0000000331 00000 n 
-0000000414 00000 n 
-0000000607 00000 n 
-0000000675 00000 n 
-0000000936 00000 n 
-0000000995 00000 n 
+0000000015 00000 n 
+0000000147 00000 n 
+0000000206 00000 n 
+0000000255 00000 n 
+0000000511 00000 n 
+0000006689 00000 n 
+0000006796 00000 n 
+0000006903 00000 n 
+0000007015 00000 n 
+0000007127 00000 n 
 trailer
 <<
-/ID 
-[<5a91e74a12996d13f089d22cc04740ec><5a91e74a12996d13f089d22cc04740ec>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 7 0 R
-/Root 6 0 R
-/Size 10
+/Size 11
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-3081
+7211
 %%EOF

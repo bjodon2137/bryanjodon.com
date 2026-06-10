@@ -1,80 +1,316 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R
+/Producer (The Drawing Path \204 thedrawingpath\056com)
+/Author (The Drawing Path)
+/Creator (The Drawing Path)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/BaseFont /ZapfDingbats /Name /F3 /Subtype /Type1 /Type /Font
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/Contents 9 0 R /MediaBox [ 0 0 612 792 ] /Parent 8 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 6229
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.05098 .05098 .05098 rg
+n 0 0 612 792 re f*
+.788235 .658824 .298039 rg
+n 0 789 612 3 re f*
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 759.6 Tm (LESSON 6  \267  3RD TERM  \267  COLOR FUNDAMENTALS) Tj T* ET
+BT /F2 28 Tf 33.6 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 716.4 Tm (Color Temperature) Tj T* ET
+BT /F1 13 Tf 15.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 691.2 Tm (Warm vs cool and how light changes color) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 676.8 m 568.8 676.8 l S
+BT /F1 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 655.2 Tm (Color temperature is one of the most powerful tools for creating convincing light in a) Tj T* ET
+BT 1 0 0 1 43.2 640.2 Tm (painting or drawing. Light and shadow don't just differ in value \227 they differ in) Tj T* ET
+BT 1 0 0 1 43.2 625.2 Tm (temperature. This is what makes them feel alive.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 599.2 m 568.8 599.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 564.2 Tm (Warm & Cool) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 552.2 m 288.8 552.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 540.2 Tm (Warm colors: reds, oranges, yellows. Cool colors:) Tj T* ET
+BT 1 0 0 1 43.2 527.2 Tm (blues, blue-greens, blue-violets. Green and red-) Tj T* ET
+BT 1 0 0 1 43.2 514.2 Tm (violet sit in the middle. These categories are) Tj T* ET
+BT 1 0 0 1 43.2 501.2 Tm (relative \227 a warm blue and a cool blue both exist.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 564.2 Tm (Light Temperature) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 552.2 m 558.8 552.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 540.2 Tm (Most natural light sources have a temperature:) Tj T* ET
+BT 1 0 0 1 313.2 527.2 Tm (sunlight is warm \(yellow-orange\), shade/sky is) Tj T* ET
+BT 1 0 0 1 313.2 514.2 Tm (cool \(blue\). Firelight is very warm; moonlight is) Tj T* ET
+BT 1 0 0 1 313.2 501.2 Tm (very cool. Matching the temperature of your light) Tj T* ET
+BT 1 0 0 1 313.2 488.2 Tm (source makes lighting feel real.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 441.2 Tm (The Warm/Cool Rule) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 429.2 m 288.8 429.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 417.2 Tm (When the light is warm, the shadows are cool \227 and) Tj T* ET
+BT 1 0 0 1 43.2 404.2 Tm (vice versa. This complementary relationship exists) Tj T* ET
+BT 1 0 0 1 43.2 391.2 Tm (because the shadow is lit by the ambient sky) Tj T* ET
+BT 1 0 0 1 43.2 378.2 Tm (light, which is opposite to the direct light) Tj T* ET
+BT 1 0 0 1 43.2 365.2 Tm (source's temperature. This is the most important) Tj T* ET
+BT 1 0 0 1 43.2 352.2 Tm (color temperature principle.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 305.2 Tm (Atmospheric Perspective) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 293.2 m 558.8 293.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 281.2 Tm (As objects recede into the distance, they become) Tj T* ET
+BT 1 0 0 1 313.2 268.2 Tm (cooler, more blue, and less saturated. This is) Tj T* ET
+BT 1 0 0 1 313.2 255.2 Tm (atmospheric perspective \227 the effect of atmosphere) Tj T* ET
+BT 1 0 0 1 313.2 242.2 Tm (on color. Foreground: warm and saturated.) Tj T* ET
+BT 1 0 0 1 313.2 229.2 Tm (Background: cool and grey.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 174.2 m 568.8 174.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 157.2 Tm (PRACTICE EXERCISES) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 141.2 Tm (1.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 141.2 Tm (Paint the same scene twice: warm light / cool shadow, then cool light / warm shadow.) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 124.2 Tm (2.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 124.2 Tm (Go outside and observe the temperature difference between sunlit areas and shaded areas.) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 107.2 Tm (3.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 107.2 Tm (Paint a simple landscape and deliberately push the atmospheric perspective.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 92.2 m 568.8 92.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 75.2 Tm (FURTHER READING) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 59.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Color Temperature) Tj T* ET
+BT /F1 8 Tf 9.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 48.2 Tm (https://youtu.be/AZhO4VjQUPE) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 33.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Ctrl+Paint \226 Temperature) Tj T* ET
+BT /F1 8 Tf 9.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 22.2 Tm (https://www.ctrlpaint.com/videos/temperature) Tj T* ET
+.078431 .078431 .078431 rg
+n 0 0 612 28.8 re f*
+BT /F1 7 Tf 8.4 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 6: Color Fundamentals \227 Color Temperature) Tj T* ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
+ 
+
+Q
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.05098 0.05098 0.05098 rg
+n
+0 764 612 28 re
+f*
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.788235 0.658824 0.298039 rg
+BT
+1 0 0 1 20 774 Tm
+(THE DRAWING PATH) Tj
+T*
+ET
+BT
+/F1-0 6.5 Tf
+7.8 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 527.689 774 Tm
+(Teach Yourself to See) Tj
+T*
+ET
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 763 m
+612 763 l
+S
+0.05098 0.05098 0.05098 rg
+n
+0 0 612 22 re
+f*
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 22 m
+612 22 l
+S
+BT
+/F1-0 6 Tf
+7.2 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 20 8 Tm
+(thedrawingpath\056com) Tj
+T*
+ET
+BT
+1 0 0 1 537.892 8 Tm
+(\251 The Drawing Path) Tj
+T*
+ET
+Q
+
+endstream
 endobj
 6 0 obj
 <<
-/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 7 0 obj
 <<
-/Author (anonymous) /CreationDate (D:20260610004312+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260610004312+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (unspecified) /Title (untitled) /Trapped /False
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/Count 1 /Kids [ 5 0 R ] /Type /Pages
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 9 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1999
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-stream
-Gau0DgJ['$&:N^lqC0U*]X$rAo#)G6W,R[bB!Wpm`mP\1A;s2;[c>+uc\s,[egNeRK!Ht43o+lRoU2!r0_*IeYOM\Pb7o]/(0EIgk?tiT$e#J#:Cdl_1SYMihl?R+6=&j9q*AOY7:H2[^^.g(G!%I+%mRR3fMQ<C;0.$p7d:&Q5.qFDaGAeR^m@@V!io)NFUX5q7>;?%"WUj-Df;h_^^%BUr;aX$SA95/\SR9rf,*$P3;n/GEdTm]RN>hkIY?qf9L$XT.M!Kb:aY0]&lN?T\X"!*?pqHbq%4HPA6P,11D@ru$c#G*/8#\kl(Xsg&^-%q%tkoaMIZ*(O;ikU@tEUi96M<a\MK<h=njHKI3[8D<ZGSgEZddP.9f02h5:>6PSEjkre.h(ikInKjQs\O@#[V'0`p5<@0)rAik%CsiO2J<<9`.UB?Bn\3dJu5G[^t7%]l>=jrdP/$cW@7Ce^u+1'`A'j=nV)ieeA2(&,5F@[.\5r2A5;'gT4,h@AqAFm,!!Kn;S"U`sUPBY]>=O=]se,Y2I_M@Tb0QC(.)c0)Hs!ELIQ;H/l$a<W]?^[q]<Rl,CjCVVdG"loVD,m"kC&Z^VI$^akMe]b?727eLJ>hskThObP.M^!Oc$E&qGKmS<EH(eLsij\H%Co48\ph%+4L#+HlcZd"4rWu%ro=%BEo5)Br*@_9C;29]nV.\d`/HsdNL_fc'?t,j]'A/nc1Vm*W.RDTgr!8iEi<,=-C:F:\BV)Of2cTXu8NlA.m%?h=TsP@r^4!`!-nUm?<Q9&/&FrMDX#,]"5PK_4%@?opi0ij@eQ>t;j@Xod;i$:'pT2M6IH7q;D*sbOm8Pp_%U@P$5[Z1sOGU!]LpeON4C]Q=qKKr5YpZA-f!\P"fC&@dIhte<<\)2]p8F>s\s:L9['N)r8FkK<3*TE<nt$KTP'!hq"hiEQX^Lq0W1B"8,2=2RomPD+]_aZbAk%RREJ#Y3U:,qVjh"H+]_cBXBnl:uU9&%9;5&G)IqEQi?JnjCl=,Tf^a0S4.NMUuZF^@7q/;?1btoL`MsXfVTP1DI<*^l&Q&FX&OmbqgWX2q>=U]Ha8/iDG2P2Pl[jb+Jfhoeio[/,hb-`.IHqUGVq^nWQe5psk;iRuM<]>,_o[n\04uj"VN]#pohTKB:.!)tmKcjK2m1QMYBi\sZGX3Y`enKo.)3)`NNThlXR<4Jg2;>&_a^UQE$p[P]!="NIeA;I#c":sqArO$+BSRFU.D,ce*fE5$BgCS1'&3^%41Fg)G0(LGWrskt5s;jI]'&*M=ion4);VK?3bG^Y@tAok.BTlmDQo-IdX\e*%L9BdVrOHHBMT+QLQ+!JZ#m;Wb`S[/@[c5j=L9C889@N1H72,eZ,I)t=cM^%*Ohfo!)&'29@"QU>qDnD"'9XtB[Tqj(UG-!8VbshM:cuf"H#Pk8e0+K4gdL[[ugtIoLOPIN!\BCCfr#RgAKLbg1K+JVjp5nI3J,j"4H$pi9[^oa674@DJ/Uk7sc+:/[$n8S&t26H9N7bps8J@FFH=.0nA['gT(FamV`!MF$!A!Wi#CC%d]1fn^,QN(AJM@]\a<:1t&sig8'M8(>A_OV@3>so<UJZs1H5hrX/gOj6lVI)/*I)(pKjp=e^[?2WM/Jd3$@.I9T.FV6QH->#)bGfF`/-,.tT`UP\tZcRbHCi1.Kdd)'N<&=go)NX7]uLW?4?S0U(3bp3lXha"a5WS[;kHceGH1pT2[)VP#Qd\(Tpe$"u"YN#p_`lBIi=(e_8bT#s^CZ?>)3nl?Dq?Hj&pd;QjfHZU2lbb4obbtb3d<cqX\BU%s$;pAhi=P0SYr$'7Gl1WhmJcYFqq%>-?HI/V2j5s/<W9=*T46l2iki-rENriRN>Q0+-SG\lcGLB#!96GOqp*Hf6ToeRHK]$8rUrEEI!rl#+ZX(4!cI$4c#s(oQ3'h,^[#b6!XAe^I/TgD7AmY.&iK";>bBEAY1N?/B17PhG-[N9)cAf&KGBZV%NZVf""df9;#~>endstream
+endobj
+10 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
 endobj
 xref
-0 10
+0 11
 0000000000 65535 f 
-0000000061 00000 n 
-0000000112 00000 n 
-0000000219 00000 n 
-0000000331 00000 n 
-0000000414 00000 n 
-0000000607 00000 n 
-0000000675 00000 n 
-0000000936 00000 n 
-0000000995 00000 n 
+0000000015 00000 n 
+0000000147 00000 n 
+0000000206 00000 n 
+0000000255 00000 n 
+0000000511 00000 n 
+0000006792 00000 n 
+0000006899 00000 n 
+0000007006 00000 n 
+0000007118 00000 n 
+0000007230 00000 n 
 trailer
 <<
-/ID 
-[<a125dd0492be2bb30fbd3b3bd0012e2b><a125dd0492be2bb30fbd3b3bd0012e2b>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 7 0 R
-/Root 6 0 R
-/Size 10
+/Size 11
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-3085
+7314
 %%EOF

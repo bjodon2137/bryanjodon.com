@@ -1,80 +1,317 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R
+/Producer (The Drawing Path \204 thedrawingpath\056com)
+/Author (The Drawing Path)
+/Creator (The Drawing Path)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/BaseFont /ZapfDingbats /Name /F3 /Subtype /Type1 /Type /Font
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/Contents 9 0 R /MediaBox [ 0 0 612 792 ] /Parent 8 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 6335
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.05098 .05098 .05098 rg
+n 0 0 612 792 re f*
+.788235 .658824 .298039 rg
+n 0 789 612 3 re f*
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 759.6 Tm (LESSON 6  \267  3RD TERM  \267  COLOR FUNDAMENTALS) Tj T* ET
+BT /F2 28 Tf 33.6 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 716.4 Tm (Local Color vs Light Color) Tj T* ET
+BT /F1 13 Tf 15.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 691.2 Tm (What the object is vs what the light does to it) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 676.8 m 568.8 676.8 l S
+BT /F1 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 655.2 Tm (Local color is the 'true' color of an object in neutral light: a red apple is red, a grey) Tj T* ET
+BT 1 0 0 1 43.2 640.2 Tm (rock is grey. Light color is what you actually see \227 the color modified by the light) Tj T* ET
+BT 1 0 0 1 43.2 625.2 Tm (source, shadow, and atmosphere. Painting what you see, not what you know, is the key to) Tj T* ET
+BT 1 0 0 1 43.2 610.2 Tm (convincing color.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 584.2 m 568.8 584.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 567.2 Tm (KEY CONCEPTS) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 549.2 Tm (The Problem with Local Color) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 537.2 m 288.8 537.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 525.2 Tm (Beginners paint local color: they know the apple) Tj T* ET
+BT 1 0 0 1 43.2 512.2 Tm (is red, so they paint it red everywhere. But the) Tj T* ET
+BT 1 0 0 1 43.2 499.2 Tm (lit part of the apple is warm orange-red; the) Tj T* ET
+BT 1 0 0 1 43.2 486.2 Tm (shadow side is cool, desaturated purple-red.) Tj T* ET
+BT 1 0 0 1 43.2 473.2 Tm (Neither is 'just red'.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 549.2 Tm (What Light Does) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 537.2 m 558.8 537.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 525.2 Tm (Light adds its own color to everything it touches.) Tj T* ET
+BT 1 0 0 1 313.2 512.2 Tm (Sunlight warms and saturates the lit areas. Blue) Tj T* ET
+BT 1 0 0 1 313.2 499.2 Tm (sky cools and desaturates the shadows. Reflected) Tj T* ET
+BT 1 0 0 1 313.2 486.2 Tm (light from a red floor bounces red into adjacent) Tj T* ET
+BT 1 0 0 1 313.2 473.2 Tm (shadows. All of these modify the local color.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 426.2 Tm (The Procedure) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 414.2 m 288.8 414.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 402.2 Tm (1\) Identify the local color. 2\) Ask: what does the) Tj T* ET
+BT 1 0 0 1 43.2 389.2 Tm (light source do to it \(warm, cool, bright, dim\)?) Tj T* ET
+BT 1 0 0 1 43.2 376.2 Tm (3\) Ask: what do the shadows do to it \(cool,) Tj T* ET
+BT 1 0 0 1 43.2 363.2 Tm (desaturate, darken\)? 4\) Ask: what reflected light) Tj T* ET
+BT 1 0 0 1 43.2 350.2 Tm (affects the shadow side?) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 303.2 Tm (Training Your Eye) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 291.2 m 558.8 291.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 279.2 Tm (Look at your subject and ask: 'What color is this) Tj T* ET
+BT 1 0 0 1 313.2 266.2 Tm (actually?' \227 not what you know it is, but what) Tj T* ET
+BT 1 0 0 1 313.2 253.2 Tm (color you'd need to mix to match it. This) Tj T* ET
+BT 1 0 0 1 313.2 240.2 Tm (perceptual shift is the core skill of all color) Tj T* ET
+BT 1 0 0 1 313.2 227.2 Tm (painting.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 172.2 m 568.8 172.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 155.2 Tm (PRACTICE EXERCISES) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 139.2 Tm (1.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 139.2 Tm (Paint an apple under warm lamp light. Never paint 'red' \227 only what you actually see.) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 122.2 Tm (2.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 122.2 Tm (Paint a white egg under colored light. Identify the local color vs. the perceived color.) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 105.2 Tm (3.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 105.2 Tm (Do a color study of a single object, mixing every value and temperature you observe.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 90.2 m 568.8 90.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 73.2 Tm (FURTHER READING) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 57.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Local vs Light Color) Tj T* ET
+BT /F1 8 Tf 9.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 46.2 Tm (https://youtu.be/AZhO4VjQUPE) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 31.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Ctrl+Paint \226 Seeing Color) Tj T* ET
+BT /F1 8 Tf 9.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 20.2 Tm (https://www.ctrlpaint.com/videos/seeing-color) Tj T* ET
+.078431 .078431 .078431 rg
+n 0 0 612 28.8 re f*
+BT /F1 7 Tf 8.4 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 6: Color Fundamentals \227 Local Color vs Light Color) Tj T* ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
+ 
+
+Q
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.05098 0.05098 0.05098 rg
+n
+0 764 612 28 re
+f*
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.788235 0.658824 0.298039 rg
+BT
+1 0 0 1 20 774 Tm
+(THE DRAWING PATH) Tj
+T*
+ET
+BT
+/F1-0 6.5 Tf
+7.8 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 527.689 774 Tm
+(Teach Yourself to See) Tj
+T*
+ET
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 763 m
+612 763 l
+S
+0.05098 0.05098 0.05098 rg
+n
+0 0 612 22 re
+f*
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 22 m
+612 22 l
+S
+BT
+/F1-0 6 Tf
+7.2 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 20 8 Tm
+(thedrawingpath\056com) Tj
+T*
+ET
+BT
+1 0 0 1 537.892 8 Tm
+(\251 The Drawing Path) Tj
+T*
+ET
+Q
+
+endstream
 endobj
 6 0 obj
 <<
-/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 7 0 obj
 <<
-/Author (anonymous) /CreationDate (D:20260610004312+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260610004312+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (unspecified) /Title (untitled) /Trapped /False
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/Count 1 /Kids [ 5 0 R ] /Type /Pages
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 9 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2022
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-stream
-Gatm<gJ['$&:N^lqT\A]'tRbn_j2*46A5SPCQiRl(Kh[2_Qq1XO`:6ml++nkCWp?q<(W%Ml0^QQqK.cL0_*I%f5q&_-&0lA$S37V$!=@h6@95pprG-P1C@Rf<_\WI1"42;K?/e)^uXO<&VQkFG[U:fro8T=8"o08qXkti_urTDY$;1dA%6OR]FgZAWN][K5gNbIp^f+:pj+V4h;3YmE,YUSJ2=igGVK&qa60q`[mR\'G&u(23k1%Df:rif5=#./HPCJP@#$iUa5J@V,`ukFJIb4\>Flpf&OrW4q)]h+I(fS%#u-Tbc=oQpG[tca:M7'T54s_>3s'5:j3\<&f<N,1e_4:6IIHgl7i#FAa1l7Y%J>Y[*C#XmL7E8(/,cgd&S.+[W%$eM-]I5]*r^=nGd,%ZPHFuE#[mb*+6$Rd$5g1O0Z>O.\"i)4Sm$b7/JY3mr&jCR>rAFUT$[iiA\5_j9%)3(c4GmqK*3'W6*a`2KMTY)#sOhZAA&HK[Wg>&hCG&?q)gjW:g;Mj,(NqI#*Q?2P+l%\,6V^l#9lk;hL]A8,f^bAlOE(TI+ru/N&F[.:4UTPN34l$&f4G!-sOtf71?\!o!6Qakp?m^If^pu2c&Q^T;ce!'+BH[o53`7VmLiqbEQ3Ib:pN_Y[!Ud:[V#giIrmj2)jTp_i=ER[c[lFb!-*f0n4,e#C#]uXF3>14?$.Z@YF-OU>phV@$T>"kTo]Qe&?A0!Jqg(8AqG/8L3:QnY[-99R3u\phjJKjFIusT!pN8Q8N$j1bVL"0j&IF5dAG'1X:T[i.U$@aGN-&n17c]eX==R1a,TV[7Dq@8?2>TEq2jJUh,Ta2q$=o3.I>q2,E0h*0F;o[/aAVjck-Z#J[u`1%]V.LeIi8B>RD9BlO1l@7f9S8WBDrRgOR_UW,KMJYNY1&DV=NP.gV:0X9K+E?M8Aei)-5>"a^_5YZ\@]p(+f0@)^&^QduK?o#SEb8:kB!F:s_l*,mJ.b$7,)n<F9D:0;1cTnW![N$5DV(>/bqjC8B]l?^p-b?EN_N8@uo*ck>eIBXQHnBRc%;rZu9hN9q_',3\=?oEcf4mr8)<dlj$WUR]"[rR6ZmeotEWo)JifRa^8P7-<oNk[;g"&XA0+*sYN5u'pC<%Zf%n/fVGh_-,]9Hi#7G]Y9Y2sg0:6#f/E3?0c@blNaWsh;MKaQK-CS/ktA-nL6c!L'^_J!^`A_"bfZ6t8$A'W+.,pqZ0^P&>E0CD&PhIeanO?-/]l4U;d7QB%5dFUM6YS[I6W];L_(3$b\<1;/e2B7aTMgdFLi08+k#V#_":q^pD]o9J<.`/%A4$jF0p"T6gXkBH#eVY_E#?!ZGd)<GkF:PUMWdlt4eJ-gVLV"pU]@3G8CgXd.^*\U&)F*t,chKlf`d*\&,[DXEfPB'eYf]M`7PDYk(^Y]q>NGg@>>h@TZt_l(;Nu#']HijS9-,O&,+mArR7o%Ne_!!N;MFFu&F;8hlc*e@>1[u*Pu_::g.F@d86]f97uk2is#e"V+2Hg,_=7A;1t^2\mU4VH*BBQjedj7EK<h]'/^NgO'aFhi.ZtfP;eF\!Lo.1C(/$(^#2J]WXZF!6mqX0VBo2#?SL9mI-0Jo;YdL.Y#=Y=DX&-U>j>?rnSLP`b9slSlc^#2+.3%978:^UMB097?Ig-'TPKl0:$E_thCdQX'=P[M'OfTtsjg<C,"\uQiE#f_M)a#J">R>\VaT<:)9+;JDTOUHk8+M\9NQb/CMSVSV[dBS;^CB5\#=B=<qA33l^V+*7hJa<2U31eHCn!F;KqBI2+7ftW:3enrlFco?k8s/A.=0=\*`lF,=^<]6g$'r'<8AC$En^P;G3f/#nE79m_*RU1X>f0Z?<>*!1*6ZJ,=4BI%M"514oo0$=rAbM(Fj'nFE./5%1QmH9LSC7Bur,(jm1$:l`6o-8\FdZjm+.W(h(@249pqqR:nAO+o:3`]@>kV_AFl@5>to!02]]O"_q(iB,^TcCVD=5/uq)b1/,"ff!nm2jTEb@ajKG,K;8GI?kJmM~>endstream
+endobj
+10 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
 endobj
 xref
-0 10
+0 11
 0000000000 65535 f 
-0000000061 00000 n 
-0000000112 00000 n 
-0000000219 00000 n 
-0000000331 00000 n 
-0000000414 00000 n 
-0000000607 00000 n 
-0000000675 00000 n 
-0000000936 00000 n 
-0000000995 00000 n 
+0000000015 00000 n 
+0000000147 00000 n 
+0000000206 00000 n 
+0000000255 00000 n 
+0000000511 00000 n 
+0000006898 00000 n 
+0000007005 00000 n 
+0000007112 00000 n 
+0000007224 00000 n 
+0000007336 00000 n 
 trailer
 <<
-/ID 
-[<e7333f8edbb68de53371ba5751dbc63f><e7333f8edbb68de53371ba5751dbc63f>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 7 0 R
-/Root 6 0 R
-/Size 10
+/Size 11
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-3108
+7420
 %%EOF

@@ -1,112 +1,1135 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R
+/Producer (The Drawing Path \204 thedrawingpath\056com)
+/Author (The Drawing Path)
+/Creator (The Drawing Path)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 3
+/Kids [ 4 0 R 10 0 R 14 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/Contents 10 0 R /MediaBox [ 0 0 612 792 ] /Parent 9 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/Contents 11 0 R /MediaBox [ 0 0 612 792 ] /Parent 9 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 5109
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.05098 .05098 .05098 rg
+n 0 0 612 792 re f*
+.788235 .658824 .298039 RG
+1.5 w
+n 43.2 754.56 m 568.8 754.56 l S
+.788235 .658824 .298039 rg
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 43.2 761.76 Tm (LESSON 2  \267  ART SCHOOL, BUT DIY) Tj T* ET
+.478431 .458824 .439216 rg
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 481.664 761.76 Tm (PERSPECTIVE & VOLUME) Tj T* ET
+.227451 .207843 .188235 RG
+.5 w
+n 43.2 36 m 568.8 36 l S
+.478431 .458824 .439216 rg
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 43.2 25.2 Tm (bryanjodon.com) Tj T* ET
+BT 1 0 0 1 546.617 25.2 Tm (Page 1) Tj T* ET
+Q
+q
+1 0 0 1 63.6 709.2 cm
+q
+.788235 .658824 .298039 rg
+BT 1 0 0 1 0 4 Tm /F1 8 Tf 12 TL (LESSON 2 \267 ART SCHOOL, BUT DIY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 609.2 cm
+q
+BT 1 0 0 1 0 50 Tm 46 TL /F2 42 Tf .941176 .921569 .890196 rg (Perspective &) Tj  T* (Volume) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 585.2 cm
+q
+.478431 .458824 .439216 rg
+BT 1 0 0 1 0 7 Tm /F1 11 Tf 18 TL (How to draw objects that feel three-dimensional and exist convincingly in space.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 571.7 cm
+q
+1.5 w
+1 J
+.788235 .658824 .298039 RG
+n 0 0 m 484.8 0 l S
+Q
+Q
+q
+1 0 0 1 63.6 531.7 cm
+q
+.788235 .658824 .298039 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Overview) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 457.7 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 58 Tm /F1 10 Tf 17 TL .600625 Tw (Perspective is the grammar of 3D drawing. Without it, objects look flat, spaces feel unconvincing, and forms) Tj T* 0 Tw .271176 Tw (collapse. With it, even simple line drawings communicate depth, scale, and solidity. The goal of this lesson is) Tj T* 0 Tw 2.391429 Tw (to internalize perspective well enough that you stop consciously applying rules and start feeling spatial) Tj T* 0 Tw (relationships intuitively.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 400.7 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 41 Tm /F1 10 Tf 17 TL 1.007647 Tw (That intuition takes time. In the short term, you'll need to draw deliberately \227 placing horizon lines, finding) Tj T* 0 Tw 1.493333 Tw (vanishing points, checking edge convergence. Over weeks and months, these checks become instinctive.) Tj T* 0 Tw (Draw boxes every day. Hundreds of them. It is the single highest-return exercise in drawing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 386.7 cm
+Q
+q
+1 0 0 1 63.6 378.2 cm
+q
+.5 w
+1 J
+.227451 .207843 .188235 RG
+n 0 0 m 484.8 0 l S
+Q
+Q
+q
+1 0 0 1 63.6 354.2 cm
+q
+.788235 .658824 .298039 rg
+BT 1 0 0 1 0 5 Tm /F2 7 Tf 12 TL (CORE CONCEPTS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 330.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F2 10 Tf .941176 .921569 .890196 rg (The Horizon Line & Eye Level) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 258.2 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 58 Tm /F1 10 Tf 17 TL 1.367647 Tw (The horizon line in a drawing represents the viewer's eye level. Objects above the horizon are seen from) Tj T* 0 Tw 1.344667 Tw (below; objects below are seen from above. This single line governs every perspective relationship in your) Tj T* 0 Tw .2065 Tw (picture. When an object looks "wrong," the first thing to check is whether its edges converge to a point on the) Tj T* 0 Tw (horizon.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 234.2 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 4 Tm /F2 10 Tf 14 TL (One-Point Perspective) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 179.2 cm
+q
+BT 1 0 0 1 0 41 Tm -0.104 Tw 17 TL /F1 10 Tf .941176 .921569 .890196 rg (When you look straight down a hallway, road, or railroad track, edges that run away from you all converge to a) Tj T* 0 Tw .368235 Tw (single ) Tj /F2 10 Tf (vanishing point) Tj /F1 10 Tf ( \(VP\) on the horizon. This is one-point perspective. It creates a strong sense of depth) Tj T* 0 Tw (but looks mechanical if overused. Best for interior scenes and objects facing directly toward the viewer.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 155.2 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 4 Tm /F2 10 Tf 14 TL (Two-Point Perspective) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 100.2 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 41 Tm /F1 10 Tf 17 TL 1.149444 Tw (When you look at the corner of a building, edges run away in two different directions toward two separate) Tj T* 0 Tw .454667 Tw (vanishing points. This is the most useful perspective mode \227 it handles most architectural and object-based) Tj T* 0 Tw (drawing scenarios. Vertical edges remain perfectly vertical; only the horizontal edges converge.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 76.2 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 4 Tm /F2 10 Tf 14 TL (Three-Point Perspective) Tj T* ET
+Q
+Q
+ 
+
+Q
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.05098 0.05098 0.05098 rg
+n
+0 764 612 28 re
+f*
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.788235 0.658824 0.298039 rg
+BT
+1 0 0 1 20 774 Tm
+(THE DRAWING PATH) Tj
+T*
+ET
+BT
+/F1-0 6.5 Tf
+7.8 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 527.689 774 Tm
+(Teach Yourself to See) Tj
+T*
+ET
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 763 m
+612 763 l
+S
+0.05098 0.05098 0.05098 rg
+n
+0 0 612 22 re
+f*
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 22 m
+612 22 l
+S
+BT
+/F1-0 6 Tf
+7.2 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 20 8 Tm
+(thedrawingpath\056com) Tj
+T*
+ET
+BT
+1 0 0 1 537.892 8 Tm
+(\251 The Drawing Path) Tj
+T*
+ET
+Q
+
+endstream
 endobj
 6 0 obj
 <<
-/Contents 12 0 R /MediaBox [ 0 0 612 792 ] /Parent 9 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 7 0 obj
 <<
-/PageMode /UseNone /Pages 9 0 R /Type /Catalog
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/Author (Art School, But DIY \267 bryanjodon.com) /CreationDate (D:20260609142149+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260609142149+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (\(unspecified\)) /Title (Lesson 2: Perspective & Volume \204 Art School, But DIY) /Trapped /False
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 9 0 obj
 <<
-/Count 3 /Kids [ 4 0 R 5 0 R 6 0 R ] /Type /Pages
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 10 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2060
+/Contents 11 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 12 0 R
+/F2 8 0 R
+/F2-0 13 0 R
 >>
-stream
-Gatm;9lo&I&A@sBm.?B!*?-.mn3bZ'j![V_DX?#54.XIs+s@=K$)di77K)mb!#-_>M&]<,HXqsYY]&F5I1&nCn<\m]\c[17JX::'ckIf_TStRlSATSlo_/qhnmk_9r]bINUr(ge=-THoN.BU-8#35d1s:Fa3PJoedSZ9?,ImU;Llr`Y\;4]!=6,>$"a#hB'ra)5>Ia\#%N)F*=F,YN!"c?^5*rd%5tP4pUk@_!nb)RoHUn0$V*t^[ldZ-@ce_u5S=dTtNtZd:m]RE\q$`IZrC2I*(!A!:ejj?*.&FnD7BS$f$FUoOEdW"X3BiqF],ALB\@FU!pr@V<>+1a.a(T2H_ZHMdDe*ULW,,+)ee@[_@/;J(*+(hFWEF<8=Z9NH>'E'\G#m\*+9a@+M_=h-!4qdk#F*<lkoq>UPfX3'XZJ2,K>jX="I\0$6a)+<;NH30]hlAZ[JTGNN+*0)034\>@'&iP?G9!^"iZZ;UD,4KONY9R!NANp*I1[?ARXple5"j.GSYo-W5gj.?$>3]LqLk8/e6HLMm(oT6"qI:$=pg".rZCF_cNM/T+R%d2s1Z_6F?O5#]\S>:+.X#i[o-"JG:=jK3G=&WG8DMgGMM*G/7r[*e@UkN$I]A[M40TeD&@XOO]5^:m7R$Df(sQg]"-,ZH,KB1^e,QZ5m<-$Zdu?l>RLi08FN(/aid]<!3"hLfaFtUe$Xmc!dp3(PD?;&9)E0f5Un=#2/<=+s`YnT@2!WdXcKf6ciN6mpO^e]G0X=A,V^.>G[N[]9tRJh5$D4a<W?)$6DU;gQjLoLd=?1EA+Q)Z<O[;>,fFELID5ch,;@`41lsWDN:u;hMN/kl;fgkXU.[K.N5^IH+5lsed?3#_CYG#Ua-mVQAu"XPb_8R(mLQg8&/ShS<[bl&5"Tok>A3o]`dZn_CO'c;D0U/OtRU<)I\5#@^q68E>*K^Y9Qb:nobP\Yn9MM$Jj"h_Kl>Xl!q0f7s*"=jJe#EoNR3G,Y?.1Pl].JB@hc$^)Xo*9H5r8JTiRl`6L6;KKOB)SqcFLN"Vj&3kE.4VnuhqOHNC!).:j40*]4GnfQZ:QdhVB9WA:Mn$,.b)eJdXYhX:GOVM-3cj0rEe8nLEq$Wo_kOpqMk#No&!:XiYFV8n\peE=u`taE_MR^sK<1n\:lH20;Ve;FafAa26@&gtLcDX%8L5)IjhC_f<6t<!Z7#+aO9tsg!70;WB('D*G,M^]qF=Ud7BmlqRLCRBAX,:$(YO@_+@(V&>I=L2STRCBr8pTE(b;],pmL6P1MlSS&?+`B@?V[aG8MNlP3Q/eMUhhj)U,3D*0]1Z(HS(e8H[#bT[=E<L=aLuPRW#b7:G,72<p]I;f[I:43oAF-&!IBR)H8<r``p,1cV\'U\b2%]]=k!1WCF46454a;MHYRK3&B;f:#@B;@mptA9LZ!`^C8C-545V6H[B6jiV&uT=E!`8;&d4;Rbk2%q38,:bl\bXME"-BZ:<Ys$_LokY'M@%6s04uAMh\aT0d-GBlK0Gd+2kJTeh*QXl]\')t\V!]%[_^m2tB9!^Hu$g2G]:X%+'Zc.Grfc\?]c/'m4f<oWa,JCtg4LL\g(gW-eea/96;#n&UB@h[32BS+%,+%'HF>A#p!OFp$+]_LX%D-)+5!_2bc8%&H2htdk6:Y'_;4i^uuR3aK%Vk[)dT"'*=rr'E@75,-GIP7O:InS<ZlgA\0niDM$a#B?W?M*@7W4c7[rb:FQ(48W6_00T=E3`lPplr1YWH_)NhO29$?saf#j[OimW9;s.)d8=Zn<.-^d1CPVVX;\WEUlbM@r%e7iOrs'=WCe.2#%Z<RaWd)R[n>F7!^]9ru^K"<r0qd99L[CrlusDZ4US4V[p_d?/VI.7Yu))j=jl^[L!2SW3\d!kTau!-NuN"$%o,-Zg)C>i"b]bZ/GTeZ*-6T&!$DRCp;HMLXKlf.opo'D"fK_duB/r''ZVj<9);=iF-Wh\TG^C=T=@*<r[9a;(2=Ig,Q^2$:iKOn/Ge@:fj9lkW!13Tk@4Xp\fO4B]Tu9'tkP%D&VgS23l/\,c:&olS1E9dD%1;_;#~>endstream
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
 endobj
 11 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2096
+/Length 7498
 >>
 stream
-Gb!ktD,]1Y&H9tYfM;t@J1AZeF8DSoJCB[T`<D#T1OM2UB7*"n\T]fhoBZ;?8]E(X-a^uh8X$uV-/J"GZS0Ym"m"]ni'-aikf&@,GSs<hdV(s5j@(mdVSQs/Y8trMrI.5F^Wbe7mFEUdOnM-tOs])TG\NIt]pQGX`^N:%f['J%T2'mm$+uW@=;:EjXGA)S:8jmHah2H_Z_XpS,sYmO@`fHu2[88Zd-[YESHN8fd&<\pj2'F%a_qk+?%bdAo_`f!B*Z2AS/h"FMq9174F6U`7W3#54U^hT1lHY\Gu:J"lLi%;q)lo)i$Ct%WI-Zb4W=k@7RuVDqMrisNaMfIf[L[kBbWp=kd+I`Jp-$:C(mQ&)Pg[Ed(_<!7><N\fYXmrMYaG-FRA2$g9>F(73!U[&u=h^6ZFP(gj&X=KZNHGUus%gUd!Y[.h8,!'El4hK8"<n-SOf_6%<H]E"dh#^p78Dq(DYE[QX8W0Sr[i>L;g0U*)bH<1/?@7BPoUeX&,AWbt@dosH&^BIlfi^e9ifg8ObWV?uZ+7T?*Z3WG0V:E!C-iX<8H9!,;la*^>XP#`On=Xdf8:;YZJ[oZ4l)_mOgO#7Yu!T?LL0Zn&lC%TWEF(q::PU)/[BrQh=\ZW-4!G%2@H^#HU6_KE5<+S)!$9%/U<Phpn4]neOhCTsq?X)<X$%mB^njcReE_R76KI-Gs0sZs!Y=iR]Ul+;kD2$ToAE2M:e&S&3F!'\HektDK;(fq5?etj-]@+22I$sKnda09?A+[f@f'ie^>dZ:pWDH(H9t:Dt$\=sZ<3DKkYQKHMR*DE\((R?V0]'sHN<b06V5u>>l-1aGc4%TpoCH2S5t5Ddr])bMWbA7N4l;2T#Snqkf_('+V4P</K+H-tgP0!jV38T%RXt^S^@Z(APHQ8#J7Ei/!Grbn\$b_fXU@*gk:Tk='%SsQ%NUIAVqF\QLY1ClF&dEeUW7;()2F<Ab7tGI0UA>eUc=@HZu[]uYCKqrX)KY5<%+4J$CgMLg0ITds$l9S>$-PP]S]Kd"I[LGSqkXQNo/4Acb\k^dFmIE'3j^4XjYHABqK0\5IiMhmu$T>h]49Q;+OR.de<LBj2QSQ`cq:2V7hfen:mH7"sOY3d!lm52n>Gq@'r=XJpUpXY5T4d)_^iqIBe8MQ?4eq-&7uFVDR]6[ilVHm"<aEG&b9"%s`<l,"PXF&G,R-m52mJ1+6j(&G\tmNtRZKHlD<pi!43-P0l<#:c3t(/Xt_-SKSH1%iiKc8mJA7_uZUhL/7`'nMqCt8QNNkbcV<&jgMckU+Sth\JAJod\AT-[VO9+8UlBYpW0qDg]MB3WV;3g3ge(fM?!k=i\'7/3Y;Su)N_,hfP!;/Hl+gKc\LITFK"H8lVKi]%FT.eo;?GE"cjM'd8Y+P,YbGg7H&QekB5`m9-B`7FB*m2!>I^*Tg5%$0J]4*5r9.kIF[.fpBlCg[gbG_f>Y3ef9Z.Gc$dMj^$Ir.$)@M6kCd37F&"SBl4LU;UYojNh-b`rb3j4SG/%`(&h(*:XHYiU<,PHM83!KGA>RQA),8JKU.rq0.a^fTd9*(*/3qU08;Kjd>oIiGD6L]W>&'s1FP`DZ5Xm01N!i]d>t^V8R7eUY-?E+dAo8l?s0B;4%eJH<_f(j+?KuoUYt<fY<L-/$2/B[B<MA_+%;n#*\t0EedAY0Q!VN]2&,9;ZH.Tm?k7S_im+spL?q@k>]6N%`f4o0Wk?RA6PpnDT6-.$oYK]Sr]e`LIIkDb\faY@Io(2)/Xu-`aUL*L;l);'S3jUKU7ji38VF/J)K<[N$hIN,4/:"m2EA5o]I@-["(Xe+/U>b)6Qr:Zac5rQS/h/tM1LEdp`J6>H<%-49cjYD.91JK._0KIn@<_]LK/$gV'f/2ERo7IB>UqN&m$I!0[O43Z3BD)UN+b9cTprSM4=XjM=4fSp-Og#jG^X+"$eS%1n.ClXB[1$OD$GQI\_#08i?LTE.WV7K^b%,?gIa<ue?&c4jndIWT:9Vf/F-aKg28&QN!8q0jXD74(><"fR%YKuY;%"i5%,]u2\Q3QC<oC%c2"Sc]VLtCPP4bQ+QgmMZ\AT09&&,-fL$M`'X20tgA)\]6\7`~>endstream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.05098 .05098 .05098 rg
+n 0 0 612 792 re f*
+.788235 .658824 .298039 RG
+1.5 w
+n 43.2 754.56 m 568.8 754.56 l S
+.788235 .658824 .298039 rg
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 43.2 761.76 Tm (LESSON 2  \267  ART SCHOOL, BUT DIY) Tj T* ET
+.478431 .458824 .439216 rg
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 481.664 761.76 Tm (PERSPECTIVE & VOLUME) Tj T* ET
+.227451 .207843 .188235 RG
+.5 w
+n 43.2 36 m 568.8 36 l S
+.478431 .458824 .439216 rg
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 43.2 25.2 Tm (bryanjodon.com) Tj T* ET
+BT 1 0 0 1 546.617 25.2 Tm (Page 2) Tj T* ET
+Q
+q
+1 0 0 1 63.6 670.2 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 41 Tm /F1 10 Tf 17 TL 2.426471 Tw (Add a third vanishing point above or below the horizon for dramatic foreshortening \227 looking up at a) Tj T* 0 Tw .565625 Tw (skyscraper, or down from a rooftop. Vertical edges now converge too, creating the illusion of massive scale.) Tj T* 0 Tw (Use sparingly; it reads as extreme unless that's the intent.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 646.2 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 4 Tm /F2 10 Tf 14 TL (Foreshortening) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 591.2 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 41 Tm /F1 10 Tf 17 TL .728824 Tw (When a form points directly toward the viewer, it appears compressed \227 its length appears shorter than its) Tj T* 0 Tw 3.281111 Tw (width. A foreshortened arm pointing at you looks almost as wide as it is long. The key to drawing) Tj T* 0 Tw (foreshortened forms convincingly is to trust what you see, not what you know the object's true length to be.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 574.7 cm
+q
+.5 w
+1 J
+.227451 .207843 .188235 RG
+n 0 0 m 484.8 0 l S
+Q
+Q
+q
+1 0 0 1 63.6 550.7 cm
+q
+.788235 .658824 .298039 rg
+BT 1 0 0 1 0 5 Tm /F2 7 Tf 12 TL (DAILY EXERCISES) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 538.7 cm
+Q
+q
+1 0 0 1 79.2 396.7 cm
+q
+.078431 .078431 .078431 rg
+n 0 142 453.6 -142 re f*
+.078431 .078431 .078431 rg
+n 0 142 453.6 -142 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 14 120 cm
+q
+.788235 .658824 .298039 rg
+BT 1 0 0 1 0 4 Tm /F2 8 Tf 12 TL (EXERCISE 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 14 92 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 4 Tm /F2 10 Tf 14 TL (Box-a-Day Challenge) Tj T* ET
+Q
+Q
+q
+1 0 0 1 14 70 cm
+q
+BT 1 0 0 1 6 6 Tm /F1 10 Tf 12 TL .941176 .921569 .890196 rg /F1 10 Tf 12 TL .941176 .921569 .890196 rg (\177) Tj ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 18 6 Tm /F1 10 Tf 16 TL (Draw 20\22630 boxes per session in 2-point perspective from imagination.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 14 50 cm
+q
+BT 1 0 0 1 6 6 Tm /F1 10 Tf 12 TL .941176 .921569 .890196 rg /F1 10 Tf 12 TL .941176 .921569 .890196 rg (\177) Tj ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 18 6 Tm /F1 10 Tf 16 TL (Vary size, orientation, and eye level. Some boxes above the horizon, some below.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 14 30 cm
+q
+BT 1 0 0 1 6 6 Tm /F1 10 Tf 12 TL .941176 .921569 .890196 rg /F1 10 Tf 12 TL .941176 .921569 .890196 rg (\177) Tj ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 18 6 Tm /F1 10 Tf 16 TL (Check every edge: do the top edges converge to VP1 and VP2? Do verticals stay vertical?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 14 10 cm
+q
+BT 1 0 0 1 6 6 Tm /F1 10 Tf 12 TL .941176 .921569 .890196 rg /F1 10 Tf 12 TL .941176 .921569 .890196 rg (\177) Tj ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 18 6 Tm /F1 10 Tf 16 TL (This exercise is foundational. Commit to it daily for the entire lesson.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.788235 .658824 .298039 RG
+3 w
+n 0 0 m 0 142 l S
+Q
+Q
+Q
+q
+1 0 0 1 63.6 388.7 cm
+Q
+q
+1 0 0 1 79.2 246.7 cm
+q
+.078431 .078431 .078431 rg
+n 0 142 453.6 -142 re f*
+.078431 .078431 .078431 rg
+n 0 142 453.6 -142 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 14 120 cm
+q
+.788235 .658824 .298039 rg
+BT 1 0 0 1 0 4 Tm /F2 8 Tf 12 TL (EXERCISE 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 14 92 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 4 Tm /F2 10 Tf 14 TL (Room Interior in 1-Point Perspective) Tj T* ET
+Q
+Q
+q
+1 0 0 1 14 70 cm
+q
+BT 1 0 0 1 6 6 Tm /F1 10 Tf 12 TL .941176 .921569 .890196 rg /F1 10 Tf 12 TL .941176 .921569 .890196 rg (\177) Tj ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 18 6 Tm /F1 10 Tf 16 TL (Draw a simple room interior from memory: floor, ceiling, back wall, left wall, right wall.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 14 50 cm
+q
+BT 1 0 0 1 6 6 Tm /F1 10 Tf 12 TL .941176 .921569 .890196 rg /F1 10 Tf 12 TL .941176 .921569 .890196 rg (\177) Tj ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 18 6 Tm /F1 10 Tf 16 TL (Add a window, a door, and one piece of furniture. All edges converge to one VP.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 14 30 cm
+q
+BT 1 0 0 1 6 6 Tm /F1 10 Tf 12 TL .941176 .921569 .890196 rg /F1 10 Tf 12 TL .941176 .921569 .890196 rg (\177) Tj ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 18 6 Tm /F1 10 Tf 16 TL (Focus on consistent eye level \227 don't let the VP drift.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 14 10 cm
+q
+BT 1 0 0 1 6 6 Tm /F1 10 Tf 12 TL .941176 .921569 .890196 rg /F1 10 Tf 12 TL .941176 .921569 .890196 rg (\177) Tj ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 18 6 Tm /F1 10 Tf 16 TL (Try once from below eye level \(looking up at the ceiling\) and once from above \(bird's eye\).) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.788235 .658824 .298039 RG
+3 w
+n 0 0 m 0 142 l S
+Q
+Q
+Q
+q
+1 0 0 1 63.6 238.7 cm
+Q
+q
+1 0 0 1 79.2 80.7 cm
+q
+.078431 .078431 .078431 rg
+n 0 158 453.6 -158 re f*
+.078431 .078431 .078431 rg
+n 0 158 453.6 -158 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 14 136 cm
+q
+.788235 .658824 .298039 rg
+BT 1 0 0 1 0 4 Tm /F2 8 Tf 12 TL (EXERCISE 3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 14 108 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 4 Tm /F2 10 Tf 14 TL (Object Deconstruction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 14 86 cm
+q
+BT 1 0 0 1 6 6 Tm /F1 10 Tf 12 TL .941176 .921569 .890196 rg /F1 10 Tf 12 TL .941176 .921569 .890196 rg (\177) Tj ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 18 6 Tm /F1 10 Tf 16 TL (Choose a moderately complex object: camera, sneaker, chair, backpack.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 14 66 cm
+q
+BT 1 0 0 1 6 6 Tm /F1 10 Tf 12 TL .941176 .921569 .890196 rg /F1 10 Tf 12 TL .941176 .921569 .890196 rg (\177) Tj ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 18 6 Tm /F1 10 Tf 16 TL (Break it into 5\2268 overlapping box-like forms. Draw those boxes in perspective first.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 14 30 cm
+q
+BT 1 0 0 1 6 22 Tm /F1 10 Tf 12 TL .941176 .921569 .890196 rg /F1 10 Tf 12 TL .941176 .921569 .890196 rg (\177) Tj ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 18 22 Tm /F1 10 Tf 16 TL (Only after the box structure is correct, refine edges to match the real object's curves and) Tj T* (details.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 14 10 cm
+q
+BT 1 0 0 1 6 6 Tm /F1 10 Tf 12 TL .941176 .921569 .890196 rg /F1 10 Tf 12 TL .941176 .921569 .890196 rg (\177) Tj ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 18 6 Tm /F1 10 Tf 16 TL (This workflow \227 structure before surface \227 is used by professional concept artists.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.788235 .658824 .298039 RG
+3 w
+n 0 0 m 0 158 l S
+Q
+Q
+Q
+ 
+
+Q
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.05098 0.05098 0.05098 rg
+n
+0 764 612 28 re
+f*
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.788235 0.658824 0.298039 rg
+BT
+1 0 0 1 20 774 Tm
+(THE DRAWING PATH) Tj
+T*
+ET
+BT
+/F1-0 6.5 Tf
+7.8 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 527.689 774 Tm
+(Teach Yourself to See) Tj
+T*
+ET
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 763 m
+612 763 l
+S
+0.05098 0.05098 0.05098 rg
+n
+0 0 612 22 re
+f*
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 22 m
+612 22 l
+S
+BT
+/F1-0 6 Tf
+7.2 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 20 8 Tm
+(thedrawingpath\056com) Tj
+T*
+ET
+BT
+1 0 0 1 537.892 8 Tm
+(\251 The Drawing Path) Tj
+T*
+ET
+Q
+
+endstream
 endobj
 12 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1899
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/Contents 15 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 16 0 R
+/F2 8 0 R
+/F2-0 17 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 7422
 >>
 stream
-Gb"/g>>s99'Z],,'^'0h]u9^6A=jW(.(#\DM<RcJGYr9';/n.j,STb9pIKH[&All_Or7jm5d1trkG"UJ3gKk+r]'$rR/n;JE-UYuj$Gj4a1$GPHdI`_r][RQ^i$X>r]`+taA(P'HUM]e"GQC#""S,o>V?(-%.M+=bAF_)Y76*p#EBP7*'<tfKfoLp$::+G&@S[knhu-Zc4SE2m:)kSCon\q<i:tS)EMuA."lgLNF$fg]_i0j^pP+N!(VYYL7PZobMIS*^5Cn1r7`0H^I.p"%qPK5bP*!\r7\IF[9Y/-T&l8JKqZ7q]\a_<qqY"prj<-K_:QleeO=]2Rd3FlJC[t0Rg%!7il4Z/-H]O?af?*I1N)J$h#K[HLEj&Hq0/G$ge.?X_mbUHJKJ'h'<O@hab58TnaI>_AGL?2=Wp29D+2O17Rou.^rN@IXY?2P$@N?22DK[6*]7bhX&5KW`*%X3BSR*oh'sS:llIuE=+d9XHNL*tDANN5iT8U_diI;'BA5>UAo)C7'=BP>U$JhnEbqWo@YbQof..$.r'1eDe88g&fOgrP]K,]>:UBVXVQe0XeQ1D<iuhbGc?Tu0_.pBcRB>-?AaK)_#):-S+EJZEbjTL>\.SA3PWZtrf*uPko(ig.>;h5gGZ5C1K&m[0;]uO;.!A7ehs=#PqME[0r4M3OVk'gHdW)_'8%U,\)C`6h7f6"k$-(\:kb4^%G4j2q6iQs:Vh.h1n5;gR<.O@^*hHVj>OtYrm<E4]i[KQfcVfj^j=(ZiN4&1Bn;/8D(io]q,pLs/0@lNr2&3co9X1'8'3,C.!bSF2dtNidn<rIaS5-S'A<]sWOYAuYhtLbs:VA"_Yj3UGKmsZFY6k4m<E-aOaXd3`(-.ef"GSj7,u^B$lc(ki`oUkUO=tjXd*c5<s2n6^?^gES4=u[l7P[N6A<S!SNgPHn,amZbS>dsa]7^rWnJn1T7%E?Rh"Zk3#Il*Y]JTd:4P-,h0'@!lK\Odf,5dDG6#eS>D\sQC>U^NZ&J[p=\e]U@"2bb:S^(oOIZaWe8UliWh^-?D?BOPW9/O*b>C[udJV)sA8shAjX(0@oB!<BA8\sZE>RF,,IsK+`hqg$IgSq=M?1Y^U).3cK7/!cZ(oGe:^/:D.V*-A#6D;FhJr%C(Z^maBKm#o6IAhD,&p^uIMu*R)5F%-UP-QRH+DI\$$,<<GX&`@;<5+,l`*JhF[G[DuCsbj-$_j["Ttn?l+nn$OqgmQ2_e6h-q+KB1lGm='BE&3*^E=_O@o;C\&_\m/8n#eQW&[Yu]GLNEEV##?ZB%9,(Bi3TOR.C$>%fd2EktSZZ,GKrSlkJJ:ngXK6A/fG8XN:6TVh$Yk=umh-O!O)]'b^(0H.GAN(^]/f^7TSPqRR%Dg5QX=1b(?LCN8;=fWPA=h4--@=M7l9h8BbCd?ero;%U-?.CAS4\)lYS8s1_qGo+j?'HJn'7BhE7_@8>m=As&pKnT]4dK%)@lUKsapN"&ZGesIY8-9_n]oLP-6G0<-"6]#nsK%8V<P^WqN-@3c#9$.\ZWg\Z*6K^;5@hE2bU:(MTq6+6,ur$I%phDb#I!R3)-@8RBB9t.USKQF0=_Qme42#oo88^lOV9;GFu!%o*j0WmFA."F+uaRe;ZP&a-W-bTKbF$`93]ZcC$PESL@Y[^,NXVNqK:IgsWrqb-Z\`/H.=-f5%mI_;XA\4^0"biFItI<\Mt(Keha;bp9\>f'co>S)6:VX/OBPA`i>XT;7#M^8+_hK!6,^pNUMW+k6(q^^i,Wo,ik]01p/g7tNQNp)GAI-58\b!Z,gq`j??oK$l7CE=7q'5]Ap)Ea,.O;Cil-)4g*JPfaqm:Vl=%Pss6L<$V7<"f32ek@,=6Xo3.I9iJ[]0CS`5'G;6`5tjiB0N2r[&$sAUFo~>endstream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.05098 .05098 .05098 rg
+n 0 0 612 792 re f*
+.788235 .658824 .298039 RG
+1.5 w
+n 43.2 754.56 m 568.8 754.56 l S
+.788235 .658824 .298039 rg
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 43.2 761.76 Tm (LESSON 2  \267  ART SCHOOL, BUT DIY) Tj T* ET
+.478431 .458824 .439216 rg
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 481.664 761.76 Tm (PERSPECTIVE & VOLUME) Tj T* ET
+.227451 .207843 .188235 RG
+.5 w
+n 43.2 36 m 568.8 36 l S
+.478431 .458824 .439216 rg
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 43.2 25.2 Tm (bryanjodon.com) Tj T* ET
+BT 1 0 0 1 546.617 25.2 Tm (Page 3) Tj T* ET
+Q
+q
+1 0 0 1 63.6 720.7 cm
+q
+.5 w
+1 J
+.227451 .207843 .188235 RG
+n 0 0 m 484.8 0 l S
+Q
+Q
+q
+1 0 0 1 63.6 696.7 cm
+q
+.788235 .658824 .298039 rg
+BT 1 0 0 1 0 5 Tm /F2 7 Tf 12 TL (CURATED FREE RESOURCES) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 684.7 cm
+Q
+q
+1 0 0 1 79.2 623.7 cm
+q
+.101961 .101961 .101961 rg
+n 0 61 453.6 -61 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 12 38 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 4 Tm /F2 10 Tf 14 TL (Draw a Box \227 Lesson 1 \(Boxes\) + Lesson 6 \(Applying Perspective\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 24 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf .788235 .658824 .298039 rg (drawabox.com ) Tj .478431 .458824 .439216 rg (\267) Tj .788235 .658824 .298039 rg ( ) Tj .478431 .458824 .439216 rg (Free Course) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 9 cm
+q
+.478431 .458824 .439216 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (The gold standard free program for learning perspective through structured box-drawing. Non-negotiable.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.227451 .207843 .188235 RG
+.5 w
+n 0 0 m 453.6 0 l S
+Q
+Q
+Q
+q
+1 0 0 1 79.2 562.7 cm
+q
+.101961 .101961 .101961 rg
+n 0 61 453.6 -61 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 12 38 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 4 Tm /F2 10 Tf 14 TL (Peter Han \227 Dynamic Sketching \(YouTube\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 24 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf .788235 .658824 .298039 rg (youtube.com ) Tj .478431 .458824 .439216 rg (\267) Tj .788235 .658824 .298039 rg ( ) Tj .478431 .458824 .439216 rg (Video) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 9 cm
+q
+.478431 .458824 .439216 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Industrial designer and teacher with exceptional perspective instruction for product and concept sketching.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.227451 .207843 .188235 RG
+.5 w
+n 0 0 m 453.6 0 l S
+Q
+Q
+Q
+q
+1 0 0 1 79.2 501.7 cm
+q
+.101961 .101961 .101961 rg
+n 0 61 453.6 -61 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 12 38 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 4 Tm /F2 10 Tf 14 TL (How to Draw \227 Scott Robertson \(Book Supplement\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 24 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf .788235 .658824 .298039 rg (youtube.com ) Tj .478431 .458824 .439216 rg (\267) Tj .788235 .658824 .298039 rg ( ) Tj .478431 .458824 .439216 rg (Video) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 9 cm
+q
+.478431 .458824 .439216 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Scott Robertson's supplemental YouTube content accompanies his definitive book on perspective drawing.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.227451 .207843 .188235 RG
+.5 w
+n 0 0 m 453.6 0 l S
+Q
+Q
+Q
+q
+1 0 0 1 79.2 440.7 cm
+q
+.101961 .101961 .101961 rg
+n 0 61 453.6 -61 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 12 38 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F2 10 Tf .941176 .921569 .890196 rg (Ctrl+Paint \227 Perspective & Space Library) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 24 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf .788235 .658824 .298039 rg (ctrlpaint.com/topics/perspective ) Tj .478431 .458824 .439216 rg (\267) Tj .788235 .658824 .298039 rg ( ) Tj .478431 .458824 .439216 rg (Course) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 9 cm
+q
+.478431 .458824 .439216 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Free library section covering perspective types, vanishing points, and spatial depth in painting.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.227451 .207843 .188235 RG
+.5 w
+n 0 0 m 453.6 0 l S
+Q
+Q
+Q
+q
+1 0 0 1 79.2 366.7 cm
+q
+.101961 .101961 .101961 rg
+n 0 74 453.6 -74 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 12 51 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 4 Tm /F2 10 Tf 14 TL (Marc Brunet \227 Perspective Made Simple) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 37 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf .788235 .658824 .298039 rg (youtube.com ) Tj .478431 .458824 .439216 rg (\267) Tj .788235 .658824 .298039 rg ( ) Tj .478431 .458824 .439216 rg (Video) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 9 cm
+q
+.478431 .458824 .439216 rg
+BT 1 0 0 1 0 17 Tm /F1 9 Tf 13 TL (Practical, sketchbook-oriented perspective instruction. Great for artists who find textbook approaches) Tj T* (confusing.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.227451 .207843 .188235 RG
+.5 w
+n 0 0 m 453.6 0 l S
+Q
+Q
+Q
+q
+1 0 0 1 79.2 305.7 cm
+q
+.101961 .101961 .101961 rg
+n 0 61 453.6 -61 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 12 38 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 4 Tm /F2 10 Tf 14 TL (Proko \227 Drawing in Perspective) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 24 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf .788235 .658824 .298039 rg (youtube.com/@Proko ) Tj .478431 .458824 .439216 rg (\267) Tj .788235 .658824 .298039 rg ( ) Tj .478431 .458824 .439216 rg (Video) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 9 cm
+q
+.478431 .458824 .439216 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Proko's perspective-focused content covering foreshortening and drawing figures in perspective.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.227451 .207843 .188235 RG
+.5 w
+n 0 0 m 453.6 0 l S
+Q
+Q
+Q
+q
+1 0 0 1 79.2 244.7 cm
+q
+.101961 .101961 .101961 rg
+n 0 61 453.6 -61 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 12 38 cm
+q
+.941176 .921569 .890196 rg
+BT 1 0 0 1 0 4 Tm /F2 10 Tf 14 TL (Line of Action \227 Daily Perspective Practice) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 24 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf .788235 .658824 .298039 rg (line-of-action.com ) Tj .478431 .458824 .439216 rg (\267) Tj .788235 .658824 .298039 rg ( ) Tj .478431 .458824 .439216 rg (Tool) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 9 cm
+q
+.478431 .458824 .439216 rg
+BT 1 0 0 1 0 4 Tm /F1 9 Tf 13 TL (Use the environment/interior mode for timed reference studies of real spaces.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.227451 .207843 .188235 RG
+.5 w
+n 0 0 m 453.6 0 l S
+Q
+Q
+Q
+q
+1 0 0 1 63.6 232.7 cm
+Q
+q
+1 0 0 1 63.6 224.2 cm
+q
+.5 w
+1 J
+.788235 .658824 .298039 RG
+n 0 0 m 484.8 0 l S
+Q
+Q
+q
+1 0 0 1 63.6 200.2 cm
+q
+.788235 .658824 .298039 rg
+BT 1 0 0 1 0 5 Tm /F2 7 Tf 12 TL (SKETCHBOOK PRACTICE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 177.2 cm
+q
+BT 1 0 0 1 0 7 Tm 17 TL /F2 10 Tf .941176 .921569 .890196 rg (Every day:) Tj /F1 10 Tf ( 20\22630 boxes before anything else. This is non-negotiable for this lesson. No shortcuts.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63.6 137.2 cm
+q
+BT 1 0 0 1 0 24 Tm .335455 Tw 17 TL /F2 10 Tf .941176 .921569 .890196 rg (Weekly:) Tj /F1 10 Tf ( Draw one scene from life \227 a corner of a room, a street view, a desktop setup \227 using proper 1 or) Tj T* 0 Tw (2-point perspective to structure it first.) Tj T* ET
+Q
+Q
+ 
+
+Q
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.05098 0.05098 0.05098 rg
+n
+0 764 612 28 re
+f*
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.788235 0.658824 0.298039 rg
+BT
+1 0 0 1 20 774 Tm
+(THE DRAWING PATH) Tj
+T*
+ET
+BT
+/F1-0 6.5 Tf
+7.8 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 527.689 774 Tm
+(Teach Yourself to See) Tj
+T*
+ET
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 763 m
+612 763 l
+S
+0.05098 0.05098 0.05098 rg
+n
+0 0 612 22 re
+f*
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 22 m
+612 22 l
+S
+BT
+/F1-0 6 Tf
+7.2 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 20 8 Tm
+(thedrawingpath\056com) Tj
+T*
+ET
+BT
+1 0 0 1 537.892 8 Tm
+(\251 The Drawing Path) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+16 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
 endobj
 xref
-0 13
+0 18
 0000000000 65535 f 
-0000000061 00000 n 
-0000000102 00000 n 
-0000000209 00000 n 
-0000000321 00000 n 
-0000000515 00000 n 
-0000000709 00000 n 
-0000000903 00000 n 
-0000000971 00000 n 
-0000001319 00000 n 
-0000001390 00000 n 
-0000003542 00000 n 
-0000005730 00000 n 
+0000000015 00000 n 
+0000000147 00000 n 
+0000000220 00000 n 
+0000000269 00000 n 
+0000000514 00000 n 
+0000005675 00000 n 
+0000005782 00000 n 
+0000005889 00000 n 
+0000006001 00000 n 
+0000006113 00000 n 
+0000006362 00000 n 
+0000013913 00000 n 
+0000014021 00000 n 
+0000014134 00000 n 
+0000014383 00000 n 
+0000021858 00000 n 
+0000021966 00000 n 
 trailer
 <<
-/ID 
-[<c1a026b865fa1cd05794b511da9c71ab><c1a026b865fa1cd05794b511da9c71ab>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 8 0 R
-/Root 7 0 R
-/Size 13
+/Size 18
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-7721
+22079
 %%EOF

@@ -1,80 +1,316 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R
+/Producer (The Drawing Path \204 thedrawingpath\056com)
+/Author (The Drawing Path)
+/Creator (The Drawing Path)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/BaseFont /ZapfDingbats /Name /F3 /Subtype /Type1 /Type /Font
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/Contents 9 0 R /MediaBox [ 0 0 612 792 ] /Parent 8 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 6219
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.05098 .05098 .05098 rg
+n 0 0 612 792 re f*
+.788235 .658824 .298039 rg
+n 0 789 612 3 re f*
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 759.6 Tm (LESSON 4  \267  2ND TERM  \267  LIGHT & SHADOW) Tj T* ET
+BT /F2 28 Tf 33.6 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 716.4 Tm (The Terminator) Tj T* ET
+BT /F1 13 Tf 15.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 691.2 Tm (The boundary between light and shadow) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 676.8 m 568.8 676.8 l S
+BT /F1 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 655.2 Tm (The terminator is the line \(or zone\) on a form where light ends and shadow begins. Its) Tj T* ET
+BT 1 0 0 1 43.2 640.2 Tm (shape and softness reveal the shape of the form, the type of light, and the angle between) Tj T* ET
+BT 1 0 0 1 43.2 625.2 Tm (the form and the light source.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 599.2 m 568.8 599.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 564.2 Tm (What It Tells You) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 552.2 m 288.8 552.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 540.2 Tm (The terminator's shape mirrors the shape of the) Tj T* ET
+BT 1 0 0 1 43.2 527.2 Tm (form it crosses. On a sphere, it's a curve. On a) Tj T* ET
+BT 1 0 0 1 43.2 514.2 Tm (box, it's a hard line at an edge. On a face, it) Tj T* ET
+BT 1 0 0 1 43.2 501.2 Tm (follows the contours of the anatomy. Map the) Tj T* ET
+BT 1 0 0 1 43.2 488.2 Tm (terminator correctly and the form reads.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 564.2 Tm (Hard vs Soft Terminator) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 552.2 m 558.8 552.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 540.2 Tm (Direct, bright light creates a sharp, well-defined) Tj T* ET
+BT 1 0 0 1 313.2 527.2 Tm (terminator. Diffuse light \(overcast day, skylight\)) Tj T* ET
+BT 1 0 0 1 313.2 514.2 Tm (creates a soft, gradual terminator. The softness) Tj T* ET
+BT 1 0 0 1 313.2 501.2 Tm (of the terminator is one of the primary ways to) Tj T* ET
+BT 1 0 0 1 313.2 488.2 Tm (describe the quality of the light source.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 441.2 Tm (Finding the Terminator) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 429.2 m 288.8 429.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 417.2 Tm (Set up a simple form under a single light source.) Tj T* ET
+BT 1 0 0 1 43.2 404.2 Tm (Look for the line where the surface first turns) Tj T* ET
+BT 1 0 0 1 43.2 391.2 Tm (away from the light. This is the terminator. On a) Tj T* ET
+BT 1 0 0 1 43.2 378.2 Tm (sphere, it's not at the edge \227 it's roughly 70\22680%) Tj T* ET
+BT 1 0 0 1 43.2 365.2 Tm (across from the light.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 318.2 Tm (The Core Shadow) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 306.2 m 558.8 306.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 294.2 Tm (Just inside the terminator is often the darkest) Tj T* ET
+BT 1 0 0 1 313.2 281.2 Tm (area of the form \227 the core shadow. This is where) Tj T* ET
+BT 1 0 0 1 313.2 268.2 Tm (neither direct light nor reflected light reaches.) Tj T* ET
+BT 1 0 0 1 313.2 255.2 Tm (It's typically not at the very edge of the form,) Tj T* ET
+BT 1 0 0 1 313.2 242.2 Tm (but just inside the shadow side.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 187.2 m 568.8 187.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 170.2 Tm (PRACTICE EXERCISES) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 154.2 Tm (1.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 154.2 Tm (Draw a sphere with clear terminator \227 notice it's not at the silhouette edge.) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 137.2 Tm (2.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 137.2 Tm (Draw the same form under 3 different light qualities. Compare the terminator edge.) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 120.2 Tm (3.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 120.2 Tm (Draw a face and explicitly locate and draw the terminator on each major form.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 105.2 m 568.8 105.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 88.2 Tm (FURTHER READING) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 72.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Terminator & Shadow) Tj T* ET
+BT /F1 8 Tf 9.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 61.2 Tm (https://youtu.be/V3WmrWUEIJo) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 46.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Watts Atelier \226 Light Logic) Tj T* ET
+BT /F1 8 Tf 9.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 35.2 Tm (https://www.youtube.com/watch?v=fFwmvzCIXAM) Tj T* ET
+.078431 .078431 .078431 rg
+n 0 0 612 28.8 re f*
+BT /F1 7 Tf 8.4 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 4: Light & Shadow \227 The Terminator) Tj T* ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
+ 
+
+Q
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.05098 0.05098 0.05098 rg
+n
+0 764 612 28 re
+f*
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.788235 0.658824 0.298039 rg
+BT
+1 0 0 1 20 774 Tm
+(THE DRAWING PATH) Tj
+T*
+ET
+BT
+/F1-0 6.5 Tf
+7.8 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 527.689 774 Tm
+(Teach Yourself to See) Tj
+T*
+ET
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 763 m
+612 763 l
+S
+0.05098 0.05098 0.05098 rg
+n
+0 0 612 22 re
+f*
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 22 m
+612 22 l
+S
+BT
+/F1-0 6 Tf
+7.2 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 20 8 Tm
+(thedrawingpath\056com) Tj
+T*
+ET
+BT
+1 0 0 1 537.892 8 Tm
+(\251 The Drawing Path) Tj
+T*
+ET
+Q
+
+endstream
 endobj
 6 0 obj
 <<
-/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 7 0 obj
 <<
-/Author (anonymous) /CreationDate (D:20260610004312+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260610004312+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (unspecified) /Title (untitled) /Trapped /False
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/Count 1 /Kids [ 5 0 R ] /Type /Pages
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 9 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1949
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-stream
-Gau0DD,]1Y&H9tYfIq)5`YEfLa\8U"N<r?#aC(nk1OP=]P:_l<mcfDbr;,iP:9n\p"2l3l/FI%3]=7\(ZYLGOj.@JZUE&3q$(RM)@$iW>^p#[8-6j@$N\oS>"!9ESCj&e!-XHYa(RVuD,]A`#chC/W!R5cV*ud$mn9$6p^@(fJI)&We=!g(=d9di?)?_-9PhWXCTk,Uu>aXSk4;s1!=-m:sgmYAN?s]G@A8qLP=c\=+0.-0=N%[rPY&<+3j:3MTKf/+I$)TAGYUffVHP+nbiOPTbVW##cBRZTnJ\0A=_\LIl(R$k1$"8*_KUf>b.i;Ma#1m!^Ys%!Q%+&g5<nfrf40?#DJY.pe.BSIeA1O#[^*KM)/=k$GKLH=24H/O1A,N<V?GA_Q**?ZbC'1'.q2g6hqKT,D)2qeWFm6O6o(]_Te+&s;nU\%MN]UBI&@amCNUO4s[r6d4&4/]d%a-k@7%K;OES3>pSpZh>V$9:nDFSs$\?.:Apt12J!&WX<.8-Jq!spdJ7"(CKEZo8njF;PWmn+CBnnG?L(:/rVZ/93MCl[Af[Li,*8m8KUB\dJBG$Sfdf<&jL6%GS%[d$j?>Hb4Za#B:,Ih07[s6?mSpbWjQY*di4_/X='iFX-ObTGD0QBgs)<\J*fj-VS3VD$sP=.M;RdRbHt[=Q,>6T!,s4WWAO/C/F.SSkm[fqe"RV'8R(1.GFBLd$1\i0^+QP[$a>7#[EX5oO):d[(>-p`A9W.j7:qHQ`!`I@s%CcRJhD5!'9X>aJJ>F9+op;c&R/OgMA(;`@lMZ]$O&;b".P8D(5IP>DB-?YT!a>l<O@2WdM0_HHp`ar#t[[VDj0L4taD0!tdYc8%:<G9Pu::r4&<@(08<R!B$;;9s4l83I.4EpkOo&aI2s8\M'&,Jj_+,-m0?@uDBZZ%.:a8V62eG:,]8[es?B6%cL#8ZK(Y,ZNb._P49q&;R;-PkQ\Rj7^`(jHbH>k:jh;R'A?JKZ\HhMMc.JGV<f)6cHR[mXac"U#L[#\`eglE.qPnq`rb4N(FnlF@mgq^Z]4N<t4(dqY\h5BA:\!cI3t4MjZEr8g`,FB$er@H?C&6[#KenA&=pCLnppD,#a2Q1C.E0:\M[h+koE8)m5,J]baN23M>g8;Go"lKF3m,+Vf:AMLBp0C<*(\.0'[Lq)XLeE(Cd&Dfgj2")50UL+4.b>Ym%P<IbBY`>R.sl8sr*ZT7<=VrOB7lbDcgGFRP6P[.\Ol%9>9AMbbH[F_;njRLCu7>7SM*T=&##803VBW1Hp_Q;dJQc<Q;jX2%'?EoPin3&4mk[b+NDn1GQe/e,FbgihT&N*^ofcnPJ(YNZ">*'G,(rT=U<@JXG/0d`@4![jRkWq$Qg[/hc[[ie@JlF^_VGW^(XZFBfNF(0%lOL%D;=.u$RoUNs[c4?bC9`6,3,84pB,n$T#8p#@YN^_4Y#"qY@=J9008&TiE'2c-PjY4$ZOJo(o8H2)[tE/U.Qti?^n.fMfoC<]7(PXJOcX^R/a8'_:/UboQ)76]3NWSM[HQt=LS$T?eHij6d*oJ.o(;Ji@D:,P/1d27_2o@*e^TR<'glu5k)5<a&qL#@r+8;Pl_*EZ@9*#47h`cmq6nAm-l'(,7O&n?jDNa@WH22>2(U!To'd,j,''ld:Yk9dVd(7<5206*r:BUB@W2e.K@@0cjni\$k65d+P]31`>FR=eooJQ3nAk$Td<dA.amG$fiW[\Pdo-j?msfpj]pNN&bFJ/mq<m<S74V\Y;f_GiFd'/$c\(0]HI-W`mYeu&'67Er.487j=<3]i/@H.]V9pI(@6%QN=>#r/%*=`I&^=+;+ckc855^P50CstfrSa*lO'Os8b0nj`j,Kf_8A+[;iq*,N@taiQ1(N>X:2/:3^T^"q%DUJ?4Mi0h=G6B0's`Q^p"_"Qq)tp;*$`gP^#R+sXhs(X`j?<)lJTM+J&krBao~>endstream
+endobj
+10 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
 endobj
 xref
-0 10
+0 11
 0000000000 65535 f 
-0000000061 00000 n 
-0000000112 00000 n 
-0000000219 00000 n 
-0000000331 00000 n 
-0000000414 00000 n 
-0000000607 00000 n 
-0000000675 00000 n 
-0000000936 00000 n 
-0000000995 00000 n 
+0000000015 00000 n 
+0000000147 00000 n 
+0000000206 00000 n 
+0000000255 00000 n 
+0000000511 00000 n 
+0000006782 00000 n 
+0000006889 00000 n 
+0000006996 00000 n 
+0000007108 00000 n 
+0000007220 00000 n 
 trailer
 <<
-/ID 
-[<8209bc5f18928146cd4564ace4ade636><8209bc5f18928146cd4564ace4ade636>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 7 0 R
-/Root 6 0 R
-/Size 10
+/Size 11
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-3035
+7304
 %%EOF

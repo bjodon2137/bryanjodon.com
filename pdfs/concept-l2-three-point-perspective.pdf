@@ -1,80 +1,316 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R
+/Producer (The Drawing Path \204 thedrawingpath\056com)
+/Author (The Drawing Path)
+/Creator (The Drawing Path)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/BaseFont /ZapfDingbats /Name /F3 /Subtype /Type1 /Type /Font
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/Contents 9 0 R /MediaBox [ 0 0 612 792 ] /Parent 8 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 6167
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.05098 .05098 .05098 rg
+n 0 0 612 792 re f*
+.788235 .658824 .298039 rg
+n 0 789 612 3 re f*
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 759.6 Tm (LESSON 2  \267  1ST TERM  \267  PERSPECTIVE & VOLUME) Tj T* ET
+BT /F2 28 Tf 33.6 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 716.4 Tm (Three-Point Perspective) Tj T* ET
+BT /F1 13 Tf 15.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 691.2 Tm (Dramatic angles & extreme views) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 676.8 m 568.8 676.8 l S
+BT /F1 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 655.2 Tm (Three-point perspective adds a third vanishing point, usually above or below the scene. It) Tj T* ET
+BT 1 0 0 1 43.2 640.2 Tm (handles extreme viewing angles \227 looking up at a skyscraper or down from a great height \227) Tj T* ET
+BT 1 0 0 1 43.2 625.2 Tm (and adds dynamic energy to a composition.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 599.2 m 568.8 599.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 564.2 Tm (The Third Point) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 552.2 m 288.8 552.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 540.2 Tm (The third VP is placed either directly above the) Tj T* ET
+BT 1 0 0 1 43.2 527.2 Tm (scene \(for a worm's-eye view, looking up\) or) Tj T* ET
+BT 1 0 0 1 43.2 514.2 Tm (directly below it \(for a bird's-eye view, looking) Tj T* ET
+BT 1 0 0 1 43.2 501.2 Tm (down\). All vertical lines now converge to this) Tj T* ET
+BT 1 0 0 1 43.2 488.2 Tm (point instead of remaining parallel.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 564.2 Tm (When It's Natural) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 552.2 m 558.8 552.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 540.2 Tm (3PP appears in any scene where you're tilting your) Tj T* ET
+BT 1 0 0 1 313.2 527.2 Tm (camera dramatically up or down. Photographing a) Tj T* ET
+BT 1 0 0 1 313.2 514.2 Tm (tall building from the street \227 that's 3PP.) Tj T* ET
+BT 1 0 0 1 313.2 501.2 Tm (Looking down into a pit \227 3PP. Most everyday) Tj T* ET
+BT 1 0 0 1 313.2 488.2 Tm (scenes don't need 3PP.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 441.2 Tm (Constructing in 3PP) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 429.2 m 288.8 429.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 417.2 Tm (Same as 2PP but all three sets of lines have a) Tj T* ET
+BT 1 0 0 1 43.2 404.2 Tm (vanishing point. Work from a center vertical edge) Tj T* ET
+BT 1 0 0 1 43.2 391.2 Tm (and send lines to all three VPs. The result should) Tj T* ET
+BT 1 0 0 1 43.2 378.2 Tm (feel dramatic and dynamic \227 if it looks too) Tj T* ET
+BT 1 0 0 1 43.2 365.2 Tm (extreme, your VPs are too close.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 318.2 Tm (Using It Sparingly) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 306.2 m 558.8 306.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 294.2 Tm (3PP is powerful but can easily feel gimmicky or) Tj T* ET
+BT 1 0 0 1 313.2 281.2 Tm (distorted. Reserve it for intentional dramatic) Tj T* ET
+BT 1 0 0 1 313.2 268.2 Tm (effect. Comics, concept art, and architectural) Tj T* ET
+BT 1 0 0 1 313.2 255.2 Tm (presentations use it for impact \227 don't use it for) Tj T* ET
+BT 1 0 0 1 313.2 242.2 Tm (casual still lifes.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 187.2 m 568.8 187.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 170.2 Tm (PRACTICE EXERCISES) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 154.2 Tm (1.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 154.2 Tm (Draw a tall skyscraper viewed from street level in 3PP \(worm's eye\).) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 137.2 Tm (2.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 137.2 Tm (Draw a bird's eye view of a city block in 3PP.) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 120.2 Tm (3.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 120.2 Tm (Draw the same box in 1PP, 2PP, and 3PP \227 compare the results.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 105.2 m 568.8 105.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 88.2 Tm (FURTHER READING) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 72.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( CTRL+Paint \226 3 Point Perspective) Tj T* ET
+BT /F1 8 Tf 9.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 61.2 Tm (https://www.ctrlpaint.com/videos/linear-perspective) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 46.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Perspective Overview) Tj T* ET
+BT /F1 8 Tf 9.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 35.2 Tm (https://youtu.be/nAlCyQqEZSU) Tj T* ET
+.078431 .078431 .078431 rg
+n 0 0 612 28.8 re f*
+BT /F1 7 Tf 8.4 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 2: Perspective & Volume \227 Three-Point Perspective) Tj T* ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
+ 
+
+Q
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.05098 0.05098 0.05098 rg
+n
+0 764 612 28 re
+f*
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.788235 0.658824 0.298039 rg
+BT
+1 0 0 1 20 774 Tm
+(THE DRAWING PATH) Tj
+T*
+ET
+BT
+/F1-0 6.5 Tf
+7.8 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 527.689 774 Tm
+(Teach Yourself to See) Tj
+T*
+ET
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 763 m
+612 763 l
+S
+0.05098 0.05098 0.05098 rg
+n
+0 0 612 22 re
+f*
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 22 m
+612 22 l
+S
+BT
+/F1-0 6 Tf
+7.2 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 20 8 Tm
+(thedrawingpath\056com) Tj
+T*
+ET
+BT
+1 0 0 1 537.892 8 Tm
+(\251 The Drawing Path) Tj
+T*
+ET
+Q
+
+endstream
 endobj
 6 0 obj
 <<
-/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 7 0 obj
 <<
-/Author (anonymous) /CreationDate (D:20260610004312+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260610004312+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (unspecified) /Title (untitled) /Trapped /False
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/Count 1 /Kids [ 5 0 R ] /Type /Pages
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 9 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2037
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-stream
-Gatm<>?BQ=&:WeDbYt3@C4*egNM^T[ZP:'/U"_`C.(5;K30l'DV"saHOtW2,(2+3@`$gb_)9mR#c.Ef!ph/j;C^KScKqls0=>ls2Y[#)"oG$;,cS.L<$K:E,chAo;ViU_-a9GCJp281^_U*Hg0ROE2EP\lScuc""HOr[C#,g;6RLGG"nCHOH+F&Oh]'VN_>4s/XLNEh-Vt";<IKh^GQ0eeVeg,r+*e3S.8N`RinL-Q2N8Y4NStB>:NSd)!"4DD9VY7q44&i@BNWO'FM-S42HnZc!o)&cP0J]cOJ(,:X=%>M_dKQQ@IDUk66:/5]BdS`WHJ]^^g<m2!DU#^XkW0IrDL6KW6,SbPo-4W-Q+9\\/;Yo5+P"-#!foj$8PYTdD@3rj"1(clG5Pptn6h59C7k[d#[n%2+6'\2Pq_I92RV01b<t?;?L)YGU0<>N^'t[94;U7J/de2f%B0]>.&o;kNJF_N.oMZP+B+#A)2BXmfc#'5&/hUK!@RGUPjb&bc.;fE<4N@d0Mone)o4&Z%\RA!>(*l[JOoE)>]3$M$$rX'kA4G?N3ai01?T?q/8-bF8:Bqb+7(T_kX'@GHrH.RV@O3Qk8TKk+Z$R.R4)U^.V"i2bAF9KhXt1V]dUbD/qM8^OMKK"Rhse\pOC0>@<?rVMN`/QY`<$c&^PZJMGQi$%s0,2SAq.5lR:DZNe1RHU(D#T:&Lt$"-t"&"hkqCk\T/[[c]g=A5=K4A4+qk":>0P8MZ_:/Wc/eP(Fp^Hc"cd>F=C&5ms^'$s*Zij;EM+j3)l@So,I8*Y+!OobOO:%FXNnfmD.H9HecX.6@JGr&.Z`P9*^-=)SO-/k`^J*(>[J:_jes:k`L:<oLN/W]5u8&mI%q9N$MrLdFrF8P'D.L:q%fMFu%liE6,e1j6esa1=pSD[TaBK^9(+,BALH?:;@?X_"'dm>uHBFAFtG8V#;J-!XiR:pr9A!5]Xg7q';9qfn5l.95#>q#j>ogn&d/=]/!;D``gl>L^DgmgM`&9X6[9TN5X0't!.q6l;;oMDA6lC!G.bNRCH=]u2d*;9*/a>;:KaS[LDKAJk6;1p\f<1^*tgR?0[rI[cjD[Xm9j:PTMSQrX"r.Z/BHd%T>q2qRF,0OdRl^<1PL0SO3)jU12)d6QZZeSZ)H[5poRO:je]fLWR;$6(-8;l]6pJkDa%Z`3[&;=/^7Kps)+me(])^+k)m2,h_M7-X'gK]_lCWp0.cOQr`qi^`$iU."J8AKhOZ>0X$KPnM#eXic#1Cs\;R7VUNl"=PL#^XcX?AkGa^Ah'!\)l2A6rc[Qde:jlL"/;f\0uus6k\eqqZ+?-(#SlnD#ntfcr3tIo6J`^2+37Zmg6'&$OZSX`eP+Ybo%C%m]ZWhLP_]AU8Z-**/27I_RjU:*$QA`PWXt>58TP!R<)ATs`QY;.L`Ah2iM]1_1VFOPmm9WZ1Mj)rN#;C8%TUEiBT5HtEE^lp*mYUU`'*k+a[=:$1p2t9kRLH"#on5/h-AMVCF-.2W7rE'6G)(#Q4Yu>U[f1sC==sg?85\g@5&NNS(18g9.T5[>;AC^-ace[nNZPgF>A[p))34Ag9V66*RUqn[Isl[T2f^!4+P9tZF,"9;$&S!Cf'^<2AIfcD>,Qc6^=eQj%.bFH@WmM:0"nhZdT5l^!ee3YjIjJE>#j&;Y::EoKqQu=gID*4mJ'RB(pAo:=%M/lEf`C75_t3qk]<]--;kGMG9f1r2Ih<:Ms@]qel#*+u?o@Om1CkMQ@nC5$s8t5N=JWj5Wo_B4%6mO;GP:Ba*\`ZZ?rFT[J!)^`U??*M<=n&2j;o(k$A])=LAngR@>+DbmsIY`Q.++-)B4la;jH?Im7&"-[tO;rj1",;i1,rk<j8O5C;0lb>DY$"qkkM:*M-E/l0,._/i>amneQ#q$M!18a]B3\Epl^OO9':+h:f2I#Blf/p/DD+3]k0*%X5?kX8sn<i6@P:[V%&)ean$_L2.2t_DfKjYYJ+799t%:$2ZKuL.fr;R/:k>dm^7>>Ld]UJC#WI?Pfer!?-4P9NA3f.GY~>endstream
+endobj
+10 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
 endobj
 xref
-0 10
+0 11
 0000000000 65535 f 
-0000000061 00000 n 
-0000000112 00000 n 
-0000000219 00000 n 
-0000000331 00000 n 
-0000000414 00000 n 
-0000000607 00000 n 
-0000000675 00000 n 
-0000000936 00000 n 
-0000000995 00000 n 
+0000000015 00000 n 
+0000000147 00000 n 
+0000000206 00000 n 
+0000000255 00000 n 
+0000000511 00000 n 
+0000006730 00000 n 
+0000006837 00000 n 
+0000006944 00000 n 
+0000007056 00000 n 
+0000007168 00000 n 
 trailer
 <<
-/ID 
-[<a7da175048352f612741cfaa1b9cfdb0><a7da175048352f612741cfaa1b9cfdb0>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 7 0 R
-/Root 6 0 R
-/Size 10
+/Size 11
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-3123
+7252
 %%EOF

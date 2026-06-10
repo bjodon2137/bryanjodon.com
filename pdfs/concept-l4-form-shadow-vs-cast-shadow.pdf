@@ -1,74 +1,291 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R
+/Producer (The Drawing Path \204 thedrawingpath\056com)
+/Author (The Drawing Path)
+/Creator (The Drawing Path)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/PageMode /UseNone /Pages 7 0 R /Type /Catalog
+/Length 5664
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.05098 .05098 .05098 rg
+n 0 0 612 792 re f*
+.788235 .658824 .298039 rg
+n 0 789 612 3 re f*
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 759.6 Tm (LESSON 4  \267  2ND TERM  \267  LIGHT & SHADOW) Tj T* ET
+BT /F2 28 Tf 33.6 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 716.4 Tm (Form Shadow vs Cast Shadow) Tj T* ET
+BT /F1 13 Tf 15.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 691.2 Tm (Two fundamentally different types of shadow) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 676.8 m 568.8 676.8 l S
+BT /F1 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 655.2 Tm (Understanding the difference between form shadows and cast shadows is essential to drawing) Tj T* ET
+BT 1 0 0 1 43.2 640.2 Tm (light convincingly. They behave differently, look different, and serve different functions) Tj T* ET
+BT 1 0 0 1 43.2 625.2 Tm (in a drawing.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 599.2 m 568.8 599.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 564.2 Tm (Form Shadow) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 552.2 m 288.8 552.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 540.2 Tm (Form shadow \(also called core shadow or attached) Tj T* ET
+BT 1 0 0 1 43.2 527.2 Tm (shadow\) is the area of a form that doesn't receive) Tj T* ET
+BT 1 0 0 1 43.2 514.2 Tm (the light source. It is attached to the form and) Tj T* ET
+BT 1 0 0 1 43.2 501.2 Tm (describes its volume. Form shadows have soft,) Tj T* ET
+BT 1 0 0 1 43.2 488.2 Tm (gradual edges. They reveal the 3D shape of the) Tj T* ET
+BT 1 0 0 1 43.2 475.2 Tm (object.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 564.2 Tm (Cast Shadow) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 552.2 m 558.8 552.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 540.2 Tm (A cast shadow is created when a form blocks light) Tj T* ET
+BT 1 0 0 1 313.2 527.2 Tm (from reaching another surface. It is cast by the) Tj T* ET
+BT 1 0 0 1 313.2 514.2 Tm (object onto the ground, wall, or another surface.) Tj T* ET
+BT 1 0 0 1 313.2 501.2 Tm (Cast shadows have harder, more defined edges. They) Tj T* ET
+BT 1 0 0 1 313.2 488.2 Tm (reveal the direction of the light source.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 428.2 Tm (Edge Comparison) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 416.2 m 288.8 416.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 404.2 Tm (Form shadow edges: soft and gradual, because light) Tj T* ET
+BT 1 0 0 1 43.2 391.2 Tm (wraps around curved surfaces. Cast shadow edges:) Tj T* ET
+BT 1 0 0 1 43.2 378.2 Tm (sharper \(but not perfectly hard\), because they're) Tj T* ET
+BT 1 0 0 1 43.2 365.2 Tm (projected from a point light source. The closer) Tj T* ET
+BT 1 0 0 1 43.2 352.2 Tm (the shadow to the casting object, the harder the) Tj T* ET
+BT 1 0 0 1 43.2 339.2 Tm (edge.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 292.2 Tm (Drawing Both) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 280.2 m 558.8 280.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 268.2 Tm (Identify which type of shadow you're looking at) Tj T* ET
+BT 1 0 0 1 313.2 255.2 Tm (before drawing. Ask: is this where the form curves) Tj T* ET
+BT 1 0 0 1 313.2 242.2 Tm (away from the light, or is this a projected) Tj T* ET
+BT 1 0 0 1 313.2 229.2 Tm (shadow? Draw form shadows with gradients; draw) Tj T* ET
+BT 1 0 0 1 313.2 216.2 Tm (cast shadows as flat shapes with defined edges.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 161.2 m 568.8 161.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 144.2 Tm (PRACTICE EXERCISES) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 128.2 Tm (1.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 128.2 Tm (Set up a lamp and a simple object \(sphere, cup\). Identify and draw the form shadow and) Tj T* ET
+BT 1 0 0 1 54 115.2 Tm (cast shadow separately.) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 98.2 Tm (2.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 98.2 Tm (Copy a master drawing and label every shadow as 'form' or 'cast'.) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 81.2 Tm (3.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 81.2 Tm (Draw an egg with form shadow only \(no cast shadow\). Then draw the cast shadow only.) Tj T* ET
+.078431 .078431 .078431 rg
+n 0 0 612 28.8 re f*
+BT /F1 7 Tf 8.4 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 4: Light & Shadow \227 Form Shadow vs Cast Shadow) Tj T* ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
+ 
+
+Q
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.05098 0.05098 0.05098 rg
+n
+0 764 612 28 re
+f*
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.788235 0.658824 0.298039 rg
+BT
+1 0 0 1 20 774 Tm
+(THE DRAWING PATH) Tj
+T*
+ET
+BT
+/F1-0 6.5 Tf
+7.8 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 527.689 774 Tm
+(Teach Yourself to See) Tj
+T*
+ET
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 763 m
+612 763 l
+S
+0.05098 0.05098 0.05098 rg
+n
+0 0 612 22 re
+f*
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 22 m
+612 22 l
+S
+BT
+/F1-0 6 Tf
+7.2 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 20 8 Tm
+(thedrawingpath\056com) Tj
+T*
+ET
+BT
+1 0 0 1 537.892 8 Tm
+(\251 The Drawing Path) Tj
+T*
+ET
+Q
+
+endstream
 endobj
 6 0 obj
 <<
-/Author (anonymous) /CreationDate (D:20260610004312+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260610004312+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (unspecified) /Title (untitled) /Trapped /False
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 7 0 obj
 <<
-/Count 1 /Kids [ 4 0 R ] /Type /Pages
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1842
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-stream
-Gatm<gMYb*&:Ml+bYs]>L0"%ApL01F:)c%E(9nXe"oL\[Pc[t!"]Def^Y^2'a`?[F8RVb+6X)T-S2obO/.5/LZd`bg!kaTQO#m_#)r_8Wf5Mm^J6@8.R%>1LE;[^W(R;S\a6SB!##6=gHXR%cBKI7P^5)`u@+\=i3`1*H&4Yph7piDd"u9Y4#l$LfhI,TT?,sb%?=`gBQZ2UOS'Sis"rCZUqZ26Gq%huCj58\hiVpa8(uE(+j3?tXJ$1$p%e3a@:$#c8*QfWI8&DZ:7':))4rBE!H%#lc(n"FcT?P1CAb)5-*TJHif-FohfF!uYdHK]@Lfe=\("t`;FG%q_/21>BDqDhX-R8JMKs*7@]OR%?Wg&aTC.M4g+jI?PEa1o:YGhMfJU!X#F!Z;5E++!q_e-;b!oF9W"O@VK]j2@,mrr0>*S@R!R.#;]s*q&5Em]suc)VR9CYIsD:fu.X7qi-p/8Mj(!I-%=ZEW-i\H")^DE'!I1^m8WFpN7rn`0,AWP]PJC>D.lWbl&gGZ1k++C<M[L0g)2+do4[:S;+^a5N5=b!]&i]M/#CBl[72Z1)qGqn*!Yj_G;%A%A_qT"I;PNu(7[g@_@L%Jo\n](/0lBD?37%AmJr:M4%pq9Q):I0Or1X!8$0o6Q.;SujJMLT1Dj25id9dPLEo^'(Ag6jnB$0JUtj$#IpLR:+@']*%q<ECC5NOFK\bObO9m9Rjr>OJX2CR\h=3pZt/?[^Rik-%.*,$)^1+Q*b@Getdk];,LUWk`uP"[r`&1lH1Q\>#l$>i<_C"^6(.]jJ5-'2(AqgGRW*g>UH9kiV=,B,]<g%=g9CfphhKQ,o=D'Ahnu%@[gQ>'dr5Moh*[J'j>[KDQ/jSB'7rAi0qfGi-GeeketE*heCLUB4@iM*RjYfQiEMO)FsDKo?PEU%G_]jB'>/Yk6Z1/_3XQ@[-EIT/6MI1ZkPN+<Xme>2<1dVhB70@7?`U;6TBl2ccCZD.e7W[I'YYEcdT=,^adUL'k_cM9jib)ROC$V#rE"D1Nb`@)&+IMK]<Y#JPq@_V-.,570^+<_`dL3^s+]+4\Cdej?/a_3DIr0]C7W#(T+:8$-rdU?>l&\c6rpmCffdS9%S/\(o8_O4(S]_SCDkWi5(kDNM'ba<3T+^ip8Y(dD$A[+PG[uRs(UC((M7cK8tKe>s[uj?6d&t=3F;?82\1_L4.#I8ht!uI7P*"]YEN;-KOrm$.YP;?=Sjb2?[c\j&g9ea@JB`$APn)(oGoU_3/;SLKZ6,D,Q=pLaMDnQKQ#%9?2lGW3"Np^!_qPKQ#V%#2Z,,J&<i)clAEa]/l-Yg3uPBqc$=LfcJBm:Y'8]5)dXgB,g3IReW-3NEW17:U<]_.@8Eq*ScGmn(Ijb?dOKe4e03Caj5p&)V=?`8p4b&&ut[FjcLQ?d]DKb.%hRu_s-27OI\ERYBP8u<bfma52oAGQVgFf,nff_-mo)%Ji)jDY#18)p\!RLj]d@W[p>P9gpPq__S/4j9]Q$7$tfOa*iJc(fnlEs"TMdJW&Jha-gdHIp5?lP\HCJED.$9e*stosb'45K]W;L@]`JX=e<5V$,[e<q`q-eUK"P91q`n"1L1dDP);=Y1DEn+M_Li1c&,\G1f(qhk54*EWY=G.h)Tr+,mKB([X'!oK+A7U0lB_!h?PNU.Z:^H]LmN/VQfm1@fH#Lf3B,]f.d<-(k\AYjF4bM6iAnEXWn;9dP\c3<.+tq;fQ2>]Of2"Q39/-XdA%pj.XCYpd*!Mg[+17Z0ZQaJ=Ykfm`d9i(DstHW_R9PkTE9lrE8SKa3fi0?cYCt=07%m7ZMo,MA=2L%V'Y#_l8qXAAL+>si5*D4`Rt:m~>endstream
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
 endobj
 xref
-0 9
+0 10
 0000000000 65535 f 
-0000000061 00000 n 
-0000000102 00000 n 
-0000000209 00000 n 
-0000000321 00000 n 
-0000000514 00000 n 
-0000000582 00000 n 
-0000000843 00000 n 
-0000000902 00000 n 
+0000000015 00000 n 
+0000000147 00000 n 
+0000000206 00000 n 
+0000000255 00000 n 
+0000000500 00000 n 
+0000006216 00000 n 
+0000006323 00000 n 
+0000006430 00000 n 
+0000006542 00000 n 
 trailer
 <<
-/ID 
-[<bbdb8e2bee9218240fa4680f1502a423><bbdb8e2bee9218240fa4680f1502a423>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 6 0 R
-/Root 5 0 R
-/Size 9
+/Size 10
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-2835
+6654
 %%EOF

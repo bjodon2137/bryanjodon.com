@@ -1,80 +1,318 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R
+/Producer (The Drawing Path \204 thedrawingpath\056com)
+/Author (The Drawing Path)
+/Creator (The Drawing Path)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/BaseFont /ZapfDingbats /Name /F3 /Subtype /Type1 /Type /Font
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/Contents 9 0 R /MediaBox [ 0 0 612 792 ] /Parent 8 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 6311
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.05098 .05098 .05098 rg
+n 0 0 612 792 re f*
+.788235 .658824 .298039 rg
+n 0 789 612 3 re f*
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 759.6 Tm (LESSON 6  \267  3RD TERM  \267  COLOR FUNDAMENTALS) Tj T* ET
+BT /F2 28 Tf 33.6 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 716.4 Tm (Complementary Colors) Tj T* ET
+BT /F1 13 Tf 15.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 691.2 Tm (Opposites that intensify each other) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 676.8 m 568.8 676.8 l S
+BT /F1 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 655.2 Tm (Complementary colors sit directly opposite each other on the color wheel. When placed next) Tj T* ET
+BT 1 0 0 1 43.2 640.2 Tm (to each other, they vibrate with maximum contrast. When mixed together, they neutralize) Tj T* ET
+BT 1 0 0 1 43.2 625.2 Tm (each other into grey or brown.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 599.2 m 568.8 599.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 582.2 Tm (KEY CONCEPTS) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 564.2 Tm (The Pairs) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 552.2 m 288.8 552.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 540.2 Tm (Primary complementary pairs: red/green,) Tj T* ET
+BT 1 0 0 1 43.2 527.2 Tm (blue/orange, yellow/violet. These are the classic) Tj T* ET
+BT 1 0 0 1 43.2 514.2 Tm (pairs and the most powerful. Split complementaries) Tj T* ET
+BT 1 0 0 1 43.2 501.2 Tm (\(using the two colors adjacent to the complement\)) Tj T* ET
+BT 1 0 0 1 43.2 488.2 Tm (create similar contrast with slightly less) Tj T* ET
+BT 1 0 0 1 43.2 475.2 Tm (tension.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 564.2 Tm (Simultaneous Contrast) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 552.2 m 558.8 552.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 540.2 Tm (When two complementary colors are adjacent, each) Tj T* ET
+BT 1 0 0 1 313.2 527.2 Tm (makes the other appear more saturated than it) Tj T* ET
+BT 1 0 0 1 313.2 514.2 Tm (would alone. A grey surrounded by red looks) Tj T* ET
+BT 1 0 0 1 313.2 501.2 Tm (greenish. This is simultaneous contrast \227 the eye) Tj T* ET
+BT 1 0 0 1 313.2 488.2 Tm (tries to create balance by seeing the complement) Tj T* ET
+BT 1 0 0 1 313.2 475.2 Tm (of whatever it's looking at.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 428.2 Tm (Mixing Complements) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 43.2 416.2 m 288.8 416.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 43.2 404.2 Tm (Adding a complement to a color reduces its) Tj T* ET
+BT 1 0 0 1 43.2 391.2 Tm (saturation. Instead of adding black to darken a) Tj T* ET
+BT 1 0 0 1 43.2 378.2 Tm (color \(which deadens it\), add a small amount of) Tj T* ET
+BT 1 0 0 1 43.2 365.2 Tm (the complement. This creates richer, more complex) Tj T* ET
+BT 1 0 0 1 43.2 352.2 Tm (neutrals and shadows.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 313.2 305.2 Tm (Complementary Color Schemes) Tj T* ET
+.788235 .658824 .298039 RG
+.5 w
+n 313.2 293.2 m 558.8 293.2 l S
+BT /F1 9 Tf 10.8 TL ET
+.784314 .764706 .737255 rg
+BT 1 0 0 1 313.2 281.2 Tm (A color scheme built on one pair of complements is) Tj T* ET
+BT 1 0 0 1 313.2 268.2 Tm (high contrast and visually energetic. Use one) Tj T* ET
+BT 1 0 0 1 313.2 255.2 Tm (color dominantly and the complement as an accent.) Tj T* ET
+BT 1 0 0 1 313.2 242.2 Tm (A 70/30 split \(dominant/accent\) is the classic) Tj T* ET
+BT 1 0 0 1 313.2 229.2 Tm (proportion.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 174.2 m 568.8 174.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 157.2 Tm (PRACTICE EXERCISES) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 141.2 Tm (1.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 141.2 Tm (Paint 5 color swatches showing what happens when you mix each complementary pair.) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 124.2 Tm (2.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 124.2 Tm (Create a composition using only red and green \(the Christmas test \227 avoid the kitsch\).) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 107.2 Tm (3.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 54 107.2 Tm (Paint a portrait using blue/orange as the dominant color scheme.) Tj T* ET
+.145098 .145098 .145098 RG
+.5 w
+n 43.2 92.2 m 568.8 92.2 l S
+BT /F1 7 Tf 8.4 TL ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 43.2 75.2 Tm (FURTHER READING) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 59.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Ctrl+Paint \226 Complementary Color) Tj T* ET
+BT /F1 8 Tf 9.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 48.2 Tm (https://www.ctrlpaint.com/videos/complementary-color) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+.941176 .921569 .890196 rg
+BT 1 0 0 1 43.2 33.2 Tm /F3 9 Tf 10.8 TL (n) Tj /F2 9 Tf 10.8 TL ( Proko \226 Color Theory) Tj T* ET
+BT /F1 8 Tf 9.6 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 22.2 Tm (https://youtu.be/AZhO4VjQUPE) Tj T* ET
+.078431 .078431 .078431 rg
+n 0 0 612 28.8 re f*
+BT /F1 7 Tf 8.4 TL ET
+.478431 .458824 .439216 rg
+BT 1 0 0 1 43.2 10.8 Tm (Art School, But DIY \227 Lesson 6: Color Fundamentals \227 Complementary Colors) Tj T* ET
+.788235 .658824 .298039 rg
+BT 1 0 0 1 519.002 10.8 Tm (bryanjodon.com) Tj T* ET
+ 
+
+Q
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.05098 0.05098 0.05098 rg
+n
+0 764 612 28 re
+f*
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.788235 0.658824 0.298039 rg
+BT
+1 0 0 1 20 774 Tm
+(THE DRAWING PATH) Tj
+T*
+ET
+BT
+/F1-0 6.5 Tf
+7.8 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 527.689 774 Tm
+(Teach Yourself to See) Tj
+T*
+ET
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 763 m
+612 763 l
+S
+0.05098 0.05098 0.05098 rg
+n
+0 0 612 22 re
+f*
+0.788235 0.658824 0.298039 RG
+0.4 w
+n
+0 22 m
+612 22 l
+S
+BT
+/F1-0 6 Tf
+7.2 TL
+ET
+0.478431 0.458824 0.439216 rg
+BT
+1 0 0 1 20 8 Tm
+(thedrawingpath\056com) Tj
+T*
+ET
+BT
+1 0 0 1 537.892 8 Tm
+(\251 The Drawing Path) Tj
+T*
+ET
+Q
+
+endstream
 endobj
 6 0 obj
 <<
-/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 7 0 obj
 <<
-/Author (anonymous) /CreationDate (D:20260610004312+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260610004312+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (unspecified) /Title (untitled) /Trapped /False
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/Count 1 /Kids [ 5 0 R ] /Type /Pages
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 9 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2045
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-stream
-Gatm<9iL(A&A@ZcqA.]p=l6OYju$a<K`tqT,b+@9C^ioXBj@)=_YNlhR?;"tN7Y;:Xg1g+oX^st^"4i?@,aCDI4d:*02q)*>@?,<]`ZG8>aSj7BR43VSf.61o;fAcb12\>hB.D/'GTt!*>q/XD`]!W^5%3J@+\oFFMd26THC0=SGMq?A0<,jf)ab5_$@&&D:^KrZ54EC9J\ZB*).d3=5X2)Cd.o=`b-tGNP@@&_s>M30q@--SIN;mY,6ipaU(W_@/<Ga<-d,(pLPP/,9_1VTkde^%n:5:Sf`R3%o"SH[q9+Fnc5'!OCcV"Ai(="=M^)qXPbaA@@8-9AoA^5%Jm5;J`51XFrcOQ23o=fpaK]Y0:.VFJoVDW&Wl(*jug1Y!@<X@R##J($2mn5a'Xl9%k;CXL(A[,%iKV@+2@JK$BmAh;e9j]^IGs#eTl)aBVB/DGS#[oJhBI&!`kqpEtVk@*g>mDTo(9n%JW#^3@n+7TFp8W=_q,b1V@MSi<AP_Sk@?E4=0TN@([s$0kB?*aiY#Zje<l&e8_eT)8c`':HK*L[)@=>j?L4+[bVq:Euo-6KDP^)n3$;o<OpNEQK;l#^%d'(/M@P&Zg!dil?)@Pg@G)`Samktn#2kZiTOmb75Z1MKBKjhKIOA&L*R^)forP0B<1XYI<C!]eN&,XOu)XCg&dqi&2!D-^r/&3-a5aPCO.R>DMf^g7.&EG.22]><YkA4M)7HQd=9IPC92\adN0o0ISWaJ7FRK$]r-O['M4$ji"QHcUZ-Pk3):=%:p$UF.Mj4QUn5dI(U.Eb/ac6\aCL^5[(=@,Pja2])h47rQTWCY'r\'5UJqjhT\sjA;Q(>`5gN2Ki4@PbNOpU;e/D,g,UGl01G(e^-MOe;J<]V1Bt?U*.HPkl6TmY$:<2(!k6/I@'dT]YjCma<f68sW7]`TSGmC-[%Gc&))3sX?(6=a9C:\Vh9Q5?0CXeZX)0o1KL=XpEQ:m*pb8B5Y,"cR?P'\I0j:)X&+^<)iX@si].Ee[k"7:`R/.,G?&Rs!d;H]):p@nguC;?.:8q[M3V2c/uM4>ub`jI(]flj$K6<A)-[ROTP<CjqsZIca[PEb,9.Wa[82?I"tHm`[P>'>Zg%,mf=-kO.4F]Jf<`1`R"F^d;mpm+$8r:T^\JD[rJkcF_`?QI.)?*g6E+Gs,=3[L'A-hZ[n?Bbh680W61K@=^02*n'+^dZNP,nXPTM2j@3jl'(R8#1Atm>tV@60ho.PM'pj-TKEsKL??fN+OH8&f>]O)+daL)=gp<\6Z%^CLeA@WemfKa.^:>EpHPrds!tD6M6fC?#M-;54Fq-XQ#$.9#o`$fr=?T-CB!Hho@U6CPP[*1%j(J*7O=7oGH)bi[RZiQUr[fY)1/oB"[3I\gc'0G3RcT)iDQn`n%:;C]BXg&kRZ?Gtn`P,*R]][lEn4dS@l,Dq9b7/5(#Hb7WE$r/OU0lna`W[!6(.XD>9[#gAlM!`t;sm'mAKdjVO9Br4+"8SV3dCj(tn/Qj6'%-B_)=t=PRCTY<3aBEA)btP_e%u/Pki<VpQN5ibna_8k<]7j[?#BCc8=g,cPKt;W1c#YtN\1hF)]nX38&P-:LH82IrYK>H!YoM8,9U4B?<ihOh0`'Vgoe*kq&q9!<G2q`Y6''p?%eVC(6UJL;,1/ZZX"7'>p)rIjecI,)jR4cT&hYr(#T@Hk$'6O#BG!De5Zu%3P62W<C^B2DZk+gjjoGK3[Xt0&FV-Yf)U];[!?5<_(u>M9);6*JLA%=:fks:B\)Z`AUG7]tK<pK:YC!Y:*A<tk4n[*k9pjsG`H_W:$q!mf^Zm9n@sloaj'FZFrK\.HjQ@Pm*?[["q<)(fW[_M03@n_K#1=N!(aI1JDaVFW/[ctr;mgY9GLu,W@#qB<P9_$[e$<G*aSOQ_Mu'*MM:.d?hVd;dgAU?rceFpdQdfUVrSi1a2b[FRH0;Aoq^8>C+m3S`jRU2jH4""O!G<5+[HCfSRk;4:s1'c13PP(reOSECe/^dK'lcH<GueUGAga9tYp/uGMf9pdG<0tfoKSG6U4!~>endstream
+endobj
+10 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
 endobj
 xref
-0 10
+0 11
 0000000000 65535 f 
-0000000061 00000 n 
-0000000112 00000 n 
-0000000219 00000 n 
-0000000331 00000 n 
-0000000414 00000 n 
-0000000607 00000 n 
-0000000675 00000 n 
-0000000936 00000 n 
-0000000995 00000 n 
+0000000015 00000 n 
+0000000147 00000 n 
+0000000206 00000 n 
+0000000255 00000 n 
+0000000511 00000 n 
+0000006874 00000 n 
+0000006981 00000 n 
+0000007088 00000 n 
+0000007200 00000 n 
+0000007312 00000 n 
 trailer
 <<
-/ID 
-[<0be09b6a0dc711d1ef061ffac44f5c9f><0be09b6a0dc711d1ef061ffac44f5c9f>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 7 0 R
-/Root 6 0 R
-/Size 10
+/Size 11
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-3131
+7396
 %%EOF
