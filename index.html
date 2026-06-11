@@ -247,6 +247,16 @@
   <button class="lesson-btn" onclick="showLesson(6,this)">
     <span class="lnum">6</span><span class="lesson-title-text">Color Fundamentals</span><span class="done-mark">◆</span>
   </button>
+  <!-- EMAIL CAPTURE — replace YOUR_FORM_ID with your Formspree form ID -->
+  <div class="sidebar-email">
+    <div class="sidebar-email-lbl">Stay in the loop</div>
+    <p class="sidebar-email-desc">New resources &amp; lessons — no spam.</p>
+    <form class="sidebar-email-form" id="sidebar-email-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input class="sidebar-email-input" type="email" name="email" placeholder="your@email.com" required />
+      <button class="sidebar-email-btn" type="submit">Get Updates</button>
+    </form>
+    <p class="sidebar-email-thanks" id="sidebar-email-thanks">You're in ✓</p>
+  </div>
   <div class="overall-progress">
     <div class="prog-meta">
       <span class="prog-meta-label">Progress</span>
@@ -1353,6 +1363,36 @@
 
   renderAll();
 
+
+  // Email capture
+  (function() {
+    var form = document.getElementById('sidebar-email-form');
+    if (!form) return;
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      var btn = form.querySelector('.sidebar-email-btn');
+      btn.textContent = '…';
+      btn.disabled = true;
+      try {
+        var res = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+        if (res.ok) {
+          form.style.display = 'none';
+          document.getElementById('sidebar-email-thanks').style.display = 'block';
+        } else {
+          btn.textContent = 'Try again';
+          btn.disabled = false;
+        }
+      } catch(err) {
+        btn.textContent = 'Try again';
+        btn.disabled = false;
+      }
+    });
+  })();
 </script>
 </body>
 </html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
