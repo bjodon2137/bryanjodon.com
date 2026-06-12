@@ -3,746 +3,134 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bryan Jodon — DiSC Communication Coach</title>
+  <title>Bryan Jodon &mdash; DiSC Communication Coach</title>
   <meta name="description" content="Bryan Jodon is a DiSC practitioner and communication coach helping individuals and teams understand personality styles to communicate with less friction and more clarity." />
   <link rel="canonical" href="https://bryanjodon.com/" />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Bryan Jodon — DiSC Communication Coach" />
+  <meta property="og:title" content="Bryan Jodon &mdash; DiSC Communication Coach" />
   <meta property="og:description" content="Learn to speak every personality style. DiSC workshops, 1-on-1 coaching, and free resources for individuals and teams." />
   <meta property="og:url" content="https://bryanjodon.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Bryan Jodon" />
-
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Bryan Jodon — DiSC Communication Coach" />
+  <meta name="twitter:title" content="Bryan Jodon &mdash; DiSC Communication Coach" />
   <meta name="twitter:description" content="Learn to speak every personality style. DiSC workshops, 1-on-1 coaching, and free resources." />
-
-  <!-- Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Bryan Jodon",
-    "url": "https://bryanjodon.com",
-    "email": "bryan@bryanjodon.com",
-    "jobTitle": "DiSC Practitioner & Communication Coach",
-    "description": "Bryan Jodon teaches individuals and teams to communicate more effectively using the DiSC personality framework.",
-    "sameAs": [
-      "https://linkedin.com/in/bryanjodon"
-    ],
-    "knowsAbout": ["DiSC", "Communication Coaching", "Personality Frameworks", "Team Communication", "Leadership Communication"]
-  }
+  {"@context":"https://schema.org","@type":"Person","name":"Bryan Jodon","url":"https://bryanjodon.com","email":"bryan@bryanjodon.com","jobTitle":"DiSC Practitioner & Communication Coach","description":"Bryan Jodon teaches individuals and teams to communicate more effectively using the DiSC personality framework.","sameAs":["https://linkedin.com/in/bryanjodon"],"knowsAbout":["DiSC","Communication Coaching","Personality Frameworks","Team Communication","Leadership Communication"]}
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    :root {
-      --bg:       #fafaf9;
-      --surface:  #f4f3f1;
-      --border:   #e5e3df;
-      --text:     #18181b;
-      --muted:    #71717a;
-      --d:        #c0392b;
-      --i:        #d97706;
-      --s:        #16a34a;
-      --c:        #1d4ed8;
-      --serif:    'DM Serif Display', Georgia, serif;
-      --sans:     'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-      --max:      720px;
-      --pad:      clamp(1.25rem, 5vw, 3rem);
-    }
-
-    html { scroll-behavior: smooth; }
-
-    body {
-      font-family: var(--sans);
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.65;
-      font-size: 1rem;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    /* ── NAV ── */
-    nav {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: rgba(250,250,249,0.92);
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-      border-bottom: 1px solid var(--border);
-      padding: 0 var(--pad);
-      height: 56px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .nav-brand {
-      font-family: var(--serif);
-      font-size: 1.15rem;
-      color: var(--text);
-      text-decoration: none;
-      letter-spacing: 0.01em;
-    }
-
-    .nav-links {
-      display: flex;
-      gap: 2rem;
-      list-style: none;
-    }
-
-    .nav-links a {
-      font-size: 0.875rem;
-      color: var(--muted);
-      text-decoration: none;
-      transition: color 0.15s;
-      font-weight: 400;
-      letter-spacing: 0.02em;
-    }
-
-    .nav-links a:hover { color: var(--text); }
-
-    /* ── LAYOUT ── */
-    .container {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 0 var(--pad);
-    }
-
-    section {
-      padding: clamp(4rem, 10vw, 7rem) var(--pad);
-    }
-
-    /* ── HERO ── */
-    .hero {
-      padding-top: clamp(4rem, 12vw, 8rem);
-      padding-bottom: clamp(4rem, 12vw, 8rem);
-      max-width: var(--max);
-      margin: 0 auto;
-    }
-
-    .hero-eyebrow {
-      font-size: 0.8rem;
-      font-weight: 500;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 1.5rem;
-    }
-
-    .hero h1 {
-      font-family: var(--serif);
-      font-size: clamp(2.4rem, 5.5vw, 3.75rem);
-      line-height: 1.15;
-      font-weight: 400;
-      color: var(--text);
-      margin-bottom: 1.5rem;
-      letter-spacing: -0.01em;
-    }
-
-    .hero h1 em {
-      font-style: italic;
-      color: var(--muted);
-    }
-
-    .hero-desc {
-      font-size: 1.1rem;
-      color: var(--muted);
-      max-width: 520px;
-      line-height: 1.75;
-      margin-bottom: 2.5rem;
-    }
-
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      padding: 0.75rem 1.5rem;
-      background: var(--text);
-      color: var(--bg);
-      text-decoration: none;
-      font-size: 0.875rem;
-      font-weight: 500;
-      letter-spacing: 0.02em;
-      border-radius: 6px;
-      transition: opacity 0.15s;
-    }
-
-    .btn:hover { opacity: 0.8; }
-
-    .btn-ghost {
-      background: transparent;
-      color: var(--muted);
-      border: 1px solid var(--border);
-      margin-left: 0.75rem;
-    }
-
-    .btn-ghost:hover { color: var(--text); border-color: var(--text); opacity: 1; }
-
-    /* ── DIVIDER ── */
-    .divider {
-      width: 100%;
-      height: 1px;
-      background: var(--border);
-      max-width: var(--max);
-      margin: 0 auto;
-    }
-
-    /* ── DISC SECTION ── */
-    .disc-section {
-      max-width: var(--max);
-      margin: 0 auto;
-    }
-
-    .section-label {
-      font-size: 0.75rem;
-      font-weight: 500;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 0.75rem;
-    }
-
-    .section-title {
-      font-family: var(--serif);
-      font-size: clamp(1.75rem, 3.5vw, 2.5rem);
-      font-weight: 400;
-      line-height: 1.2;
-      margin-bottom: 1.25rem;
-      letter-spacing: -0.01em;
-    }
-
-    .section-intro {
-      font-size: 1rem;
-      color: var(--muted);
-      max-width: 560px;
-      line-height: 1.75;
-      margin-bottom: 3rem;
-    }
-
-    /* DiSC quadrant grid */
-    .disc-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1px;
-      background: var(--border);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      overflow: hidden;
-      margin-bottom: 2rem;
-    }
-
-    .disc-card {
-      background: var(--bg);
-      padding: 1.75rem;
-      transition: background 0.15s;
-    }
-
-    .disc-card:hover { background: var(--surface); }
-
-    .disc-type {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      margin-bottom: 0.75rem;
-    }
-
-    .disc-dot {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
-
-    .disc-letter {
-      font-family: var(--serif);
-      font-size: 1.1rem;
-      font-weight: 400;
-    }
-
-    .disc-name {
-      font-size: 0.75rem;
-      font-weight: 500;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--muted);
-    }
-
-    .disc-desc {
-      font-size: 0.875rem;
-      color: var(--muted);
-      line-height: 1.65;
-      margin-top: 0.5rem;
-    }
-
-    .disc-traits {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem;
-      margin-top: 1rem;
-    }
-
-    .trait {
-      font-size: 0.75rem;
-      padding: 0.25rem 0.6rem;
-      border-radius: 100px;
-      background: var(--surface);
-      color: var(--muted);
-      border: 1px solid var(--border);
-    }
-
-    .disc-download {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
-      margin-top: 1.1rem;
-      font-size: 0.775rem;
-      font-weight: 500;
-      color: var(--muted);
-      text-decoration: none;
-      letter-spacing: 0.02em;
-      transition: color 0.15s;
-    }
-
-    .disc-download:hover { color: var(--text); }
-
-    .disc-download svg {
-      width: 13px;
-      height: 13px;
-      flex-shrink: 0;
-    }
-
-    /* ── APPROACH SECTION ── */
-    .approach-section {
-      max-width: var(--max);
-      margin: 0 auto;
-    }
-
-    .approach-list {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 0;
-    }
-
-    .approach-item {
-      display: grid;
-      grid-template-columns: 2rem 1fr;
-      gap: 1.25rem;
-      align-items: start;
-      padding: 1.5rem 0;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .approach-item:first-child { border-top: 1px solid var(--border); }
-
-    .approach-num {
-      font-size: 0.75rem;
-      color: var(--muted);
-      padding-top: 0.2rem;
-      font-variant-numeric: tabular-nums;
-    }
-
-    .approach-title {
-      font-family: var(--serif);
-      font-size: 1.15rem;
-      font-weight: 400;
-      margin-bottom: 0.4rem;
-    }
-
-    .approach-body {
-      font-size: 0.9rem;
-      color: var(--muted);
-      line-height: 1.7;
-    }
-
-    /* ── WORK SECTION ── */
-    .work-section {
-      max-width: var(--max);
-      margin: 0 auto;
-    }
-
-    .work-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.25rem;
-    }
-
-    @media (max-width: 540px) {
-      .work-grid { grid-template-columns: 1fr; }
-    }
-
-    .work-card {
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1.5rem;
-      text-decoration: none;
-      color: inherit;
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-      transition: border-color 0.15s, box-shadow 0.15s;
-      background: var(--bg);
-    }
-
-    .work-card:hover {
-      border-color: var(--text);
-      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
-    }
-
-    .work-tag {
-      font-size: 0.7rem;
-      font-weight: 500;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--muted);
-    }
-
-    .work-title {
-      font-family: var(--serif);
-      font-size: 1.1rem;
-      font-weight: 400;
-      line-height: 1.3;
-    }
-
-    .work-desc {
-      font-size: 0.875rem;
-      color: var(--muted);
-      line-height: 1.65;
-    }
-
-    .work-card-footer {
-      margin-top: auto;
-      font-size: 0.8rem;
-      color: var(--muted);
-      display: flex;
-      align-items: center;
-      gap: 0.35rem;
-    }
-
-    .work-card-footer svg {
-      width: 12px;
-      height: 12px;
-      flex-shrink: 0;
-    }
-
-    /* Placeholder card */
-    .work-card.placeholder {
-      border-style: dashed;
-      cursor: default;
-      pointer-events: none;
-    }
-
-    .work-card.placeholder .work-title { color: var(--muted); }
-
-    /* ── CONTACT SECTION ── */
-    .contact-section {
-      max-width: var(--max);
-      margin: 0 auto;
-      text-align: center;
-    }
-
-    .contact-section .section-title { margin-bottom: 0.75rem; }
-
-    .contact-section .section-intro {
-      margin: 0 auto 2.5rem;
-    }
-
-    .contact-links {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-
-    /* ── FOOTER ── */
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 2rem var(--pad);
-      text-align: center;
-    }
-
-    .footer-inner {
-      max-width: var(--max);
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-
-    .footer-name {
-      font-family: var(--serif);
-      font-size: 1rem;
-      color: var(--muted);
-    }
-
-    .footer-copy {
-      font-size: 0.8rem;
-      color: var(--muted);
-    }
-
-    /* ── ABOUT SECTION ── */
-    .about-section { max-width: var(--max); margin: 0 auto; }
-    .about-grid {
-      display: grid;
-      grid-template-columns: 200px 1fr;
-      gap: 4rem;
-      align-items: start;
-    }
-    .about-name {
-      font-family: var(--serif);
-      font-size: 2.1rem;
-      line-height: 1.1;
-      font-weight: 400;
-      margin-bottom: 0.6rem;
-    }
-    .about-role {
-      font-size: 0.78rem;
-      font-weight: 500;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--muted);
-      line-height: 1.8;
-    }
-    .about-body {
-      font-size: 1rem;
-      color: var(--muted);
-      line-height: 1.85;
-      margin-bottom: 1.1rem;
-    }
-    .about-cta-row {
-      margin-top: 2rem;
-      display: flex;
-      gap: 0.75rem;
-      flex-wrap: wrap;
-    }
-
-    /* ── OUTCOMES / WHAT CHANGES SECTION ── */
-    .outcomes-section { max-width: var(--max); margin: 0 auto; }
-    .outcomes-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1px;
-      background: var(--border);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      overflow: hidden;
-    }
-    .outcome-item {
-      background: var(--bg);
-      padding: 1.75rem;
-    }
-    .outcome-item:hover { background: var(--surface); }
-    .outcome-marker {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: var(--text);
-      margin-bottom: 1rem;
-    }
-    .outcome-title {
-      font-family: var(--serif);
-      font-size: 1.1rem;
-      font-weight: 400;
-      margin-bottom: 0.5rem;
-      line-height: 1.3;
-    }
-    .outcome-body {
-      font-size: 0.875rem;
-      color: var(--muted);
-      line-height: 1.65;
-    }
-
-    /* ── RESOURCE CTA SECTION ── */
-    .resource-cta-section { max-width: var(--max); margin: 0 auto; }
-    .resource-cta-card {
-      background: var(--text);
-      border-radius: 12px;
-      padding: clamp(2rem, 6vw, 3.5rem);
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 3rem;
-      align-items: center;
-    }
-    .resource-cta-label {
-      font-size: 0.75rem;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: rgba(255,255,255,0.4);
-      margin-bottom: 0.75rem;
-    }
-    .resource-cta-title {
-      font-family: var(--serif);
-      font-size: clamp(1.6rem, 3vw, 2.25rem);
-      color: #fff;
-      line-height: 1.2;
-      margin-bottom: 0.85rem;
-      font-weight: 400;
-    }
-    .resource-cta-body {
-      font-size: 0.95rem;
-      color: rgba(255,255,255,0.55);
-      line-height: 1.75;
-    }
-    .resource-cta-actions {
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-      min-width: 200px;
-    }
-    .btn-light {
-      background: #fff;
-      color: var(--text);
-      justify-content: center;
-    }
-    .btn-light:hover { opacity: 0.9; }
-    .btn-outline-light {
-      background: transparent;
-      color: rgba(255,255,255,0.7);
-      border: 1px solid rgba(255,255,255,0.25);
-      justify-content: center;
-    }
-    .btn-outline-light:hover { color: #fff; border-color: rgba(255,255,255,0.6); opacity: 1; }
-
-    /* ── HAMBURGER MENU ── */
-    .hamburger {
-      display: none;
-      background: none;
-      border: none;
-      cursor: pointer;
-      padding: 4px;
-      flex-direction: column;
-      gap: 5px;
-    }
-    .hamburger span {
-      display: block;
-      width: 22px;
-      height: 2px;
-      background: var(--text);
-      border-radius: 2px;
-      transition: all 0.2s;
-    }
-    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-    .hamburger.open span:nth-child(2) { opacity: 0; }
-    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
-
-    #mobile-menu {
-      display: none;
-      position: fixed;
-      top: 56px;
-      left: 0;
-      right: 0;
-      background: rgba(250,250,249,0.98);
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-      border-bottom: 1px solid var(--border);
-      padding: 1rem var(--pad);
-      z-index: 99;
-    }
-    #mobile-menu.open { display: block; }
-    #mobile-menu a {
-      display: block;
-      padding: 0.75rem 0;
-      font-size: 1rem;
-      font-weight: 400;
-      color: var(--text);
-      text-decoration: none;
-      border-bottom: 1px solid var(--border);
-    }
-    #mobile-menu a:last-child { border-bottom: none; }
-    #mobile-menu a:hover { color: var(--muted); }
-
-    /* ── RESPONSIVE ── */
-    @media (max-width: 640px) {
-      .nav-links { display: none; }
-      .hamburger { display: flex; }
-      .disc-grid { grid-template-columns: 1fr; }
-      .about-grid { grid-template-columns: 1fr; gap: 1.5rem; }
-      .outcomes-grid { grid-template-columns: 1fr; }
-      .resource-cta-card { grid-template-columns: 1fr; }
-      .resource-cta-actions { flex-direction: row; flex-wrap: wrap; min-width: auto; }
-      .work-grid { grid-template-columns: 1fr; }
-    }
-
-    /* ── FAQ SECTION ── */
-    .faq-section { max-width: var(--max); margin: 0 auto; }
-    .faq-list { list-style: none; margin-top: 2.5rem; }
-    .faq-item {
-      border-top: 1px solid var(--border);
-      padding: 0;
-    }
-    .faq-item:last-child { border-bottom: 1px solid var(--border); }
-    .faq-question {
-      width: 100%;
-      background: none;
-      border: none;
-      text-align: left;
-      padding: 1.25rem 0;
-      font-family: var(--sans);
-      font-size: 0.975rem;
-      font-weight: 500;
-      color: var(--text);
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
-      line-height: 1.45;
-    }
-    .faq-question:hover { color: var(--muted); }
-    .faq-chevron {
-      font-size: 11px;
-      color: var(--muted);
-      flex-shrink: 0;
-      transition: transform 0.2s;
-    }
-    .faq-item.open .faq-chevron { transform: rotate(180deg); }
-    .faq-answer {
-      display: none;
-      padding: 0 0 1.25rem;
-      font-size: 0.925rem;
-      color: var(--muted);
-      line-height: 1.8;
-      max-width: 580px;
-    }
-    .faq-item.open .faq-answer { display: block; }
-
-    /* ── FOOTER IMPROVEMENTS ── */
-    .footer-links {
-      display: flex;
-      gap: 1.5rem;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .footer-link {
-      font-size: 0.8rem;
-      color: var(--muted);
-      text-decoration: none;
-      transition: color 0.15s;
-    }
-    .footer-link:hover { color: var(--text); }
-
-    /* ── COLOR HELPERS ── */
-    .d-color { color: var(--d); }
-    .i-color { color: var(--i); }
-    .s-color { color: var(--s); }
-    .c-color { color: var(--c); }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--bg:#fafaf9;--surface:#f4f3f1;--border:#e5e3df;--text:#18181b;--muted:#71717a;--d:#c0392b;--i:#d97706;--s:#16a34a;--c:#1d4ed8;--serif:'DM Serif Display',Georgia,serif;--sans:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;--max:720px;--pad:clamp(1.25rem,5vw,3rem)}
+    html{scroll-behavior:smooth}
+    body{font-family:var(--sans);background:var(--bg);color:var(--text);line-height:1.65;font-size:1rem;-webkit-font-smoothing:antialiased}
+    nav{position:sticky;top:0;z-index:100;background:rgba(250,250,249,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:0 var(--pad);height:56px;display:flex;align-items:center;justify-content:space-between}
+    .nav-brand{font-family:var(--serif);font-size:1.15rem;color:var(--text);text-decoration:none;letter-spacing:.01em}
+    .nav-links{display:flex;gap:2rem;list-style:none}
+    .nav-links a{font-size:.875rem;color:var(--muted);text-decoration:none;transition:color .15s;font-weight:400;letter-spacing:.02em}
+    .nav-links a:hover{color:var(--text)}
+    section{padding:clamp(4rem,10vw,7rem) var(--pad)}
+    .hero{padding-top:clamp(4rem,12vw,8rem);padding-bottom:clamp(4rem,12vw,8rem);max-width:var(--max);margin:0 auto}
+    .hero-eyebrow{font-size:.8rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:1.5rem}
+    .hero h1{font-family:var(--serif);font-size:clamp(2.4rem,5.5vw,3.75rem);line-height:1.15;font-weight:400;color:var(--text);margin-bottom:1.5rem;letter-spacing:-.01em}
+    .hero h1 em{font-style:italic;color:var(--muted)}
+    .hero-desc{font-size:1.1rem;color:var(--muted);max-width:520px;line-height:1.75;margin-bottom:2.5rem}
+    .btn{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.5rem;background:var(--text);color:var(--bg);text-decoration:none;font-size:.875rem;font-weight:500;letter-spacing:.02em;border-radius:6px;transition:opacity .15s}
+    .btn:hover{opacity:.8}
+    .btn-ghost{background:transparent;color:var(--muted);border:1px solid var(--border);margin-left:.75rem}
+    .btn-ghost:hover{color:var(--text);border-color:var(--text);opacity:1}
+    .divider{width:100%;height:1px;background:var(--border);max-width:var(--max);margin:0 auto}
+    .disc-section,.approach-section,.work-section,.about-section,.outcomes-section,.resource-cta-section,.faq-section,.contact-section{max-width:var(--max);margin:0 auto}
+    .section-label{font-size:.75rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.75rem}
+    .section-title{font-family:var(--serif);font-size:clamp(1.75rem,3.5vw,2.5rem);font-weight:400;line-height:1.2;margin-bottom:1.25rem;letter-spacing:-.01em}
+    .section-intro{font-size:1rem;color:var(--muted);max-width:560px;line-height:1.75;margin-bottom:3rem}
+    .disc-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:2rem}
+    .disc-card{background:var(--bg);padding:1.75rem;transition:background .15s}
+    .disc-card:hover{background:var(--surface)}
+    .disc-type{display:inline-flex;align-items:center;gap:.5rem;margin-bottom:.75rem}
+    .disc-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+    .disc-letter{font-family:var(--serif);font-size:1.1rem;font-weight:400}
+    .disc-name{font-size:.75rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+    .disc-desc{font-size:.875rem;color:var(--muted);line-height:1.65;margin-top:.5rem}
+    .disc-traits{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:1rem}
+    .trait{font-size:.75rem;padding:.25rem .6rem;border-radius:100px;background:var(--surface);color:var(--muted);border:1px solid var(--border)}
+    .disc-download{display:inline-flex;align-items:center;gap:.35rem;margin-top:1.1rem;font-size:.775rem;font-weight:500;color:var(--muted);text-decoration:none;letter-spacing:.02em;transition:color .15s}
+    .disc-download:hover{color:var(--text)}
+    .disc-download svg{width:13px;height:13px;flex-shrink:0}
+    .approach-list{list-style:none;display:flex;flex-direction:column;gap:0}
+    .approach-item{display:grid;grid-template-columns:2rem 1fr;gap:1.25rem;align-items:start;padding:1.5rem 0;border-bottom:1px solid var(--border)}
+    .approach-item:first-child{border-top:1px solid var(--border)}
+    .approach-num{font-size:.75rem;color:var(--muted);padding-top:.2rem;font-variant-numeric:tabular-nums}
+    .approach-title{font-family:var(--serif);font-size:1.15rem;font-weight:400;margin-bottom:.4rem}
+    .approach-body{font-size:.9rem;color:var(--muted);line-height:1.7}
+    .work-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem}
+    .work-card{border:1px solid var(--border);border-radius:10px;padding:1.5rem;text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:.75rem;transition:border-color .15s,box-shadow .15s;background:var(--bg)}
+    .work-card:hover{border-color:var(--text);box-shadow:0 2px 12px rgba(0,0,0,.07)}
+    .work-tag{font-size:.7rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+    .work-title{font-family:var(--serif);font-size:1.1rem;font-weight:400;line-height:1.3}
+    .work-desc{font-size:.875rem;color:var(--muted);line-height:1.65}
+    .work-card-footer{margin-top:auto;font-size:.8rem;color:var(--muted);display:flex;align-items:center;gap:.35rem}
+    .work-card-footer svg{width:12px;height:12px;flex-shrink:0}
+    .contact-section{text-align:center}
+    .contact-section .section-title{margin-bottom:.75rem}
+    .contact-section .section-intro{margin:0 auto 2.5rem}
+    .contact-links{display:flex;justify-content:center;flex-wrap:wrap;gap:1rem}
+    footer{border-top:1px solid var(--border);padding:2rem var(--pad);text-align:center}
+    .footer-inner{max-width:var(--max);margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+    .footer-name{font-family:var(--serif);font-size:1rem;color:var(--muted)}
+    .footer-copy{font-size:.8rem;color:var(--muted)}
+    .about-grid{display:grid;grid-template-columns:200px 1fr;gap:4rem;align-items:start}
+    .about-name{font-family:var(--serif);font-size:2.1rem;line-height:1.1;font-weight:400;margin-bottom:.6rem}
+    .about-role{font-size:.78rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);line-height:1.8}
+    .about-body{font-size:1rem;color:var(--muted);line-height:1.85;margin-bottom:1.1rem}
+    .about-cta-row{margin-top:2rem;display:flex;gap:.75rem;flex-wrap:wrap}
+    .outcomes-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);border:1px solid var(--border);border-radius:10px;overflow:hidden}
+    .outcome-item{background:var(--bg);padding:1.75rem}
+    .outcome-item:hover{background:var(--surface)}
+    .outcome-marker{width:8px;height:8px;border-radius:50%;background:var(--text);margin-bottom:1rem}
+    .outcome-title{font-family:var(--serif);font-size:1.1rem;font-weight:400;margin-bottom:.5rem;line-height:1.3}
+    .outcome-body{font-size:.875rem;color:var(--muted);line-height:1.65}
+    .resource-cta-card{background:var(--text);border-radius:12px;padding:clamp(2rem,6vw,3.5rem);display:grid;grid-template-columns:1fr auto;gap:3rem;align-items:center}
+    .resource-cta-label{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:.75rem}
+    .resource-cta-title{font-family:var(--serif);font-size:clamp(1.6rem,3vw,2.25rem);color:#fff;line-height:1.2;margin-bottom:.85rem;font-weight:400}
+    .resource-cta-body{font-size:.95rem;color:rgba(255,255,255,.55);line-height:1.75}
+    .resource-cta-actions{display:flex;flex-direction:column;gap:.75rem;min-width:200px}
+    .btn-light{background:#fff;color:var(--text);justify-content:center}
+    .btn-light:hover{opacity:.9}
+    .btn-outline-light{background:transparent;color:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.25);justify-content:center}
+    .btn-outline-light:hover{color:#fff;border-color:rgba(255,255,255,.6);opacity:1}
+    .hamburger{display:none;background:none;border:none;cursor:pointer;padding:4px;flex-direction:column;gap:5px}
+    .hamburger span{display:block;width:22px;height:2px;background:var(--text);border-radius:2px;transition:all .2s}
+    .hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+    .hamburger.open span:nth-child(2){opacity:0}
+    .hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+    #mobile-menu{display:none;position:fixed;top:56px;left:0;right:0;background:rgba(250,250,249,.98);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:1rem var(--pad);z-index:99}
+    #mobile-menu.open{display:block}
+    #mobile-menu a{display:block;padding:.75rem 0;font-size:1rem;font-weight:400;color:var(--text);text-decoration:none;border-bottom:1px solid var(--border)}
+    #mobile-menu a:last-child{border-bottom:none}
+    #mobile-menu a:hover{color:var(--muted)}
+    @media(max-width:640px){.nav-links{display:none}.hamburger{display:flex}.disc-grid{grid-template-columns:1fr}.about-grid{grid-template-columns:1fr;gap:1.5rem}.outcomes-grid{grid-template-columns:1fr}.resource-cta-card{grid-template-columns:1fr}.resource-cta-actions{flex-direction:row;flex-wrap:wrap;min-width:auto}.work-grid{grid-template-columns:1fr}}
+    @media(max-width:540px){.work-grid{grid-template-columns:1fr}}
+    .faq-list{list-style:none;margin-top:2.5rem}
+    .faq-item{border-top:1px solid var(--border);padding:0}
+    .faq-item:last-child{border-bottom:1px solid var(--border)}
+    .faq-question{width:100%;background:none;border:none;text-align:left;padding:1.25rem 0;font-family:var(--sans);font-size:.975rem;font-weight:500;color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:1rem;line-height:1.45}
+    .faq-question:hover{color:var(--muted)}
+    .faq-chevron{font-size:11px;color:var(--muted);flex-shrink:0;transition:transform .2s}
+    .faq-item.open .faq-chevron{transform:rotate(180deg)}
+    .faq-answer{display:none;padding:0 0 1.25rem;font-size:.925rem;color:var(--muted);line-height:1.8;max-width:580px}
+    .faq-item.open .faq-answer{display:block}
+    .footer-links{display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap}
+    .footer-link{font-size:.8rem;color:var(--muted);text-decoration:none;transition:color .15s}
+    .footer-link:hover{color:var(--text)}
+    .d-color{color:var(--d)}.i-color{color:var(--i)}.s-color{color:var(--s)}.c-color{color:var(--c)}
   </style>
 </head>
 <body>
 
-  <!-- NAV -->
   <nav>
-    <a class="nav-brand" href="#">Bryan Jodon</a>
+    <a class="nav-brand" href="/">Bryan Jodon</a>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#disc">DiSC</a></li>
@@ -756,7 +144,6 @@
     </button>
   </nav>
 
-  <!-- MOBILE MENU -->
   <div id="mobile-menu">
     <a href="#about" onclick="toggleMobileNav(); document.getElementById('hamburger-btn').classList.remove('open')">About</a>
     <a href="#disc" onclick="toggleMobileNav(); document.getElementById('hamburger-btn').classList.remove('open')">DiSC</a>
@@ -766,22 +153,18 @@
     <a href="#contact" onclick="toggleMobileNav(); document.getElementById('hamburger-btn').classList.remove('open')">Contact</a>
   </div>
 
-  <!-- HERO -->
   <section class="hero">
     <p class="hero-eyebrow">Communication Coach &amp; DiSC Practitioner</p>
-    <h1>Every person has<br>a <em>style</em> — learn<br>to speak theirs.</h1>
-    <p class="hero-desc">
-      I teach people how to communicate more effectively by understanding personality through the DiSC framework. Know yourself. Understand others. Connect on a deeper level.
-    </p>
+    <h1>Every person has<br>a <em>style</em> &mdash; learn<br>to speak theirs.</h1>
+    <p class="hero-desc">I teach people how to communicate more effectively by understanding personality through the DiSC framework. Know yourself. Understand others. Connect on a deeper level.</p>
     <div>
       <a class="btn" href="mailto:bryan@bryanjodon.com?subject=Intro Call Request">Book a free intro call</a>
-      <a class="btn btn-ghost" href="#disc">Explore DiSC →</a>
+      <a class="btn btn-ghost" href="#disc">Explore DiSC &rarr;</a>
     </div>
   </section>
 
   <div class="divider"></div>
 
-  <!-- ABOUT SECTION -->
   <section id="about">
     <div class="about-section">
       <p class="section-label">About</p>
@@ -791,12 +174,12 @@
           <p class="about-role">DiSC Practitioner<br>&amp; Communication Coach</p>
         </div>
         <div>
-          <p class="about-body">I built this work around one insight: most communication breakdowns aren't about intent — they're about style mismatch. Someone direct comes across as cold. Someone thorough reads as slow. Someone warm gets written off as unfocused.</p>
-          <p class="about-body">DiSC gives people a shared vocabulary for those gaps — a way to understand how they're wired, how others are wired, and what it actually takes to reach someone who thinks differently than you do.</p>
-          <p class="about-body">I work with individuals and teams who are tired of being misread — and of misreading the people around them.</p>
+          <p class="about-body">I built this work around one insight: most communication breakdowns aren&rsquo;t about intent &mdash; they&rsquo;re about style mismatch. Someone direct comes across as cold. Someone thorough reads as slow. Someone warm gets written off as unfocused.</p>
+          <p class="about-body">DiSC gives people a shared vocabulary for those gaps &mdash; a way to understand how they&rsquo;re wired, how others are wired, and what it actually takes to reach someone who thinks differently than you do.</p>
+          <p class="about-body">I work with individuals and teams who are tired of being misread &mdash; and of misreading the people around them.</p>
           <div class="about-cta-row">
             <a class="btn" href="mailto:bryan@bryanjodon.com?subject=Intro Call Request">Book a free intro call</a>
-            <a class="btn btn-ghost" href="#disc">Explore DiSC →</a>
+            <a class="btn btn-ghost" href="#disc">Explore DiSC &rarr;</a>
           </div>
         </div>
       </div>
@@ -805,13 +188,232 @@
 
   <div class="divider"></div>
 
-  <!-- DISC SECTION -->
   <section id="disc">
     <div class="disc-section">
       <p class="section-label">The Framework</p>
       <h2 class="section-title">What is DiSC?</h2>
-      <p class="section-intro">
-        DiSC is a behavior-based model that identifies four primary communication and personality styles. Understanding these styles — in yourself and in others — transforms how you listen, respond, and connect.
-      </p>
+      <p class="section-intro">DiSC is a behavior-based model that identifies four primary communication and personality styles. Understanding these styles &mdash; in yourself and in others &mdash; transforms how you listen, respond, and connect.</p>
+      <div class="disc-grid">
+        <div class="disc-card">
+          <div class="disc-type"><span class="disc-dot" style="background:var(--d)"></span><span class="disc-letter d-color">D</span><span class="disc-name">Dominance</span></div>
+          <p class="disc-desc">Driven, direct, and decisive. D-types communicate with confidence and are focused on results and forward momentum.</p>
+          <div class="disc-traits"><span class="trait">Results-focused</span><span class="trait">Direct</span><span class="trait">Bold</span><span class="trait">Competitive</span></div>
+          <a class="disc-download" href="/pdfs/disc-communication-deep-dive.pdf" download><svg viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.5 1v8M3 7l3.5 3.5L10 7"/><path d="M1 11h11"/></svg>Download the DiSC Deep Dive Guide</a>
+        </div>
+        <div class="disc-card">
+          <div class="disc-type"><span class="disc-dot" style="background:var(--i)"></span><span class="disc-letter i-color">i</span><span class="disc-name">Influence</span></div>
+          <p class="disc-desc">Enthusiastic, expressive, and collaborative. i-types thrive on connection, inspiration, and bringing people along with them.</p>
+          <div class="disc-traits"><span class="trait">Optimistic</span><span class="trait">Persuasive</span><span class="trait">Energetic</span><span class="trait">Social</span></div>
+          <a class="disc-download" href="/pdfs/disc-communication-deep-dive.pdf" download><svg viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.5 1v8M3 7l3.5 3.5L10 7"/><path d="M1 11h11"/></svg>Download the DiSC Deep Dive Guide</a>
+        </div>
+        <div class="disc-card">
+          <div class="disc-type"><span class="disc-dot" style="background:var(--s)"></span><span class="disc-letter s-color">S</span><span class="disc-name">Steadiness</span></div>
+          <p class="disc-desc">Calm, patient, and supportive. S-types are deeply dependable communicators who prioritize harmony and genuine relationships.</p>
+          <div class="disc-traits"><span class="trait">Empathetic</span><span class="trait">Consistent</span><span class="trait">Loyal</span><span class="trait">Patient</span></div>
+          <a class="disc-download" href="/pdfs/disc-communication-deep-dive.pdf" download><svg viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.5 1v8M3 7l3.5 3.5L10 7"/><path d="M1 11h11"/></svg>Download the DiSC Deep Dive Guide</a>
+        </div>
+        <div class="disc-card">
+          <div class="disc-type"><span class="disc-dot" style="background:var(--c)"></span><span class="disc-letter c-color">C</span><span class="disc-name">Conscientiousness</span></div>
+          <p class="disc-desc">Analytical, precise, and thorough. C-types communicate with care, ask the right questions, and value accuracy above speed.</p>
+          <div class="disc-traits"><span class="trait">Detail-oriented</span><span class="trait">Logical</span><span class="trait">Careful</span><span class="trait">Systematic</span></div>
+          <a class="disc-download" href="/pdfs/disc-communication-deep-dive.pdf" download><svg viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.5 1v8M3 7l3.5 3.5L10 7"/><path d="M1 11h11"/></svg>Download the DiSC Deep Dive Guide</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <di
+  <div class="divider"></div>
+
+  <section id="approach">
+    <div class="approach-section">
+      <p class="section-label">The Approach</p>
+      <h2 class="section-title">How I teach it</h2>
+      <p class="section-intro">Learning DiSC isn&rsquo;t about putting people in boxes &mdash; it&rsquo;s about building the awareness to meet people where they are.</p>
+      <ul class="approach-list">
+        <li class="approach-item"><span class="approach-num">01</span><div><p class="approach-title">Know your own style first</p><p class="approach-body">Before you can adapt to others, you need a clear picture of your own default tendencies &mdash; how you send messages, how you process conflict, and where your blind spots are.</p></div></li>
+        <li class="approach-item"><span class="approach-num">02</span><div><p class="approach-title">Read the person in front of you</p><p class="approach-body">DiSC gives you a vocabulary for observing behavior in real time. You learn to pick up on signals &mdash; pace, priority, tone &mdash; and adjust before friction builds.</p></div></li>
+        <li class="approach-item"><span class="approach-num">03</span><div><p class="approach-title">Adapt without losing yourself</p><p class="approach-body">Adapting your style is a skill, not a performance. I teach techniques that feel natural &mdash; so you can flex toward any style while staying grounded in who you are.</p></div></li>
+        <li class="approach-item"><span class="approach-num">04</span><div><p class="approach-title">Apply it to real conversations</p><p class="approach-body">Teams, one-on-ones, difficult conversations, leadership moments &mdash; DiSC becomes most powerful when it&rsquo;s tied to the actual situations you face every day.</p></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="work">
+    <div class="work-section">
+      <p class="section-label">Projects &amp; Tools</p>
+      <h2 class="section-title">What I&rsquo;m building</h2>
+      <p class="section-intro">Resources, workshops, and tools for people who want to communicate with more clarity and less friction.</p>
+      <div class="work-grid">
+        <a class="work-card" href="mailto:bryan@bryanjodon.com?subject=DiSC for Teams Workshop">
+          <span class="work-tag">Workshop</span>
+          <p class="work-title">DiSC for Teams</p>
+          <p class="work-desc">A half-day or full-day workshop for teams who want to reduce friction, build trust, and develop a shared language for how they communicate. Every person leaves with their own profile and a playbook for working with every style on the team.</p>
+          <div class="work-card-footer"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6h10M6 1l5 5-5 5"/></svg>Inquire about availability</div>
+        </a>
+        <a class="work-card" href="mailto:bryan@bryanjodon.com?subject=1-on-1 Coaching Inquiry">
+          <span class="work-tag">Coaching</span>
+          <p class="work-title">1-on-1 Communication Coaching</p>
+          <p class="work-desc">For individuals navigating a specific challenge &mdash; a difficult working relationship, a high-stakes conversation, or a communication pattern that keeps getting in the way. We work from your actual situations, not hypotheticals.</p>
+          <div class="work-card-footer"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6h10M6 1l5 5-5 5"/></svg>Book a free intro call</div>
+        </a>
+        <a class="work-card" href="/pdfs/disc-communication-deep-dive.pdf" download>
+          <span class="work-tag">Free Guide</span>
+          <p class="work-title">DiSC Deep Dive Guide</p>
+          <p class="work-desc">54 pages covering all four styles across awareness, application, and mastery &mdash; with 36 exercises, a cross-style friction matrix, and quick reference cards for every personality combination.</p>
+          <div class="work-card-footer"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6h10M6 1l5 5-5 5"/></svg>Download free PDF</div>
+        </a>
+        <a class="work-card" href="/call-flow.html">
+          <span class="work-tag">Live Tool</span>
+          <p class="work-title">DISC Call Flow Tool</p>
+          <p class="work-desc">An AI-powered scripting tool that adapts tech support call flow language in real time for each DiSC type &mdash; built for Spectrum call center agents as a proof of concept for DISC-adaptive communication.</p>
+          <div class="work-card-footer"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6h10M6 1l5 5-5 5"/></svg>Open the tool &rarr;</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <div class="outcomes-section">
+      <p class="section-label">What changes</p>
+      <h2 class="section-title">The shift people experience.</h2>
+      <p class="section-intro">DiSC doesn&rsquo;t change who you are &mdash; it changes how much of yourself lands with other people.</p>
+      <div class="outcomes-grid">
+        <div class="outcome-item"><div class="outcome-marker"></div><p class="outcome-title">You stop taking friction personally.</p><p class="outcome-body">When you understand that someone&rsquo;s bluntness is their default, not a slight, the emotional charge drains out of difficult interactions.</p></div>
+        <div class="outcome-item"><div class="outcome-marker"></div><p class="outcome-title">You know how to reach anyone.</p><p class="outcome-body">Results-first or relationship-first, thorough or fast-moving &mdash; you have a concrete approach for every type, not just the ones who think like you do.</p></div>
+        <div class="outcome-item"><div class="outcome-marker"></div><p class="outcome-title">Hard conversations get easier.</p><p class="outcome-body">When you understand someone&rsquo;s style, you stop guessing at how to frame things. You know what they need to hear before they can actually hear it.</p></div>
+        <div class="outcome-item"><div class="outcome-marker"></div><p class="outcome-title">Teams stop talking past each other.</p><p class="outcome-body">A shared DiSC vocabulary turns &ldquo;I don&rsquo;t know why we can&rsquo;t get aligned&rdquo; into a diagnosable, solvable pattern &mdash; not a personality flaw.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <div class="work-section">
+      <p class="section-label">Writing</p>
+      <h2 class="section-title">Practical writing on DiSC.</h2>
+      <p class="section-intro">Short articles on communication patterns, personality styles, and what actually changes when you learn to work with people&rsquo;s differences instead of around them.</p>
+      <div class="work-grid">
+        <a class="work-card" href="/articles/giving-feedback-by-style.html">
+          <span class="work-tag">Communication</span>
+          <p class="work-title">Why Your Feedback Keeps Missing the Mark</p>
+          <p class="work-desc">Most people give feedback the way they&rsquo;d want to receive it &mdash; not the way the other person can actually absorb it. Here&rsquo;s how each DiSC style needs to hear it.</p>
+          <div class="work-card-footer"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6h10M6 1l5 5-5 5"/></svg>Read article &rarr;</div>
+        </a>
+        <a class="work-card" href="/articles/what-is-disc.html">
+          <span class="work-tag">DiSC Fundamentals</span>
+          <p class="work-title">The 4 DiSC Styles: A Practical Guide</p>
+          <p class="work-desc">A breakdown of D, i, S, and C &mdash; how each style communicates, what they prioritize, and why understanding them changes every conversation you have.</p>
+          <div class="work-card-footer"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6h10M6 1l5 5-5 5"/></svg>Read article &rarr;</div>
+        </a>
+        <a class="work-card" href="/articles/d-vs-c-at-work.html">
+          <span class="work-tag">Conflict &amp; Friction</span>
+          <p class="work-title">D vs. C: Why Two High-Performing Styles Create So Much Friction</p>
+          <p class="work-desc">D-types want to move fast. C-types want to get it right. Here&rsquo;s what each style is actually optimizing for &mdash; and how to bridge the gap before the frustration locks in.</p>
+          <div class="work-card-footer"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6h10M6 1l5 5-5 5"/></svg>Read article &rarr;</div>
+        </a>
+        <a class="work-card" href="/articles/i-vs-s-at-work.html">
+          <span class="work-tag">Subtle Friction</span>
+          <p class="work-title">i vs. S: Why the Two Friendliest Styles Still Drive Each Other Crazy</p>
+          <p class="work-desc">Both warm. Both people-focused. So why do they exhaust each other? The friction is quiet, accumulates fast, and neither style says a word about it.</p>
+          <div class="work-card-footer"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6h10M6 1l5 5-5 5"/></svg>Read article &rarr;</div>
+        </a>
+      </div>
+      <p style="margin-top:1.5rem;font-size:.875rem"><a href="/articles/" style="color:var(--muted);text-decoration:none;display:inline-flex;align-items:center;gap:.35rem">Browse all articles <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" style="flex-shrink:0"><path d="M1 6h10M6 1l5 5-5 5"/></svg></a></p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <div class="faq-section">
+      <p class="section-label">FAQ</p>
+      <h2 class="section-title">Common questions.</h2>
+      <ul class="faq-list">
+        <li class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">What exactly is DiSC, and how is it different from Myers-Briggs?<span class="faq-chevron">&#9660;</span></button>
+          <div class="faq-answer">DiSC is a behavior-based model that describes four primary communication and work styles: Dominance, Influence, Steadiness, and Conscientiousness. Unlike Myers-Briggs, which focuses on how you think and process information internally, DiSC focuses specifically on how you communicate, what you prioritize in interactions, and how you respond to others. It&rsquo;s less about identity and more about behavior &mdash; which makes it much more actionable in real conversations.</div>
+        </li>
+        <li class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">Do I need to take a formal DiSC assessment before working with you?<span class="faq-chevron">&#9660;</span></button>
+          <div class="faq-answer">No &mdash; though it helps. A formal assessment gives you a detailed profile report and adds precision to the work. But it&rsquo;s not a prerequisite. Many people can identify their dominant style through a conversation, and a lot of useful work happens without ever taking a formal test. If you&rsquo;d like to use an official assessment, we can discuss options as part of the engagement.</div>
+        </li>
+        <li class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">How long is the DiSC for Teams workshop?<span class="faq-chevron">&#9660;</span></button>
+          <div class="faq-answer">The standard format is a half-day (3&ndash;4 hours), which covers the core framework, individual profiles, and team application exercises. A full-day version goes deeper into cross-style communication, conflict patterns, and leadership dynamics. I can also run condensed 90-minute versions for teams with limited time &mdash; reach out and we can figure out what makes sense for your situation.</div>
+        </li>
+        <li class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">Is this for individuals or teams?<span class="faq-chevron">&#9660;</span></button>
+          <div class="faq-answer">Both. The workshop is designed for teams, but 1-on-1 coaching is for individuals who want to work through their own communication patterns &mdash; whether it&rsquo;s navigating a specific relationship at work, preparing for a high-stakes conversation, or just understanding why certain interactions keep going sideways.</div>
+        </li>
+        <li class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">Does this actually change behavior, or is it just interesting theory?<span class="faq-chevron">&#9660;</span></button>
+          <div class="faq-answer">That depends entirely on what you do with it. Understanding your style is the first step &mdash; most people have a &ldquo;that&rsquo;s exactly me&rdquo; moment pretty quickly. The real shift happens when you start applying it: noticing someone else&rsquo;s style in a live conversation, adjusting how you frame something, and seeing it actually land differently. That takes practice, which is what the exercises and coaching are for. DiSC is a tool, not a personality test you take once and forget.</div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <div class="resource-cta-section">
+      <div class="resource-cta-card">
+        <div>
+          <p class="resource-cta-label">Free resource</p>
+          <p class="resource-cta-title">Start with the<br>Deep Dive Guide.</p>
+          <p class="resource-cta-body">54 pages covering all four DiSC styles across three levels of mastery &mdash; from basic awareness to real-world application. Includes 36 exercises, a cross-style friction matrix, and quick reference cards.</p>
+        </div>
+        <div class="resource-cta-actions">
+          <a class="btn btn-light" href="/pdfs/disc-communication-deep-dive.pdf" download>Download free PDF</a>
+          <a class="btn btn-outline-light" href="mailto:bryan@bryanjodon.com?subject=Intro Call Request">Or book a call &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="contact">
+    <div class="contact-section">
+      <p class="section-label">Contact</p>
+      <h2 class="section-title">Let&rsquo;s talk.</h2>
+      <p class="section-intro">Whether you&rsquo;re looking for a workshop for your team, 1-on-1 coaching, or just want to explore whether DiSC is the right fit &mdash; a 30-minute intro call is the best place to start.</p>
+      <div class="contact-links">
+        <a class="btn" href="mailto:bryan@bryanjodon.com?subject=Intro Call Request">Book a free intro call</a>
+        <a class="btn btn-ghost" href="mailto:bryan@bryanjodon.com">bryan@bryanjodon.com</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <span class="footer-name">Bryan Jodon</span>
+        <div style="font-size:.75rem;color:var(--muted);margin-top:.25rem">DiSC Practitioner &amp; Communication Coach</div>
+      </div>
+      <div class="footer-links">
+        <a class="footer-link" href="mailto:bryan@bryanjodon.com">bryan@bryanjodon.com</a>
+        <a class="footer-link" href="https://linkedin.com/in/bryanjodon" target="_blank" rel="noopener">LinkedIn</a>
+        <span class="footer-copy">&copy; 2026</span>
+      </div>
+    </div>
+  </footer>
+
+<script>
+  function toggleFaq(btn) {
+    const item = btn.closest('.faq-item');
+    const wasOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+    if (!wasOpen) item.classList.add('open');
+  }
+  function toggleMobileNav() {
+    document.getElementById('mobile-menu').classList.toggle('open');
+  }
+</script>
+</body>
+</html>
