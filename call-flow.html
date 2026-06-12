@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DISC Call Flow — Spectrum Tech Support</title>
+<style>
+  :root {
+    --bg: #f0f2f5;
+    --panel: #ffffff;
+    --border: #d1d5db;
+    --text: #111827;
+    --text-muted: #6b7280;
+    --accent: #0052a5;
+    --accent-light: #e8f0fb;
+    --d-color: #dc2626;
+    --d-light: #fef2f2;
+    --i-color: #d97706;
+    --i-light: #fffbeb;
+    --s-color: #059669;
+    --s-light: #ecfdf5;
+    --c-color: #1d4ed8;
+    --c-light: #eff6ff;
+    --video-color: #7c3aed;
+    --video-light: #f5f3ff;
+    --coaching-bg: #fff8e1;
+    --coaching-border: #f59e0b;
+    --watchfor-bg: #f0fdf4;
+    --watchfor-border: #10b981;
+    --radius: 8px;
+    --shadow: 0 1px 3px rgba(0,0,0,0.10);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* ── HEADER ── */
+  header {
+    background: var(--accent);
+    color: #fff;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+  header h1 { font-size: 17px; font-weight: 700; letter-spacing: 0.3px; }
+  header span { font-size: 12px; opacity: 0.8; }
+  .header-back {
+    font-size: 12px;
+    color: rgba(255,255,255,0.75);
+    text-decoration: none;
+    transition: color 0.15s;
+    white-space: nowrap;
+  }
+  .header-back:hover { color: #fff; }
+
+  /* ── LAYOUT ── */
+  .layout {
+    display: grid;
+    grid-template-columns: 220px 1fr 240px;
+    gap: 16px;
+    padding: 16px;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  /* ── SIDEBAR (left) ── */
+  .sidebar-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+
+  .panel-header {
+    background: var(--accent);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    padding: 8px 12px;
+  }
+
+  /* DISC selector */
+  .disc-selector { padding: 12px; }
+  .disc-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 9px 12px;
+    border: 2px solid var(--border);
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    transition: all 0.15s;
+    text-align: left;
+  }
+  .disc-btn:last-child { margin-bottom: 0; }
+  .disc-btn .badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: 800;
+    color: #fff;
+    flex-shrink: 0;
+  }
+  .disc-btn.d-btn .badge { background: var(--d-color); }
+  .disc-btn.i-btn .badge { background: var(--i-color); }
+  .disc-btn.s-btn .badge { background: var(--s-color); }
+  .disc-btn.c-btn .badge { background: var(--c-color); }
+  .disc-btn.active.d-btn { border-color: var(--d-color); background: var(--d-light); }
+  .disc-btn.active.i-btn { border-color: var(--i-color); background: var(--i-light); }
+  .disc-btn.active.s-btn { border-color: var(--s-color); background: var(--s-light); }
+  .disc-btn.active.c-btn { border-color: var(--c-color); background: var(--c-light); }
+  .disc-btn:hover:not(.active) { border-color: #9ca3af; background: #f9fafb; }
+
+  .disc-desc { font-size: 11px; color: var(--text-muted); line-height: 1.35; }
+
+  /* API key */
+  .api-key-area { padding: 10px 12px; }
+  .api-key-area label { font-size: 11px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 4px; }
+  .api-key-area input {
+    width: 100%;
+    padding: 6px 8px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: monospace;
+  }
+  .api-key-area input:focus { outline: none; border-color: var(--accent); }
+  .api-note { font-size: 10px; color: var(--text-muted); margin-top: 4px; }
+
+  /* Generate all btn */
+  .gen-all-btn {
+    width: calc(100% - 24px);
+    margin: 0 12px 12px;
+    padding: 9px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .gen-all-btn:hover { background: #003d80; }
+  .gen-all-btn:disabled { background: #9ca3af; cursor: not-allowed; }
+
+  /* Print btn */
+  .print-btn {
+    width: calc(100% - 24px);
+    margin: 0 12px 12px;
+    padding: 8px;
+    background: #fff;
+    color: var(--accent);
+    border: 2px solid var(--accent);
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .print-btn:hover { background: var(--accent-light); }
+
+  /* ── MAIN CONTENT ── */
+  .main-content { display: flex; flex-direction: column; gap: 12px; }
+
+  /* Service toggle */
+  .service-toggle {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: var(--shadow);
+  }
+  .service-toggle span { font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+  .toggle-btn {
+    padding: 6px 18px;
+    border: 2px solid var(--border);
+    border-radius: 20px;
+    background: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .toggle-btn.active-internet { border-color: var(--accent); background: var(--accent); color: #fff; }
+  .toggle-btn.active-video { border-color: var(--video-color); background: var(--video-color); color: #fff; }
+  .toggle-btn.active-all { border-color: var(--accent); background: var(--accent); color: #fff; }
+  .toggle-btn:not(.active-internet):not(.active-video):not(.active-all):hover { border-color: #9ca3af; background: #f9fafb; }
+  .toggle-sep { color: var(--border); font-size: 18px; }
+  .step-count-badge {
+    margin-left: auto;
+    font-size: 11px;
+    color: var(--text-muted);
+    background: #f3f4f6;
+    border-radius: 12px;
+    padding: 3px 10px;
+  }
+
+  /* Steps list */
+  .steps-list { display: flex; flex-direction: column; gap: 10px; }
+
+  .step-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    transition: box-shadow 0.15s;
+  }
+  .step-card:hover { box-shadow: 0 3px 8px rgba(0,0,0,0.12); }
+  .step-card.hidden { display: none; }
+
+  .step-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    cursor: pointer;
+    user-select: none;
+    background: #fafafa;
+    border-bottom: 1px solid var(--border);
+  }
+  .step-header:hover { background: #f3f4f6; }
+
+  .step-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .step-num.video-num { background: var(--video-color); }
+
+  .step-title { font-size: 14px; font-weight: 700; flex: 1; }
+
+  .step-tag {
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+  .tag-internet { background: #dbeafe; color: #1d4ed8; }
+  .tag-video { background: var(--video-light); color: #6d28d9; }
+  .tag-both { background: #dcfce7; color: #15803d; }
+
+  .step-chevron {
+    font-size: 12px;
+    color: var(--text-muted);
+    transition: transform 0.2s;
+  }
+  .step-card.open .step-chevron { transform: rotate(180deg); }
+
+  .step-body { display: none; padding: 14px; }
+  .step-card.open .step-body { display: block; }
+
+  .step-description {
+    font-size: 13px;
+    color: #374151;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    padding: 10px 12px;
+    background: #f8fafc;
+    border-left: 3px solid var(--accent);
+    border-radius: 0 4px 4px 0;
+  }
+  .step-description.video-desc { border-left-color: var(--video-color); }
+
+  /* Generated script output */
+  .script-output { margin-top: 8px; }
+
+  .script-output-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+  }
+  .disc-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    padding: 2px 8px;
+    border-radius: 10px;
+  }
+  .disc-label.D { background: var(--d-light); color: var(--d-color); border: 1px solid var(--d-color); }
+  .disc-label.I { background: var(--i-light); color: var(--i-color); border: 1px solid var(--i-color); }
+  .disc-label.S { background: var(--s-light); color: var(--s-color); border: 1px solid var(--s-color); }
+  .disc-label.C { background: var(--c-light); color: var(--c-color); border: 1px solid var(--c-color); }
+
+  .copy-btn {
+    padding: 4px 10px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    background: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: all 0.15s;
+  }
+  .copy-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-light); }
+  .copy-btn.copied { border-color: var(--s-color); color: var(--s-color); background: var(--s-light); }
+
+  .script-text {
+    font-size: 13px;
+    line-height: 1.65;
+    color: #1f2937;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 12px 14px;
+  }
+
+  /* Coaching note */
+  .coaching-note {
+    margin-top: 10px;
+    padding: 10px 12px 10px 14px;
+    background: var(--coaching-bg);
+    border-left: 4px solid var(--coaching-border);
+    border-radius: 0 6px 6px 0;
+    font-size: 12px;
+    color: #78350f;
+    line-height: 1.5;
+  }
+  .coaching-note strong {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #92400e;
+    margin-bottom: 3px;
+  }
+
+  /* Watch for */
+  .watch-for {
+    margin-top: 8px;
+    padding: 10px 12px 10px 14px;
+    background: var(--watchfor-bg);
+    border-left: 4px solid var(--watchfor-border);
+    border-radius: 0 6px 6px 0;
+    font-size: 12px;
+    color: #064e3b;
+    line-height: 1.5;
+  }
+  .watch-for strong {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #065f46;
+    margin-bottom: 3px;
+  }
+
+  /* Loading state */
+  .loading-state {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--text-muted);
+    padding: 10px 0;
+  }
+  .spinner {
+    width: 14px; height: 14px;
+    border: 2px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .gen-step-btn {
+    margin-top: 10px;
+    padding: 7px 14px;
+    background: var(--accent-light);
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .gen-step-btn:hover { background: var(--accent); color: #fff; }
+  .gen-step-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  /* Error */
+  .error-msg {
+    margin-top: 8px;
+    padding: 8px 12px;
+    background: #fef2f2;
+    border: 1px solid #fca5a5;
+    border-radius: 6px;
+    font-size: 12px;
+    color: var(--d-color);
+  }
+
+  /* ── RIGHT SIDEBAR — DISC Quick Detect ── */
+  .sidebar-right { display: flex; flex-direction: column; gap: 12px; }
+
+  .disc-card {
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .disc-card-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .disc-card-header .badge {
+    width: 22px; height: 22px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+  }
+  .disc-card.D .disc-card-header { background: var(--d-light); color: var(--d-color); border-bottom: 1px solid #fca5a5; }
+  .disc-card.D .disc-card-header .badge { background: var(--d-color); }
+  .disc-card.I .disc-card-header { background: var(--i-light); color: var(--i-color); border-bottom: 1px solid #fcd34d; }
+  .disc-card.I .disc-card-header .badge { background: var(--i-color); }
+  .disc-card.S .disc-card-header { background: var(--s-light); color: var(--s-color); border-bottom: 1px solid #6ee7b7; }
+  .disc-card.S .disc-card-header .badge { background: var(--s-color); }
+  .disc-card.C .disc-card-header { background: var(--c-light); color: var(--c-color); border-bottom: 1px solid #bfdbfe; }
+  .disc-card.C .disc-card-header .badge { background: var(--c-color); }
+
+  .disc-card-body { padding: 10px 12px; background: #fff; }
+  .disc-signal {
+    font-size: 12px;
+    color: #374151;
+    line-height: 1.5;
+    padding: 4px 0;
+    border-bottom: 1px solid #f3f4f6;
+  }
+  .disc-signal:last-child { border-bottom: none; }
+  .disc-signal::before { content: "• "; color: var(--text-muted); }
+
+  /* ── PRINT VIEW ── */
+  #print-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1000;
+    overflow: auto;
+  }
+  #print-overlay.visible { display: block; }
+  .print-container {
+    background: #fff;
+    max-width: 780px;
+    margin: 30px auto;
+    padding: 36px 48px;
+    border-radius: var(--radius);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  }
+  .print-close-btn {
+    position: sticky;
+    top: 10px;
+    float: right;
+    padding: 6px 14px;
+    background: var(--d-color);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .print-title {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+  .print-subtitle {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 24px;
+  }
+  .print-step { margin-bottom: 22px; page-break-inside: avoid; }
+  .print-step-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 6px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .print-step-title.video-title { border-bottom-color: var(--video-color); }
+  .print-script {
+    font-size: 13px;
+    line-height: 1.7;
+    color: #1f2937;
+    margin-bottom: 6px;
+  }
+  .print-coaching {
+    font-size: 11px;
+    color: #78350f;
+    padding: 6px 10px;
+    background: var(--coaching-bg);
+    border-left: 3px solid var(--coaching-border);
+    margin-top: 4px;
+  }
+  .print-watch {
+    font-size: 11px;
+    color: #064e3b;
+    padding: 6px 10px;
+    background: var(--watchfor-bg);
+    border-left: 3px solid var(--watchfor-border);
+    margin-top: 4px;
+  }
+  .print-empty { font-size: 13px; color: var(--text-muted); font-style: italic; }
+
+  @media print {
+    #print-overlay { display: block !important; position: static; background: none; overflow: visible; }
+    body > *:not(#print-overlay) { display: none !important; }
+    .print-close-btn { display: none !important; }
+    .print-container { box-shadow: none; margin: 0; padding: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📞 DISC Call Flow — Spectrum Tech Support</h1>
+  <span>Internet &amp; Video · DISC-Adaptive Scripting</span>
+  <a class="header-back" href="/">← bryanjodon.com</a>
+</header>
+
+<div class="layout">
+
+  <!-- LEFT SIDEBAR -->
+  <div class="sidebar-left">
+
+    <!-- DISC Selector -->
+    <div class="panel">
+      <div class="panel-header">DISC Profile</div>
+      <div class="disc-selector">
+        <button class="disc-btn d-btn active" onclick="selectDisc('D')" id="btn-D">
+          <span class="badge">D</span>
+          <span>
+            <div>Dominant</div>
+            <div class="disc-desc">Direct · Results-driven</div>
+          </span>
+        </button>
+        <button class="disc-btn i-btn" onclick="selectDisc('I')" id="btn-I">
+          <span class="badge">I</span>
+          <span>
+            <div>Influential</div>
+            <div class="disc-desc">Warm · Conversational</div>
+          </span>
+        </button>
+        <button class="disc-btn s-btn" onclick="selectDisc('S')" id="btn-S">
+          <span class="badge">S</span>
+          <span>
+            <div>Steady</div>
+            <div class="disc-desc">Patient · Supportive</div>
+          </span>
+        </button>
+        <button class="disc-btn c-btn" onclick="selectDisc('C')" id="btn-C">
+          <span class="badge">C</span>
+          <span>
+            <div>Conscientious</div>
+            <div class="disc-desc">Precise · Analytical</div>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- API Key -->
+    <div class="panel">
+      <div class="panel-header">API Settings</div>
+      <div class="api-key-area">
+        <label>Anthropic API Key</label>
+        <input type="password" id="api-key-input" placeholder="sk-ant-..." />
+        <div class="api-note">Key saved locally in your browser. Required to generate scripts.</div>
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="panel">
+      <div class="panel-header">Actions</div>
+      <div style="padding: 10px 0 0;">
+        <button class="gen-all-btn" onclick="generateAll()">⚡ Generate All Scripts</button>
+        <button class="print-btn" onclick="openPrint()">🖨️ Print / Export Script</button>
+      </div>
+    </div>
+
+    <!-- Progress -->
+    <div class="panel" style="font-size:12px; padding:10px 12px; color: var(--text-muted);">
+      <div style="font-weight:700; margin-bottom:4px; color: var(--text);">Progress</div>
+      <div id="progress-info">Select DISC type &amp; click Generate.</div>
+    </div>
+
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="main-content">
+
+    <!-- Service Type Toggle -->
+    <div class="service-toggle">
+      <span>Service:</span>
+      <button class="toggle-btn active-all" id="toggle-all" onclick="filterService('all')">All Steps</button>
+      <button class="toggle-btn" id="toggle-internet" onclick="filterService('internet')">🌐 Internet</button>
+      <span class="toggle-sep">|</span>
+      <button class="toggle-btn" id="toggle-video" onclick="filterService('video')">📺 Video / TV</button>
+      <div class="step-count-badge" id="step-count">23 steps</div>
+    </div>
+
+    <!-- Steps -->
+    <div class="steps-list" id="steps-list">
+      <!-- Populated by JS -->
+    </div>
+
+  </div>
+
+  <!-- RIGHT SIDEBAR — DISC Quick Detect -->
+  <div class="sidebar-right">
+    <div class="panel" style="overflow:visible;">
+      <div class="panel-header">⚡ DISC Quick-Detect</div>
+      <div style="padding: 8px 10px; font-size:11px; color:var(--text-muted);">Listen for these signals to ID type fast.</div>
+    </div>
+
+    <div class="disc-card D">
+      <div class="disc-card-header"><span class="badge">D</span> Dominant — Red Flags</div>
+      <div class="disc-card-body">
+        <div class="disc-signal">"Just tell me what to do" or cuts you off mid-sentence</div>
+        <div class="disc-signal">Impatient with hold times; restates the problem forcefully</div>
+        <div class="disc-signal">Asks "how long is this going to take?" within the first 30 seconds</div>
+        <div class="disc-signal">Tone is clipped, no small talk, speaking fast</div>
+      </div>
+    </div>
+
+    <div class="disc-card I">
+      <div class="disc-card-header"><span class="badge">I</span> Influential — Green Flags</div>
+      <div class="disc-card-body">
+        <div class="disc-signal">Jokes, laughs, or makes conversation before stating the issue</div>
+        <div class="disc-signal">Uses phrases like "I know you guys are busy" — empathetic opener</div>
+        <div class="disc-signal">Expresses frustration emotionally: "This is so annoying, honestly"</div>
+        <div class="disc-signal">Responsive to your name, uses yours back</div>
+      </div>
+    </div>
+
+    <div class="disc-card S">
+      <div class="disc-card-header"><span class="badge">S</span> Steady — Blue Flags</div>
+      <div class="disc-card-body">
+        <div class="disc-signal">Apologizes for calling or says "I didn't want to bother anyone"</div>
+        <div class="disc-signal">Speaks quietly, hesitates before asking questions</div>
+        <div class="disc-signal">Asks "is this going to mess anything else up?" before acting</div>
+        <div class="disc-signal">Very compliant, follows steps exactly, confirms each one</div>
+      </div>
+    </div>
+
+    <div class="disc-card C">
+      <div class="disc-card-header"><span class="badge">C</span> Conscientious — Gold Flags</div>
+      <div class="disc-card-body">
+        <div class="disc-signal">Describes the problem with timestamps and detail: "It started Tuesday at 4pm"</div>
+        <div class="disc-signal">Asks "why" before doing anything: "Why would unplugging it help?"</div>
+        <div class="disc-signal">Has already tried things and reports results accurately</div>
+        <div class="disc-signal">Skeptical or corrects you if you use a term imprecisely</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- PRINT OVERLAY -->
+<div id="print-overlay">
+  <div class="print-container">
+    <button class="print-close-btn" onclick="closePrint()">✕ Close</button>
+    <div class="print-title" id="print-title">DISC Call Script</div>
+    <div class="print-subtitle" id="print-subtitle"></div>
+    <div id="print-body"></div>
+  </div>
+</div>
+
+<script>
+// ─────────────────────────────────────────────
+//  DATA — CALL FLOW STEPS
+// ─────────────────────────────────────────────
+const STEPS = [
+  // INTERNET STEPS
+  {
+    id: 'i-1', type: 'internet', seq: 1,
+    title: 'Verify Account',
+    description: 'Confirm you have the right account pulled up. Ask for the customer\'s name and service address.',
+  },
+  {
+    id: 'i-2', type: 'internet', seq: 2,
+    title: 'Gather Issue Details',
+    description: 'Ask the customer to describe the problem. Is it full outage, intermittent drops, slow speeds, or can\'t connect on specific devices? Let them explain fully before responding.',
+  },
+  {
+    id: 'i-3', type: 'internet', seq: 3,
+    title: 'Check for Area Outage',
+    description: 'Before any troubleshooting, check internal systems for active outages or maintenance in the customer\'s area. If an outage exists, inform the customer, give an ETA if available, and avoid unnecessary troubleshooting.',
+  },
+  {
+    id: 'i-4', type: 'internet', seq: 4,
+    title: 'Confirm Customer Is Home',
+    description: 'Ask if they\'re home and able to assist with troubleshooting, or if this needs to be done remotely.',
+  },
+  {
+    id: 'i-5', type: 'internet', seq: 5,
+    title: 'Identify Equipment',
+    description: 'Confirm what equipment the customer has. Distinguish between: modem only, modem + separate router, or a gateway (combo unit). Describe each physically so the customer can identify them — the modem is the book-shaped device that connects to the coax cable in the wall; the router is what broadcasts Wi-Fi. If it\'s a gateway, it does both.',
+  },
+  {
+    id: 'i-6', type: 'internet', seq: 6,
+    title: 'Check Modem Lights',
+    description: 'Ask the customer to describe the lights on the front of the modem or gateway. Key lights: Power (solid), US/DS or Send/Receive (solid or slow blink), Online (solid). If the Online light is off or blinking rapidly, the modem is not connected to Spectrum\'s network.',
+  },
+  {
+    id: 'i-7', type: 'internet', seq: 7,
+    title: 'Reboot the Modem (Power Cycle)',
+    description: 'Instruct the customer to unplug the modem\'s power cord from the wall. If there\'s a separate router, unplug that too. Wait a full 60 seconds — not 30. Then plug the modem back in first, wait 2 full minutes for it to come online, then plug in the router if separate. This wait time is non-negotiable; rushing it causes incomplete boot cycles.',
+  },
+  {
+    id: 'i-8', type: 'internet', seq: 8,
+    title: 'Confirm Post-Reboot Light Status',
+    description: 'After the reboot wait, ask the customer to check the Online light again. If solid — service is restored. If still not solid — escalate to signal-level check or dispatch.',
+  },
+  {
+    id: 'i-9', type: 'internet', seq: 9,
+    title: 'Test the Connection',
+    description: 'Have the customer test their connection on a device. Confirm: can they load a webpage? Is Wi-Fi showing on their phone or laptop? If using Wi-Fi, also test with a wired Ethernet connection if possible to rule out router issues.',
+  },
+  {
+    id: 'i-10', type: 'internet', seq: 10,
+    title: 'Isolate: Device vs. Network',
+    description: 'If some devices work and others don\'t, the issue is likely device-specific (not Spectrum\'s). Walk the customer through forgetting and reconnecting to the Wi-Fi network, or rebooting the affected device. If no devices work, the issue is network-level.',
+  },
+  {
+    id: 'i-11', type: 'internet', seq: 11,
+    title: 'Check Coax Cable Connection',
+    description: 'Ask the customer to check the coaxial cable at the back of the modem — the round screw-on cable that connects to the wall. Make sure it\'s finger-tight at both ends. Loose coax is a top cause of signal loss.',
+  },
+  {
+    id: 'i-12', type: 'internet', seq: 12,
+    title: 'Speed Test (if applicable)',
+    description: 'If the customer has connection but reports slow speeds, direct them to run a speed test at spectrum.net/speedtest or fast.com. Compare results to their subscribed plan speed. If significantly below, note it and escalate or schedule a tech if signal levels are poor.',
+  },
+  {
+    id: 'i-13', type: 'internet', seq: 13,
+    title: 'Resolution or Escalation',
+    description: 'If resolved: confirm, recap what was done, remind customer they can use the My Spectrum app for future reboots, and close warmly. If unresolved: check signal levels in internal tools. If levels are bad, dispatch a technician. Set correct expectations on appointment windows (typically same or next day per Spectrum\'s commitment).',
+  },
+  // VIDEO STEPS
+  {
+    id: 'v-1', type: 'video', seq: 1,
+    title: 'Gather Video Issue Details',
+    description: 'Is it all TVs or one TV? Is it all channels or specific channels? Is it pixelation, freezing, no signal, error code on screen, or audio with no picture? The answer narrows the cause immediately.',
+  },
+  {
+    id: 'v-2', type: 'video', seq: 2,
+    title: 'Check for Area Outage (Video)',
+    description: 'Same as internet — check for active outages before any troubleshooting. Video outages often co-occur with internet issues.',
+  },
+  {
+    id: 'v-3', type: 'video', seq: 3,
+    title: 'Identify Cable Box / Receiver Setup',
+    description: 'Confirm whether the customer has a Spectrum cable box (receiver/set-top box), a Xumo box, or is using the Spectrum TV app only. Confirm how it connects to the TV: HDMI or coax. Confirm TV input (HDMI 1, HDMI 2, etc.) is correct.',
+  },
+  {
+    id: 'v-4', type: 'video', seq: 4,
+    title: 'Check Cable Box Lights and Display',
+    description: 'Ask what the front panel of the cable box shows — is there a clock, a channel number, or is the display blank? A blank display may mean no power. An error code on the TV screen (like S0500, S0200, or RGE-2006) should be noted — these indicate specific signal or authorization issues.',
+  },
+  {
+    id: 'v-5', type: 'video', seq: 5,
+    title: 'Reboot the Cable Box',
+    description: 'Unplug the cable box power cord from the wall for 30 full seconds, then plug back in. Do NOT use the remote to restart — full power cycle only. The box will take 3–5 minutes to fully reload. The Spectrum logo will appear on the TV during boot — this is normal.',
+  },
+  {
+    id: 'v-6', type: 'video', seq: 6,
+    title: 'Send a Refresh Signal',
+    description: 'While the box reboots, send a refresh/hit signal from the internal system to the customer\'s account. This re-authorizes all equipment and often resolves authorization-related errors (frozen guide, missing channels, error codes).',
+  },
+  {
+    id: 'v-7', type: 'video', seq: 7,
+    title: 'Check Coax and HDMI Connections',
+    description: 'Ask the customer to check the coaxial cable connection at the back of the cable box (finger-tight to wall and to box). Also check the HDMI cable — unplug and firmly reseat both ends. A loose HDMI is a common cause of "no signal" on-screen.',
+  },
+  {
+    id: 'v-8', type: 'video', seq: 8,
+    title: 'Splitter Check',
+    description: 'Ask if there are any cable splitters between the wall and the cable box. Splitters reduce signal strength. If a low-quality or old splitter is in use, it can cause pixelation or signal errors. Recommend bypassing the splitter temporarily to test — connect the coax directly from wall to box.',
+  },
+  {
+    id: 'v-9', type: 'video', seq: 9,
+    title: 'Isolate: One TV vs. All TVs',
+    description: 'If the issue is on one TV only: likely that box, cable, or TV input. If all TVs are affected: likely a signal/account-level issue — treat as an outage or dispatch situation.',
+  },
+  {
+    id: 'v-10', type: 'video', seq: 10,
+    title: 'Resolution or Escalation (Video)',
+    description: 'If resolved after reboot + refresh: confirm, recap, close warmly. If unresolved: if it\'s a signal or hardware issue, schedule a technician visit. If it\'s an error code that won\'t clear, escalate to tier 2 or schedule dispatch. Always set expectations on timing.',
+  },
+];
+
+// ─────────────────────────────────────────────
+//  STATE
+// ─────────────────────────────────────────────
+let currentDisc = 'D';
+let currentFilter = 'all';
+let isGenerating = false;
+
+// Storage helpers — uses localStorage for persistence across sessions
+function storeSave(key, value) {
+  try { localStorage.setItem(key, JSON.stringify(value)); } catch(e) {}
+}
+function storeLoad(key, fallback) {
+  try {
+    const raw = localStorage.getItem(key);
+    return raw ? JSON.parse(raw) : fallback;
+  } catch(e) { return fallback; }
+}
+
+function stepHash(step) {
+  return btoa(encodeURIComponent(step.id + '|' + step.title + '|' + step.description)).slice(0,16);
+}
+
+function cacheKey(disc, stepId) {
+  const step = STEPS.find(s => s.id === stepId);
+  const hash = step ? stepHash(step) : stepId;
+  return `disc_script_${disc}_${stepId}_${hash}`;
+}
+
+// ─────────────────────────────────────────────
+//  SYSTEM PROMPT
+// ─────────────────────────────────────────────
+function buildSystemPrompt(disc) {
+  const toneGuides = {
+    D: `D (Dominant): Get to the point fast. No small talk. Lead with the action, not the explanation. Use short sentences. Never over-explain. They want control — give them the steps and let them do it. Avoid phrases like "bear with me" or "just one moment." Say "This will take 60 seconds" not "I just need you to wait a little bit."`,
+    I: `I (Influential): Warm, upbeat, conversational. Use their name. Acknowledge the frustration before jumping into steps. Make it feel collaborative — "we're going to figure this out together." Light humor is fine if they initiate it. Avoid cold or robotic phrasing.`,
+    S: `S (Steady/Supportive): Slow and reassuring. Never rush them. Explain what you're doing and why before you ask them to do it. Normalize the issue — "This is really common and we'll get it sorted." Check in after each step. They hate surprises, so preview what's coming next.`,
+    C: `C (Conscientious): Precise and logical. Give them the "why" behind every step. Use technical terms correctly — they'll notice if you don't. Avoid vague language like "it might help" — say "this clears the memory buffer and forces the modem to re-register on the network." Don't rush them; they want to understand, not just comply.`
+  };
+
+  return `You are a Spectrum (Charter Communications) tech support agent coaching tool.
+
+CONTEXT:
+- You are generating spoken call scripts for Spectrum inbound residential tech support agents handling internet and video (cable TV) repair calls.
+- The agent is speaking to customers on the PHONE — not chat or email. All scripts must sound natural when spoken aloud, not read like written text. No bullet points or markdown in scripts.
+- You adapt scripts based on the customer's DISC personality profile.
+
+DISC PROFILE FOR THIS RESPONSE: ${disc}
+
+TONE GUIDE FOR ${disc}:
+${toneGuides[disc]}
+
+CRITICAL RULES:
+1. Preserve complete technical accuracy in every step — never skip a step, never shortcut a safety check, never omit required wait times just to match a personality style.
+2. Scripts must be phrased as what the agent says out loud on the phone — first person, present tense, conversational.
+3. Do not include stage directions, markdown, headers, or bullet points inside the script field.
+4. The coaching_note should be a brief, practical tip for the agent on HOW to deliver this step with this DISC type.
+5. The watch_for field should describe 1-2 specific behavioral signals — what the customer says or how they act — that indicate this person IS this DISC type, observed during this specific step.
+
+RESPONSE FORMAT (JSON only, no other text):
+{
+  "script": "The exact words the agent says out loud during this step, adapted for the ${disc} DISC type. Written as spoken language.",
+  "coaching_note": "1-2 sentence coaching tip for the agent on tone and delivery for this DISC type at this step.",
+  "watch_for": "1-2 behavioral signals to watch for that confirm this is a ${disc} type during this step."
+}`;
+}
+
+// ─────────────────────────────────────────────
+//  RENDER
+// ─────────────────────────────────────────────
+function renderSteps() {
+  const container = document.getElementById('steps-list');
+  container.innerHTML = '';
+
+  let visible = 0;
+  STEPS.forEach(step => {
+    const show = currentFilter === 'all' || step.type === currentFilter;
+    const card = document.createElement('div');
+    card.className = 'step-card' + (show ? '' : ' hidden');
+    card.id = `card-${step.id}`;
+    if (show) visible++;
+
+    const isVideo = step.type === 'video';
+    const tagLabel = step.type === 'both' ? 'Both' : (isVideo ? 'Video' : 'Internet');
+    const tagClass = step.type === 'both' ? 'tag-both' : (isVideo ? 'tag-video' : 'tag-internet');
+
+    card.innerHTML = `
+      <div class="step-header" onclick="toggleCard('${step.id}')">
+        <span class="step-num ${isVideo ? 'video-num' : ''}">${isVideo ? 'V' : ''}${step.seq}</span>
+        <span class="step-title">${step.title}</span>
+        <span class="step-tag ${tagClass}">${tagLabel}</span>
+        <span class="step-chevron">▼</span>
+      </div>
+      <div class="step-body" id="body-${step.id}">
+        <div class="step-description ${isVideo ? 'video-desc' : ''}">${step.description}</div>
+        <div id="output-${step.id}">
+          ${renderStepOutput(step)}
+        </div>
+        <button class="gen-step-btn" id="genbtn-${step.id}" onclick="generateStep('${step.id}')">
+          ⚡ Generate ${currentDisc} Script
+        </button>
+      </div>`;
+
+    container.appendChild(card);
+  });
+
+  document.getElementById('step-count').textContent = `${visible} steps`;
+}
+
+function renderStepOutput(step) {
+  const key = cacheKey(currentDisc, step.id);
+  const cached = storeLoad(key, null);
+  if (!cached) return '';
+
+  const discNames = {D: 'Dominant', I: 'Influential', S: 'Steady', C: 'Conscientious'};
+
+  return `
+    <div class="script-output">
+      <div class="script-output-header">
+        <span class="disc-label ${currentDisc}">${currentDisc} — ${discNames[currentDisc]}</span>
+        <button class="copy-btn" onclick="copyScript('${step.id}', this)">📋 Copy Script</button>
+      </div>
+      <div class="script-text" id="script-text-${step.id}">${escHtml(cached.script)}</div>
+      ${cached.coaching_note ? `<div class="coaching-note"><strong>🎯 Coaching Note</strong>${escHtml(cached.coaching_note)}</div>` : ''}
+      ${cached.watch_for ? `<div class="watch-for"><strong>👁 Watch For</strong>${escHtml(cached.watch_for)}</div>` : ''}
+    </div>`;
+}
+
+function escHtml(str) {
+  return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function toggleCard(stepId) {
+  document.getElementById(`card-${stepId}`).classList.toggle('open');
+}
+
+function updateProgress() {
+  const done = STEPS.filter(s => storeLoad(cacheKey(currentDisc, s.id), null) !== null).length;
+  document.getElementById('progress-info').textContent = `${done}/${STEPS.length} steps generated for ${currentDisc}`;
+}
+
+// ─────────────────────────────────────────────
+//  DISC + FILTER SELECTION
+// ─────────────────────────────────────────────
+function selectDisc(disc) {
+  currentDisc = disc;
+  ['D','I','S','C'].forEach(d => {
+    document.getElementById(`btn-${d}`).classList.toggle('active', d === disc);
+  });
+  storeSave('lastDisc', disc);
+  renderSteps();
+  updateProgress();
+}
+
+function filterService(type) {
+  currentFilter = type;
+  ['all','internet','video'].forEach(t => {
+    const btn = document.getElementById(`toggle-${t}`);
+    btn.className = 'toggle-btn';
+    if (t === type) {
+      if (t === 'video') btn.className += ' active-video';
+      else btn.className += ' active-all';
+    }
+  });
+  renderSteps();
+}
+
+// ─────────────────────────────────────────────
+//  API CALL
+// ─────────────────────────────────────────────
+async function callAPI(systemPrompt, userMessage) {
+  const apiKey = document.getElementById('api-key-input').value.trim();
+  if (!apiKey) throw new Error('No API key. Enter your Anthropic API key in the left panel.');
+
+  const resp = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'x-api-key': apiKey,
+      'anthropic-version': '2023-06-01',
+      'anthropic-dangerous-direct-browser-access': 'true'
+    },
+    body: JSON.stringify({
+      model: 'claude-sonnet-4-6',
+      max_tokens: 1000,
+      system: systemPrompt,
+      messages: [{ role: 'user', content: userMessage }]
+    })
+  });
+
+  if (!resp.ok) {
+    const err = await resp.json().catch(() => ({}));
+    throw new Error(err?.error?.message || `API error ${resp.status}`);
+  }
+
+  const data = await resp.json();
+  const text = data.content?.[0]?.text || '';
+  const match = text.match(/\{[\s\S]*\}/);
+  if (!match) throw new Error('No JSON in response');
+  return JSON.parse(match[0]);
+}
+
+// ─────────────────────────────────────────────
+//  GENERATE SINGLE STEP
+// ─────────────────────────────────────────────
+async function generateStep(stepId) {
+  const step = STEPS.find(s => s.id === stepId);
+  if (!step) return;
+
+  const btn = document.getElementById(`genbtn-${stepId}`);
+  const outputDiv = document.getElementById(`output-${stepId}`);
+
+  const key = cacheKey(currentDisc, stepId);
+  if (storeLoad(key, null)) {
+    outputDiv.innerHTML = renderStepOutput(step);
+    return;
+  }
+
+  btn.disabled = true;
+  outputDiv.innerHTML = `<div class="loading-state"><div class="spinner"></div>Generating ${currentDisc} script…</div>`;
+
+  try {
+    const result = await callAPI(buildSystemPrompt(currentDisc), `Generate a DISC-adapted spoken call script for this Spectrum tech support step:
+
+Step: ${step.title}
+Service Type: ${step.type === 'video' ? 'Video / Cable TV' : 'Internet'}
+Step Description: ${step.description}
+
+Return JSON only as specified.`);
+
+    storeSave(key, result);
+    outputDiv.innerHTML = renderStepOutput(step);
+    updateProgress();
+  } catch(e) {
+    outputDiv.innerHTML = `<div class="error-msg">⚠️ Error: ${escHtml(e.message)}</div>`;
+  }
+
+  btn.disabled = false;
+}
+
+// ─────────────────────────────────────────────
+//  GENERATE ALL
+// ─────────────────────────────────────────────
+async function generateAll() {
+  if (isGenerating) return;
+  isGenerating = true;
+
+  const genBtn = document.querySelector('.gen-all-btn');
+  genBtn.disabled = true;
+  genBtn.textContent = '⏳ Generating…';
+
+  STEPS.forEach(s => {
+    const card = document.getElementById(`card-${s.id}`);
+    if (card) card.classList.add('open');
+  });
+
+  for (const step of STEPS) {
+    const key = cacheKey(currentDisc, step.id);
+    if (storeLoad(key, null)) continue;
+
+    const btn = document.getElementById(`genbtn-${step.id}`);
+    const outputDiv = document.getElementById(`output-${step.id}`);
+    if (outputDiv) outputDiv.innerHTML = `<div class="loading-state"><div class="spinner"></div>Generating…</div>`;
+    if (btn) btn.disabled = true;
+
+    try {
+      const result = await callAPI(buildSystemPrompt(currentDisc), `Generate a DISC-adapted spoken call script for this Spectrum tech support step:
+
+Step: ${step.title}
+Service Type: ${step.type === 'video' ? 'Video / Cable TV' : 'Internet'}
+Step Description: ${step.description}
+
+Return JSON only as specified.`);
+
+      storeSave(key, result);
+      if (outputDiv) outputDiv.innerHTML = renderStepOutput(step);
+    } catch(e) {
+      if (outputDiv) outputDiv.innerHTML = `<div class="error-msg">⚠️ ${escHtml(e.message)}</div>`;
+      if (e.message.includes('API key') || e.message.includes('401')) break;
+    }
+
+    if (btn) btn.disabled = false;
+    updateProgress();
+    await new Promise(r => setTimeout(r, 300));
+  }
+
+  genBtn.disabled = false;
+  genBtn.textContent = '⚡ Generate All Scripts';
+  isGenerating = false;
+}
+
+// ─────────────────────────────────────────────
+//  COPY SCRIPT
+// ─────────────────────────────────────────────
+function copyScript(stepId, btn) {
+  const el = document.getElementById(`script-text-${stepId}`);
+  if (!el) return;
+  const text = el.textContent || el.innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    const orig = btn.textContent;
+    btn.textContent = '✓ Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = orig; btn.classList.remove('copied'); }, 1800);
+  }).catch(() => {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    btn.textContent = '✓ Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = '📋 Copy Script'; btn.classList.remove('copied'); }, 1800);
+  });
+}
+
+// ─────────────────────────────────────────────
+//  PRINT / EXPORT
+// ─────────────────────────────────────────────
+function openPrint() {
+  const discNames = {D: 'Dominant (D)', I: 'Influential (I)', S: 'Steady (S)', C: 'Conscientious (C)'};
+  document.getElementById('print-title').textContent = `DISC Call Script — ${discNames[currentDisc]}`;
+  document.getElementById('print-subtitle').textContent =
+    `Generated ${new Date().toLocaleDateString()} · ${currentFilter === 'all' ? 'Internet + Video steps' : currentFilter + ' steps only'}`;
+
+  const body = document.getElementById('print-body');
+  body.innerHTML = '';
+
+  const steps = currentFilter === 'all' ? STEPS : STEPS.filter(s => s.type === currentFilter);
+  const iSteps = steps.filter(s => s.type === 'internet');
+  const vSteps = steps.filter(s => s.type === 'video');
+
+  function renderGroup(title, stepList, isVideo) {
+    if (!stepList.length) return;
+    const h = document.createElement('h2');
+    h.style.cssText = `font-size:15px;font-weight:800;color:${isVideo ? '#6d28d9' : '#0052a5'};margin:20px 0 10px;padding-bottom:6px;border-bottom:2px solid ${isVideo ? '#7c3aed' : '#0052a5'}`;
+    h.textContent = title;
+    body.appendChild(h);
+
+    stepList.forEach(step => {
+      const cached = storeLoad(cacheKey(currentDisc, step.id), null);
+      const div = document.createElement('div');
+      div.className = 'print-step';
+      div.innerHTML = `
+        <div class="print-step-title ${isVideo ? 'video-title' : ''}">${isVideo ? 'V' : ''}${step.seq}. ${step.title}</div>
+        ${cached
+          ? `<div class="print-script">${escHtml(cached.script)}</div>
+             ${cached.coaching_note ? `<div class="print-coaching"><strong>Coaching:</strong> ${escHtml(cached.coaching_note)}</div>` : ''}
+             ${cached.watch_for ? `<div class="print-watch"><strong>Watch For:</strong> ${escHtml(cached.watch_for)}</div>` : ''}`
+          : `<div class="print-empty">Script not yet generated.</div>`
+        }`;
+      body.appendChild(div);
+    });
+  }
+
+  renderGroup('🌐 Internet Repair', iSteps, false);
+  renderGroup('📺 Video / Cable TV Repair', vSteps, true);
+
+  document.getElementById('print-overlay').classList.add('visible');
+}
+
+function closePrint() {
+  document.getElementById('print-overlay').classList.remove('visible');
+}
+
+// ─────────────────────────────────────────────
+//  INIT
+// ─────────────────────────────────────────────
+function init() {
+  currentDisc = storeLoad('lastDisc', 'D');
+
+  const savedKey = storeLoad('apiKey', '');
+  if (savedKey) document.getElementById('api-key-input').value = savedKey;
+
+  document.getElementById('api-key-input').addEventListener('input', function() {
+    storeSave('apiKey', this.value);
+  });
+
+  ['D','I','S','C'].forEach(d => {
+    document.getElementById(`btn-${d}`).classList.toggle('active', d === currentDisc);
+  });
+
+  renderSteps();
+  updateProgress();
+}
+
+init();
+</script>
+</body>
+</html>
