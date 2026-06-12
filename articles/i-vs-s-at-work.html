@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>i vs. S: Why the Two Friendliest Styles Still Drive Each Other Crazy — Bryan Jodon</title>
+  <meta name="description" content="i-types and S-types are both warm, relationship-focused, and conflict-averse. So why do they grate on each other? Here's what each style is actually doing — and why it lands wrong." />
+  <link rel="canonical" href="https://bryanjodon.com/articles/i-vs-s-at-work.html" />
+  <meta property="og:title" content="i vs. S: Why the Two Friendliest Styles Still Drive Each Other Crazy" />
+  <meta property="og:description" content="Both warm. Both people-focused. So why do i and S types exhaust each other?" />
+  <meta property="og:url" content="https://bryanjodon.com/articles/i-vs-s-at-work.html" />
+  <meta property="og:type" content="article" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #fafaf9; --surface: #f4f3f1; --border: #e5e3df;
+      --text: #18181b; --muted: #71717a;
+      --d: #c0392b; --i: #d97706; --s: #16a34a; --c: #1d4ed8;
+      --serif: 'DM Serif Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --max: 680px; --pad: clamp(1.25rem, 5vw, 2.5rem);
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--sans); background: var(--bg); color: var(--text); line-height: 1.65; font-size: 1rem; -webkit-font-smoothing: antialiased; }
+
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(250,250,249,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); padding: 0 var(--pad); height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-brand { font-family: var(--serif); font-size: 1.1rem; color: var(--text); text-decoration: none; }
+    .nav-back { font-size: 0.825rem; color: var(--muted); text-decoration: none; display: flex; align-items: center; gap: 0.35rem; transition: color 0.15s; }
+    .nav-back:hover { color: var(--text); }
+
+    article { max-width: var(--max); margin: 0 auto; padding: clamp(3rem, 8vw, 5rem) var(--pad) clamp(4rem, 10vw, 7rem); }
+    .article-meta { margin-bottom: 2.5rem; }
+    .article-label { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 1rem; }
+    h1 { font-family: var(--serif); font-size: clamp(1.9rem, 4.5vw, 2.8rem); font-weight: 400; line-height: 1.15; margin-bottom: 1rem; letter-spacing: -0.01em; }
+    .article-intro { font-size: 1.1rem; color: var(--muted); line-height: 1.75; }
+    .article-body { margin-top: 3rem; }
+    .article-body p { font-size: 1rem; color: var(--muted); line-height: 1.85; margin-bottom: 1.5rem; }
+    h2 { font-family: var(--serif); font-size: 1.5rem; font-weight: 400; margin: 2.5rem 0 1rem; line-height: 1.25; }
+
+    .versus-block { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 1.5rem 0; }
+    @media (max-width: 500px) { .versus-block { grid-template-columns: 1fr; } }
+    .versus-side { padding: 1.5rem; background: var(--bg); }
+    .versus-label { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.85rem; display: flex; align-items: center; gap: 0.4rem; }
+    .versus-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .versus-side p { font-size: 0.9rem; color: var(--muted); line-height: 1.7; margin-bottom: 0.65rem; }
+    .versus-side p:last-child { margin-bottom: 0; }
+    .versus-side strong { color: var(--text); font-weight: 500; }
+
+    .callout { background: var(--surface); border-left: 3px solid var(--border); padding: 1.25rem 1.5rem; margin: 2rem 0; border-radius: 0 8px 8px 0; }
+    .callout p { font-size: 0.95rem; color: var(--text); line-height: 1.7; margin-bottom: 0; font-style: italic; }
+
+    .translation-table { border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 1.5rem 0; }
+    .translation-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-bottom: 1px solid var(--border); }
+    .translation-row:last-child { border-bottom: none; }
+    .translation-row.header { background: var(--surface); }
+    .translation-cell { padding: 0.85rem 1.1rem; font-size: 0.875rem; }
+    .translation-cell.left-cell { border-right: 1px solid var(--border); }
+    .translation-row.header .translation-cell { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); }
+    .translation-cell p { color: var(--muted); line-height: 1.55; }
+
+    .article-cta { margin-top: 3.5rem; padding: 2rem; background: var(--text); border-radius: 10px; text-align: center; }
+    .article-cta p { font-size: 0.875rem; color: rgba(255,255,255,0.55); margin-bottom: 1.25rem; line-height: 1.65; }
+    .article-cta .cta-title { font-family: var(--serif); font-size: 1.35rem; color: #fff; margin-bottom: 0.5rem; }
+    .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.7rem 1.4rem; background: #fff; color: var(--text); text-decoration: none; font-size: 0.875rem; font-weight: 500; border-radius: 6px; transition: opacity 0.15s; margin: 0.25rem; }
+    .btn:hover { opacity: 0.85; }
+    .btn-ghost-light { background: transparent; color: rgba(255,255,255,0.7); border: 1px solid rgba(255,255,255,0.25); }
+    .btn-ghost-light:hover { color: #fff; border-color: rgba(255,255,255,0.6); opacity: 1; }
+
+    .divider { height: 1px; background: var(--border); margin: 2.5rem 0; }
+    footer { border-top: 1px solid var(--border); padding: 2rem var(--pad); }
+    .footer-inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .footer-name { font-family: var(--serif); font-size: 0.95rem; color: var(--muted); }
+    .footer-copy { font-size: 0.775rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="/">Bryan Jodon</a>
+  <a class="nav-back" href="/articles/">
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 6H1M5 2L1 6l4 4"/></svg>
+    All articles
+  </a>
+</nav>
+
+<article>
+  <div class="article-meta">
+    <p class="article-label">DiSC Framework · Subtle Friction</p>
+    <h1>i vs. S: Why the Two Friendliest Styles Still Drive Each Other Crazy</h1>
+    <p class="article-intro">i-types and S-types are both warm, relationship-focused, and conflict-averse. On paper, they should get along effortlessly. In practice, they exhaust each other in specific, quietly frustrating ways.</p>
+  </div>
+
+  <div class="article-body">
+
+    <p>The D vs. C conflict is easy to spot — it's loud and produces visible friction. The i vs. S dynamic is subtler and, in some ways, harder to fix because both parties are trying to be considerate of the other. The friction isn't from aggression or impatience. It's from two different ideas about what consideration looks like.</p>
+
+    <p>Understanding this requires stepping back from the surface behavior (both styles are friendly, both care about people) and looking at what's actually driving each one.</p>
+
+    <h2>What each style is actually optimizing for</h2>
+
+    <div class="versus-block">
+      <div class="versus-side">
+        <p class="versus-label"><span class="versus-dot" style="background: var(--i);"></span><span style="color: var(--i);">i — Influence</span></p>
+        <p><strong>Optimization target: Energy, enthusiasm, and connection.</strong> i-types process the world through excitement and possibility. They think out loud, move between ideas quickly, and use social energy as fuel. Being around people and generating momentum is how they work best.</p>
+        <p>They aren't being scattered — they're generating. The rapid transitions between topics and the enthusiasm aren't lack of discipline. It's how their thinking works. Slowing them down doesn't help them focus; it drains them.</p>
+      </div>
+      <div class="versus-side">
+        <p class="versus-label"><span class="versus-dot" style="background: var(--s);"></span><span style="color: var(--s);">S — Steadiness</span></p>
+        <p><strong>Optimization target: Stability, consistency, and follow-through.</strong> S-types process the world through relationships and reliability. They work best when things are predictable, when they know what's expected, and when there's space to do things thoroughly before moving on.</p>
+        <p>They aren't being slow — they're being careful. The preference for one thing at a time and the discomfort with abrupt change isn't resistance. It's how they do their best work. Push them too fast and quality suffers; they don't forget that.</p>
+      </div>
+    </div>
+
+    <p>The shared warmth is real — both styles genuinely care about the people around them and will bend over backward to avoid causing offense. That's exactly what makes the conflict hard to surface. Neither style is going to pick a fight about it. The frustration accumulates silently.</p>
+
+    <h2>Where the friction actually comes from</h2>
+
+    <p>The core tension is between the i's need for novelty and pace and the S's need for continuity and completion. The i interprets the S's steadiness as low energy or disengagement. The S interprets the i's pace as instability or lack of follow-through. Both readings are wrong, but both feel accurate from inside the style.</p>
+
+    <div class="translation-table">
+      <div class="translation-row header">
+        <div class="translation-cell left-cell">What the i does</div>
+        <div class="translation-cell">What the S experiences</div>
+      </div>
+      <div class="translation-row">
+        <div class="translation-cell left-cell"><p>Pivots to a new idea mid-project when something more exciting comes up</p></div>
+        <div class="translation-cell"><p>"We're abandoning the thing I invested in. My work didn't matter."</p></div>
+      </div>
+      <div class="translation-row">
+        <div class="translation-cell left-cell"><p>Makes a decision verbally in a meeting and moves on</p></div>
+        <div class="translation-cell"><p>"Was that actually decided? I need confirmation before I start anything."</p></div>
+      </div>
+      <div class="translation-row">
+        <div class="translation-cell left-cell"><p>Brings high energy and jokes to a tense situation to lighten it</p></div>
+        <div class="translation-cell"><p>"They're not taking this seriously. The real issue is being avoided."</p></div>
+      </div>
+    </div>
+
+    <div class="translation-table">
+      <div class="translation-row header">
+        <div class="translation-cell left-cell">What the S does</div>
+        <div class="translation-cell">What the i experiences</div>
+      </div>
+      <div class="translation-row">
+        <div class="translation-cell left-cell"><p>Needs time to process before committing to a new direction</p></div>
+        <div class="translation-cell"><p>"They're not as invested in this as I am. I'm carrying the energy alone."</p></div>
+      </div>
+      <div class="translation-row">
+        <div class="translation-cell left-cell"><p>Quietly completes tasks without much commentary or enthusiasm</p></div>
+        <div class="translation-cell"><p>"I don't know if they actually like this or if they're just tolerating it."</p></div>
+      </div>
+      <div class="translation-row">
+        <div class="translation-cell left-cell"><p>Raises concerns about a plan during execution rather than at the start</p></div>
+        <div class="translation-cell"><p>"We were already moving — why bring this up now?"</p></div>
+      </div>
+    </div>
+
+    <h2>Why neither style surfaces it</h2>
+
+    <p>This is the piece that makes i vs. S friction uniquely persistent: both styles actively suppress the complaint. The i doesn't want to seem demanding or like they're criticizing someone they genuinely like. The S doesn't want to create conflict or upset someone who seems enthusiastic. So both sit on their frustration, stay pleasant, and quietly adjust their expectations — usually by pulling back rather than by having the conversation.</p>
+
+    <div class="callout">
+      <p>The i reads the S's withdrawal as a sign that things are fine. The S reads the i's continued energy as a sign that they're fine too. Both are wrong, and the gap keeps growing.</p>
+    </div>
+
+    <p>The pattern often breaks when something external forces the conversation — a missed deadline, a team review, a moment of genuine conflict that makes the accumulated frustration impossible to ignore. By then, both sides have enough stored grievances that the conversation is harder than it would have been six months earlier.</p>
+
+    <h2>What actually helps</h2>
+
+    <p>For i-types working with an S: slow down the commitment step. The S isn't asking you to abandon the idea — they need to absorb it before they can support it. "Let me know your thoughts by end of week" works better than "are you in?" in a meeting. And when you pivot, acknowledge the previous work explicitly. "The thing you built last quarter is still solid — here's how this new direction builds on it" costs you nothing and changes everything.</p>
+
+    <p>For S-types working with an i: give them more verbal feedback than feels necessary. The i can't read your quiet engagement as approval — they need the signal. "I'm in on this" said out loud, even if it feels obvious to you, is the kind of energy input the i is running on. And when you have concerns, raise them earlier. The i isn't resistant to feedback; they're resistant to surprise. A concern raised before momentum builds lands completely differently than one raised after.</p>
+
+    <p>For both: name the dynamic directly, at least once. "I know I move fast — if I ever abandon something before you feel it's finished, tell me" is something an i can actually say. "I know I go quiet when I'm processing — it doesn't mean I'm unhappy with what we're doing" is something an S can actually say. These are small calibrations that change a year's worth of interaction for the better.</p>
+
+    <p>The i and S pairing, when it works, produces something neither can do alone: the i's energy and ideation, executed with the S's care and follow-through. That combination is genuinely rare. It's worth the work of getting the dynamic right.</p>
+
+    <div class="divider"></div>
+
+    <div class="article-cta">
+      <p class="cta-title">Every pairing has a pattern.</p>
+      <p>The DiSC Deep Dive Guide covers all four styles in depth — including a cross-style friction matrix for every combination. Free to download.</p>
+      <a class="btn" href="/pdfs/disc-communication-deep-dive.pdf" download>Download free PDF guide</a>
+      <a class="btn btn-ghost-light" href="mailto:bryan@bryanjodon.com?subject=Intro Call Request">Book a free intro call</a>
+    </div>
+
+  </div>
+</article>
+
+<footer>
+  <div class="footer-inner">
+    <span class="footer-name">Bryan Jodon</span>
+    <span class="footer-copy">&copy; 2026</span>
+  </div>
+</footer>
+
+</body>
+</html>
