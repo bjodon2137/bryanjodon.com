@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Articles — Bryan Jodon</title>
+  <meta name="description" content="Practical writing on DiSC, communication styles, and the work of understanding the people around you." />
+  <link rel="canonical" href="https://bryanjodon.com/articles/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #fafaf9; --surface: #f4f3f1; --border: #e5e3df;
+      --text: #18181b; --muted: #71717a;
+      --serif: 'DM Serif Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --max: 680px; --pad: clamp(1.25rem, 5vw, 2.5rem);
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--sans); background: var(--bg); color: var(--text); line-height: 1.65; font-size: 1rem; -webkit-font-smoothing: antialiased; }
+
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(250,250,249,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); padding: 0 var(--pad); height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-brand { font-family: var(--serif); font-size: 1.1rem; color: var(--text); text-decoration: none; }
+    .nav-home { font-size: 0.825rem; color: var(--muted); text-decoration: none; display: flex; align-items: center; gap: 0.35rem; transition: color 0.15s; }
+    .nav-home:hover { color: var(--text); }
+
+    .page-header { max-width: var(--max); margin: 0 auto; padding: clamp(3rem, 8vw, 5rem) var(--pad) 0; }
+    .page-label { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 1rem; }
+    h1 { font-family: var(--serif); font-size: clamp(2rem, 5vw, 2.75rem); font-weight: 400; line-height: 1.15; margin-bottom: 0.75rem; letter-spacing: -0.01em; }
+    .page-intro { font-size: 1rem; color: var(--muted); line-height: 1.75; max-width: 500px; }
+
+    .articles-list { max-width: var(--max); margin: 3rem auto 0; padding: 0 var(--pad) clamp(4rem, 10vw, 7rem); }
+
+    .article-item { border-top: 1px solid var(--border); padding: 1.75rem 0; }
+    .article-item:last-child { border-bottom: 1px solid var(--border); }
+
+    .article-link { text-decoration: none; color: inherit; display: block; }
+    .article-link:hover .article-title { text-decoration: underline; text-underline-offset: 3px; }
+
+    .article-tag { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.6rem; }
+    .article-title { font-family: var(--serif); font-size: 1.3rem; font-weight: 400; line-height: 1.3; margin-bottom: 0.6rem; }
+    .article-excerpt { font-size: 0.9rem; color: var(--muted); line-height: 1.7; max-width: 520px; }
+    .article-read-more { font-size: 0.825rem; color: var(--muted); margin-top: 0.85rem; display: inline-flex; align-items: center; gap: 0.35rem; }
+
+    footer { border-top: 1px solid var(--border); padding: 2rem var(--pad); }
+    .footer-inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .footer-name { font-family: var(--serif); font-size: 0.95rem; color: var(--muted); }
+    .footer-copy { font-size: 0.775rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="/">Bryan Jodon</a>
+  <a class="nav-home" href="/">
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 6H1M5 2L1 6l4 4"/></svg>
+    Back to site
+  </a>
+</nav>
+
+<div class="page-header">
+  <p class="page-label">Writing</p>
+  <h1>Articles</h1>
+  <p class="page-intro">Practical writing on DiSC, communication patterns, and the work of understanding the people around you.</p>
+</div>
+
+<div class="articles-list">
+
+  <div class="article-item">
+    <a class="article-link" href="/articles/giving-feedback-by-style.html">
+      <p class="article-tag">DiSC Framework · Communication</p>
+      <p class="article-title">Why Your Feedback Keeps Missing the Mark</p>
+      <p class="article-excerpt">The way you give feedback shapes whether it's heard. Most people deliver feedback the way they'd want to receive it — not the way the other person can actually absorb it. Here's how each DiSC style needs to hear it.</p>
+      <span class="article-read-more">Read →</span>
+    </a>
+  </div>
+
+  <div class="article-item">
+    <a class="article-link" href="/articles/what-is-disc.html">
+      <p class="article-tag">DiSC Framework · Fundamentals</p>
+      <p class="article-title">The 4 DiSC Styles: A Practical Guide</p>
+      <p class="article-excerpt">Most communication friction isn't about conflict. It's about mismatch — two people trying to connect through completely different filters. DiSC gives you a map for those differences. Here's how each of the four styles operates.</p>
+      <span class="article-read-more">Read →</span>
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <span class="footer-name">Bryan Jodon</span>
+    <span class="footer-copy">&copy; 2026</span>
+  </div>
+</footer>
+
+</body>
+</html>
