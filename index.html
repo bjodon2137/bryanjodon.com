@@ -3,12 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bryan Jodon — DiSC & Communication</title>
-  <meta name="description" content="Bryan Jodon teaches people how to communicate more effectively using the DiSC personality framework. Understand yourself. Understand others. Communicate better." />
-  <meta property="og:title" content="Bryan Jodon — DiSC & Communication" />
-  <meta property="og:description" content="Understanding personality styles to help people communicate better." />
-  <meta property="og:url" content="https://bryanjodon.com" />
+  <title>Bryan Jodon — DiSC Communication Coach</title>
+  <meta name="description" content="Bryan Jodon is a DiSC practitioner and communication coach helping individuals and teams understand personality styles to communicate with less friction and more clarity." />
+  <link rel="canonical" href="https://bryanjodon.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bryan Jodon — DiSC Communication Coach" />
+  <meta property="og:description" content="Learn to speak every personality style. DiSC workshops, 1-on-1 coaching, and free resources for individuals and teams." />
+  <meta property="og:url" content="https://bryanjodon.com/" />
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bryan Jodon" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Bryan Jodon — DiSC Communication Coach" />
+  <meta name="twitter:description" content="Learn to speak every personality style. DiSC workshops, 1-on-1 coaching, and free resources." />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Bryan Jodon",
+    "url": "https://bryanjodon.com",
+    "email": "bryan@bryanjodon.com",
+    "jobTitle": "DiSC Practitioner & Communication Coach",
+    "description": "Bryan Jodon teaches individuals and teams to communicate more effectively using the DiSC personality framework.",
+    "sameAs": [
+      "https://linkedin.com/in/bryanjodon"
+    ],
+    "knowsAbout": ["DiSC", "Communication Coaching", "Personality Frameworks", "Team Communication", "Leadership Communication"]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
@@ -587,15 +613,108 @@
     }
     .btn-outline-light:hover { color: #fff; border-color: rgba(255,255,255,0.6); opacity: 1; }
 
+    /* ── HAMBURGER MENU ── */
+    .hamburger {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .hamburger span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--text);
+      border-radius: 2px;
+      transition: all 0.2s;
+    }
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    #mobile-menu {
+      display: none;
+      position: fixed;
+      top: 56px;
+      left: 0;
+      right: 0;
+      background: rgba(250,250,249,0.98);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem var(--pad);
+      z-index: 99;
+    }
+    #mobile-menu.open { display: block; }
+    #mobile-menu a {
+      display: block;
+      padding: 0.75rem 0;
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border);
+    }
+    #mobile-menu a:last-child { border-bottom: none; }
+    #mobile-menu a:hover { color: var(--muted); }
+
     /* ── RESPONSIVE ── */
     @media (max-width: 640px) {
       .nav-links { display: none; }
+      .hamburger { display: flex; }
       .disc-grid { grid-template-columns: 1fr; }
       .about-grid { grid-template-columns: 1fr; gap: 1.5rem; }
       .outcomes-grid { grid-template-columns: 1fr; }
       .resource-cta-card { grid-template-columns: 1fr; }
       .resource-cta-actions { flex-direction: row; flex-wrap: wrap; min-width: auto; }
+      .work-grid { grid-template-columns: 1fr; }
     }
+
+    /* ── FAQ SECTION ── */
+    .faq-section { max-width: var(--max); margin: 0 auto; }
+    .faq-list { list-style: none; margin-top: 2.5rem; }
+    .faq-item {
+      border-top: 1px solid var(--border);
+      padding: 0;
+    }
+    .faq-item:last-child { border-bottom: 1px solid var(--border); }
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      text-align: left;
+      padding: 1.25rem 0;
+      font-family: var(--sans);
+      font-size: 0.975rem;
+      font-weight: 500;
+      color: var(--text);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      line-height: 1.45;
+    }
+    .faq-question:hover { color: var(--muted); }
+    .faq-chevron {
+      font-size: 11px;
+      color: var(--muted);
+      flex-shrink: 0;
+      transition: transform 0.2s;
+    }
+    .faq-item.open .faq-chevron { transform: rotate(180deg); }
+    .faq-answer {
+      display: none;
+      padding: 0 0 1.25rem;
+      font-size: 0.925rem;
+      color: var(--muted);
+      line-height: 1.8;
+      max-width: 580px;
+    }
+    .faq-item.open .faq-answer { display: block; }
 
     /* ── FOOTER IMPROVEMENTS ── */
     .footer-links {
@@ -631,7 +750,19 @@
       <li><a href="/call-flow.html">Tools</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+    <button class="hamburger" id="hamburger-btn" onclick="toggleMobileNav(); this.classList.toggle('open')" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
   </nav>
+
+  <!-- MOBILE MENU -->
+  <div id="mobile-menu">
+    <a href="#about" onclick="toggleMobileNav(); document.getElementById('hamburger-btn').classList.remove('open')">About</a>
+    <a href="#disc" onclick="toggleMobileNav(); document.getElementById('hamburger-btn').classList.remove('open')">DiSC</a>
+    <a href="#work" onclick="toggleMobileNav(); document.getElementById('hamburger-btn').classList.remove('open')">Work</a>
+    <a href="/call-flow.html">Tools</a>
+    <a href="#contact" onclick="toggleMobileNav(); document.getElementById('hamburger-btn').classList.remove('open')">Contact</a>
+  </div>
 
   <!-- HERO -->
   <section class="hero">
@@ -685,99 +816,4 @@
 
         <!-- D -->
         <div class="disc-card">
-          <div class="disc-type">
-            <span class="disc-dot" style="background: var(--d);"></span>
-            <span class="disc-letter d-color">D</span>
-            <span class="disc-name">Dominance</span>
-          </div>
-          <p class="disc-desc">Driven, direct, and decisive. D-types communicate with confidence and are focused on results and forward momentum.</p>
-          <div class="disc-traits">
-            <span class="trait">Results-focused</span>
-            <span class="trait">Direct</span>
-            <span class="trait">Bold</span>
-            <span class="trait">Competitive</span>
-          </div>
-          <a class="disc-download" href="/pdfs/disc-communication-deep-dive.pdf" download>
-            <svg viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.5 1v8M3 7l3.5 3.5L10 7"/><path d="M1 11h11"/></svg>
-            Download the DiSC Deep Dive Guide
-          </a>
-        </div>
-
-        <!-- i -->
-        <div class="disc-card">
-          <div class="disc-type">
-            <span class="disc-dot" style="background: var(--i);"></span>
-            <span class="disc-letter i-color">i</span>
-            <span class="disc-name">Influence</span>
-          </div>
-          <p class="disc-desc">Enthusiastic, expressive, and collaborative. i-types thrive on connection, inspiration, and bringing people along with them.</p>
-          <div class="disc-traits">
-            <span class="trait">Optimistic</span>
-            <span class="trait">Persuasive</span>
-            <span class="trait">Energetic</span>
-            <span class="trait">Social</span>
-          </div>
-          <a class="disc-download" href="/pdfs/disc-communication-deep-dive.pdf" download>
-            <svg viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.5 1v8M3 7l3.5 3.5L10 7"/><path d="M1 11h11"/></svg>
-            Download the DiSC Deep Dive Guide
-          </a>
-        </div>
-
-        <!-- S -->
-        <div class="disc-card">
-          <div class="disc-type">
-            <span class="disc-dot" style="background: var(--s);"></span>
-            <span class="disc-letter s-color">S</span>
-            <span class="disc-name">Steadiness</span>
-          </div>
-          <p class="disc-desc">Calm, patient, and supportive. S-types are deeply dependable communicators who prioritize harmony and genuine relationships.</p>
-          <div class="disc-traits">
-            <span class="trait">Empathetic</span>
-            <span class="trait">Consistent</span>
-            <span class="trait">Loyal</span>
-            <span class="trait">Patient</span>
-          </div>
-          <a class="disc-download" href="/pdfs/disc-communication-deep-dive.pdf" download>
-            <svg viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.5 1v8M3 7l3.5 3.5L10 7"/><path d="M1 11h11"/></svg>
-            Download the DiSC Deep Dive Guide
-          </a>
-        </div>
-
-        <!-- C -->
-        <div class="disc-card">
-          <div class="disc-type">
-            <span class="disc-dot" style="background: var(--c);"></span>
-            <span class="disc-letter c-color">C</span>
-            <span class="disc-name">Conscientiousness</span>
-          </div>
-          <p class="disc-desc">Analytical, precise, and thorough. C-types communicate with care, ask the right questions, and value accuracy above speed.</p>
-          <div class="disc-traits">
-            <span class="trait">Detail-oriented</span>
-            <span class="trait">Logical</span>
-            <span class="trait">Careful</span>
-            <span class="trait">Systematic</span>
-          </div>
-          <a class="disc-download" href="/pdfs/disc-communication-deep-dive.pdf" download>
-            <svg viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.5 1v8M3 7l3.5 3.5L10 7"/><path d="M1 11h11"/></svg>
-            Download the DiSC Deep Dive Guide
-          </a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <div class="divider"></div>
-
-  <!-- APPROACH SECTION -->
-  <section id="approach">
-    <div class="approach-section">
-      <p class="section-label">The Approach</p>
-      <h2 class="section-title">How I teach it</h2>
-      <p class="section-intro">
-        Learning DiSC isn't about putting people in boxes — it's about building the awareness to meet people where they are.
-      </p>
-
-      <ul class="approach-list">
-        <li class="approach-item">
-          <span class="approac
+          <div
