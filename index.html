@@ -464,11 +464,153 @@
       color: var(--muted);
     }
 
+    /* ── ABOUT SECTION ── */
+    .about-section { max-width: var(--max); margin: 0 auto; }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+    .about-name {
+      font-family: var(--serif);
+      font-size: 2.1rem;
+      line-height: 1.1;
+      font-weight: 400;
+      margin-bottom: 0.6rem;
+    }
+    .about-role {
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+    .about-body {
+      font-size: 1rem;
+      color: var(--muted);
+      line-height: 1.85;
+      margin-bottom: 1.1rem;
+    }
+    .about-cta-row {
+      margin-top: 2rem;
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    /* ── OUTCOMES / WHAT CHANGES SECTION ── */
+    .outcomes-section { max-width: var(--max); margin: 0 auto; }
+    .outcomes-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .outcome-item {
+      background: var(--bg);
+      padding: 1.75rem;
+    }
+    .outcome-item:hover { background: var(--surface); }
+    .outcome-marker {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--text);
+      margin-bottom: 1rem;
+    }
+    .outcome-title {
+      font-family: var(--serif);
+      font-size: 1.1rem;
+      font-weight: 400;
+      margin-bottom: 0.5rem;
+      line-height: 1.3;
+    }
+    .outcome-body {
+      font-size: 0.875rem;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    /* ── RESOURCE CTA SECTION ── */
+    .resource-cta-section { max-width: var(--max); margin: 0 auto; }
+    .resource-cta-card {
+      background: var(--text);
+      border-radius: 12px;
+      padding: clamp(2rem, 6vw, 3.5rem);
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 3rem;
+      align-items: center;
+    }
+    .resource-cta-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.4);
+      margin-bottom: 0.75rem;
+    }
+    .resource-cta-title {
+      font-family: var(--serif);
+      font-size: clamp(1.6rem, 3vw, 2.25rem);
+      color: #fff;
+      line-height: 1.2;
+      margin-bottom: 0.85rem;
+      font-weight: 400;
+    }
+    .resource-cta-body {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.55);
+      line-height: 1.75;
+    }
+    .resource-cta-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      min-width: 200px;
+    }
+    .btn-light {
+      background: #fff;
+      color: var(--text);
+      justify-content: center;
+    }
+    .btn-light:hover { opacity: 0.9; }
+    .btn-outline-light {
+      background: transparent;
+      color: rgba(255,255,255,0.7);
+      border: 1px solid rgba(255,255,255,0.25);
+      justify-content: center;
+    }
+    .btn-outline-light:hover { color: #fff; border-color: rgba(255,255,255,0.6); opacity: 1; }
+
     /* ── RESPONSIVE ── */
-    @media (max-width: 600px) {
+    @media (max-width: 640px) {
       .nav-links { display: none; }
       .disc-grid { grid-template-columns: 1fr; }
+      .about-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+      .outcomes-grid { grid-template-columns: 1fr; }
+      .resource-cta-card { grid-template-columns: 1fr; }
+      .resource-cta-actions { flex-direction: row; flex-wrap: wrap; min-width: auto; }
     }
+
+    /* ── FOOTER IMPROVEMENTS ── */
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .footer-link {
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .footer-link:hover { color: var(--text); }
 
     /* ── COLOR HELPERS ── */
     .d-color { color: var(--d); }
@@ -483,8 +625,8 @@
   <nav>
     <a class="nav-brand" href="#">Bryan Jodon</a>
     <ul class="nav-links">
+      <li><a href="#about">About</a></li>
       <li><a href="#disc">DiSC</a></li>
-      <li><a href="#approach">Approach</a></li>
       <li><a href="#work">Work</a></li>
       <li><a href="/call-flow.html">Tools</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -499,8 +641,32 @@
       I teach people how to communicate more effectively by understanding personality through the DiSC framework. Know yourself. Understand others. Connect on a deeper level.
     </p>
     <div>
-      <a class="btn" href="#disc">Explore DiSC</a>
-      <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      <a class="btn" href="mailto:bryan@bryanjodon.com?subject=Intro Call Request">Book a free intro call</a>
+      <a class="btn btn-ghost" href="#disc">Explore DiSC →</a>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <div class="about-section">
+      <p class="section-label">About</p>
+      <div class="about-grid">
+        <div>
+          <p class="about-name">Bryan<br>Jodon</p>
+          <p class="about-role">DiSC Practitioner<br>&amp; Communication Coach</p>
+        </div>
+        <div>
+          <p class="about-body">I built this work around one insight: most communication breakdowns aren't about intent — they're about style mismatch. Someone direct comes across as cold. Someone thorough reads as slow. Someone warm gets written off as unfocused.</p>
+          <p class="about-body">DiSC gives people a shared vocabulary for those gaps — a way to understand how they're wired, how others are wired, and what it actually takes to reach someone who thinks differently than you do.</p>
+          <p class="about-body">I work with individuals and teams who are tired of being misread — and of misreading the people around them.</p>
+          <div class="about-cta-row">
+            <a class="btn" href="mailto:bryan@bryanjodon.com?subject=Intro Call Request">Book a free intro call</a>
+            <a class="btn btn-ghost" href="#disc">Explore DiSC →</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -614,123 +780,4 @@
 
       <ul class="approach-list">
         <li class="approach-item">
-          <span class="approach-num">01</span>
-          <div>
-            <p class="approach-title">Know your own style first</p>
-            <p class="approach-body">Before you can adapt to others, you need a clear picture of your own default tendencies — how you send messages, how you process conflict, and where your blind spots are.</p>
-          </div>
-        </li>
-        <li class="approach-item">
-          <span class="approach-num">02</span>
-          <div>
-            <p class="approach-title">Read the person in front of you</p>
-            <p class="approach-body">DiSC gives you a vocabulary for observing behavior in real time. You learn to pick up on signals — pace, priority, tone — and adjust before friction builds.</p>
-          </div>
-        </li>
-        <li class="approach-item">
-          <span class="approach-num">03</span>
-          <div>
-            <p class="approach-title">Adapt without losing yourself</p>
-            <p class="approach-body">Adapting your style is a skill, not a performance. I teach techniques that feel natural — so you can flex toward any style while staying grounded in who you are.</p>
-          </div>
-        </li>
-        <li class="approach-item">
-          <span class="approach-num">04</span>
-          <div>
-            <p class="approach-title">Apply it to real conversations</p>
-            <p class="approach-body">Teams, one-on-ones, difficult conversations, leadership moments — DiSC becomes most powerful when it's tied to the actual situations you face every day.</p>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <div class="divider"></div>
-
-  <!-- WORK SECTION -->
-  <section id="work">
-    <div class="work-section">
-      <p class="section-label">Projects & Tools</p>
-      <h2 class="section-title">What I'm building</h2>
-      <p class="section-intro">Resources, workshops, and tools for people who want to communicate with more clarity and less friction.</p>
-
-      <div class="work-grid">
-
-        <div class="work-card">
-          <span class="work-tag">Workshop</span>
-          <p class="work-title">DiSC for Teams</p>
-          <p class="work-desc">A hands-on workshop for teams who want to reduce miscommunication, build trust, and learn how to work with each other's styles — not against them.</p>
-          <div class="work-card-footer">
-            <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
-              <path d="M1 6h10M6 1l5 5-5 5"/>
-            </svg>
-            Available for teams
-          </div>
-        </div>
-
-        <div class="work-card">
-          <span class="work-tag">Guide</span>
-          <p class="work-title">The DiSC Communication Field Guide</p>
-          <p class="work-desc">A practical reference for identifying styles, choosing the right words, and navigating hard conversations — written for everyday use, not theory.</p>
-          <div class="work-card-footer">
-            <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
-              <path d="M1 6h10M6 1l5 5-5 5"/>
-            </svg>
-            Coming soon
-          </div>
-        </div>
-
-        <div class="work-card">
-          <span class="work-tag">Coaching</span>
-          <p class="work-title">1-on-1 Communication Coaching</p>
-          <p class="work-desc">Work through your specific communication challenges — whether it's a difficult colleague, a high-stakes conversation, or building habits that stick.</p>
-          <div class="work-card-footer">
-            <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
-              <path d="M1 6h10M6 1l5 5-5 5"/>
-            </svg>
-            Reach out to start
-          </div>
-        </div>
-
-        <a class="work-card" href="/call-flow.html">
-          <span class="work-tag">Live Tool</span>
-          <p class="work-title">DISC Call Flow Tool</p>
-          <p class="work-desc">An AI-powered call guide that adapts Spectrum tech support scripts in real time to match each customer's DISC style — built for call center agents.</p>
-          <div class="work-card-footer">
-            <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
-              <path d="M1 6h10M6 1l5 5-5 5"/>
-            </svg>
-            Open tool →
-          </div>
-        </a>
-
-      </div>
-    </div>
-  </section>
-
-  <div class="divider"></div>
-
-  <!-- CONTACT SECTION -->
-  <section id="contact">
-    <div class="contact-section">
-      <p class="section-label">Contact</p>
-      <h2 class="section-title">Let's talk</h2>
-      <p class="section-intro">
-        Have a team that could use a DiSC workshop? Interested in coaching? Just want to connect? Reach out.
-      </p>
-      <div class="contact-links">
-        <a class="btn" href="mailto:bryan@bryanjodon.com">bryan@bryanjodon.com</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <div class="footer-inner">
-      <span class="footer-name">Bryan Jodon</span>
-      <span class="footer-copy">&copy; 2026</span>
-    </div>
-  </footer>
-
-</body>
-</html>
+          <span class="approac
