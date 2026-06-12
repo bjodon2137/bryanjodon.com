@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Start Here — Bryan Jodon</title>
+  <meta name="description" content="Not sure where to begin? Here's how to get started with DiSC and with Bryan's work — depending on what you're looking for." />
+  <link rel="canonical" href="https://bryanjodon.com/start.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #fafaf9; --surface: #f4f3f1; --border: #e5e3df;
+      --text: #18181b; --muted: #71717a;
+      --d: #c0392b; --i: #d97706; --s: #16a34a; --c: #1d4ed8;
+      --serif: 'DM Serif Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --max: 720px; --pad: clamp(1.25rem, 5vw, 3rem);
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--sans); background: var(--bg); color: var(--text); line-height: 1.65; font-size: 1rem; -webkit-font-smoothing: antialiased; }
+
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(250,250,249,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); padding: 0 var(--pad); height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-brand { font-family: var(--serif); font-size: 1.15rem; color: var(--text); text-decoration: none; }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { font-size: 0.875rem; color: var(--muted); text-decoration: none; transition: color 0.15s; }
+    .nav-links a:hover { color: var(--text); }
+    @media (max-width: 600px) { .nav-links { display: none; } }
+
+    .page-hero { max-width: var(--max); margin: 0 auto; padding: clamp(4rem, 10vw, 7rem) var(--pad) 0; }
+    .eyebrow { font-size: 0.8rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 1.25rem; }
+    h1 { font-family: var(--serif); font-size: clamp(2.2rem, 5vw, 3.5rem); font-weight: 400; line-height: 1.15; margin-bottom: 1.25rem; letter-spacing: -0.01em; }
+    h1 em { font-style: italic; color: var(--muted); }
+    .hero-desc { font-size: 1.05rem; color: var(--muted); max-width: 500px; line-height: 1.75; }
+
+    .divider { height: 1px; background: var(--border); max-width: var(--max); margin: 0 auto; }
+
+    section { padding: clamp(3rem, 8vw, 5rem) var(--pad); }
+
+    .section-inner { max-width: var(--max); margin: 0 auto; }
+    .section-label { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; }
+    h2 { font-family: var(--serif); font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 400; line-height: 1.25; margin-bottom: 0.75rem; }
+    .section-sub { font-size: 0.975rem; color: var(--muted); line-height: 1.75; margin-bottom: 2rem; }
+
+    /* Path cards */
+    .path-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+    @media (max-width: 560px) { .path-grid { grid-template-columns: 1fr; } }
+
+    .path-card { border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; background: var(--bg); text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: 0.75rem; transition: border-color 0.15s, box-shadow 0.15s; }
+    .path-card:hover { border-color: var(--text); box-shadow: 0 2px 12px rgba(0,0,0,0.07); }
+    .path-num { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+    .path-title { font-family: var(--serif); font-size: 1.15rem; font-weight: 400; line-height: 1.3; }
+    .path-desc { font-size: 0.875rem; color: var(--muted); line-height: 1.65; flex: 1; }
+    .path-cta { font-size: 0.8rem; color: var(--muted); display: flex; align-items: center; gap: 0.35rem; margin-top: 0.5rem; }
+
+    /* Process steps */
+    .process-list { list-style: none; }
+    .process-item { display: grid; grid-template-columns: 2rem 1fr; gap: 1.25rem; align-items: start; padding: 1.5rem 0; border-bottom: 1px solid var(--border); }
+    .process-item:first-child { border-top: 1px solid var(--border); }
+    .process-num { font-size: 0.75rem; color: var(--muted); padding-top: 0.2rem; font-variant-numeric: tabular-nums; }
+    .process-title { font-family: var(--serif); font-size: 1.05rem; margin-bottom: 0.35rem; }
+    .process-body { font-size: 0.875rem; color: var(--muted); line-height: 1.65; }
+
+    /* CTA block */
+    .cta-block { background: var(--text); border-radius: 10px; padding: 2.5rem; text-align: center; }
+    .cta-block-label { font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 0.75rem; }
+    .cta-block-title { font-family: var(--serif); font-size: 1.75rem; color: #fff; line-height: 1.2; margin-bottom: 0.85rem; font-weight: 400; }
+    .cta-block-body { font-size: 0.925rem; color: rgba(255,255,255,0.55); line-height: 1.7; margin-bottom: 1.75rem; max-width: 440px; margin-left: auto; margin-right: auto; }
+    .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: #fff; color: var(--text); text-decoration: none; font-size: 0.875rem; font-weight: 500; border-radius: 6px; transition: opacity 0.15s; margin: 0.3rem; }
+    .btn:hover { opacity: 0.85; }
+    .btn-ghost-light { background: transparent; color: rgba(255,255,255,0.7); border: 1px solid rgba(255,255,255,0.25); }
+    .btn-ghost-light:hover { color: #fff; border-color: rgba(255,255,255,0.6); opacity: 1; }
+
+    footer { border-top: 1px solid var(--border); padding: 2rem var(--pad); }
+    .footer-inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .footer-name { font-family: var(--serif); font-size: 0.95rem; color: var(--muted); }
+    .footer-copy { font-size: 0.775rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="/">Bryan Jodon</a>
+  <ul class="nav-links">
+    <li><a href="/#about">About</a></li>
+    <li><a href="/#disc">DiSC</a></li>
+    <li><a href="/#work">Work</a></li>
+    <li><a href="/articles/">Writing</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="page-hero">
+  <p class="eyebrow">Start here</p>
+  <h1>Not sure where<br>to <em>begin?</em></h1>
+  <p class="hero-desc">There are a few ways to engage with this work — depending on whether you're new to DiSC, coming for your team, or looking for 1-on-1 support.</p>
+</div>
+
+<div style="padding: 0 var(--pad)">
+  <div style="height: clamp(3rem, 6vw, 5rem)"></div>
+  <div class="divider"></div>
+</div>
+
+<!-- PATHS -->
+<section>
+  <div class="section-inner">
+    <p class="section-label">Your path</p>
+    <h2>What are you here for?</h2>
+    <p class="section-sub">Pick the one that fits — or start with the free guide and see where it takes you.</p>
+
+    <div class="path-grid">
+
+      <a class="path-card" href="/pdfs/disc-communication-deep-dive.pdf" download>
+        <p class="path-num">Path 01</p>
+        <p class="path-title">I want to learn DiSC on my own</p>
+        <p class="path-desc">Download the free Deep Dive Guide. 54 pages covering all four styles — with exercises, examples, and a cross-style friction matrix you can use immediately.</p>
+        <p class="path-cta">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 1v8M3 7l3 3 3-3"/><path d="M1 11h10"/></svg>
+          Download free PDF →
+        </p>
+      </a>
+
+      <a class="path-card" href="/articles/">
+        <p class="path-num">Path 02</p>
+        <p class="path-title">I want to read about it first</p>
+        <p class="path-desc">Start with the articles — short, practical writing on DiSC styles, communication patterns, and the moments where understanding someone else changes everything.</p>
+        <p class="path-cta">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6h10M6 1l5 5-5 5"/></svg>
+          Browse the articles →
+        </p>
+      </a>
+
+      <a class="path-card" href="mailto:bryan@bryanjodon.com?subject=DiSC for Teams Workshop Inquiry">
+        <p class="path-num">Path 03</p>
+        <p class="path-title">I want a workshop for my team</p>
+        <p class="path-desc">Reach out to talk through the DiSC for Teams workshop. Half-day or full-day format, customizable to your team's specific dynamics and challenges.</p>
+        <p class="path-cta">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6h10M6 1l5 5-5 5"/></svg>
+          Inquire about a workshop →
+        </p>
+      </a>
+
+      <a class="path-card" href="mailto:bryan@bryanjodon.com?subject=Intro Call Request">
+        <p class="path-num">Path 04</p>
+        <p class="path-title">I want 1-on-1 coaching</p>
+        <p class="path-desc">Book a free 30-minute intro call to talk through what you're working on. We'll figure out if coaching is the right fit, and what that looks like.</p>
+        <p class="path-cta">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6h10M6 1l5 5-5 5"/></svg>
+          Book a free intro call →
+        </p>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider" style="padding: 0 var(--pad);"></div>
+
+<!-- HOW IT WORKS -->
+<section>
+  <div class="section-inner">
+    <p class="section-label">The process</p>
+    <h2>What to expect on a first call.</h2>
+    <p class="section-sub">The intro call is 30 minutes. No pitch, no pressure. Here's what usually happens.</p>
+
+    <ul class="process-list">
+      <li class="process-item">
+        <span class="process-num">01</span>
+        <div>
+          <p class="process-title">You tell me what's going on</p>
+          <p class="process-body">What communication challenge are you trying to solve? Is it a specific relationship? A pattern you keep hitting? A team dynamic that's slowing things down? I want to understand the actual situation before I suggest anything.</p>
+        </div>
+      </li>
+      <li class="process-item">
+        <span class="process-num">02</span>
+        <div>
+          <p class="process-title">I share what I'm hearing</p>
+          <p class="process-body">Usually I can identify the style dynamic pretty quickly and name what's happening. Often people find this valuable on its own — just having a framework for the friction they've been experiencing without a language for it.</p>
+        </div>
+      </li>
+      <li class="process-item">
+        <span class="process-num">03</span>
+        <div>
+          <p class="process-title">We figure out next steps</p>
+          <p class="process-body">If coaching or a workshop makes sense, we'll talk through what that looks like. If the free guide is all you need, I'll tell you that too. The goal is to figure out the right answer for your situation, not to sell you something.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<div style="padding: 0 var(--pad) clamp(4rem, 10vw, 7rem);">
+  <div class="section-inner">
+    <div class="cta-block">
+      <p class="cta-block-label">Ready?</p>
+      <p class="cta-block-title">Let's figure out where to start.</p>
+      <p class="cta-block-body">30 minutes. No commitment required. Just a conversation about what you're working on and whether DiSC is the right tool for it.</p>
+      <a class="btn" href="mailto:bryan@bryanjodon.com?subject=Intro Call Request">Book a free intro call</a>
+      <a class="btn btn-ghost-light" href="/pdfs/disc-communication-deep-dive.pdf" download>Or download the free guide</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <span class="footer-name">Bryan Jodon</span>
+    <span class="footer-copy">&copy; 2026</span>
+  </div>
+</footer>
+
+</body>
+</html>

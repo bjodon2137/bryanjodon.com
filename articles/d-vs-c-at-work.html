@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D vs. C: Why Two High-Performing Styles Create So Much Friction — Bryan Jodon</title>
+  <meta name="description" content="D-types want to move fast. C-types want to get it right. Here's why they clash, what each style misunderstands about the other, and how to bridge the gap." />
+  <link rel="canonical" href="https://bryanjodon.com/articles/d-vs-c-at-work.html" />
+  <meta property="og:title" content="D vs. C: Why Two High-Performing Styles Create So Much Friction" />
+  <meta property="og:description" content="D-types want to move fast. C-types want to get it right. Here's what each misunderstands about the other." />
+  <meta property="og:url" content="https://bryanjodon.com/articles/d-vs-c-at-work.html" />
+  <meta property="og:type" content="article" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #fafaf9; --surface: #f4f3f1; --border: #e5e3df;
+      --text: #18181b; --muted: #71717a;
+      --d: #c0392b; --i: #d97706; --s: #16a34a; --c: #1d4ed8;
+      --serif: 'DM Serif Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --max: 680px; --pad: clamp(1.25rem, 5vw, 2.5rem);
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--sans); background: var(--bg); color: var(--text); line-height: 1.65; font-size: 1rem; -webkit-font-smoothing: antialiased; }
+
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(250,250,249,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); padding: 0 var(--pad); height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-brand { font-family: var(--serif); font-size: 1.1rem; color: var(--text); text-decoration: none; }
+    .nav-back { font-size: 0.825rem; color: var(--muted); text-decoration: none; display: flex; align-items: center; gap: 0.35rem; transition: color 0.15s; }
+    .nav-back:hover { color: var(--text); }
+
+    article { max-width: var(--max); margin: 0 auto; padding: clamp(3rem, 8vw, 5rem) var(--pad) clamp(4rem, 10vw, 7rem); }
+    .article-meta { margin-bottom: 2.5rem; }
+    .article-label { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 1rem; }
+    h1 { font-family: var(--serif); font-size: clamp(1.9rem, 4.5vw, 2.8rem); font-weight: 400; line-height: 1.15; margin-bottom: 1rem; letter-spacing: -0.01em; }
+    .article-intro { font-size: 1.1rem; color: var(--muted); line-height: 1.75; }
+    .article-body { margin-top: 3rem; }
+    .article-body p { font-size: 1rem; color: var(--muted); line-height: 1.85; margin-bottom: 1.5rem; }
+    h2 { font-family: var(--serif); font-size: 1.5rem; font-weight: 400; margin: 2.5rem 0 1rem; line-height: 1.25; }
+
+    .versus-block { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 1.5rem 0; }
+    @media (max-width: 500px) { .versus-block { grid-template-columns: 1fr; } }
+    .versus-side { padding: 1.5rem; background: var(--bg); }
+    .versus-label { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.85rem; display: flex; align-items: center; gap: 0.4rem; }
+    .versus-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .versus-side p { font-size: 0.9rem; color: var(--muted); line-height: 1.7; margin-bottom: 0.65rem; }
+    .versus-side p:last-child { margin-bottom: 0; }
+    .versus-side strong { color: var(--text); font-weight: 500; }
+
+    .callout { background: var(--surface); border-left: 3px solid var(--border); padding: 1.25rem 1.5rem; margin: 2rem 0; border-radius: 0 8px 8px 0; }
+    .callout p { font-size: 0.95rem; color: var(--text); line-height: 1.7; margin-bottom: 0; font-style: italic; }
+
+    .translation-table { border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 1.5rem 0; }
+    .translation-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-bottom: 1px solid var(--border); }
+    .translation-row:last-child { border-bottom: none; }
+    .translation-row.header { background: var(--surface); }
+    .translation-cell { padding: 0.85rem 1.1rem; font-size: 0.875rem; }
+    .translation-cell.d-cell { border-right: 1px solid var(--border); }
+    .translation-row.header .translation-cell { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); }
+    .translation-cell p { color: var(--muted); line-height: 1.55; }
+
+    .article-cta { margin-top: 3.5rem; padding: 2rem; background: var(--text); border-radius: 10px; text-align: center; }
+    .article-cta p { font-size: 0.875rem; color: rgba(255,255,255,0.55); margin-bottom: 1.25rem; line-height: 1.65; }
+    .article-cta .cta-title { font-family: var(--serif); font-size: 1.35rem; color: #fff; margin-bottom: 0.5rem; }
+    .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.7rem 1.4rem; background: #fff; color: var(--text); text-decoration: none; font-size: 0.875rem; font-weight: 500; border-radius: 6px; transition: opacity 0.15s; margin: 0.25rem; }
+    .btn:hover { opacity: 0.85; }
+    .btn-ghost-light { background: transparent; color: rgba(255,255,255,0.7); border: 1px solid rgba(255,255,255,0.25); }
+    .btn-ghost-light:hover { color: #fff; border-color: rgba(255,255,255,0.6); opacity: 1; }
+
+    .divider { height: 1px; background: var(--border); margin: 2.5rem 0; }
+    footer { border-top: 1px solid var(--border); padding: 2rem var(--pad); }
+    .footer-inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .footer-name { font-family: var(--serif); font-size: 0.95rem; color: var(--muted); }
+    .footer-copy { font-size: 0.775rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="/">Bryan Jodon</a>
+  <a class="nav-back" href="/articles/">
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 6H1M5 2L1 6l4 4"/></svg>
+    All articles
+  </a>
+</nav>
+
+<article>
+  <div class="article-meta">
+    <p class="article-label">DiSC Framework · Conflict & Friction</p>
+    <h1>D vs. C: Why Two High-Performing Styles Create So Much Friction</h1>
+    <p class="article-intro">D-types want to move fast and decide now. C-types want to get it right and need more information first. Both are reasonable. Neither is wrong. And yet they clash constantly.</p>
+  </div>
+
+  <div class="article-body">
+
+    <p>If you've ever watched a D-type and a C-type try to reach a decision together, you've seen a particular kind of exhaustion set in. The D-type is ready to move the moment there's a reasonable direction. The C-type is still asking questions that, from the D's perspective, should have been answered two meetings ago. From the C's perspective, the D is about to make a decision they'll have to undo.</p>
+
+    <p>Both of them are operating from legitimate concerns. The tension between them isn't personality weakness on either side — it's a fundamental difference in what each style values most.</p>
+
+    <h2>What each style is actually optimizing for</h2>
+
+    <div class="versus-block">
+      <div class="versus-side">
+        <p class="versus-label"><span class="versus-dot" style="background: var(--d);"></span><span style="color: var(--d);">D — Dominance</span></p>
+        <p><strong>Optimization target: Speed and results.</strong> D-types believe that a decision made now and corrected later is usually better than the perfect decision made too slowly. They have a high tolerance for imperfection in service of momentum.</p>
+        <p>They're not being reckless — they've calculated the risk and decided the cost of delay is higher than the cost of being wrong. They just haven't explained that calculation, because to them it's obvious.</p>
+      </div>
+      <div class="versus-side">
+        <p class="versus-label"><span class="versus-dot" style="background: var(--c);"></span><span style="color: var(--c);">C — Conscientiousness</span></p>
+        <p><strong>Optimization target: Accuracy and quality.</strong> C-types believe that doing something right the first time is almost always worth the extra time it takes. They have a low tolerance for imprecision — not from perfectionism for its own sake, but because they've seen what downstream errors cost.</p>
+        <p>They're not being slow — they're preventing a problem the D hasn't modeled. They just haven't communicated that framing, because to them it's also obvious.</p>
+      </div>
+    </div>
+
+    <p>The friction comes from the fact that neither style makes their reasoning visible. The D assumes everyone else has the same urgency calculus. The C assumes everyone else values thoroughness as much as they do. They're talking past each other about the <em>decision</em> when the real disagreement is about the <em>process</em>.</p>
+
+    <h2>The translation problem</h2>
+
+    <p>Every style has a way of reading other styles that gets filtered through their own values. D-types and C-types are particularly prone to misreading each other because their core values sit at opposite ends of the urgency-accuracy spectrum.</p>
+
+    <div class="translation-table">
+      <div class="translation-row header">
+        <div class="translation-cell d-cell">What the D says / does</div>
+        <div class="translation-cell">What the C hears</div>
+      </div>
+      <div class="translation-row">
+        <div class="translation-cell d-cell"><p>"We need to make a call today."</p></div>
+        <div class="translation-cell"><p>"We're going to skip the due diligence that prevents expensive mistakes."</p></div>
+      </div>
+      <div class="translation-row">
+        <div class="translation-cell d-cell"><p>"Good enough. Let's move."</p></div>
+        <div class="translation-cell"><p>"We're locking in a decision I don't have confidence in yet."</p></div>
+      </div>
+      <div class="translation-row">
+        <div class="translation-cell d-cell"><p>Interrupts or cuts to the decision mid-explanation</p></div>
+        <div class="translation-cell"><p>"My concerns don't matter enough to hear out."</p></div>
+      </div>
+    </div>
+
+    <div class="translation-table">
+      <div class="translation-row header">
+        <div class="translation-cell d-cell">What the C says / does</div>
+        <div class="translation-cell">What the D hears</div>
+      </div>
+      <div class="translation-row">
+        <div class="translation-cell d-cell"><p>"I have some questions before we decide."</p></div>
+        <div class="translation-cell"><p>"I'm going to slow this down indefinitely."</p></div>
+      </div>
+      <div class="translation-row">
+        <div class="translation-cell d-cell"><p>Raises a new concern after a decision seemed settled</p></div>
+        <div class="translation-cell"><p>"They can't commit to anything."</p></div>
+      </div>
+      <div class="translation-row">
+        <div class="translation-cell d-cell"><p>Asks "why" before acting on an instruction</p></div>
+        <div class="translation-cell"><p>"They're questioning my judgment instead of just executing."</p></div>
+      </div>
+    </div>
+
+    <p>Neither reading is accurate. But without a shared language for style differences, both become conclusions about character: the D is reckless, the C is obstinate. Once those conclusions form, the dynamic locks in and gets worse.</p>
+
+    <h2>What actually helps</h2>
+
+    <div class="callout">
+      <p>The D doesn't need to slow down. The C doesn't need to speed up. They need to understand what the other person is actually protecting — and build a process that honors both.</p>
+    </div>
+
+    <p>For D-types working with a C: give them a defined scope for their questions. "I need your analysis by Thursday, focused on these three risk areas." You're not asking them to skip rigor — you're channeling it. C-types thrive with constraints; open-ended "let me know what you think" is actually harder for them than a specific brief.</p>
+
+    <p>For C-types working with a D: lead with your conclusion, not your reasoning. The D can always ask for more depth. But if you open with a 10-minute explanation before you get to the point, you've lost them before you've made your case. Put your recommendation first. Then offer the data if they want it.</p>
+
+    <p>For both: be explicit about the decision-making process, not just the decision. "Here's how we're going to reach this decision, here's what inputs we need, and here's when we're committing" removes most of the friction before it starts. The D knows the process has an end. The C knows the process is real.</p>
+
+    <p>The D-C friction is one of the most common and most productive in high-performing teams — when it's understood. These two styles often catch each other's blind spots in ways that produce better outcomes than either would alone. The goal isn't to eliminate the tension. It's to stop wasting it.</p>
+
+    <div class="divider"></div>
+
+    <div class="article-cta">
+      <p class="cta-title">The full friction matrix is in the guide.</p>
+      <p>The DiSC Deep Dive Guide includes a cross-style friction matrix covering every pairing — what each combination gets wrong, and what moves the needle. Free to download.</p>
+      <a class="btn" href="/pdfs/disc-communication-deep-dive.pdf" download>Download free PDF guide</a>
+      <a class="btn btn-ghost-light" href="mailto:bryan@bryanjodon.com?subject=Intro Call Request">Book a free intro call</a>
+    </div>
+
+  </div>
+</article>
+
+<footer>
+  <div class="footer-inner">
+    <span class="footer-name">Bryan Jodon</span>
+    <span class="footer-copy">&copy; 2026</span>
+  </div>
+</footer>
+
+</body>
+</html>
