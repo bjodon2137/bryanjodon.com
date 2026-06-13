@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Spectrum Call Guide — Bryan Jodon</title>
+<title>Tech Support Call Guide — Bryan Jodon</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -503,7 +503,7 @@
 <body>
 
 <header>
-  <h1>Spectrum Tech Support · Call Guide</h1>
+  <h1>Cable & Internet Tech Support · Call Guide</h1>
   <span>Select a style — scripts adapt to each step</span>
   <a class="header-back" href="/">← bryanjodon.com</a>
 </header>
@@ -676,7 +676,7 @@ const STEPS = [
   {
     id: 'i-6', type: 'internet', seq: 6,
     title: 'Check Modem Lights',
-    description: 'Ask the customer to describe the lights on the front of the modem or gateway. Key lights: Power (solid), US/DS or Send/Receive (solid or slow blink), Online (solid). If the Online light is off or blinking rapidly, the modem is not connected to Spectrum\'s network.',
+    description: 'Ask the customer to describe the lights on the front of the modem or gateway. Key lights: Power (solid), US/DS or Send/Receive (solid or slow blink), Online (solid). If the Online light is off or blinking rapidly, the modem is not connected to the provider\'s network.',
   },
   {
     id: 'i-7', type: 'internet', seq: 7,
@@ -696,7 +696,7 @@ const STEPS = [
   {
     id: 'i-10', type: 'internet', seq: 10,
     title: 'Isolate: Device vs. Network',
-    description: 'If some devices work and others don\'t, the issue is likely device-specific (not Spectrum\'s). Walk the customer through forgetting and reconnecting to the Wi-Fi network, or rebooting the affected device. If no devices work, the issue is network-level.',
+    description: 'If some devices work and others don\'t, the issue is likely device-specific (not the provider\'s). Walk the customer through forgetting and reconnecting to the Wi-Fi network, or rebooting the affected device. If no devices work, the issue is network-level.',
   },
   {
     id: 'i-11', type: 'internet', seq: 11,
@@ -706,12 +706,12 @@ const STEPS = [
   {
     id: 'i-12', type: 'internet', seq: 12,
     title: 'Speed Test (if applicable)',
-    description: 'If the customer has connection but reports slow speeds, direct them to run a speed test at spectrum.net/speedtest or fast.com. Compare results to their subscribed plan speed. If significantly below, note it and escalate or schedule a tech if signal levels are poor.',
+    description: 'If the customer has connection but reports slow speeds, direct them to run a speed test at fast.com or speedtest.net. Compare results to their subscribed plan speed. If significantly below, note it and escalate or schedule a tech if signal levels are poor.',
   },
   {
     id: 'i-13', type: 'internet', seq: 13,
     title: 'Resolution or Escalation',
-    description: 'If resolved: confirm, recap what was done, remind customer they can use the My Spectrum app for future reboots, and close warmly. If unresolved: check signal levels in internal tools. If levels are bad, dispatch a technician. Set correct expectations on appointment windows (typically same or next day per Spectrum\'s commitment).',
+    description: 'If resolved: confirm, recap what was done, remind customer they can use your provider app for future reboots, and close warmly. If unresolved: check signal levels in internal tools. If levels are bad, dispatch a technician. Set correct expectations on appointment windows (typically same or next day per the provider\'s commitment).',
   },
   // VIDEO STEPS
   {
@@ -727,7 +727,7 @@ const STEPS = [
   {
     id: 'v-3', type: 'video', seq: 3,
     title: 'Identify Cable Box / Receiver Setup',
-    description: 'Confirm whether the customer has a Spectrum cable box (receiver/set-top box), a Xumo box, or is using the Spectrum TV app only. Confirm how it connects to the TV: HDMI or coax. Confirm TV input (HDMI 1, HDMI 2, etc.) is correct.',
+    description: 'Confirm whether the customer has a cable box (receiver/set-top box) or streaming device, or is using the provider TV app only. Confirm how it connects to the TV: HDMI or coax. Confirm TV input (HDMI 1, HDMI 2, etc.) is correct.',
   },
   {
     id: 'v-4', type: 'video', seq: 4,
@@ -737,7 +737,7 @@ const STEPS = [
   {
     id: 'v-5', type: 'video', seq: 5,
     title: 'Reboot the Cable Box',
-    description: 'Unplug the cable box power cord from the wall for 30 full seconds, then plug back in. Do NOT use the remote to restart — full power cycle only. The box will take 3–5 minutes to fully reload. The Spectrum logo will appear on the TV during boot — this is normal.',
+    description: 'Unplug the cable box power cord from the wall for 30 full seconds, then plug back in. Do NOT use the remote to restart — full power cycle only. The box will take 3–5 minutes to fully reload. A loading screen will appear on the TV during boot — that's normal.',
   },
   {
     id: 'v-6', type: 'video', seq: 6,
@@ -792,9 +792,9 @@ const SCRIPTS = {
       "watch_for": "Answers yes or no immediately. May add 'my wife is there' or give the location of the modem without being asked."
     },
     "i-5": {
-      "script": "What do you have — a Spectrum modem, a separate router, or one box that does both? The modem is the one with the coax cable from the wall.",
+      "script": "What do you have — a your modem, a separate router, or one box that does both? The modem is the one with the coax cable from the wall.",
       "coaching_note": "Short identification question with a one-line description. If they say 'I don't know,' ask what they see — one question at a time. D-types don't want a tech lesson.",
-      "watch_for": "May say 'I just have the Spectrum box' — likely a gateway. Or 'I have two things' — ask which one plugs into the wall."
+      "watch_for": "May say 'I just have the the box' — likely a gateway. Or 'I have two things' — ask which one plugs into the wall."
     },
     "i-6": {
       "script": "Look at the modem lights. Tell me what the Online light is doing — solid, off, or blinking?",
@@ -817,7 +817,7 @@ const SCRIPTS = {
       "watch_for": "Tests immediately. Reports back in one sentence: 'Yes it works' or 'Still nothing.'"
     },
     "i-10": {
-      "script": "Does it work on any other device? If one device fails and others work, that's the device — not Spectrum. Have them reboot it or forget and rejoin Wi-Fi. If nothing works on any device, that's our side.",
+      "script": "Does it work on any other device? If one device fails and others work, that's the device — not the provider. Have them reboot it or forget and rejoin Wi-Fi. If nothing works on any device, that's our side.",
       "coaching_note": "Give them the decision tree. D-types want to know which branch they're on, not a lengthy explanation of each possibility.",
       "watch_for": "Has usually already tested multiple devices. May say 'my phone works but my laptop doesn't' — confirming device-specific issue."
     },
@@ -827,12 +827,12 @@ const SCRIPTS = {
       "watch_for": "Goes to check immediately. May say 'yeah it was a bit loose' and tighten it without further prompting."
     },
     "i-12": {
-      "script": "Go to spectrum.net/speedtest and run it. Tell me the download number. If it's under half your plan speed, we have a signal problem that needs a tech.",
+      "script": "Go to fast.com and run it. Tell me the download number. If it's under half your plan speed, we have a signal problem that needs a tech.",
       "coaching_note": "Give the threshold immediately: 'under half.' D-types want a clear pass/fail, not 'it seems low.'",
       "watch_for": "Runs the test immediately. Reports download speed. May ask 'is that good?' and expect a yes or no."
     },
     "i-13": {
-      "script": "You're back up. Tip: you can reboot the modem from the My Spectrum app next time — no need to call. [If unresolved:] Signal levels are bad. I'm scheduling a tech — same day or next day. You'll get a call to confirm the window.",
+      "script": "You're back up. Tip: you can reboot the modem from your provider app next time — no need to call. [If unresolved:] Signal levels are bad. I'm scheduling a tech — same day or next day. You'll get a call to confirm the window.",
       "coaching_note": "Resolved: confirm and give them the shortcut. Unresolved: dispatch and set expectation in two sentences. D-types want closure, not a recap.",
       "watch_for": "Confirms briefly and ends the call. If escalating, may ask 'can I get an earlier window?' — treat it as a reasonable request."
     },
@@ -847,7 +847,7 @@ const SCRIPTS = {
       "watch_for": "Accepts the info quickly. May ask 'so there's nothing I can do?' — the answer is no and they'll accept it."
     },
     "v-3": {
-      "script": "What's connected to the TV — Spectrum cable box, Xumo box, or the TV app? And what input is the TV on?",
+      "script": "What's connected to the TV — cable box, streaming box, or the TV app? And what input is the TV on?",
       "coaching_note": "Two questions. The HDMI input question catches a lot of issues. Don't skip it — D-types may have bumped the input and not noticed.",
       "watch_for": "Answers directly. May already know the input. If they say 'the one it always works on,' that's not confirmation — get a specific answer."
     },
@@ -857,7 +857,7 @@ const SCRIPTS = {
       "watch_for": "Answers fast. Reports error codes directly. D-types don't embellish."
     },
     "v-5": {
-      "script": "Unplug the cable box power cord from the wall — not from the back of the box. 30 seconds. Then plug it back in. It takes 3 to 5 minutes to reload. The Spectrum logo on screen is normal. Don't use the remote to restart — that's not a full reset.",
+      "script": "Unplug the cable box power cord from the wall — not from the back of the box. 30 seconds. Then plug it back in. It takes 3 to 5 minutes to reload. The loading screen on screen is normal. Don't use the remote to restart — that's not a full reset.",
       "coaching_note": "Covering 'don't use the remote' upfront avoids the common mistake. D-types will do the easy thing unless told otherwise.",
       "watch_for": "May say 'I already restarted it from the remote' — it doesn't count. Be direct about that."
     },
@@ -882,7 +882,7 @@ const SCRIPTS = {
       "watch_for": "Confirms immediately. May already know: 'Just this TV, the bedroom one works fine.'"
     },
     "v-10": {
-      "script": "Picture's back — we're good. Tip: reboot the box from the My Spectrum app next time. [If unresolved:] Signal or hardware issue — scheduling a tech. Same day or next day. You'll get a call to confirm.",
+      "script": "Picture's back — we're good. Tip: reboot the box from your provider app next time. [If unresolved:] Signal or hardware issue — scheduling a tech. Same day or next day. You'll get a call to confirm.",
       "coaching_note": "Resolved: two sentences and done. Unresolved: two sentences and done. D-types don't want a debrief.",
       "watch_for": "Confirms and ends the call. If escalating, may ask for the earliest possible window."
     }
@@ -944,12 +944,12 @@ const SCRIPTS = {
       "watch_for": "Narrates as they check: 'Okay going around the back... I see it... okay yeah this might be loose.' Very engaged."
     },
     "i-12": {
-      "script": "Alright, let's see what we're actually dealing with speed-wise. Can you go to spectrum.net/speedtest or just fast.com — either one works. Run it and tell me what it says for download. I'll compare it to what your plan should be getting.",
+      "script": "Alright, let's see what we're actually dealing with speed-wise. Can you go to fast.com or speedtest.net — either one works. Run it and tell me what it says for download. I'll compare it to what your plan should be getting.",
       "coaching_note": "'I'll compare it' — the I-type doesn't want to do the math. You're handling it, they're just reporting the number.",
       "watch_for": "Reacts to the speed result before reporting it: 'Oof, that doesn't look right...' or 'Oh that's way less than I thought!' Emotional reaction first."
     },
     "i-13": {
-      "script": "Awesome, you're back up! Here's a tip — you can actually reboot the modem right from the My Spectrum app without having to call in. Pretty handy. If anything else comes up, don't hesitate to reach back out. [If unresolved:] Okay, so the signal on our end isn't great — there's something between our network and your home that a tech needs to look at in person. I'm getting you scheduled now. Usually same day or next day. Is morning or afternoon better for you?",
+      "script": "Awesome, you're back up! Here's a tip — you can actually reboot the modem right from your provider app without having to call in. Pretty handy. If anything else comes up, don't hesitate to reach back out. [If unresolved:] Okay, so the signal on our end isn't great — there's something between our network and your home that a tech needs to look at in person. I'm getting you scheduled now. Usually same day or next day. Is morning or afternoon better for you?",
       "coaching_note": "The app tip is a closing gift — I-types appreciate useful info on exit. If escalating, asking about their preferred time shows you care about their convenience.",
       "watch_for": "Thanks you warmly on close. If escalating, may ask 'will the tech know what we already tried?' — they want continuity, not starting from scratch."
     },
@@ -964,7 +964,7 @@ const SCRIPTS = {
       "watch_for": "May ask if their neighbors are affected. Wants to feel part of the larger picture. Often says 'oh that explains it!'"
     },
     "v-3": {
-      "script": "Quick question about the setup — what's connected to your TV? Is it a Spectrum cable box, a Xumo box, or are you using the Spectrum TV app? And just to double-check — what input is the TV on? HDMI 1, HDMI 2?",
+      "script": "Quick question about the setup — what's connected to your TV? Is it a cable box, a streaming box, or are you using the provider TV app? And just to double-check — what input is the TV on? HDMI 1, HDMI 2?",
       "coaching_note": "'Just to double-check' normalizes the input question, which might seem obvious to them. I-types may have bumped the input and feel embarrassed — make it casual.",
       "watch_for": "May say 'the one that always works' about the input — uncertain answers often mean the input is the problem. Ask them to confirm what the TV screen says."
     },
@@ -974,9 +974,9 @@ const SCRIPTS = {
       "watch_for": "May describe the TV screen first: 'It just says No Signal.' Gently redirect to the cable box front panel. Will often then say 'oh, the box is blank too.'"
     },
     "v-5": {
-      "script": "Okay we're going to reboot the cable box — but not with the remote, because that doesn't do a true restart. We need to unplug the power cord directly from the wall. Give it 30 full seconds. When you plug it back in, it'll take a few minutes to come back up — you'll see the Spectrum logo on the TV, which means it's doing its thing. Totally normal.",
+      "script": "Okay we're going to reboot the cable box — but not with the remote, because that doesn't do a true restart. We need to unplug the power cord directly from the wall. Give it 30 full seconds. When you plug it back in, it'll take a few minutes to come back up — you'll see a loading screen on the TV, which means it's doing its thing. Totally normal.",
       "coaching_note": "'Doing its thing' is casual and reassuring. I-types may be alarmed by a black screen with a logo — the normalization is genuinely calming.",
-      "watch_for": "Narrates the process: 'Okay it's unplugged... okay now I see the Spectrum logo on the TV, is that right?' Wants confirmation that they're doing it correctly."
+      "watch_for": "Narrates the process: 'Okay it's unplugged... okay now I see the loading screen on the TV, is that right?' Wants confirmation that they're doing it correctly."
     },
     "v-6": {
       "script": "While we're waiting for the box to come back up, I'm going to do something from my end that can actually make a real difference — I'm sending a refresh signal to your account. It re-authorizes your equipment and often clears those error codes and missing channel issues. Sending it right now.",
@@ -999,7 +999,7 @@ const SCRIPTS = {
       "watch_for": "May test another TV while you're on the phone: 'Hang on, let me check the bedroom one...' Great initiative. Excited to report the result."
     },
     "v-10": {
-      "script": "Awesome, looks like we're back! And just so you know — you can reboot the box right from the My Spectrum app if this ever happens again. Super handy. Thanks so much for your patience through all of this. [If unresolved:] Okay so the issue is beyond what we can fix remotely — we need to get a technician out to look at the signal or the equipment in person. I'm scheduling that for you now. Is morning or afternoon generally better for your schedule?",
+      "script": "Awesome, looks like we're back! And just so you know — you can reboot the box right from your provider app if this ever happens again. Super handy. Thanks so much for your patience through all of this. [If unresolved:] Okay so the issue is beyond what we can fix remotely — we need to get a technician out to look at the signal or the equipment in person. I'm scheduling that for you now. Is morning or afternoon generally better for your schedule?",
       "coaching_note": "Thanking them for their patience closes on warmth and validates their experience. If escalating, offering a time preference gives them a sense of control.",
       "watch_for": "Will thank you back, often enthusiastically. If escalating, will ask 'will the tech know what we already went through?' — they don't want to repeat themselves."
     }
@@ -1061,12 +1061,12 @@ const SCRIPTS = {
       "watch_for": "Checks carefully. May ask 'how tight is finger-tight, I don't want to over-tighten it?' — they want to do it correctly and not cause more problems."
     },
     "i-12": {
-      "script": "If you're able to, I'd like you to run a quick speed test so we can see what the connection is actually doing right now. You can go to spectrum.net/speedtest or just type fast.com — it'll run on its own. When it finishes, let me know the download number, and I'll look up what your plan is supposed to get so we can compare.",
+      "script": "If you're able to, I'd like you to run a quick speed test so we can see what the connection is actually doing right now. You can go to fast.com or just type fast.com — it'll run on its own. When it finishes, let me know the download number, and I'll look up what your plan is supposed to get so we can compare.",
       "coaching_note": "Two URL options reduce anxiety about getting it right. 'It'll run on its own' heads off concern about having to figure something out.",
       "watch_for": "Follows instructions carefully. May ask 'is it okay if I use my phone for this?' — they want to make sure they're doing it the right way."
     },
     "i-13": {
-      "script": "I'm so glad we got that sorted out for you. Before we wrap up — there's actually a way to do this reboot in the future without having to call in. If you download the My Spectrum app, you can reboot the modem right from your phone. I want to make sure you have that so it's easier if it ever happens again. [If unresolved:] The signal levels I'm seeing on our end are lower than they should be, which tells me there's something between our network and your home that needs hands-on attention. I'm going to get a technician scheduled for you. You can usually expect same day or next day — and I'll make sure everything we went through today is noted on the account so the tech knows exactly where we are.",
+      "script": "I'm so glad we got that sorted out for you. Before we wrap up — there's actually a way to do this reboot in the future without having to call in. If you download your provider app, you can reboot the modem right from your phone. I want to make sure you have that so it's easier if it ever happens again. [If unresolved:] The signal levels I'm seeing on our end are lower than they should be, which tells me there's something between our network and your home that needs hands-on attention. I'm going to get a technician scheduled for you. You can usually expect same day or next day — and I'll make sure everything we went through today is noted on the account so the tech knows exactly where we are.",
       "coaching_note": "'I'll make sure notes are on the account so the tech knows exactly where we are' — S-types hate repeating themselves. Proactively addressing that removes a significant anxiety.",
       "watch_for": "Will thank you extensively. If escalating, will ask 'will I need to be home the whole day?' — concerned about disrupting their schedule."
     },
@@ -1081,7 +1081,7 @@ const SCRIPTS = {
       "watch_for": "Will ask 'so I just need to wait?' — looking for a clear instruction. They want to know exactly what they should do, even if the answer is nothing."
     },
     "v-3": {
-      "script": "I want to understand exactly what's connected before we start anything. Do you have a Spectrum cable box, a Xumo box, or are you just using the Spectrum TV app? And can you check what input your TV is set to — HDMI 1, HDMI 2, or something else? I want to make sure the TV is looking at the right place.",
+      "script": "I want to understand exactly what's connected before we start anything. Do you have a cable box, a streaming box, or are you just using the provider TV app? And can you check what input your TV is set to — HDMI 1, HDMI 2, or something else? I want to make sure the TV is looking at the right place.",
       "coaching_note": "'I want to make sure the TV is looking at the right place' makes the HDMI check intuitive. S-types follow through on steps when the reason is clearly explained.",
       "watch_for": "Will go to the TV to check the input carefully. May say 'it says HDMI 1 on the screen' — that's the confirmation you need."
     },
@@ -1091,7 +1091,7 @@ const SCRIPTS = {
       "watch_for": "Reports both carefully and accurately. May not recognize an error code as one: 'It says S0500, is that an error?' Yes — get it noted."
     },
     "v-5": {
-      "script": "I'm going to ask you to do a power cycle on the cable box. The important thing is to unplug the power cord directly from the wall — not to use the remote's restart option, because that doesn't do a complete reset. Leave it unplugged for 30 full seconds. When you plug it back in, the box will take 3 to 5 minutes to fully load. You'll see the Spectrum logo on the TV during that time — that's completely normal and means it's working. Can you go ahead and do that?",
+      "script": "I'm going to ask you to do a power cycle on the cable box. The important thing is to unplug the power cord directly from the wall — not to use the remote's restart option, because that doesn't do a complete reset. Leave it unplugged for 30 full seconds. When you plug it back in, the box will take 3 to 5 minutes to fully load. You'll see a loading screen on the TV during that time — that's completely normal and means it's working. Can you go ahead and do that?",
       "coaching_note": "'Can you go ahead and do that?' invites confirmation before they start. S-types appreciate the check-in — they'll say yes and feel grounded in what they're doing.",
       "watch_for": "Follows each sub-step carefully. May ask 'how will I know when it's done loading?' — a thoughtful question. The channels appearing is the signal."
     },
@@ -1116,7 +1116,7 @@ const SCRIPTS = {
       "watch_for": "Will check carefully before answering. May realize mid-check: 'Oh, the living room one actually has the same issue.' Always accurate."
     },
     "v-10": {
-      "script": "I'm really glad we got that sorted out for you. Just so you have it — the My Spectrum app lets you reboot the box yourself if this ever happens again, so you won't need to call in. [If unresolved:] The issue isn't something we're able to fix remotely — the signal or the equipment needs in-person attention from a technician. I'm going to get that scheduled for you. I'll add notes to the account with everything we've already done today, so you won't have to explain it again from the start. The appointment window is typically same day or next day — does that work with your schedule?",
+      "script": "I'm really glad we got that sorted out for you. Just so you have it — your provider app lets you reboot the box yourself if this ever happens again, so you won't need to call in. [If unresolved:] The issue isn't something we're able to fix remotely — the signal or the equipment needs in-person attention from a technician. I'm going to get that scheduled for you. I'll add notes to the account with everything we've already done today, so you won't have to explain it again from the start. The appointment window is typically same day or next day — does that work with your schedule?",
       "coaching_note": "'You won't have to explain it again from the start' is crucial for S-types. They genuinely dread the repetition. Addressing it proactively removes the anxiety.",
       "watch_for": "Will confirm the appointment and likely ask what they should tell the tech. Reinforce that the notes are on the account — they'll feel relieved."
     }
@@ -1145,30 +1145,30 @@ const SCRIPTS = {
     "i-5": {
       "script": "I need to confirm your equipment configuration. Do you have a modem-only device, a separate modem plus a wireless router, or an all-in-one gateway that handles both functions? The modem is the device with the coaxial cable input — the threaded round connector that attaches to the wall jack.",
       "coaching_note": "Use the correct technical terms: modem, router, gateway, coaxial. C-types will be more confident in the process when you speak precisely.",
-      "watch_for": "Will identify their setup accurately and may know the model number. Likely to distinguish between Spectrum-provided equipment and personally-owned hardware."
+      "watch_for": "Will identify their setup accurately and may know the model number. Likely to distinguish between provider-supplied equipment and personally-owned hardware."
     },
     "i-6": {
-      "script": "I need you to check the indicator lights on the modem face. The three relevant ones are: Power — should be solid; US/DS or Send/Receive — solid or slow blink is normal; and Online — that should be solid when the modem has registered on Spectrum's network. Report the status of each.",
+      "script": "I need you to check the indicator lights on the modem face. The three relevant ones are: Power — should be solid; US/DS or Send/Receive — solid or slow blink is normal; and Online — that should be solid when the modem has registered on the network. Report the status of each.",
       "coaching_note": "Asking for all three lights fits C-type instinct to be thorough and report complete data. Telling them what each should show gives a reference point.",
       "watch_for": "Will give a complete status report for every light on the device, not just the three. Accurate — if a light is blinking, they'll say blinking, not 'on.'"
     },
     "i-7": {
-      "script": "We're going to perform a full power cycle. Disconnect the modem's power cord from the wall outlet — not from the back of the unit — and do not use the remote's restart function, as that performs a soft reset rather than clearing the memory state. The wait time is 60 seconds minimum — this is necessary to discharge the capacitors and allow the modem to re-initialize cleanly. After 60 seconds, reconnect the modem and allow 2 full minutes for the boot sequence to complete and the modem to re-register on Spectrum's network before reconnecting any router.",
+      "script": "We're going to perform a full power cycle. Disconnect the modem's power cord from the wall outlet — not from the back of the unit — and do not use the remote's restart function, as that performs a soft reset rather than clearing the memory state. The wait time is 60 seconds minimum — this is necessary to discharge the capacitors and allow the modem to re-initialize cleanly. After 60 seconds, reconnect the modem and allow 2 full minutes for the boot sequence to complete and the modem to re-register on the network before reconnecting any router.",
       "coaching_note": "'Discharge the capacitors and clear the memory state' — accurate technical explanation. C-types are more likely to observe the 60-second rule when they understand why it's not arbitrary.",
       "watch_for": "Will time the 60 seconds precisely. May ask 'what specifically happens if I don't wait the full time?' — be ready to explain the incomplete boot cycle issue."
     },
     "i-8": {
-      "script": "The modem should have completed its boot sequence. Check the Online indicator now and report whether it's solid, blinking, or off. A solid Online light indicates the modem has successfully re-registered on Spectrum's network.",
-      "coaching_note": "Telling them what 'solid' means in context — 're-registered on Spectrum's network' — gives C-types the reference point to interpret what they're observing.",
+      "script": "The modem should have completed its boot sequence. Check the Online indicator now and report whether it's solid, blinking, or off. A solid Online light indicates the modem has successfully re-registered on the network.",
+      "coaching_note": "Telling them what 'solid' means in context — 're-registered on the network' — gives C-types the reference point to interpret what they're observing.",
       "watch_for": "Will give precise status, often including color: 'Solid white' or 'solid green.' Usually accurate. Will also report if any other lights changed."
     },
     "i-9": {
-      "script": "Test the connection now. Open a browser and attempt to load a page. Also, if possible, connect a device via Ethernet directly to the modem — this isolates the modem's WAN connection from any router-side variables. If the wired test succeeds but Wi-Fi doesn't, the fault is with the router, not the modem or Spectrum's network.",
+      "script": "Test the connection now. Open a browser and attempt to load a page. Also, if possible, connect a device via Ethernet directly to the modem — this isolates the modem's WAN connection from any router-side variables. If the wired test succeeds but Wi-Fi doesn't, the fault is with the router, not the modem or the network.",
       "coaching_note": "'Isolates the modem's WAN connection from router-side variables' — framing the Ethernet test as diagnostic isolation appeals to C-type methodical thinking.",
       "watch_for": "May already be running a speed test or ping test. Reports results precisely: 'The page loaded but latency feels high' rather than just 'it works.'"
     },
     "i-10": {
-      "script": "I need to determine whether this is a device-specific fault or a network-level failure. Do you have another device that can connect to the same Wi-Fi network? If that device connects successfully, the issue is isolated to the affected device — not Spectrum's infrastructure. In that case, have the affected device forget the network and reconnect, or perform a full restart. If no devices connect, the issue is on the network side.",
+      "script": "I need to determine whether this is a device-specific fault or a network-level failure. Do you have another device that can connect to the same Wi-Fi network? If that device connects successfully, the issue is isolated to the affected device — not the network. In that case, have the affected device forget the network and reconnect, or perform a full restart. If no devices connect, the issue is on the network side.",
       "coaching_note": "The test result explicitly determines which side the problem is on. C-types appreciate methodical fault isolation — they understand the logic of binary diagnostic tests.",
       "watch_for": "Has usually already tested multiple devices before calling and will report results accurately. May have noted which devices succeed and which fail."
     },
@@ -1178,12 +1178,12 @@ const SCRIPTS = {
       "watch_for": "Will inspect both termination points and report results: 'The wall connection feels slightly loose, tightening now.' Very methodical. Will also check power cord."
     },
     "i-12": {
-      "script": "Run a speed test at spectrum.net/speedtest. Note both download and upload figures. Your subscribed plan speed is [plan speed] — if the result is consistently below 50% of that threshold, it's indicative of a signal-level issue that the troubleshooting steps we've performed won't resolve. That would require a technician visit to assess the signal levels at your drop and at the tap.",
+      "script": "Run a speed test at fast.com. Note both download and upload figures. Your subscribed plan speed is [plan speed] — if the result is consistently below 50% of that threshold, it's indicative of a signal-level issue that the troubleshooting steps we've performed won't resolve. That would require a technician visit to assess the signal levels at your drop and at the tap.",
       "coaching_note": "The 50% threshold is stated as a diagnostic boundary with a specific number. C-types respond to precise thresholds rather than 'if it seems low.'",
       "watch_for": "Will run the test multiple times and may average the results. Will report both download and upload without being asked. Likely to note variance between tests."
     },
     "i-13": {
-      "script": "Connection is restored. For future reference, the My Spectrum app supports remote reboot functions for all registered equipment — no call required for a standard power cycle. [If unresolved:] The signal levels in the system are below acceptable thresholds, which indicates the fault is at the line or infrastructure level rather than your local equipment. That requires a field technician to assess signal levels at the drop and tap. I'm scheduling a dispatch. Appointment windows are typically within 24 hours. The technician will have access to the full diagnostic data from this session.",
+      "script": "Connection is restored. For future reference, your provider app supports remote reboot functions for all registered equipment — no call required for a standard power cycle. [If unresolved:] The signal levels in the system are below acceptable thresholds, which indicates the fault is at the line or infrastructure level rather than your local equipment. That requires a field technician to assess signal levels at the drop and tap. I'm scheduling a dispatch. Appointment windows are typically within 24 hours. The technician will have access to the full diagnostic data from this session.",
       "coaching_note": "'The technician will have access to the full diagnostic data' satisfies C-type concern about continuity and not having to re-explain the troubleshooting already performed.",
       "watch_for": "Will ask for a precise appointment window: 'Is that 24 hours from now or by end of business tomorrow?' May want a confirmation number. Very accurate follow-up questions."
     },
@@ -1198,7 +1198,7 @@ const SCRIPTS = {
       "watch_for": "Will ask for outage cause if available: 'What type of outage is it?' or 'Is that planned maintenance or an unplanned failure?' Expects specifics."
     },
     "v-3": {
-      "script": "I need to confirm your receiver configuration. Are you using a Spectrum cable box, a Xumo device, or the Spectrum TV app? Also confirm the connection type to the television — HDMI or coaxial — and which HDMI input the TV is currently set to. Input selection errors are a distinct failure mode that produces a no-signal symptom and should be confirmed before any other troubleshooting.",
+      "script": "I need to confirm your receiver configuration. Are you using a cable box, a streaming device, or the provider TV app? Also confirm the connection type to the television — HDMI or coaxial — and which HDMI input the TV is currently set to. Input selection errors are a distinct failure mode that produces a no-signal symptom and should be confirmed before any other troubleshooting.",
       "coaching_note": "Naming 'input selection errors' as a specific failure mode tells C-types this is a real diagnostic category — not a basic assumption that they missed something obvious.",
       "watch_for": "Will confirm HDMI input with precision. May know the HDMI specification: 'It's HDMI 2, ARC port.' Will often confirm cable type without being asked."
     },
@@ -1208,12 +1208,12 @@ const SCRIPTS = {
       "watch_for": "Will check both and report both, in order. Will read error codes character-by-character. May already know what the code means."
     },
     "v-5": {
-      "script": "Perform a full power cycle on the cable box. Disconnect the power cord from the wall outlet — not from the rear of the device — and do not use the remote's restart function, as that performs a soft reset rather than clearing the memory state. Leave it unplugged for 30 seconds minimum. When powered back on, the box requires 3 to 5 minutes to complete its boot sequence and re-authorize with the Spectrum head-end. The Spectrum loading screen on the TV indicates normal boot progression.",
-      "coaching_note": "'Clearing the memory state' and 're-authorize with the Spectrum head-end' — accurate technical framing. C-types are more likely to follow the process correctly when the reason is credible.",
+      "script": "Perform a full power cycle on the cable box. Disconnect the power cord from the wall outlet — not from the rear of the device — and do not use the remote's restart function, as that performs a soft reset rather than clearing the memory state. Leave it unplugged for 30 seconds minimum. When powered back on, the box requires 3 to 5 minutes to complete its boot sequence and re-authorize with the provider head-end. The provider loading screen on the TV indicates normal boot progression.",
+      "coaching_note": "'Clearing the memory state' and 're-authorize with the provider head-end' — accurate technical framing. C-types are more likely to follow the process correctly when the reason is credible.",
       "watch_for": "Will want to understand what happens during the boot sequence. 'Is it downloading a firmware update?' — possible, and a fair answer."
     },
     "v-6": {
-      "script": "While the box completes its power cycle, I'm initiating a refresh signal from our provisioning system to your account. This transmits an authorization signal to all equipment registered on the account, which clears the cached authorization state and re-establishes the entitlement handshake with the Spectrum head-end. It resolves authorization-related errors, guide freeze, and channel entitlement failures. Sending now.",
+      "script": "While the box completes its power cycle, I'm initiating a refresh signal from our provisioning system to your account. This transmits an authorization signal to all equipment registered on the account, which clears the cached authorization state and re-establishes the entitlement handshake with the provider head-end. It resolves authorization-related errors, guide freeze, and channel entitlement failures. Sending now.",
       "coaching_note": "'Entitlement handshake' and 'provisioning system' are the accurate technical terms. C-types respond to precision — vague analogies like 'jolt the system' undermine credibility.",
       "watch_for": "May ask 'does this affect all boxes on the account or only this receiver?' — accurate question. It affects all registered equipment. C-types appreciate precise scope."
     },
@@ -1233,7 +1233,7 @@ const SCRIPTS = {
       "watch_for": "Will give precise answer. May have already checked all TVs before calling. Notes differences between TVs accurately."
     },
     "v-10": {
-      "script": "Issue is resolved. For reference, the My Spectrum app supports remote reboot functions for all registered receivers — no call required for a standard power cycle. [If unresolved:] The fault has not been resolved through remote diagnostic steps. Given the signal-level indicators or persistent error codes, the issue requires physical inspection by a field technician — either the tap, drop, or in-home wiring. I'm scheduling a dispatch. The technician will have full diagnostic history from this session. Appointment window is within 24 hours. Note the confirmation number if you need to reference this call.",
+      "script": "Issue is resolved. For reference, your provider app supports remote reboot functions for all registered receivers — no call required for a standard power cycle. [If unresolved:] The fault has not been resolved through remote diagnostic steps. Given the signal-level indicators or persistent error codes, the issue requires physical inspection by a field technician — either the tap, drop, or in-home wiring. I'm scheduling a dispatch. The technician will have full diagnostic history from this session. Appointment window is within 24 hours. Note the confirmation number if you need to reference this call.",
       "coaching_note": "'The technician will have full diagnostic history' addresses the C-type concern about continuity. The confirmation number instruction is practical — they will use it.",
       "watch_for": "Will ask what specifically the technician should check. Will want the confirmation number. May ask about expected resolution timeline after the tech visit."
     }
