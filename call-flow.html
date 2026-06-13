@@ -3,10 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DISC Call Flow — Spectrum Tech Support</title>
+<title>Spectrum Call Guide — Bryan Jodon</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #f0f2f5;
+    --bg: #f3f2ef;
     --panel: #ffffff;
     --border: #d1d5db;
     --text: #111827;
@@ -34,7 +37,7 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     background: var(--bg);
     color: var(--text);
     font-size: 14px;
@@ -91,13 +94,14 @@
   }
 
   .panel-header {
-    background: var(--accent);
-    color: #fff;
-    font-size: 11px;
-    font-weight: 700;
+    font-size: 10px;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.8px;
-    padding: 8px 12px;
+    letter-spacing: 1px;
+    padding: 11px 14px 9px;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+    background: transparent;
   }
 
   /* DISC selector */
@@ -143,52 +147,23 @@
 
   .disc-desc { font-size: 11px; color: var(--text-muted); line-height: 1.35; }
 
-  /* API key */
-  .api-key-area { padding: 10px 12px; }
-  .api-key-area label { font-size: 11px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 4px; }
-  .api-key-area input {
-    width: 100%;
-    padding: 6px 8px;
-    border: 1px solid var(--border);
-    border-radius: 5px;
-    font-size: 12px;
-    font-family: monospace;
-  }
-  .api-key-area input:focus { outline: none; border-color: var(--accent); }
-  .api-note { font-size: 10px; color: var(--text-muted); margin-top: 4px; }
 
-  /* Generate all btn */
-  .gen-all-btn {
-    width: calc(100% - 24px);
-    margin: 0 12px 12px;
-    padding: 9px;
+
+  /* Print btn */
+  .print-btn {
+    width: 100%;
+    padding: 10px;
     background: var(--accent);
     color: #fff;
     border: none;
     border-radius: 6px;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 600;
     cursor: pointer;
     transition: background 0.15s;
+    letter-spacing: 0.2px;
   }
-  .gen-all-btn:hover { background: #003d80; }
-  .gen-all-btn:disabled { background: #9ca3af; cursor: not-allowed; }
-
-  /* Print btn */
-  .print-btn {
-    width: calc(100% - 24px);
-    margin: 0 12px 12px;
-    padding: 8px;
-    background: #fff;
-    color: var(--accent);
-    border: 2px solid var(--accent);
-    border-radius: 6px;
-    font-size: 12px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: all 0.15s;
-  }
-  .print-btn:hover { background: var(--accent-light); }
+  .print-btn:hover { background: #003d80; }
 
   /* ── MAIN CONTENT ── */
   .main-content { display: flex; flex-direction: column; gap: 12px; }
@@ -250,10 +225,10 @@
     padding: 10px 14px;
     cursor: pointer;
     user-select: none;
-    background: #fafafa;
+    background: #f9f8f6;
     border-bottom: 1px solid var(--border);
   }
-  .step-header:hover { background: #f3f4f6; }
+  .step-header:hover { background: #f1f0ed; }
 
   .step-num {
     display: inline-flex;
@@ -300,13 +275,13 @@
     line-height: 1.6;
     margin-bottom: 12px;
     padding: 10px 12px;
-    background: #f8fafc;
+    background: #fafaf9;
     border-left: 3px solid var(--accent);
     border-radius: 0 4px 4px 0;
   }
   .step-description.video-desc { border-left-color: var(--video-color); }
 
-  /* Generated script output */
+  /* Script output */
   .script-output { margin-top: 8px; }
 
   .script-output-header {
@@ -392,49 +367,7 @@
     margin-bottom: 3px;
   }
 
-  /* Loading state */
-  .loading-state {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 12px;
-    color: var(--text-muted);
-    padding: 10px 0;
-  }
-  .spinner {
-    width: 14px; height: 14px;
-    border: 2px solid var(--border);
-    border-top-color: var(--accent);
-    border-radius: 50%;
-    animation: spin 0.7s linear infinite;
-  }
-  @keyframes spin { to { transform: rotate(360deg); } }
 
-  .gen-step-btn {
-    margin-top: 10px;
-    padding: 7px 14px;
-    background: var(--accent-light);
-    color: var(--accent);
-    border: 1px solid var(--accent);
-    border-radius: 6px;
-    font-size: 12px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: all 0.15s;
-  }
-  .gen-step-btn:hover { background: var(--accent); color: #fff; }
-  .gen-step-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-
-  /* Error */
-  .error-msg {
-    margin-top: 8px;
-    padding: 8px 12px;
-    background: #fef2f2;
-    border: 1px solid #fca5a5;
-    border-radius: 6px;
-    font-size: 12px;
-    color: var(--d-color);
-  }
 
   /* ── RIGHT SIDEBAR — DISC Quick Detect ── */
   .sidebar-right { display: flex; flex-direction: column; gap: 12px; }
@@ -570,8 +503,8 @@
 <body>
 
 <header>
-  <h1>📞 DISC Call Flow — Spectrum Tech Support</h1>
-  <span>Internet &amp; Video · DISC-Adaptive Scripting</span>
+  <h1>Spectrum Tech Support · Call Guide</h1>
+  <span>Select a style — scripts adapt to each step</span>
   <a class="header-back" href="/">← bryanjodon.com</a>
 </header>
 
@@ -582,7 +515,7 @@
 
     <!-- DISC Selector -->
     <div class="panel">
-      <div class="panel-header">DISC Profile</div>
+      <div class="panel-header">Who's on the line?</div>
       <div class="disc-selector">
         <button class="disc-btn d-btn active" onclick="selectDisc('D')" id="btn-D">
           <span class="badge">D</span>
@@ -615,18 +548,16 @@
       </div>
     </div>
 
-    <!-- Actions -->
+    <!-- Print -->
     <div class="panel">
-      <div class="panel-header">Actions</div>
-      <div style="padding: 10px 0 0;">
-        <button class="print-btn" onclick="openPrint()">🖨️ Print / Export Script</button>
+      <div style="padding: 12px;">
+        <button class="print-btn" onclick="openPrint()">Print / Export Script</button>
       </div>
     </div>
 
-    <!-- Progress -->
-    <div class="panel" style="font-size:12px; padding:10px 12px; color: var(--text-muted);">
-      <div style="font-weight:700; margin-bottom:4px; color: var(--text);">Progress</div>
-      <div id="progress-info">Select DISC type &amp; click Generate.</div>
+    <!-- Ready indicator -->
+    <div style="font-size:11px; padding:4px 2px; color: var(--text-muted); text-align:center;" id="progress-info">
+      All scripts ready
     </div>
 
   </div>
@@ -654,8 +585,8 @@
   <!-- RIGHT SIDEBAR — DISC Quick Detect -->
   <div class="sidebar-right">
     <div class="panel" style="overflow:visible;">
-      <div class="panel-header">⚡ DISC Quick-Detect</div>
-      <div style="padding: 8px 10px; font-size:11px; color:var(--text-muted);">Listen for these signals to ID type fast.</div>
+      <div class="panel-header">Reading the Room</div>
+      <div style="padding: 8px 10px 10px; font-size:11px; color:var(--text-muted); line-height:1.5;">Listen for these in the first 30 seconds of the call.</div>
     </div>
 
     <div class="disc-card D">
@@ -1378,8 +1309,8 @@ function renderStepOutput(step) {
         <button class="copy-btn" onclick="copyScript('${step.id}', this)">📋 Copy Script</button>
       </div>
       <div class="script-text" id="script-text-${step.id}">${escHtml(data.script)}</div>
-      ${data.coaching_note ? `<div class="coaching-note"><strong>🎯 Coaching Note</strong>${escHtml(data.coaching_note)}</div>` : ''}
-      ${data.watch_for ? `<div class="watch-for"><strong>👁 Watch For</strong>${escHtml(data.watch_for)}</div>` : ''}
+      ${data.coaching_note ? `<div class="coaching-note"><strong>💬 Delivery Note</strong>${escHtml(data.coaching_note)}</div>` : ''}
+      ${data.watch_for ? `<div class="watch-for"><strong>👂 Listen For</strong>${escHtml(data.watch_for)}</div>` : ''}
     </div>`;
 }
 
@@ -1394,7 +1325,7 @@ function toggleCard(stepId) {
 function updateProgress() {
   const discNames = {D: 'Dominant', I: 'Influential', S: 'Steady', C: 'Conscientious'};
   document.getElementById('progress-info').textContent =
-    `${STEPS.length}/${STEPS.length} scripts ready — ${discNames[currentDisc]}`;
+    `All ${STEPS.length} scripts ready · ${discNames[currentDisc]}`;
 }
 
 // ─────────────────────────────────────────────
@@ -1479,8 +1410,8 @@ function openPrint() {
         <div class="print-step-title ${isVideo ? 'video-title' : ''}">${isVideo ? 'V' : ''}${step.seq}. ${step.title}</div>
         ${data
           ? `<div class="print-script">${escHtml(data.script)}</div>
-             ${data.coaching_note ? `<div class="print-coaching"><strong>Coaching:</strong> ${escHtml(data.coaching_note)}</div>` : ''}
-             ${data.watch_for ? `<div class="print-watch"><strong>Watch For:</strong> ${escHtml(data.watch_for)}</div>` : ''}`
+             ${data.coaching_note ? `<div class="print-coaching"><strong>Delivery:</strong> ${escHtml(data.coaching_note)}</div>` : ''}
+             ${data.watch_for ? `<div class="print-watch"><strong>Listen For:</strong> ${escHtml(data.watch_for)}</div>` : ''}`
           : `<div class="print-empty">Script not available.</div>`
         }`;
       body.appendChild(div);
