@@ -615,21 +615,10 @@
       </div>
     </div>
 
-    <!-- API Key -->
-    <div class="panel">
-      <div class="panel-header">API Settings</div>
-      <div class="api-key-area">
-        <label>Anthropic API Key</label>
-        <input type="password" id="api-key-input" placeholder="sk-ant-..." />
-        <div class="api-note">Key saved locally in your browser. Required to generate scripts.</div>
-      </div>
-    </div>
-
     <!-- Actions -->
     <div class="panel">
       <div class="panel-header">Actions</div>
       <div style="padding: 10px 0 0;">
-        <button class="gen-all-btn" onclick="generateAll()">⚡ Generate All Scripts</button>
         <button class="print-btn" onclick="openPrint()">🖨️ Print / Export Script</button>
       </div>
     </div>
@@ -847,13 +836,486 @@ const STEPS = [
 ];
 
 // ─────────────────────────────────────────────
+//  SCRIPTS — PRE-WRITTEN DISC-ADAPTED SCRIPTS
+// ─────────────────────────────────────────────
+const SCRIPTS = {
+  "D": {
+    "i-1": {
+      "script": "Quick verification — what's the name and service address on the account?",
+      "coaching_note": "Lead immediately with the ask. Skip the greeting warm-up. D-types read small talk as wasted time — they called to get something fixed, not to chat.",
+      "watch_for": "Provides name and address in one or two words with no pleasantries. May also offer account number or last four of SSN unprompted. No filler."
+    },
+    "i-2": {
+      "script": "What's the problem — full outage, drops out, slow speeds, or specific devices only?",
+      "coaching_note": "Giving them categories lets them answer efficiently. D-types hate open-ended questions that require them to guess what you need. If they start over-explaining, redirect: 'Got it — is it all devices or just one?'",
+      "watch_for": "Answers in one or two words: 'Nothing works' or 'Everything's slow.' May already have a theory about the cause and will state it before you ask."
+    },
+    "i-3": {
+      "script": "Hold on — I'm checking for outages in your area. [pause] There is an active outage. Estimated restoration: [time]. No troubleshooting will fix this on your end — we have to wait for our team. I've noted your account.",
+      "coaching_note": "If there's an outage, say so immediately. 'No troubleshooting will fix this on your end' validates that it's not their problem to solve — D-types need to know it's handled and there's nothing for them to do.",
+      "watch_for": "Accepts the information and may ask 'Is there anything I can do to expedite?' — the answer is no, and they'll accept that. May ask to speak to a supervisor."
+    },
+    "i-4": {
+      "script": "Are you home with access to the modem right now?",
+      "coaching_note": "One direct question. Don't offer alternatives or over-explain — let them tell you if they're not home.",
+      "watch_for": "Answers yes or no immediately. May add 'my wife is there' or give the location of the modem without being asked."
+    },
+    "i-5": {
+      "script": "What do you have — a Spectrum modem, a separate router, or one box that does both? The modem is the one with the coax cable from the wall.",
+      "coaching_note": "Short identification question with a one-line description. If they say 'I don't know,' ask what they see — one question at a time. D-types don't want a tech lesson.",
+      "watch_for": "May say 'I just have the Spectrum box' — likely a gateway. Or 'I have two things' — ask which one plugs into the wall."
+    },
+    "i-6": {
+      "script": "Look at the modem lights. Tell me what the Online light is doing — solid, off, or blinking?",
+      "coaching_note": "Go straight to the Online light. That's the signal indicator — skip the full light inventory unless they're uncertain which one is which.",
+      "watch_for": "Looks and reports immediately. May say 'they're all blinking' — redirect to Online specifically. No hesitation."
+    },
+    "i-7": {
+      "script": "Unplug the modem power cord from the wall — not the coax, the power cord. Router too if you have one. Wait 60 seconds. Not 30 — 60. Then plug the modem back in and wait 2 full minutes. Router goes in after.",
+      "coaching_note": "'Not 30 — 60' is a direct override that D-types respect. State the sequence clearly. They'll follow precise instructions when given without padding.",
+      "watch_for": "May push back on the wait time: 'Do I really need to wait that long?' Confirm yes — D-types follow firm rules when they know it's firm."
+    },
+    "i-8": {
+      "script": "Okay — check the Online light now. What's it doing?",
+      "coaching_note": "Get right to it after the wait. D-types don't need a preamble here — they've been waiting and want to know if it worked.",
+      "watch_for": "Answers immediately. If solid, may already be testing the internet before you ask."
+    },
+    "i-9": {
+      "script": "Try loading a webpage. Does it load? And if you can, plug a device directly into the modem with Ethernet — that rules out the router.",
+      "coaching_note": "Give them two things to do in parallel if they can. D-types appreciate efficiency. The Ethernet test is framed as purposeful, not arbitrary.",
+      "watch_for": "Tests immediately. Reports back in one sentence: 'Yes it works' or 'Still nothing.'"
+    },
+    "i-10": {
+      "script": "Does it work on any other device? If one device fails and others work, that's the device — not Spectrum. Have them reboot it or forget and rejoin Wi-Fi. If nothing works on any device, that's our side.",
+      "coaching_note": "Give them the decision tree. D-types want to know which branch they're on, not a lengthy explanation of each possibility.",
+      "watch_for": "Has usually already tested multiple devices. May say 'my phone works but my laptop doesn't' — confirming device-specific issue."
+    },
+    "i-11": {
+      "script": "Check the coax cable on the back of the modem — round screw-on cable. Make sure it's finger-tight at the modem and at the wall. That's the most common cause of signal loss.",
+      "coaching_note": "Give the reason in one sentence: 'most common cause.' D-types need a reason to do physical tasks, but keep it tight.",
+      "watch_for": "Goes to check immediately. May say 'yeah it was a bit loose' and tighten it without further prompting."
+    },
+    "i-12": {
+      "script": "Go to spectrum.net/speedtest and run it. Tell me the download number. If it's under half your plan speed, we have a signal problem that needs a tech.",
+      "coaching_note": "Give the threshold immediately: 'under half.' D-types want a clear pass/fail, not 'it seems low.'",
+      "watch_for": "Runs the test immediately. Reports download speed. May ask 'is that good?' and expect a yes or no."
+    },
+    "i-13": {
+      "script": "You're back up. Tip: you can reboot the modem from the My Spectrum app next time — no need to call. [If unresolved:] Signal levels are bad. I'm scheduling a tech — same day or next day. You'll get a call to confirm the window.",
+      "coaching_note": "Resolved: confirm and give them the shortcut. Unresolved: dispatch and set expectation in two sentences. D-types want closure, not a recap.",
+      "watch_for": "Confirms briefly and ends the call. If escalating, may ask 'can I get an earlier window?' — treat it as a reasonable request."
+    },
+    "v-1": {
+      "script": "Which TV, and what exactly — all channels, specific channels, or an error code? Pixelation, freeze, no signal, or audio only?",
+      "coaching_note": "Two targeted questions. Give the categories so they can answer efficiently. Don't ask them to 'walk you through it.'",
+      "watch_for": "Answers in list form: 'All TVs, everything's frozen.' May have already categorized the issue themselves."
+    },
+    "v-2": {
+      "script": "Checking for outages. [pause] Active outage in your area — video and internet share the same line. ETA [time]. No troubleshooting will help until it clears.",
+      "coaching_note": "Same approach as internet outage: lead with the check, give the ETA, skip the steps. D-types don't want false busywork.",
+      "watch_for": "Accepts the info quickly. May ask 'so there's nothing I can do?' — the answer is no and they'll accept it."
+    },
+    "v-3": {
+      "script": "What's connected to the TV — Spectrum cable box, Xumo box, or the TV app? And what input is the TV on?",
+      "coaching_note": "Two questions. The HDMI input question catches a lot of issues. Don't skip it — D-types may have bumped the input and not noticed.",
+      "watch_for": "Answers directly. May already know the input. If they say 'the one it always works on,' that's not confirmation — get a specific answer."
+    },
+    "v-4": {
+      "script": "What does the cable box front panel show — clock, channel number, or blank? Anything on the TV screen — error code?",
+      "coaching_note": "Two quick inputs. If there's an error code, get it verbatim immediately.",
+      "watch_for": "Answers fast. Reports error codes directly. D-types don't embellish."
+    },
+    "v-5": {
+      "script": "Unplug the cable box power cord from the wall — not from the back of the box. 30 seconds. Then plug it back in. It takes 3 to 5 minutes to reload. The Spectrum logo on screen is normal. Don't use the remote to restart — that's not a full reset.",
+      "coaching_note": "Covering 'don't use the remote' upfront avoids the common mistake. D-types will do the easy thing unless told otherwise.",
+      "watch_for": "May say 'I already restarted it from the remote' — it doesn't count. Be direct about that."
+    },
+    "v-6": {
+      "script": "While it reboots — I'm sending a refresh signal to your account right now. This re-authorizes your equipment and clears authorization errors. Done.",
+      "coaching_note": "Inform, don't ask. D-types don't need permission — just tell them what you're doing and what it does in one sentence.",
+      "watch_for": "May not react at all — they expect you to be doing things in parallel. That's normal D behavior."
+    },
+    "v-7": {
+      "script": "Check the coax on the back of the cable box — finger-tight at both ends. Then unplug and reseat the HDMI at both ends. A loose HDMI is one of the most common no-signal causes.",
+      "coaching_note": "Two actions, clear sequence. 'Reseat' is the right word — D-types don't need it simplified to 'unplug and plug back in.'",
+      "watch_for": "Checks immediately. May say 'the HDMI was a little loose' — confirm that's exactly what we were looking for."
+    },
+    "v-8": {
+      "script": "Is there a cable splitter between the wall and the cable box? That's the small silver thing with one cable in and multiple cables out. If yes, bypass it — run coax straight from wall to box and test.",
+      "coaching_note": "Physical description and action together. Don't ask permission to bypass — tell them to do it. It's a diagnostic step, not a permanent change.",
+      "watch_for": "May say 'I have no idea' — ask them to follow the coax cable from the box back to the wall and tell you if anything's in the middle."
+    },
+    "v-9": {
+      "script": "Is this one TV or all of them? One TV means the box, cables, or input. All TVs means the line or account level — that needs a tech.",
+      "coaching_note": "Clear decision tree. D-types want to know which branch they're on immediately.",
+      "watch_for": "Confirms immediately. May already know: 'Just this TV, the bedroom one works fine.'"
+    },
+    "v-10": {
+      "script": "Picture's back — we're good. Tip: reboot the box from the My Spectrum app next time. [If unresolved:] Signal or hardware issue — scheduling a tech. Same day or next day. You'll get a call to confirm.",
+      "coaching_note": "Resolved: two sentences and done. Unresolved: two sentences and done. D-types don't want a debrief.",
+      "watch_for": "Confirms and ends the call. If escalating, may ask for the earliest possible window."
+    }
+  },
+  "I": {
+    "i-1": {
+      "script": "Thanks so much for calling in today — I'm going to get you taken care of. First let me pull up your account. What's the name and address we have on file for you?",
+      "coaching_note": "Match their energy from the start. 'I'm going to get you taken care of' signals collaboration. If they mention their name casually, use it throughout the call.",
+      "watch_for": "May open with a comment about their day or a light complaint. Friendly tone from the start. Often says your name back after you introduce yourself."
+    },
+    "i-2": {
+      "script": "Okay, tell me what's going on — is it completely out, cutting in and out, running slow? Just describe what you're seeing and we'll go from there.",
+      "coaching_note": "Open-ended works well here — I-types want to tell the story. Let them. You'll get useful detail and they'll feel heard. Don't interrupt mid-narrative.",
+      "watch_for": "Gives context and narrative: 'It started this morning when I was in a Zoom meeting and then...' Expressive and slightly dramatic."
+    },
+    "i-3": {
+      "script": "Before we do anything, let me check right now if this is a known issue in your area — hang tight one second. [pause] Okay so there is an active outage in your neighborhood. Our team is already working on it — estimated fix is [time]. I know that's frustrating, but the good news is it's already being addressed.",
+      "coaching_note": "'I know that's frustrating' mirrors the emotional experience before giving information. I-types respond to empathy first, then facts.",
+      "watch_for": "May react with relief: 'Oh, so it's not just me!' The confirmation that others are affected is reassuring. Often thanks you for checking quickly."
+    },
+    "i-4": {
+      "script": "Hey, quick question — are you home right now, or calling from somewhere else? I want to make sure we can actually get to the equipment if we need to.",
+      "coaching_note": "'Hey, quick question' feels natural and casual — matches I-type energy. The reason given is conversational rather than procedural.",
+      "watch_for": "May tell you exactly where they are: 'I'm in the kitchen, the modem is in the office.' Gives context even when not asked."
+    },
+    "i-5": {
+      "script": "Okay, let's figure out what we're working with — are you looking at the equipment right now? There might be one device or two. The one plugged into the cable in the wall is the modem. Do you see one box or two separate things?",
+      "coaching_note": "'Let's figure out' is collaborative. I-types like the 'we' framing. Keep the description simple and visual — 'one box or two' is more accessible than modem vs. router.",
+      "watch_for": "May describe the box's appearance unprompted: 'It's this black vertical thing with some blinking lights.' Very visual in their description."
+    },
+    "i-6": {
+      "script": "Can you take a look at the lights on the front of the modem? There are a few different ones — mainly I want to know about the one that says Online. Is it solid, blinking, or off?",
+      "coaching_note": "'Mainly I want to know about' gives direction without being robotic. I-types like knowing which thing matters most so they can deliver the right answer.",
+      "watch_for": "May describe all the lights enthusiastically: 'Okay there's a blue one, a green one, this one's blinking...' — redirect gently to Online specifically."
+    },
+    "i-7": {
+      "script": "Okay, here's what we're going to do — give the modem a fresh start. Unplug the power cord from the wall — the regular plug, not the coax cable. If you have a separate router, unplug that too. Now we need a full 60 seconds — I know it seems like a lot but trust me, it makes a difference. Then plug the modem back in and give it 2 full minutes. Router goes in last.",
+      "coaching_note": "'Trust me, it makes a difference' — I-types respond to personal endorsement. 'Fresh start' is intuitive and relatable. Let them chat during the 60 seconds.",
+      "watch_for": "Will want to narrate the process: 'Okay I'm unplugging it now...' That's great — keeps them engaged. May tell you about the outage while they wait."
+    },
+    "i-8": {
+      "script": "Okay, moment of truth! Check that Online light on the modem — is it solid now?",
+      "coaching_note": "'Moment of truth' adds drama and momentum that I-types enjoy. Keep the check-in brief and upbeat — they're invested in the result.",
+      "watch_for": "Reacts emotionally: 'Oh yeah, it's solid green!' or sighs audibly if it's not. Expressive response to the outcome."
+    },
+    "i-9": {
+      "script": "Alright, let's see if we're back in business — try loading something on your phone or laptop, anything at all. Does it connect? And if you've got an Ethernet cable handy, try plugging directly into the modem — that tells us if it's the Wi-Fi specifically or the connection itself.",
+      "coaching_note": "'Let's see if we're back in business' is collaborative and fun. The Ethernet suggestion is offered as bonus info, not a requirement.",
+      "watch_for": "Narrates the test: 'Okay I'm typing in Google... it's loading! Yeah it works!' Expressive and confirms immediately."
+    },
+    "i-10": {
+      "script": "Quick question — is this happening on every device, or just one specific one? Because if your phone works fine but your laptop doesn't, that's actually the laptop, not the internet, and we can fix that pretty easily — just restart it or have it forget and reconnect to Wi-Fi.",
+      "coaching_note": "'We can fix that pretty easily' keeps the tone optimistic even when the issue shifts to their device. I-types respond well to 'easy fix' framing.",
+      "watch_for": "May realize mid-conversation: 'Oh wait, my phone is actually fine!' Expressive moment of discovery. Will test while you're talking."
+    },
+    "i-11": {
+      "script": "One more thing to check — can you look at the round cable on the back of the modem, the coaxial cable, and make sure it's screwed in tight on both ends? And then the HDMI — unplug it and plug it back in firmly. You'd be amazed how often a slightly loose cable is the whole problem.",
+      "coaching_note": "'You'd be amazed how often' — I-types appreciate the 'this sounds dumb but it works' moment. Makes them feel smart when it actually resolves the issue.",
+      "watch_for": "Narrates as they check: 'Okay going around the back... I see it... okay yeah this might be loose.' Very engaged."
+    },
+    "i-12": {
+      "script": "Alright, let's see what we're actually dealing with speed-wise. Can you go to spectrum.net/speedtest or just fast.com — either one works. Run it and tell me what it says for download. I'll compare it to what your plan should be getting.",
+      "coaching_note": "'I'll compare it' — the I-type doesn't want to do the math. You're handling it, they're just reporting the number.",
+      "watch_for": "Reacts to the speed result before reporting it: 'Oof, that doesn't look right...' or 'Oh that's way less than I thought!' Emotional reaction first."
+    },
+    "i-13": {
+      "script": "Awesome, you're back up! Here's a tip — you can actually reboot the modem right from the My Spectrum app without having to call in. Pretty handy. If anything else comes up, don't hesitate to reach back out. [If unresolved:] Okay, so the signal on our end isn't great — there's something between our network and your home that a tech needs to look at in person. I'm getting you scheduled now. Usually same day or next day. Is morning or afternoon better for you?",
+      "coaching_note": "The app tip is a closing gift — I-types appreciate useful info on exit. If escalating, asking about their preferred time shows you care about their convenience.",
+      "watch_for": "Thanks you warmly on close. If escalating, may ask 'will the tech know what we already tried?' — they want continuity, not starting from scratch."
+    },
+    "v-1": {
+      "script": "Okay, walk me through it — is this happening on all your TVs or just one? And describe what it looks like — is it pixelated, frozen, completely no signal, audio but no picture, or is there an error code on the screen?",
+      "coaching_note": "'Walk me through it' signals you're listening. I-types want to tell the story — let them. You'll get more information than a checklist would produce.",
+      "watch_for": "Gives a colorful description: 'It just goes all blocky and then freezes, it's so annoying.' Expressive and conversational."
+    },
+    "v-2": {
+      "script": "Before we do anything, let me check if this is a wider issue — one second. [pause] Yeah, there is an outage active in your area. Video and internet can both go out at the same time because they share the same line. The team is already on it — they're estimating [time]. Good news is it's not just you and they're already working on it.",
+      "coaching_note": "'It's not just you' is reassuring and relatable for I-types. It makes them feel connected to the broader situation rather than singled out.",
+      "watch_for": "May ask if their neighbors are affected. Wants to feel part of the larger picture. Often says 'oh that explains it!'"
+    },
+    "v-3": {
+      "script": "Quick question about the setup — what's connected to your TV? Is it a Spectrum cable box, a Xumo box, or are you using the Spectrum TV app? And just to double-check — what input is the TV on? HDMI 1, HDMI 2?",
+      "coaching_note": "'Just to double-check' normalizes the input question, which might seem obvious to them. I-types may have bumped the input and feel embarrassed — make it casual.",
+      "watch_for": "May say 'the one that always works' about the input — uncertain answers often mean the input is the problem. Ask them to confirm what the TV screen says."
+    },
+    "v-4": {
+      "script": "Take a look at the cable box itself — what does the display on the front show? Is there a time on it, a channel number, or is it completely blank? And on the TV screen, is there any kind of message or a code with letters and numbers?",
+      "coaching_note": "Some customers are looking at the TV screen, not the box. 'The cable box itself' redirects their attention to the right place.",
+      "watch_for": "May describe the TV screen first: 'It just says No Signal.' Gently redirect to the cable box front panel. Will often then say 'oh, the box is blank too.'"
+    },
+    "v-5": {
+      "script": "Okay we're going to reboot the cable box — but not with the remote, because that doesn't do a true restart. We need to unplug the power cord directly from the wall. Give it 30 full seconds. When you plug it back in, it'll take a few minutes to come back up — you'll see the Spectrum logo on the TV, which means it's doing its thing. Totally normal.",
+      "coaching_note": "'Doing its thing' is casual and reassuring. I-types may be alarmed by a black screen with a logo — the normalization is genuinely calming.",
+      "watch_for": "Narrates the process: 'Okay it's unplugged... okay now I see the Spectrum logo on the TV, is that right?' Wants confirmation that they're doing it correctly."
+    },
+    "v-6": {
+      "script": "While we're waiting for the box to come back up, I'm going to do something from my end that can actually make a real difference — I'm sending a refresh signal to your account. It re-authorizes your equipment and often clears those error codes and missing channel issues. Sending it right now.",
+      "coaching_note": "'Can actually make a real difference' — I-types like knowing their wait time is being used productively. The refresh is framed as a tool being deployed for them.",
+      "watch_for": "May ask 'what does a refresh signal do exactly?' — they're curious and engaged. A brief, enthusiastic explanation is welcome."
+    },
+    "v-7": {
+      "script": "One more thing to check on the physical side — can you look at the round cable on the back of the cable box and make sure it's screwed in tight at both ends? And then the HDMI — unplug it and plug it back in firmly at both ends. You'd honestly be amazed how often a slightly loose HDMI is the whole problem.",
+      "coaching_note": "'Honestly' and 'you'd be amazed' — I-types appreciate the moment of 'this sounds trivial but it works.' Makes it feel like insider knowledge.",
+      "watch_for": "May say 'I can't believe that was it' when it works. Very satisfying close. Often laughs about it."
+    },
+    "v-8": {
+      "script": "Here's something we might not have checked yet — is there anything in between the cable from the wall and the cable box itself? Like a small silver device the cable goes into and then splits into multiple cables? That's a splitter, and they can actually mess with signal quality. If you have one, try connecting the coax directly from the wall to the box — takes like 30 seconds and it can reveal a lot.",
+      "coaching_note": "'Takes like 30 seconds and it can reveal a lot' — I-types like quick experiments with potential big payoffs. The framing as a reveal makes it feel exciting.",
+      "watch_for": "Will go look and narrate: 'Oh there is something, yeah — it goes into this little silver... yeah that's probably it!' Excited to find the culprit."
+    },
+    "v-9": {
+      "script": "Quick check — is this happening on just this TV or on all of your TVs? Because it really does matter for how we go from here. Just this TV usually means it's right there — the box, the cables, or the input. All of them usually points to something bigger on the line.",
+      "coaching_note": "Explaining the implication of each answer helps I-types understand why you're asking. They like feeling informed, not interrogated.",
+      "watch_for": "May test another TV while you're on the phone: 'Hang on, let me check the bedroom one...' Great initiative. Excited to report the result."
+    },
+    "v-10": {
+      "script": "Awesome, looks like we're back! And just so you know — you can reboot the box right from the My Spectrum app if this ever happens again. Super handy. Thanks so much for your patience through all of this. [If unresolved:] Okay so the issue is beyond what we can fix remotely — we need to get a technician out to look at the signal or the equipment in person. I'm scheduling that for you now. Is morning or afternoon generally better for your schedule?",
+      "coaching_note": "Thanking them for their patience closes on warmth and validates their experience. If escalating, offering a time preference gives them a sense of control.",
+      "watch_for": "Will thank you back, often enthusiastically. If escalating, will ask 'will the tech know what we already went through?' — they don't want to repeat themselves."
+    }
+  },
+  "S": {
+    "i-1": {
+      "script": "Thank you so much for calling today — I'm glad you reached out. Let me get your account pulled up. Could I get your name and the address on the account so I can make sure I have the right one?",
+      "coaching_note": "'I'm glad you reached out' matters — S-types sometimes feel like they're bothering you by calling. Making it clear their call is welcome sets the right tone immediately.",
+      "watch_for": "May apologize for calling: 'I'm sorry to bother you, I know you're probably busy.' Quiet, polite voice. Very considerate opener."
+    },
+    "i-2": {
+      "script": "I want to make sure I understand exactly what's happening so we can address it properly. Can you describe what you're seeing? Is the internet completely down, slow, or dropping in and out? Take your time.",
+      "coaching_note": "'Take your time' is important. S-types process carefully and may feel pressure to answer quickly. The pace you set here shapes the rest of the call.",
+      "watch_for": "Gives a careful, sequential description: 'It was working fine, and then around 3 this afternoon it stopped, and when I tried on my laptop...' Very thorough."
+    },
+    "i-3": {
+      "script": "Before I ask you to do anything at all, let me check on my end for anything going on in your area — that way we're not doing extra steps if we don't need to. [pause] I can see there is an active outage in your area right now. Our team is already working on it. The estimated restoration time is [time]. I don't want you to have to do anything until we know for sure that's cleared up.",
+      "coaching_note": "'I don't want you to have to do anything' is key. S-types don't want to do unnecessary work. Protecting them from pointless steps is genuinely reassuring.",
+      "watch_for": "Will ask quietly: 'Is there anything I can do in the meantime?' They want to feel involved even when the answer is no. Let them know you'll note the account."
+    },
+    "i-4": {
+      "script": "One thing I want to check — are you home right now, and do you have access to the modem? I want to make sure we only go through steps you're able to do comfortably at this point.",
+      "coaching_note": "'Comfortably at this point' signals no pressure — S-types will tell you honestly if they're not in a good position to help, rather than struggling through it.",
+      "watch_for": "May ask 'does it matter which room I'm in?' or 'I'm not near it, should I go get it?' Very responsive to your guidance. Always follows your lead."
+    },
+    "i-5": {
+      "script": "I want to make sure I know exactly what equipment you have before we do anything. Can you take a look at what you've got over there? There might be one device or two. The one that plugs into the cable in the wall — that round cable — is the modem. Do you see one box or two separate devices?",
+      "coaching_note": "'Before we do anything' establishes that looking is the only current step. S-types appreciate knowing there's no action required yet — just observation.",
+      "watch_for": "Takes their time before answering. May say 'there's one box with a lot of lights' — that's likely a gateway. Won't rush to answer."
+    },
+    "i-6": {
+      "script": "I'm going to have you look at a couple of lights on the front of the modem — just to see what they're telling us. No action yet, just looking. The light I'm most interested in is the one labeled Online. Is that light solid green, blinking, or is it off?",
+      "coaching_note": "'No action yet, just looking' previews the step and removes anxiety about what comes next. S-types need to know what's expected before it's asked of them.",
+      "watch_for": "Takes their time looking at each light carefully. May describe position: 'The third light from the top is blinking.' Very methodical and accurate."
+    },
+    "i-7": {
+      "script": "What I'm going to ask you to do is unplug the modem power cord from the wall — just the power cord, not the coax cable. If you have a separate router, go ahead and unplug that too. Then I need you to wait 60 full seconds before plugging anything back in. I know that sounds like a lot, but that full wait is really important — if we rush it, the modem won't complete its restart properly. After 60 seconds, plug the modem back in first, and then we'll wait two full minutes. Can you do that?",
+      "coaching_note": "Explaining why before asking them to do it: 'if we rush it, the modem won't restart properly.' S-types follow instructions more confidently when they understand the reason.",
+      "watch_for": "Complies carefully and checks in at each step: 'Okay, I unplugged it. Should I be timing this?' They want to get each part right."
+    },
+    "i-8": {
+      "script": "Okay, that should be enough time. Take a look at the Online light on the modem now — is it solid, or is it still blinking?",
+      "coaching_note": "Gentle, not dramatic. S-types may be anxious about the result — a calm delivery reduces that anxiety regardless of what the light shows.",
+      "watch_for": "Reports carefully and often asks for confirmation: 'It's green and solid — is that good?' They want to verify they're interpreting it correctly."
+    },
+    "i-9": {
+      "script": "Now let's check if the connection is back. Try opening a webpage on your laptop or phone — doesn't matter which one — and tell me if it loads. And if you happen to have an Ethernet cable you could plug directly into the back of the modem, that would help us know if the Wi-Fi router is part of the issue — but only if that's convenient for you.",
+      "coaching_note": "'Only if that's convenient' takes the pressure off the Ethernet test. S-types may feel obligated to find a cable and struggle rather than say it's not handy.",
+      "watch_for": "Tests carefully on one device. May ask 'should I try it on another device too?' — very thorough and wants to be as helpful as possible."
+    },
+    "i-10": {
+      "script": "Let me ask — is this happening on all of your devices, or just one specific one? The reason I ask is that if one device is having trouble but others are fine, that usually means the issue is with that device, not the connection itself. If that's the case, the fix is usually simple — either restarting the device or having it forget and reconnect to your Wi-Fi.",
+      "coaching_note": "Explaining the logic before asking the question. S-types are more relaxed when they understand what you're looking for — it makes the question feel purposeful.",
+      "watch_for": "Will answer carefully. May apologize: 'Oh, I think it might just be my laptop. I'm sorry, I should have checked that first.' Very considerate."
+    },
+    "i-11": {
+      "script": "There's one more quick physical thing I want you to check. On the back of the modem, there's a round cable — the coaxial cable — and it connects to the wall. I want you to make sure it's firmly screwed in at both ends. You don't need a tool, just finger-tight. A loose coax connection is actually one of the most common causes of signal problems and it's a quick and easy thing to rule out.",
+      "coaching_note": "'You don't need a tool' removes a concern before they have it. Ending with 'easy fix if that's what it is' keeps the tone hopeful.",
+      "watch_for": "Checks carefully. May ask 'how tight is finger-tight, I don't want to over-tighten it?' — they want to do it correctly and not cause more problems."
+    },
+    "i-12": {
+      "script": "If you're able to, I'd like you to run a quick speed test so we can see what the connection is actually doing right now. You can go to spectrum.net/speedtest or just type fast.com — it'll run on its own. When it finishes, let me know the download number, and I'll look up what your plan is supposed to get so we can compare.",
+      "coaching_note": "Two URL options reduce anxiety about getting it right. 'It'll run on its own' heads off concern about having to figure something out.",
+      "watch_for": "Follows instructions carefully. May ask 'is it okay if I use my phone for this?' — they want to make sure they're doing it the right way."
+    },
+    "i-13": {
+      "script": "I'm so glad we got that sorted out for you. Before we wrap up — there's actually a way to do this reboot in the future without having to call in. If you download the My Spectrum app, you can reboot the modem right from your phone. I want to make sure you have that so it's easier if it ever happens again. [If unresolved:] The signal levels I'm seeing on our end are lower than they should be, which tells me there's something between our network and your home that needs hands-on attention. I'm going to get a technician scheduled for you. You can usually expect same day or next day — and I'll make sure everything we went through today is noted on the account so the tech knows exactly where we are.",
+      "coaching_note": "'I'll make sure notes are on the account so the tech knows exactly where we are' — S-types hate repeating themselves. Proactively addressing that removes a significant anxiety.",
+      "watch_for": "Will thank you extensively. If escalating, will ask 'will I need to be home the whole day?' — concerned about disrupting their schedule."
+    },
+    "v-1": {
+      "script": "I want to get the full picture before we start so we can take exactly the right steps. Can you tell me — is this on one TV or all of them? And what does it look like when it happens — is the picture freezing, pixelated, completely blank, is there audio but no picture, or do you see an error code on the screen?",
+      "coaching_note": "'Get the full picture before we start' signals that asking questions is the appropriate first step, not an unnecessary delay. S-types appreciate this framing.",
+      "watch_for": "Gives thorough, careful answers. May say 'I'm not sure if this is relevant, but...' before giving useful information. Won't skip details."
+    },
+    "v-2": {
+      "script": "Before I ask you to do anything, let me take a look on my end to see if this is something we're already aware of in your area. Sometimes video and internet issues happen at the same time because they share the same line into your home. [pause] There is an outage in your area right now. I don't want you to have to do any steps when the issue is on our end. The estimated restoration time is [time].",
+      "coaching_note": "'I don't want you to have to do any steps' — protecting them from unnecessary work is genuinely reassuring. S-types feel relieved when you tell them to wait.",
+      "watch_for": "Will ask 'so I just need to wait?' — looking for a clear instruction. They want to know exactly what they should do, even if the answer is nothing."
+    },
+    "v-3": {
+      "script": "I want to understand exactly what's connected before we start anything. Do you have a Spectrum cable box, a Xumo box, or are you just using the Spectrum TV app? And can you check what input your TV is set to — HDMI 1, HDMI 2, or something else? I want to make sure the TV is looking at the right place.",
+      "coaching_note": "'I want to make sure the TV is looking at the right place' makes the HDMI check intuitive. S-types follow through on steps when the reason is clearly explained.",
+      "watch_for": "Will go to the TV to check the input carefully. May say 'it says HDMI 1 on the screen' — that's the confirmation you need."
+    },
+    "v-4": {
+      "script": "I want to check two things — can you look at the front of the cable box and tell me what the display shows? Does it have a time on it, a channel number, or is the panel completely blank? And then on the TV screen itself, is there any kind of message or error code showing?",
+      "coaching_note": "Numbering the two things keeps S-types organized and reduces overwhelm. They'll give you both answers in order without missing either.",
+      "watch_for": "Reports both carefully and accurately. May not recognize an error code as one: 'It says S0500, is that an error?' Yes — get it noted."
+    },
+    "v-5": {
+      "script": "I'm going to ask you to do a power cycle on the cable box. The important thing is to unplug the power cord directly from the wall — not to use the remote's restart option, because that doesn't do a complete reset. Leave it unplugged for 30 full seconds. When you plug it back in, the box will take 3 to 5 minutes to fully load. You'll see the Spectrum logo on the TV during that time — that's completely normal and means it's working. Can you go ahead and do that?",
+      "coaching_note": "'Can you go ahead and do that?' invites confirmation before they start. S-types appreciate the check-in — they'll say yes and feel grounded in what they're doing.",
+      "watch_for": "Follows each sub-step carefully. May ask 'how will I know when it's done loading?' — a thoughtful question. The channels appearing is the signal."
+    },
+    "v-6": {
+      "script": "While the box is going through its reboot — and it will take a few minutes, so there's no rush — I'm going to send a refresh signal from our system to your account. This is something I do on my end, you don't need to do anything. It re-authorizes your cable box with our network, which often clears error codes and things like missing channels or a frozen guide. I'll send that now.",
+      "coaching_note": "'You don't need to do anything' is specific reassurance for S-types. They need to know they're not missing a step on their end.",
+      "watch_for": "May ask 'is that safe?' or 'will it affect anything on my account?' — reassure them it's completely standard and only affects equipment authorization."
+    },
+    "v-7": {
+      "script": "I want to check one more physical thing before we go any further. On the back of the cable box, there's a round cable — the coaxial cable — that connects to the wall. I'd like you to make sure it's firmly screwed in at both ends. And then there's the HDMI cable that connects to the TV — I'd like you to unplug it from both ends and plug it firmly back in. A slightly loose connection there can cause a no-signal message on the TV screen, and it's a quick thing to rule out.",
+      "coaching_note": "'Quick thing to rule out' helps S-types feel the step is worth doing even when they're uncertain about it. The reason is always important.",
+      "watch_for": "Checks both cables carefully. May ask 'should I turn the TV off first?' — thoughtful. Not required but won't hurt."
+    },
+    "v-8": {
+      "script": "I want to ask about one more thing. Between the cable in the wall and the back of your cable box, is there anything in between — a small device the cable goes into, with two or more cables coming out of it? That's called a splitter. Even good-quality splitters reduce the signal a little, and older ones can cause freezing or pixelation. If you have one, I'd like you to try bypassing it — just connect the coax directly from the wall to the cable box. It's just a test, and easy to undo if we need to.",
+      "coaching_note": "'It's just a test and easy to undo' reduces S-type hesitation about making a change that might cause problems elsewhere.",
+      "watch_for": "May ask 'will that mess up my other TVs temporarily?' — yes, and that's a fair trade-off. Explain it's a short test to confirm the fault, then offer to let them decide."
+    },
+    "v-9": {
+      "script": "I want to make sure we're troubleshooting the right thing. Is this problem happening on every TV in the house, or just this one? If it's just this TV, what we've been doing is the right path — it's specific to this setup. If it's all of them, that changes things — that usually means the issue is coming in at the line level, which would require a technician to look at it.",
+      "coaching_note": "Telling S-types how their answer changes the approach helps them feel their input is meaningful, not just a formality.",
+      "watch_for": "Will check carefully before answering. May realize mid-check: 'Oh, the living room one actually has the same issue.' Always accurate."
+    },
+    "v-10": {
+      "script": "I'm really glad we got that sorted out for you. Just so you have it — the My Spectrum app lets you reboot the box yourself if this ever happens again, so you won't need to call in. [If unresolved:] The issue isn't something we're able to fix remotely — the signal or the equipment needs in-person attention from a technician. I'm going to get that scheduled for you. I'll add notes to the account with everything we've already done today, so you won't have to explain it again from the start. The appointment window is typically same day or next day — does that work with your schedule?",
+      "coaching_note": "'You won't have to explain it again from the start' is crucial for S-types. They genuinely dread the repetition. Addressing it proactively removes the anxiety.",
+      "watch_for": "Will confirm the appointment and likely ask what they should tell the tech. Reinforce that the notes are on the account — they'll feel relieved."
+    }
+  },
+  "C": {
+    "i-1": {
+      "script": "To confirm I have the correct account, I'll need your name and the service address on file.",
+      "coaching_note": "State the purpose before the ask: 'to confirm I have the correct account' provides the logical reason. C-types prefer a purposeful request over a bare demand.",
+      "watch_for": "Provides precise address including apartment or unit number. May also offer account number or billing zip unprompted. Very accurate — no approximations."
+    },
+    "i-2": {
+      "script": "I need to characterize the issue before we begin troubleshooting. Is it a complete loss of connectivity, intermittent drops, degraded throughput, or is it limited to certain devices? The more specific you can be, the more efficiently we can proceed.",
+      "coaching_note": "'The more specific you can be, the more efficiently we can proceed' — C-types have the detail and want to be asked for it. This framing validates their thoroughness.",
+      "watch_for": "May have timestamps: 'It started Tuesday evening around 6:45 PM.' Will accurately distinguish between 'no internet' and 'slow internet.' May have already rebooted and will report results."
+    },
+    "i-3": {
+      "script": "Before initiating any troubleshooting, I want to check our system for active outages in your area — there's no point performing equipment resets if the issue is upstream of your location. [pause] There is an active outage affecting your service area. Estimated restoration is [time]. Equipment-level troubleshooting would have no effect on an upstream signal interruption, so I'd recommend waiting for restoration.",
+      "coaching_note": "'No point performing equipment resets if the issue is upstream' — C-types want the logical justification for why you're checking before acting. Lead with the reasoning.",
+      "watch_for": "Will ask for specifics: 'What type of outage is it?' or 'Is that a hard estimate or an approximation?' Expects precision. May ask for a ticket number."
+    },
+    "i-4": {
+      "script": "Are you currently at the service address with physical access to the modem? If not, I can note the account and we can schedule a callback for when you're in front of the equipment.",
+      "coaching_note": "Giving the alternative upfront respects their time and decision-making. C-types appreciate knowing all options before being asked to commit.",
+      "watch_for": "Confirms precisely: 'Yes, I'm standing in front of it' or 'I'm home but it's in the basement.' Very specific about location and access."
+    },
+    "i-5": {
+      "script": "I need to confirm your equipment configuration. Do you have a modem-only device, a separate modem plus a wireless router, or an all-in-one gateway that handles both functions? The modem is the device with the coaxial cable input — the threaded round connector that attaches to the wall jack.",
+      "coaching_note": "Use the correct technical terms: modem, router, gateway, coaxial. C-types will be more confident in the process when you speak precisely.",
+      "watch_for": "Will identify their setup accurately and may know the model number. Likely to distinguish between Spectrum-provided equipment and personally-owned hardware."
+    },
+    "i-6": {
+      "script": "I need you to check the indicator lights on the modem face. The three relevant ones are: Power — should be solid; US/DS or Send/Receive — solid or slow blink is normal; and Online — that should be solid when the modem has registered on Spectrum's network. Report the status of each.",
+      "coaching_note": "Asking for all three lights fits C-type instinct to be thorough and report complete data. Telling them what each should show gives a reference point.",
+      "watch_for": "Will give a complete status report for every light on the device, not just the three. Accurate — if a light is blinking, they'll say blinking, not 'on.'"
+    },
+    "i-7": {
+      "script": "We're going to perform a full power cycle. Disconnect the modem's power cord from the wall outlet — not from the back of the unit — and do not use the remote's restart function, as that performs a soft reset rather than clearing the memory state. The wait time is 60 seconds minimum — this is necessary to discharge the capacitors and allow the modem to re-initialize cleanly. After 60 seconds, reconnect the modem and allow 2 full minutes for the boot sequence to complete and the modem to re-register on Spectrum's network before reconnecting any router.",
+      "coaching_note": "'Discharge the capacitors and clear the memory state' — accurate technical explanation. C-types are more likely to observe the 60-second rule when they understand why it's not arbitrary.",
+      "watch_for": "Will time the 60 seconds precisely. May ask 'what specifically happens if I don't wait the full time?' — be ready to explain the incomplete boot cycle issue."
+    },
+    "i-8": {
+      "script": "The modem should have completed its boot sequence. Check the Online indicator now and report whether it's solid, blinking, or off. A solid Online light indicates the modem has successfully re-registered on Spectrum's network.",
+      "coaching_note": "Telling them what 'solid' means in context — 're-registered on Spectrum's network' — gives C-types the reference point to interpret what they're observing.",
+      "watch_for": "Will give precise status, often including color: 'Solid white' or 'solid green.' Usually accurate. Will also report if any other lights changed."
+    },
+    "i-9": {
+      "script": "Test the connection now. Open a browser and attempt to load a page. Also, if possible, connect a device via Ethernet directly to the modem — this isolates the modem's WAN connection from any router-side variables. If the wired test succeeds but Wi-Fi doesn't, the fault is with the router, not the modem or Spectrum's network.",
+      "coaching_note": "'Isolates the modem's WAN connection from router-side variables' — framing the Ethernet test as diagnostic isolation appeals to C-type methodical thinking.",
+      "watch_for": "May already be running a speed test or ping test. Reports results precisely: 'The page loaded but latency feels high' rather than just 'it works.'"
+    },
+    "i-10": {
+      "script": "I need to determine whether this is a device-specific fault or a network-level failure. Do you have another device that can connect to the same Wi-Fi network? If that device connects successfully, the issue is isolated to the affected device — not Spectrum's infrastructure. In that case, have the affected device forget the network and reconnect, or perform a full restart. If no devices connect, the issue is on the network side.",
+      "coaching_note": "The test result explicitly determines which side the problem is on. C-types appreciate methodical fault isolation — they understand the logic of binary diagnostic tests.",
+      "watch_for": "Has usually already tested multiple devices before calling and will report results accurately. May have noted which devices succeed and which fail."
+    },
+    "i-11": {
+      "script": "Inspect the coaxial connection at the rear of the modem — both at the device and at the wall jack. The correct specification is finger-tight; do not over-torque. Then check the power cord is fully seated. A loose coaxial connection is one of the leading causes of signal level degradation and is frequently overlooked during self-troubleshooting.",
+      "coaching_note": "'Do not over-torque' matters — C-types may apply more force than necessary if you only say 'tight.' Be precise about the correct specification.",
+      "watch_for": "Will inspect both termination points and report results: 'The wall connection feels slightly loose, tightening now.' Very methodical. Will also check power cord."
+    },
+    "i-12": {
+      "script": "Run a speed test at spectrum.net/speedtest. Note both download and upload figures. Your subscribed plan speed is [plan speed] — if the result is consistently below 50% of that threshold, it's indicative of a signal-level issue that the troubleshooting steps we've performed won't resolve. That would require a technician visit to assess the signal levels at your drop and at the tap.",
+      "coaching_note": "The 50% threshold is stated as a diagnostic boundary with a specific number. C-types respond to precise thresholds rather than 'if it seems low.'",
+      "watch_for": "Will run the test multiple times and may average the results. Will report both download and upload without being asked. Likely to note variance between tests."
+    },
+    "i-13": {
+      "script": "Connection is restored. For future reference, the My Spectrum app supports remote reboot functions for all registered equipment — no call required for a standard power cycle. [If unresolved:] The signal levels in the system are below acceptable thresholds, which indicates the fault is at the line or infrastructure level rather than your local equipment. That requires a field technician to assess signal levels at the drop and tap. I'm scheduling a dispatch. Appointment windows are typically within 24 hours. The technician will have access to the full diagnostic data from this session.",
+      "coaching_note": "'The technician will have access to the full diagnostic data' satisfies C-type concern about continuity and not having to re-explain the troubleshooting already performed.",
+      "watch_for": "Will ask for a precise appointment window: 'Is that 24 hours from now or by end of business tomorrow?' May want a confirmation number. Very accurate follow-up questions."
+    },
+    "v-1": {
+      "script": "I need to characterize the fault precisely before troubleshooting. First: is the issue on all TVs or isolated to one? Second: is it all channels or specific channels? Third: what is the symptom — pixelation, audio only with no video, complete loss of signal, display freeze, or an on-screen error code? If there's an error code, read it exactly as it appears.",
+      "coaching_note": "Numbering the questions signals systematic intake. C-types respond to structured diagnostics — they understand each question is for a reason.",
+      "watch_for": "Will answer each question in order. If there's an error code, will read it letter-by-letter, including any numbers. Very accurate."
+    },
+    "v-2": {
+      "script": "Before initiating equipment troubleshooting, I'm checking for active outages in your area — equipment resets are not effective when the issue is upstream. [pause] There is an active outage affecting your area. Video signal delivery and internet both depend on the same coaxial infrastructure from the tap, so co-occurring failures are common. Estimated restoration is [time]. Equipment-side troubleshooting has no effect on an upstream signal interruption.",
+      "coaching_note": "Explaining why the check precedes troubleshooting satisfies C-type logical process. The last sentence explicitly clarifies why they shouldn't try to fix it themselves.",
+      "watch_for": "Will ask for outage cause if available: 'What type of outage is it?' or 'Is that planned maintenance or an unplanned failure?' Expects specifics."
+    },
+    "v-3": {
+      "script": "I need to confirm your receiver configuration. Are you using a Spectrum cable box, a Xumo device, or the Spectrum TV app? Also confirm the connection type to the television — HDMI or coaxial — and which HDMI input the TV is currently set to. Input selection errors are a distinct failure mode that produces a no-signal symptom and should be confirmed before any other troubleshooting.",
+      "coaching_note": "Naming 'input selection errors' as a specific failure mode tells C-types this is a real diagnostic category — not a basic assumption that they missed something obvious.",
+      "watch_for": "Will confirm HDMI input with precision. May know the HDMI specification: 'It's HDMI 2, ARC port.' Will often confirm cable type without being asked."
+    },
+    "v-4": {
+      "script": "Two things to confirm. First, the cable box front panel — does it show a clock, a channel number, or is it blank? A blank display indicates no power or boot failure. Second, is there any error code on the TV screen? Common codes include S0500, S0200, and RGE-2006, each indicating different signal or authorization faults. Read any code exactly as displayed.",
+      "coaching_note": "Giving example codes sets C-types up to recognize them as a specific category. 'Read it exactly as displayed' prevents the transcription errors that make codes useless.",
+      "watch_for": "Will check both and report both, in order. Will read error codes character-by-character. May already know what the code means."
+    },
+    "v-5": {
+      "script": "Perform a full power cycle on the cable box. Disconnect the power cord from the wall outlet — not from the rear of the device — and do not use the remote's restart function, as that performs a soft reset rather than clearing the memory state. Leave it unplugged for 30 seconds minimum. When powered back on, the box requires 3 to 5 minutes to complete its boot sequence and re-authorize with the Spectrum head-end. The Spectrum loading screen on the TV indicates normal boot progression.",
+      "coaching_note": "'Clearing the memory state' and 're-authorize with the Spectrum head-end' — accurate technical framing. C-types are more likely to follow the process correctly when the reason is credible.",
+      "watch_for": "Will want to understand what happens during the boot sequence. 'Is it downloading a firmware update?' — possible, and a fair answer."
+    },
+    "v-6": {
+      "script": "While the box completes its power cycle, I'm initiating a refresh signal from our provisioning system to your account. This transmits an authorization signal to all equipment registered on the account, which clears the cached authorization state and re-establishes the entitlement handshake with the Spectrum head-end. It resolves authorization-related errors, guide freeze, and channel entitlement failures. Sending now.",
+      "coaching_note": "'Entitlement handshake' and 'provisioning system' are the accurate technical terms. C-types respond to precision — vague analogies like 'jolt the system' undermine credibility.",
+      "watch_for": "May ask 'does this affect all boxes on the account or only this receiver?' — accurate question. It affects all registered equipment. C-types appreciate precise scope."
+    },
+    "v-7": {
+      "script": "Inspect the coaxial connection at the rear of the cable box — check both the device-end and the wall jack. Finger-tight is the correct specification; do not over-torque. Then examine the HDMI cable: disconnect from both ends and firmly reseat the connector. HDMI connectors develop contact degradation through normal handling, and a no-signal symptom with valid signal output from the box almost always indicates an HDMI termination fault.",
+      "coaching_note": "'HDMI termination fault' is accurate and specific. C-types understand why you'd use that term versus 'loose cable' — it conveys a precise failure mode.",
+      "watch_for": "Will check both and report results. May test by wiggling the connected HDMI: 'The picture flickers when I move the cable — is that the fault?' Yes — confirm it."
+    },
+    "v-8": {
+      "script": "I want to evaluate whether a cable splitter is contributing to signal attenuation. Is there a passive splitter anywhere in the signal path between the wall outlet and the cable box? They appear as small cylindrical devices with one coaxial input and multiple outputs. Splitters attenuate the signal — typically 3.5 dB or more per split. A degraded or low-quality splitter can exceed that threshold and produce signal levels insufficient for channel decode. Try bypassing the splitter by connecting directly from the wall to the box as a controlled diagnostic test.",
+      "coaching_note": "'3.5 dB attenuation per split' — C-types appreciate the actual number. The 'controlled diagnostic test' framing makes the bypass feel methodical, not arbitrary.",
+      "watch_for": "May know the splitter's rating: 'It says 2-way, 1GHz.' That's useful diagnostic data. Will treat the bypass as a proper test and report results accurately."
+    },
+    "v-9": {
+      "script": "I need to determine the scope of the fault. Is the issue confined to this single television or do all TVs on the account exhibit the same symptom? A single-television fault implicates the local equipment — cable box, cable connections, or TV input settings. A multi-television fault indicates the problem is at or upstream of the in-home distribution point and requires dispatch to assess signal levels and in-home wiring.",
+      "coaching_note": "Framing this as fault localization — scoping the fault domain — is good diagnostic methodology. C-types understand and appreciate systematic isolation.",
+      "watch_for": "Will give precise answer. May have already checked all TVs before calling. Notes differences between TVs accurately."
+    },
+    "v-10": {
+      "script": "Issue is resolved. For reference, the My Spectrum app supports remote reboot functions for all registered receivers — no call required for a standard power cycle. [If unresolved:] The fault has not been resolved through remote diagnostic steps. Given the signal-level indicators or persistent error codes, the issue requires physical inspection by a field technician — either the tap, drop, or in-home wiring. I'm scheduling a dispatch. The technician will have full diagnostic history from this session. Appointment window is within 24 hours. Note the confirmation number if you need to reference this call.",
+      "coaching_note": "'The technician will have full diagnostic history' addresses the C-type concern about continuity. The confirmation number instruction is practical — they will use it.",
+      "watch_for": "Will ask what specifically the technician should check. Will want the confirmation number. May ask about expected resolution timeline after the tech visit."
+    }
+  }
+};
+
+// ─────────────────────────────────────────────
 //  STATE
 // ─────────────────────────────────────────────
 let currentDisc = 'D';
 let currentFilter = 'all';
-let isGenerating = false;
 
-// Storage helpers — uses localStorage for persistence across sessions
+// Storage helpers — used only for persisting DISC selection across sessions
 function storeSave(key, value) {
   try { localStorage.setItem(key, JSON.stringify(value)); } catch(e) {}
 }
@@ -862,54 +1324,6 @@ function storeLoad(key, fallback) {
     const raw = localStorage.getItem(key);
     return raw ? JSON.parse(raw) : fallback;
   } catch(e) { return fallback; }
-}
-
-function stepHash(step) {
-  return btoa(encodeURIComponent(step.id + '|' + step.title + '|' + step.description)).slice(0,16);
-}
-
-function cacheKey(disc, stepId) {
-  const step = STEPS.find(s => s.id === stepId);
-  const hash = step ? stepHash(step) : stepId;
-  return `disc_script_${disc}_${stepId}_${hash}`;
-}
-
-// ─────────────────────────────────────────────
-//  SYSTEM PROMPT
-// ─────────────────────────────────────────────
-function buildSystemPrompt(disc) {
-  const toneGuides = {
-    D: `D (Dominant): Get to the point fast. No small talk. Lead with the action, not the explanation. Use short sentences. Never over-explain. They want control — give them the steps and let them do it. Avoid phrases like "bear with me" or "just one moment." Say "This will take 60 seconds" not "I just need you to wait a little bit."`,
-    I: `I (Influential): Warm, upbeat, conversational. Use their name. Acknowledge the frustration before jumping into steps. Make it feel collaborative — "we're going to figure this out together." Light humor is fine if they initiate it. Avoid cold or robotic phrasing.`,
-    S: `S (Steady/Supportive): Slow and reassuring. Never rush them. Explain what you're doing and why before you ask them to do it. Normalize the issue — "This is really common and we'll get it sorted." Check in after each step. They hate surprises, so preview what's coming next.`,
-    C: `C (Conscientious): Precise and logical. Give them the "why" behind every step. Use technical terms correctly — they'll notice if you don't. Avoid vague language like "it might help" — say "this clears the memory buffer and forces the modem to re-register on the network." Don't rush them; they want to understand, not just comply.`
-  };
-
-  return `You are a Spectrum (Charter Communications) tech support agent coaching tool.
-
-CONTEXT:
-- You are generating spoken call scripts for Spectrum inbound residential tech support agents handling internet and video (cable TV) repair calls.
-- The agent is speaking to customers on the PHONE — not chat or email. All scripts must sound natural when spoken aloud, not read like written text. No bullet points or markdown in scripts.
-- You adapt scripts based on the customer's DISC personality profile.
-
-DISC PROFILE FOR THIS RESPONSE: ${disc}
-
-TONE GUIDE FOR ${disc}:
-${toneGuides[disc]}
-
-CRITICAL RULES:
-1. Preserve complete technical accuracy in every step — never skip a step, never shortcut a safety check, never omit required wait times just to match a personality style.
-2. Scripts must be phrased as what the agent says out loud on the phone — first person, present tense, conversational.
-3. Do not include stage directions, markdown, headers, or bullet points inside the script field.
-4. The coaching_note should be a brief, practical tip for the agent on HOW to deliver this step with this DISC type.
-5. The watch_for field should describe 1-2 specific behavioral signals — what the customer says or how they act — that indicate this person IS this DISC type, observed during this specific step.
-
-RESPONSE FORMAT (JSON only, no other text):
-{
-  "script": "The exact words the agent says out loud during this step, adapted for the ${disc} DISC type. Written as spoken language.",
-  "coaching_note": "1-2 sentence coaching tip for the agent on tone and delivery for this DISC type at this step.",
-  "watch_for": "1-2 behavioral signals to watch for that confirm this is a ${disc} type during this step."
-}`;
 }
 
 // ─────────────────────────────────────────────
@@ -943,9 +1357,6 @@ function renderSteps() {
         <div id="output-${step.id}">
           ${renderStepOutput(step)}
         </div>
-        <button class="gen-step-btn" id="genbtn-${step.id}" onclick="generateStep('${step.id}')">
-          ⚡ Generate ${currentDisc} Script
-        </button>
       </div>`;
 
     container.appendChild(card);
@@ -955,9 +1366,8 @@ function renderSteps() {
 }
 
 function renderStepOutput(step) {
-  const key = cacheKey(currentDisc, step.id);
-  const cached = storeLoad(key, null);
-  if (!cached) return '';
+  const data = SCRIPTS[currentDisc] && SCRIPTS[currentDisc][step.id];
+  if (!data) return '';
 
   const discNames = {D: 'Dominant', I: 'Influential', S: 'Steady', C: 'Conscientious'};
 
@@ -967,9 +1377,9 @@ function renderStepOutput(step) {
         <span class="disc-label ${currentDisc}">${currentDisc} — ${discNames[currentDisc]}</span>
         <button class="copy-btn" onclick="copyScript('${step.id}', this)">📋 Copy Script</button>
       </div>
-      <div class="script-text" id="script-text-${step.id}">${escHtml(cached.script)}</div>
-      ${cached.coaching_note ? `<div class="coaching-note"><strong>🎯 Coaching Note</strong>${escHtml(cached.coaching_note)}</div>` : ''}
-      ${cached.watch_for ? `<div class="watch-for"><strong>👁 Watch For</strong>${escHtml(cached.watch_for)}</div>` : ''}
+      <div class="script-text" id="script-text-${step.id}">${escHtml(data.script)}</div>
+      ${data.coaching_note ? `<div class="coaching-note"><strong>🎯 Coaching Note</strong>${escHtml(data.coaching_note)}</div>` : ''}
+      ${data.watch_for ? `<div class="watch-for"><strong>👁 Watch For</strong>${escHtml(data.watch_for)}</div>` : ''}
     </div>`;
 }
 
@@ -982,8 +1392,9 @@ function toggleCard(stepId) {
 }
 
 function updateProgress() {
-  const done = STEPS.filter(s => storeLoad(cacheKey(currentDisc, s.id), null) !== null).length;
-  document.getElementById('progress-info').textContent = `${done}/${STEPS.length} steps generated for ${currentDisc}`;
+  const discNames = {D: 'Dominant', I: 'Influential', S: 'Steady', C: 'Conscientious'};
+  document.getElementById('progress-info').textContent =
+    `${STEPS.length}/${STEPS.length} scripts ready — ${discNames[currentDisc]}`;
 }
 
 // ─────────────────────────────────────────────
@@ -1010,130 +1421,6 @@ function filterService(type) {
     }
   });
   renderSteps();
-}
-
-// ─────────────────────────────────────────────
-//  API CALL
-// ─────────────────────────────────────────────
-async function callAPI(systemPrompt, userMessage) {
-  const apiKey = document.getElementById('api-key-input').value.trim();
-  if (!apiKey) throw new Error('No API key. Enter your Anthropic API key in the left panel.');
-
-  const resp = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'x-api-key': apiKey,
-      'anthropic-version': '2023-06-01',
-      'anthropic-dangerous-direct-browser-access': 'true'
-    },
-    body: JSON.stringify({
-      model: 'claude-sonnet-4-6',
-      max_tokens: 1000,
-      system: systemPrompt,
-      messages: [{ role: 'user', content: userMessage }]
-    })
-  });
-
-  if (!resp.ok) {
-    const err = await resp.json().catch(() => ({}));
-    throw new Error(err?.error?.message || `API error ${resp.status}`);
-  }
-
-  const data = await resp.json();
-  const text = data.content?.[0]?.text || '';
-  const match = text.match(/\{[\s\S]*\}/);
-  if (!match) throw new Error('No JSON in response');
-  return JSON.parse(match[0]);
-}
-
-// ─────────────────────────────────────────────
-//  GENERATE SINGLE STEP
-// ─────────────────────────────────────────────
-async function generateStep(stepId) {
-  const step = STEPS.find(s => s.id === stepId);
-  if (!step) return;
-
-  const btn = document.getElementById(`genbtn-${stepId}`);
-  const outputDiv = document.getElementById(`output-${stepId}`);
-
-  const key = cacheKey(currentDisc, stepId);
-  if (storeLoad(key, null)) {
-    outputDiv.innerHTML = renderStepOutput(step);
-    return;
-  }
-
-  btn.disabled = true;
-  outputDiv.innerHTML = `<div class="loading-state"><div class="spinner"></div>Generating ${currentDisc} script…</div>`;
-
-  try {
-    const result = await callAPI(buildSystemPrompt(currentDisc), `Generate a DISC-adapted spoken call script for this Spectrum tech support step:
-
-Step: ${step.title}
-Service Type: ${step.type === 'video' ? 'Video / Cable TV' : 'Internet'}
-Step Description: ${step.description}
-
-Return JSON only as specified.`);
-
-    storeSave(key, result);
-    outputDiv.innerHTML = renderStepOutput(step);
-    updateProgress();
-  } catch(e) {
-    outputDiv.innerHTML = `<div class="error-msg">⚠️ Error: ${escHtml(e.message)}</div>`;
-  }
-
-  btn.disabled = false;
-}
-
-// ─────────────────────────────────────────────
-//  GENERATE ALL
-// ─────────────────────────────────────────────
-async function generateAll() {
-  if (isGenerating) return;
-  isGenerating = true;
-
-  const genBtn = document.querySelector('.gen-all-btn');
-  genBtn.disabled = true;
-  genBtn.textContent = '⏳ Generating…';
-
-  STEPS.forEach(s => {
-    const card = document.getElementById(`card-${s.id}`);
-    if (card) card.classList.add('open');
-  });
-
-  for (const step of STEPS) {
-    const key = cacheKey(currentDisc, step.id);
-    if (storeLoad(key, null)) continue;
-
-    const btn = document.getElementById(`genbtn-${step.id}`);
-    const outputDiv = document.getElementById(`output-${step.id}`);
-    if (outputDiv) outputDiv.innerHTML = `<div class="loading-state"><div class="spinner"></div>Generating…</div>`;
-    if (btn) btn.disabled = true;
-
-    try {
-      const result = await callAPI(buildSystemPrompt(currentDisc), `Generate a DISC-adapted spoken call script for this Spectrum tech support step:
-
-Step: ${step.title}
-Service Type: ${step.type === 'video' ? 'Video / Cable TV' : 'Internet'}
-Step Description: ${step.description}
-
-Return JSON only as specified.`);
-
-      storeSave(key, result);
-      if (outputDiv) outputDiv.innerHTML = renderStepOutput(step);
-    } catch(e) {
-      if (outputDiv) outputDiv.innerHTML = `<div class="error-msg">⚠️ ${escHtml(e.message)}</div>`;
-      if (e.message.includes('API key') || e.message.includes('401')) break;
-    }
-
-    if (btn) btn.disabled = false;
-    updateProgress();
-    await new Promise(r => setTimeout(r, 300));
-  }
-
-  genBtn.disabled = false;
-  genBtn.textContent = '⚡ Generate All Scripts';
-  isGenerating = false;
 }
 
 // ─────────────────────────────────────────────
@@ -1168,7 +1455,7 @@ function openPrint() {
   const discNames = {D: 'Dominant (D)', I: 'Influential (I)', S: 'Steady (S)', C: 'Conscientious (C)'};
   document.getElementById('print-title').textContent = `DISC Call Script — ${discNames[currentDisc]}`;
   document.getElementById('print-subtitle').textContent =
-    `Generated ${new Date().toLocaleDateString()} · ${currentFilter === 'all' ? 'Internet + Video steps' : currentFilter + ' steps only'}`;
+    `${new Date().toLocaleDateString()} · ${currentFilter === 'all' ? 'Internet + Video steps' : currentFilter + ' steps only'}`;
 
   const body = document.getElementById('print-body');
   body.innerHTML = '';
@@ -1185,16 +1472,16 @@ function openPrint() {
     body.appendChild(h);
 
     stepList.forEach(step => {
-      const cached = storeLoad(cacheKey(currentDisc, step.id), null);
+      const data = SCRIPTS[currentDisc] && SCRIPTS[currentDisc][step.id];
       const div = document.createElement('div');
       div.className = 'print-step';
       div.innerHTML = `
         <div class="print-step-title ${isVideo ? 'video-title' : ''}">${isVideo ? 'V' : ''}${step.seq}. ${step.title}</div>
-        ${cached
-          ? `<div class="print-script">${escHtml(cached.script)}</div>
-             ${cached.coaching_note ? `<div class="print-coaching"><strong>Coaching:</strong> ${escHtml(cached.coaching_note)}</div>` : ''}
-             ${cached.watch_for ? `<div class="print-watch"><strong>Watch For:</strong> ${escHtml(cached.watch_for)}</div>` : ''}`
-          : `<div class="print-empty">Script not yet generated.</div>`
+        ${data
+          ? `<div class="print-script">${escHtml(data.script)}</div>
+             ${data.coaching_note ? `<div class="print-coaching"><strong>Coaching:</strong> ${escHtml(data.coaching_note)}</div>` : ''}
+             ${data.watch_for ? `<div class="print-watch"><strong>Watch For:</strong> ${escHtml(data.watch_for)}</div>` : ''}`
+          : `<div class="print-empty">Script not available.</div>`
         }`;
       body.appendChild(div);
     });
@@ -1215,13 +1502,6 @@ function closePrint() {
 // ─────────────────────────────────────────────
 function init() {
   currentDisc = storeLoad('lastDisc', 'D');
-
-  const savedKey = storeLoad('apiKey', '');
-  if (savedKey) document.getElementById('api-key-input').value = savedKey;
-
-  document.getElementById('api-key-input').addEventListener('input', function() {
-    storeSave('apiKey', this.value);
-  });
 
   ['D','I','S','C'].forEach(d => {
     document.getElementById(`btn-${d}`).classList.toggle('active', d === currentDisc);
