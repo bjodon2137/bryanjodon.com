@@ -104,46 +104,62 @@
     background: transparent;
   }
 
-  /* DISC selector */
+  /* DISC selector — 2x2 tile grid */
   .disc-selector { padding: 12px; }
-  .disc-btn {
+  .disc-tile-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+  }
+  .disc-tile {
     display: flex;
-    align-items: center;
-    gap: 8px;
-    width: 100%;
-    padding: 9px 12px;
+    flex-direction: column;
+    gap: 5px;
+    padding: 8px 8px 9px;
     border: 2px solid var(--border);
-    border-radius: 6px;
+    border-radius: 8px;
     background: #fff;
     cursor: pointer;
-    font-size: 13px;
-    font-weight: 600;
-    margin-bottom: 6px;
-    transition: all 0.15s;
     text-align: left;
+    transition: all 0.15s;
   }
-  .disc-btn:last-child { margin-bottom: 0; }
-  .disc-btn .badge {
+  .disc-tile:hover:not(.active) { border-color: #9ca3af; background: #f9fafb; }
+  .disc-tile-head {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .disc-tile .badge {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 800;
     color: #fff;
     flex-shrink: 0;
   }
-  .disc-btn.d-btn .badge { background: var(--d-color); }
-  .disc-btn.i-btn .badge { background: var(--i-color); }
-  .disc-btn.s-btn .badge { background: var(--s-color); }
-  .disc-btn.c-btn .badge { background: var(--c-color); }
-  .disc-btn.active.d-btn { border-color: var(--d-color); background: var(--d-light); }
-  .disc-btn.active.i-btn { border-color: var(--i-color); background: var(--i-light); }
-  .disc-btn.active.s-btn { border-color: var(--s-color); background: var(--s-light); }
-  .disc-btn.active.c-btn { border-color: var(--c-color); background: var(--c-light); }
-  .disc-btn:hover:not(.active) { border-color: #9ca3af; background: #f9fafb; }
+  .disc-tile-name { font-size: 11px; font-weight: 700; }
+  .disc-tile.d-tile .badge { background: var(--d-color); }
+  .disc-tile.i-tile .badge { background: var(--i-color); }
+  .disc-tile.s-tile .badge { background: var(--s-color); }
+  .disc-tile.c-tile .badge { background: var(--c-color); }
+  .disc-tile.active.d-tile { border-color: var(--d-color); background: var(--d-light); }
+  .disc-tile.active.i-tile { border-color: var(--i-color); background: var(--i-light); }
+  .disc-tile.active.s-tile { border-color: var(--s-color); background: var(--s-light); }
+  .disc-tile.active.c-tile { border-color: var(--c-color); background: var(--c-light); }
+  .disc-tile-script {
+    font-size: 9.5px;
+    line-height: 1.35;
+    color: #4b5563;
+    font-style: italic;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
 
   .disc-desc { font-size: 11px; color: var(--text-muted); line-height: 1.35; }
 
@@ -660,37 +676,27 @@
 
     <!-- DISC Selector -->
     <div class="panel">
-      <div class="panel-header">Manual Override</div>
-      <div style="padding: 8px 12px 0; font-size:11px; color:var(--text-muted); line-height:1.4;">Jump straight to a type — bypasses adjacency, e.g. from prior account notes.</div>
+      <div class="panel-header">Pick the Opening Line</div>
+      <div style="padding: 8px 12px 0; font-size:11px; color:var(--text-muted); line-height:1.4;">Which greeting sounds like what you're hearing? Click it to start the read.</div>
       <div class="disc-selector">
-        <button class="disc-btn d-btn active" onclick="selectDisc('D')" id="btn-D">
-          <span class="badge">D</span>
-          <span>
-            <div>Dominant</div>
-            <div class="disc-desc">Direct · Results-driven</div>
-          </span>
-        </button>
-        <button class="disc-btn i-btn" onclick="selectDisc('I')" id="btn-I">
-          <span class="badge">I</span>
-          <span>
-            <div>Influential</div>
-            <div class="disc-desc">Warm · Conversational</div>
-          </span>
-        </button>
-        <button class="disc-btn s-btn" onclick="selectDisc('S')" id="btn-S">
-          <span class="badge">S</span>
-          <span>
-            <div>Steady</div>
-            <div class="disc-desc">Patient · Supportive</div>
-          </span>
-        </button>
-        <button class="disc-btn c-btn" onclick="selectDisc('C')" id="btn-C">
-          <span class="badge">C</span>
-          <span>
-            <div>Conscientious</div>
-            <div class="disc-desc">Precise · Analytical</div>
-          </span>
-        </button>
+        <div class="disc-tile-grid" id="disc-tile-grid">
+          <button class="disc-tile d-tile active" onclick="selectDisc('D')" id="btn-D">
+            <span class="disc-tile-head"><span class="badge">D</span><span class="disc-tile-name">Dominant</span></span>
+            <span class="disc-tile-script" id="tile-script-D"></span>
+          </button>
+          <button class="disc-tile i-tile" onclick="selectDisc('I')" id="btn-I">
+            <span class="disc-tile-head"><span class="badge">I</span><span class="disc-tile-name">Influential</span></span>
+            <span class="disc-tile-script" id="tile-script-I"></span>
+          </button>
+          <button class="disc-tile s-tile" onclick="selectDisc('S')" id="btn-S">
+            <span class="disc-tile-head"><span class="badge">S</span><span class="disc-tile-name">Steady</span></span>
+            <span class="disc-tile-script" id="tile-script-S"></span>
+          </button>
+          <button class="disc-tile c-tile" onclick="selectDisc('C')" id="btn-C">
+            <span class="disc-tile-head"><span class="badge">C</span><span class="disc-tile-name">Conscientious</span></span>
+            <span class="disc-tile-script" id="tile-script-C"></span>
+          </button>
+        </div>
       </div>
     </div>
 
@@ -1734,10 +1740,19 @@ function closePrint() {
 // ─────────────────────────────────────────────
 //  INIT
 // ─────────────────────────────────────────────
+function renderOverrideTiles() {
+  ['D','I','S','C'].forEach(d => {
+    const el = document.getElementById(`tile-script-${d}`);
+    if (el) el.textContent = SCRIPTS[d]['i-1'].script;
+  });
+}
+
 function init() {
   currentDisc = storeLoad('activeType', null);
   stepTypeLog = storeLoad('stepTypeLog', {});
   breadcrumbLog = storeLoad('breadcrumbLog', []);
+
+  renderOverrideTiles();
 
   ['D','I','S','C'].forEach(d => {
     document.getElementById(`btn-${d}`).classList.toggle('active', d === currentDisc);
