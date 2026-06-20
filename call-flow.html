@@ -104,18 +104,61 @@
     background: transparent;
   }
 
-  /* DISC selector — 2x2 tile grid */
+  /* DISC selector */
   .disc-selector { padding: 12px; }
-  .disc-tile-grid {
+  .disc-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 9px 12px;
+    border: 2px solid var(--border);
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    transition: all 0.15s;
+    text-align: left;
+  }
+  .disc-btn:last-child { margin-bottom: 0; }
+  .disc-btn .badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: 800;
+    color: #fff;
+    flex-shrink: 0;
+  }
+  .disc-btn.d-btn .badge { background: var(--d-color); }
+  .disc-btn.i-btn .badge { background: var(--i-color); }
+  .disc-btn.s-btn .badge { background: var(--s-color); }
+  .disc-btn.c-btn .badge { background: var(--c-color); }
+  .disc-btn.active.d-btn { border-color: var(--d-color); background: var(--d-light); }
+  .disc-btn.active.i-btn { border-color: var(--i-color); background: var(--i-light); }
+  .disc-btn.active.s-btn { border-color: var(--s-color); background: var(--s-light); }
+  .disc-btn.active.c-btn { border-color: var(--c-color); background: var(--c-light); }
+  .disc-btn:hover:not(.active) { border-color: #9ca3af; background: #f9fafb; }
+
+  .disc-desc { font-size: 11px; color: var(--text-muted); line-height: 1.35; }
+
+  /* Per-step DISC selection grid (main content) */
+  .step-disc-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 7px;
+    gap: 8px;
+    margin-bottom: 10px;
   }
-  .disc-tile {
+  .step-disc-tile {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    padding: 8px 8px 9px;
+    gap: 6px;
+    padding: 10px 12px 12px;
     border: 2px solid var(--border);
     border-radius: 8px;
     background: #fff;
@@ -123,45 +166,49 @@
     text-align: left;
     transition: all 0.15s;
   }
-  .disc-tile:hover:not(.active) { border-color: #9ca3af; background: #f9fafb; }
-  .disc-tile-head {
+  .step-disc-tile:hover:not(.selected) { border-color: #9ca3af; background: #f9fafb; }
+  .step-disc-tile-head {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 7px;
   }
-  .disc-tile .badge {
+  .step-disc-tile .badge {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 800;
     color: #fff;
     flex-shrink: 0;
   }
-  .disc-tile-name { font-size: 11px; font-weight: 700; }
-  .disc-tile.d-tile .badge { background: var(--d-color); }
-  .disc-tile.i-tile .badge { background: var(--i-color); }
-  .disc-tile.s-tile .badge { background: var(--s-color); }
-  .disc-tile.c-tile .badge { background: var(--c-color); }
-  .disc-tile.active.d-tile { border-color: var(--d-color); background: var(--d-light); }
-  .disc-tile.active.i-tile { border-color: var(--i-color); background: var(--i-light); }
-  .disc-tile.active.s-tile { border-color: var(--s-color); background: var(--s-light); }
-  .disc-tile.active.c-tile { border-color: var(--c-color); background: var(--c-light); }
-  .disc-tile-script {
-    font-size: 9.5px;
-    line-height: 1.35;
+  .step-disc-tile-name { font-size: 12px; font-weight: 800; }
+  .step-disc-tile.d-tile .badge { background: var(--d-color); }
+  .step-disc-tile.d-tile .step-disc-tile-name { color: var(--d-color); }
+  .step-disc-tile.i-tile .badge { background: var(--i-color); }
+  .step-disc-tile.i-tile .step-disc-tile-name { color: var(--i-color); }
+  .step-disc-tile.s-tile .badge { background: var(--s-color); }
+  .step-disc-tile.s-tile .step-disc-tile-name { color: var(--s-color); }
+  .step-disc-tile.c-tile .badge { background: var(--c-color); }
+  .step-disc-tile.c-tile .step-disc-tile-name { color: var(--c-color); }
+  .step-disc-tile.selected.d-tile { border-color: var(--d-color); background: var(--d-light); }
+  .step-disc-tile.selected.i-tile { border-color: var(--i-color); background: var(--i-light); }
+  .step-disc-tile.selected.s-tile { border-color: var(--s-color); background: var(--s-light); }
+  .step-disc-tile.selected.c-tile { border-color: var(--c-color); background: var(--c-light); }
+  .step-disc-tile-script {
+    font-size: 11px;
+    line-height: 1.45;
     color: #4b5563;
-    font-style: italic;
     display: -webkit-box;
-    -webkit-line-clamp: 6;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
-
-  .disc-desc { font-size: 11px; color: var(--text-muted); line-height: 1.35; }
+  @media (max-width: 700px) {
+    .step-disc-grid { grid-template-columns: 1fr; }
+  }
 
 
 
@@ -676,27 +723,37 @@
 
     <!-- DISC Selector -->
     <div class="panel">
-      <div class="panel-header">Pick the Opening Line</div>
-      <div style="padding: 8px 12px 0; font-size:11px; color:var(--text-muted); line-height:1.4;">Which greeting sounds like what you're hearing? Click it to start the read.</div>
+      <div class="panel-header">Manual Override</div>
+      <div style="padding: 8px 12px 0; font-size:11px; color:var(--text-muted); line-height:1.4;">Jump straight to a type — bypasses adjacency, e.g. from prior account notes.</div>
       <div class="disc-selector">
-        <div class="disc-tile-grid" id="disc-tile-grid">
-          <button class="disc-tile d-tile active" onclick="selectDisc('D')" id="btn-D">
-            <span class="disc-tile-head"><span class="badge">D</span><span class="disc-tile-name">Dominant</span></span>
-            <span class="disc-tile-script" id="tile-script-D"></span>
-          </button>
-          <button class="disc-tile i-tile" onclick="selectDisc('I')" id="btn-I">
-            <span class="disc-tile-head"><span class="badge">I</span><span class="disc-tile-name">Influential</span></span>
-            <span class="disc-tile-script" id="tile-script-I"></span>
-          </button>
-          <button class="disc-tile s-tile" onclick="selectDisc('S')" id="btn-S">
-            <span class="disc-tile-head"><span class="badge">S</span><span class="disc-tile-name">Steady</span></span>
-            <span class="disc-tile-script" id="tile-script-S"></span>
-          </button>
-          <button class="disc-tile c-tile" onclick="selectDisc('C')" id="btn-C">
-            <span class="disc-tile-head"><span class="badge">C</span><span class="disc-tile-name">Conscientious</span></span>
-            <span class="disc-tile-script" id="tile-script-C"></span>
-          </button>
-        </div>
+        <button class="disc-btn d-btn active" onclick="selectDisc('D')" id="btn-D">
+          <span class="badge">D</span>
+          <span>
+            <div>Dominant</div>
+            <div class="disc-desc">Direct · Results-driven</div>
+          </span>
+        </button>
+        <button class="disc-btn i-btn" onclick="selectDisc('I')" id="btn-I">
+          <span class="badge">I</span>
+          <span>
+            <div>Influential</div>
+            <div class="disc-desc">Warm · Conversational</div>
+          </span>
+        </button>
+        <button class="disc-btn s-btn" onclick="selectDisc('S')" id="btn-S">
+          <span class="badge">S</span>
+          <span>
+            <div>Steady</div>
+            <div class="disc-desc">Patient · Supportive</div>
+          </span>
+        </button>
+        <button class="disc-btn c-btn" onclick="selectDisc('C')" id="btn-C">
+          <span class="badge">C</span>
+          <span>
+            <div>Conscientious</div>
+            <div class="disc-desc">Precise · Analytical</div>
+          </span>
+        </button>
       </div>
     </div>
 
@@ -1465,10 +1522,7 @@ function renderSteps() {
       </div>
       <div class="step-body" id="body-${step.id}">
         <div class="step-description ${isVideo ? 'video-desc' : ''}">${step.description}</div>
-        ${renderChooser(step)}
-        <div id="output-${step.id}">
-          ${currentDisc ? renderStepOutput(step) : `<div class="reclass-pending">Pick a read above to see this step's script.</div>`}
-        </div>
+        ${renderStepDiscArea(step)}
       </div>`;
 
     container.appendChild(card);
@@ -1478,83 +1532,78 @@ function renderSteps() {
 }
 
 // ─────────────────────────────────────────────
-//  RE-CLASSIFY CHOOSER — per-step "what are you hearing now?"
+//  PER-STEP 2x2 DISC GRID — pick the read for this step, advance to next
 // ─────────────────────────────────────────────
-function renderChooser(step) {
-  const stepId = step.id;
-  const label = stepLabel(step);
-  const otherEntries = breadcrumbLog.filter(e => e.label === label && e.kind === 'other');
-  const otherNoted = otherEntries.length > 0;
-  const lastNote = otherNoted ? otherEntries[otherEntries.length - 1].note : '';
+function renderStepDiscArea(step) {
+  const chosen = stepTypeLog[step.id] || null;
 
-  if (currentDisc === null) {
-    // No read picked yet anywhere — show all 4, no opposite-type restriction applies.
-    const boxes = ['D','I','S','C'].map(d =>
-      `<button class="reclass-option reclass-${d}" onclick="chooseType('${stepId}','${d}')">${d} · ${DISC_NAMES[d]}</button>`
-    ).join('');
+  const tiles = ['D','I','S','C'].map(d => {
+    const data = SCRIPTS[d] && SCRIPTS[d][step.id];
+    const preview = data ? escHtml(data.script) : '';
+    const sel = chosen === d ? ' selected' : '';
     return `
-      <div class="reclass-strip">
-        <span class="reclass-prompt">What are you hearing?</span>
-        ${boxes}
+      <button class="step-disc-tile ${d.toLowerCase()}-tile${sel}" onclick="pickStepType('${step.id}','${d}')">
+        <span class="step-disc-tile-head">
+          <span class="badge">${d}</span>
+          <span class="step-disc-tile-name">${DISC_NAMES[d]}</span>
+        </span>
+        <span class="step-disc-tile-script">${preview}</span>
+      </button>`;
+  }).join('');
+
+  let detail = '';
+  if (chosen) {
+    const data = SCRIPTS[chosen][step.id];
+    detail = `
+      <div class="script-output">
+        <div class="script-output-header">
+          <span class="disc-label ${chosen}">${chosen} — ${DISC_NAMES[chosen]}</span>
+          <button class="copy-btn" onclick="copyScript('${step.id}', this)">📋 Copy Script</button>
+        </div>
+        <div class="script-text" id="script-text-${step.id}">${escHtml(data.script)}</div>
+        ${data.coaching_note ? `<div class="coaching-note"><strong>💬 Delivery Note</strong>${escHtml(data.coaching_note)}</div>` : ''}
+        ${data.watch_for ? `<div class="watch-for"><strong>👂 Listen For</strong>${escHtml(data.watch_for)}</div>` : ''}
       </div>`;
   }
 
-  const adj = ADJACENCY[currentDisc];
-  const boxes = adj.map(d =>
-    `<button class="reclass-option reclass-${d}" onclick="chooseType('${stepId}','${d}')">${d} · ${DISC_NAMES[d]}</button>`
-  ).join('');
-
-  return `
-    <div class="reclass-strip">
-      <span class="reclass-prompt">What are you hearing now?</span>
-      <span class="reclass-current reclass-current-${currentDisc}">Currently: ${DISC_NAMES[currentDisc]}</span>
-      ${boxes}
-      <button class="reclass-other ${otherNoted ? 'noted' : ''}" title="${escHtml(lastNote)}" onclick="toggleOtherBox('${stepId}')">Other / not sure${otherNoted ? ' 📝' : ''}</button>
-    </div>
-    <div class="other-note-box" id="othernote-${stepId}" style="display:none">
-      <textarea id="otherinput-${stepId}" rows="2" placeholder="e.g. seems anxious about cost, doesn't fit cleanly">${escHtml(lastNote)}</textarea>
-      <button class="other-save-btn" onclick="saveOtherNote('${stepId}')">Save note</button>
-    </div>`;
+  return `<div class="step-disc-grid">${tiles}</div>${detail}`;
 }
 
-function chooseType(stepId, type) {
+function pickStepType(stepId, type) {
   const step = STEPS.find(s => s.id === stepId);
-  const isInitial = currentDisc === null;
-  currentDisc = type;
+  const isInitial = currentDisc === null && !stepTypeLog[stepId];
+  const changed = stepTypeLog[stepId] !== type;
+
   stepTypeLog[stepId] = type;
-  breadcrumbLog.push({ label: stepLabel(step), type, kind: isInitial ? 'initial' : 'shift' });
+  currentDisc = type;
+
   ['D','I','S','C'].forEach(d => {
-    document.getElementById(`btn-${d}`).classList.toggle('active', d === type);
+    const btn = document.getElementById(`btn-${d}`);
+    if (btn) btn.classList.toggle('active', d === type);
   });
-  persistState();
-  renderSteps();
-  updateProgress();
-  renderBreadcrumb();
-}
 
-function toggleOtherBox(stepId) {
-  const box = document.getElementById(`othernote-${stepId}`);
-  if (!box) return;
-  const opening = box.style.display === 'none';
-  box.style.display = opening ? 'block' : 'none';
-  if (opening) {
-    const input = document.getElementById(`otherinput-${stepId}`);
-    if (input) input.focus();
+  if (changed) {
+    breadcrumbLog.push({ label: stepLabel(step), type, kind: isInitial ? 'initial' : 'shift' });
   }
-}
 
-function saveOtherNote(stepId) {
-  const input = document.getElementById(`otherinput-${stepId}`);
-  if (!input) return;
-  const text = input.value.trim();
-  if (!text) return;
-  const step = STEPS.find(s => s.id === stepId);
-  stepTypeLog[stepId] = currentDisc; // "other" doesn't change the active type
-  breadcrumbLog.push({ label: stepLabel(step), type: currentDisc, kind: 'other', note: text });
+  // Flow to the next visible step in the call flow.
+  const idx = STEPS.findIndex(s => s.id === stepId);
+  let nextId = null;
+  for (let i = idx + 1; i < STEPS.length; i++) {
+    const s = STEPS[i];
+    if (currentFilter === 'all' || s.type === currentFilter) { nextId = s.id; break; }
+  }
+  if (nextId) openSteps.add(nextId);
+
   persistState();
   renderSteps();
   updateProgress();
   renderBreadcrumb();
+
+  if (nextId) {
+    const el = document.getElementById(`card-${nextId}`);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 }
 
 function renderBreadcrumb() {
@@ -1580,6 +1629,7 @@ function resetRead() {
   stepTypeLog = {};
   breadcrumbLog = [];
   openSteps.clear();
+  if (STEPS.length) openSteps.add(STEPS[0].id);
   ['D','I','S','C'].forEach(d => document.getElementById(`btn-${d}`).classList.remove('active'));
   persistState();
   renderSteps();
@@ -1587,21 +1637,6 @@ function resetRead() {
   renderBreadcrumb();
 }
 
-function renderStepOutput(step) {
-  const data = SCRIPTS[currentDisc] && SCRIPTS[currentDisc][step.id];
-  if (!data) return '';
-
-  return `
-    <div class="script-output">
-      <div class="script-output-header">
-        <span class="disc-label ${currentDisc}">${currentDisc} — ${DISC_NAMES[currentDisc]}</span>
-        <button class="copy-btn" onclick="copyScript('${step.id}', this)">📋 Copy Script</button>
-      </div>
-      <div class="script-text" id="script-text-${step.id}">${escHtml(data.script)}</div>
-      ${data.coaching_note ? `<div class="coaching-note"><strong>💬 Delivery Note</strong>${escHtml(data.coaching_note)}</div>` : ''}
-      ${data.watch_for ? `<div class="watch-for"><strong>👂 Listen For</strong>${escHtml(data.watch_for)}</div>` : ''}
-    </div>`;
-}
 
 function escHtml(str) {
   return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -1740,23 +1775,19 @@ function closePrint() {
 // ─────────────────────────────────────────────
 //  INIT
 // ─────────────────────────────────────────────
-function renderOverrideTiles() {
-  ['D','I','S','C'].forEach(d => {
-    const el = document.getElementById(`tile-script-${d}`);
-    if (el) el.textContent = SCRIPTS[d]['i-1'].script;
-  });
-}
-
 function init() {
   currentDisc = storeLoad('activeType', null);
   stepTypeLog = storeLoad('stepTypeLog', {});
   breadcrumbLog = storeLoad('breadcrumbLog', []);
 
-  renderOverrideTiles();
-
   ['D','I','S','C'].forEach(d => {
     document.getElementById(`btn-${d}`).classList.toggle('active', d === currentDisc);
   });
+
+  if (openSteps.size === 0 && STEPS.length) {
+    const firstUnanswered = STEPS.find(s => !stepTypeLog[s.id]);
+    openSteps.add(firstUnanswered ? firstUnanswered.id : STEPS[0].id);
+  }
 
   renderSteps();
   updateProgress();
