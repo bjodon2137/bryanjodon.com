@@ -71,7 +71,7 @@
   /* ── LAYOUT ── */
   .layout {
     display: grid;
-    grid-template-columns: 220px 1fr 240px;
+    grid-template-columns: 220px 1fr;
     gap: 16px;
     padding: 16px;
     max-width: 1600px;
@@ -208,6 +208,16 @@
   }
   @media (max-width: 700px) {
     .step-disc-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Step 0 — Reading the Room cards, now inline in main content */
+  .step0-disc-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  @media (max-width: 700px) {
+    .step0-disc-cards { grid-template-columns: 1fr; }
   }
 
 
@@ -445,8 +455,6 @@
   }
 
 
-  /* ── RIGHT SIDEBAR — DISC Quick Detect ── */
-  .sidebar-right { display: flex; flex-direction: column; gap: 12px; }
 
   .disc-card {
     border-radius: var(--radius);
@@ -733,42 +741,6 @@
   <!-- LEFT SIDEBAR -->
   <div class="sidebar-left">
 
-    <!-- DISC Selector -->
-    <div class="panel">
-      <div class="panel-header">Manual Override</div>
-      <div style="padding: 8px 12px 0; font-size:11px; color:var(--text-muted); line-height:1.4;">Jump straight to a type — bypasses adjacency, e.g. from prior account notes.</div>
-      <div class="disc-selector">
-        <button class="disc-btn d-btn active" onclick="selectDisc('D')" id="btn-D">
-          <span class="badge">D</span>
-          <span>
-            <div>Dominant</div>
-            <div class="disc-desc">Direct · Results-driven</div>
-          </span>
-        </button>
-        <button class="disc-btn i-btn" onclick="selectDisc('I')" id="btn-I">
-          <span class="badge">I</span>
-          <span>
-            <div>Influential</div>
-            <div class="disc-desc">Warm · Conversational</div>
-          </span>
-        </button>
-        <button class="disc-btn s-btn" onclick="selectDisc('S')" id="btn-S">
-          <span class="badge">S</span>
-          <span>
-            <div>Steady</div>
-            <div class="disc-desc">Patient · Supportive</div>
-          </span>
-        </button>
-        <button class="disc-btn c-btn" onclick="selectDisc('C')" id="btn-C">
-          <span class="badge">C</span>
-          <span>
-            <div>Conscientious</div>
-            <div class="disc-desc">Precise · Analytical</div>
-          </span>
-        </button>
-      </div>
-    </div>
-
     <!-- Read Path (breadcrumb) -->
     <div class="panel">
       <div class="panel-header">Read Path</div>
@@ -808,55 +780,6 @@
     <!-- Steps -->
     <div class="steps-list" id="steps-list">
       <!-- Populated by JS -->
-    </div>
-
-  </div>
-
-  <!-- RIGHT SIDEBAR — DISC Quick Detect -->
-  <div class="sidebar-right">
-    <div class="panel" style="overflow:visible;">
-      <div class="panel-header">Reading the Room</div>
-      <div style="padding: 8px 10px 10px; font-size:11px; color:var(--text-muted); line-height:1.5;">Listen for these in the first 30 seconds of the call.</div>
-    </div>
-
-    <div class="disc-card D">
-      <div class="disc-card-header"><span class="badge">D</span> Dominant — Red Flags</div>
-      <div class="disc-card-body">
-        <div class="disc-signal">"Just tell me what to do" or cuts you off mid-sentence</div>
-        <div class="disc-signal">Impatient with hold times; restates the problem forcefully</div>
-        <div class="disc-signal">Asks "how long is this going to take?" within the first 30 seconds</div>
-        <div class="disc-signal">Tone is clipped, no small talk, speaking fast</div>
-      </div>
-    </div>
-
-    <div class="disc-card I">
-      <div class="disc-card-header"><span class="badge">I</span> Influential — Gold Flags</div>
-      <div class="disc-card-body">
-        <div class="disc-signal">Jokes, laughs, or makes conversation before stating the issue</div>
-        <div class="disc-signal">Uses phrases like "I know you guys are busy" — empathetic opener</div>
-        <div class="disc-signal">Expresses frustration emotionally: "This is so annoying, honestly"</div>
-        <div class="disc-signal">Responsive to your name, uses yours back</div>
-      </div>
-    </div>
-
-    <div class="disc-card S">
-      <div class="disc-card-header"><span class="badge">S</span> Steady — Green Flags</div>
-      <div class="disc-card-body">
-        <div class="disc-signal">Apologizes for calling or says "I didn't want to bother anyone"</div>
-        <div class="disc-signal">Speaks quietly, hesitates before asking questions</div>
-        <div class="disc-signal">Asks "is this going to mess anything else up?" before acting</div>
-        <div class="disc-signal">Very compliant, follows steps exactly, confirms each one</div>
-      </div>
-    </div>
-
-    <div class="disc-card C">
-      <div class="disc-card-header"><span class="badge">C</span> Conscientious — Blue Flags</div>
-      <div class="disc-card-body">
-        <div class="disc-signal">Describes the problem with timestamps and detail: "It started Tuesday at 4pm"</div>
-        <div class="disc-signal">Asks "why" before doing anything: "Why would unplugging it help?"</div>
-        <div class="disc-signal">Has already tried things and reports results accurately</div>
-        <div class="disc-signal">Skeptical or corrects you if you use a term imprecisely</div>
-      </div>
     </div>
 
   </div>
@@ -1517,9 +1440,65 @@ function stepLabel(step) {
 // ─────────────────────────────────────────────
 //  RENDER
 // ─────────────────────────────────────────────
+function renderStep0() {
+  const card = document.createElement('div');
+  card.className = 'step-card' + (openSteps.has('step-0') ? ' open' : '');
+  card.id = 'card-step-0';
+  card.innerHTML = `
+    <div class="step-header" onclick="toggleCard('step-0')">
+      <span class="step-num" style="background:#6b7280;">0</span>
+      <span class="step-title">Reading the Room</span>
+      <span class="step-tag tag-both">Before You Start</span>
+      <span class="step-chevron">▼</span>
+    </div>
+    <div class="step-body" id="body-step-0">
+      <div class="step-description">Listen for these in the first 30 seconds of the call — they're your first read before Step 1.</div>
+      <div class="step0-disc-cards">
+        <div class="disc-card D">
+          <div class="disc-card-header"><span class="badge">D</span> Dominant — Red Flags</div>
+          <div class="disc-card-body">
+            <div class="disc-signal">"Just tell me what to do" or cuts you off mid-sentence</div>
+            <div class="disc-signal">Impatient with hold times; restates the problem forcefully</div>
+            <div class="disc-signal">Asks "how long is this going to take?" within the first 30 seconds</div>
+            <div class="disc-signal">Tone is clipped, no small talk, speaking fast</div>
+          </div>
+        </div>
+        <div class="disc-card I">
+          <div class="disc-card-header"><span class="badge">I</span> Influential — Gold Flags</div>
+          <div class="disc-card-body">
+            <div class="disc-signal">Jokes, laughs, or makes conversation before stating the issue</div>
+            <div class="disc-signal">Uses phrases like "I know you guys are busy" — empathetic opener</div>
+            <div class="disc-signal">Expresses frustration emotionally: "This is so annoying, honestly"</div>
+            <div class="disc-signal">Responsive to your name, uses yours back</div>
+          </div>
+        </div>
+        <div class="disc-card S">
+          <div class="disc-card-header"><span class="badge">S</span> Steady — Green Flags</div>
+          <div class="disc-card-body">
+            <div class="disc-signal">Apologizes for calling or says "I didn't want to bother anyone"</div>
+            <div class="disc-signal">Speaks quietly, hesitates before asking questions</div>
+            <div class="disc-signal">Asks "is this going to mess anything else up?" before acting</div>
+            <div class="disc-signal">Very compliant, follows steps exactly, confirms each one</div>
+          </div>
+        </div>
+        <div class="disc-card C">
+          <div class="disc-card-header"><span class="badge">C</span> Conscientious — Blue Flags</div>
+          <div class="disc-card-body">
+            <div class="disc-signal">Describes the problem with timestamps and detail: "It started Tuesday at 4pm"</div>
+            <div class="disc-signal">Asks "why" before doing anything: "Why would unplugging it help?"</div>
+            <div class="disc-signal">Has already tried things and reports results accurately</div>
+            <div class="disc-signal">Skeptical or corrects you if you use a term imprecisely</div>
+          </div>
+        </div>
+      </div>
+    </div>`;
+  return card;
+}
+
 function renderSteps() {
   const container = document.getElementById('steps-list');
   container.innerHTML = '';
+  container.appendChild(renderStep0());
 
   let visible = 0;
   STEPS.forEach(step => {
@@ -1660,8 +1639,8 @@ function resetRead() {
   breadcrumbLog = [];
   misreadStepId = null;
   openSteps.clear();
+  openSteps.add('step-0');
   if (STEPS.length) openSteps.add(STEPS[0].id);
-  ['D','I','S','C'].forEach(d => document.getElementById(`btn-${d}`).classList.remove('active'));
   persistState();
   renderSteps();
   updateProgress();
@@ -1686,21 +1665,8 @@ function updateProgress() {
 }
 
 // ─────────────────────────────────────────────
-//  MANUAL OVERRIDE + FILTER SELECTION
+//  FILTER SELECTION
 // ─────────────────────────────────────────────
-function selectDisc(disc) {
-  const isInitial = currentDisc === null;
-  currentDisc = disc;
-  ['D','I','S','C'].forEach(d => {
-    document.getElementById(`btn-${d}`).classList.toggle('active', d === disc);
-  });
-  breadcrumbLog.push({ label: 'Manual override', type: disc, kind: isInitial ? 'initial' : 'override' });
-  persistState();
-  renderSteps();
-  updateProgress();
-  renderBreadcrumb();
-}
-
 function filterService(type) {
   currentFilter = type;
   ['all','internet','video'].forEach(t => {
@@ -1811,11 +1777,8 @@ function init() {
   stepTypeLog = storeLoad('stepTypeLog', {});
   breadcrumbLog = storeLoad('breadcrumbLog', []);
 
-  ['D','I','S','C'].forEach(d => {
-    document.getElementById(`btn-${d}`).classList.toggle('active', d === currentDisc);
-  });
-
   if (openSteps.size === 0 && STEPS.length) {
+    openSteps.add('step-0');
     const firstUnanswered = STEPS.find(s => !stepTypeLog[s.id]);
     openSteps.add(firstUnanswered ? firstUnanswered.id : STEPS[0].id);
   }
