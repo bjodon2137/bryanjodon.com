@@ -45,7 +45,7 @@
       --surface:  #f4f3f1;
       --border:   #e5e3df;
       --text:     #18181b;
-      --muted:    #71717a;
+      --muted:    #65656d;
       --d:        #c0392b;
       --i:        #d97706;
       --s:        #16a34a;
@@ -316,6 +316,13 @@
       width: 13px;
       height: 13px;
       flex-shrink: 0;
+    }
+
+    .disc-download-cta {
+      display: flex;
+      justify-content: center;
+      margin: 1.75rem auto 0;
+      font-size: 0.85rem;
     }
 
     /* ── APPROACH SECTION ── */
@@ -593,7 +600,7 @@
       <li><a href="/articles/">Writing</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-    <button class="hamburger" id="hamburger-btn" onclick="toggleMobileNav(); this.classList.toggle('open')" aria-label="Toggle menu">
+    <button class="hamburger" id="hamburger-btn" onclick="toggleMobileNav(); this.classList.toggle('open')" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </nav>
@@ -665,10 +672,6 @@
             <span class="trait">Bold</span>
             <span class="trait">Competitive</span>
           </div>
-          <a class="disc-download" href="/pdfs/disc-communication-deep-dive.pdf" download>
-            <svg viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.5 1v8M3 7l3.5 3.5L10 7"/><path d="M1 11h11"/></svg>
-            Download the DiSC Deep Dive Guide
-          </a>
         </div>
 
         <!-- i -->
@@ -685,10 +688,6 @@
             <span class="trait">Energetic</span>
             <span class="trait">Social</span>
           </div>
-          <a class="disc-download" href="/pdfs/disc-communication-deep-dive.pdf" download>
-            <svg viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.5 1v8M3 7l3.5 3.5L10 7"/><path d="M1 11h11"/></svg>
-            Download the DiSC Deep Dive Guide
-          </a>
         </div>
 
         <!-- S -->
@@ -705,10 +704,6 @@
             <span class="trait">Loyal</span>
             <span class="trait">Patient</span>
           </div>
-          <a class="disc-download" href="/pdfs/disc-communication-deep-dive.pdf" download>
-            <svg viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.5 1v8M3 7l3.5 3.5L10 7"/><path d="M1 11h11"/></svg>
-            Download the DiSC Deep Dive Guide
-          </a>
         </div>
 
         <!-- C -->
@@ -725,13 +720,14 @@
             <span class="trait">Careful</span>
             <span class="trait">Systematic</span>
           </div>
-          <a class="disc-download" href="/pdfs/disc-communication-deep-dive.pdf" download>
-            <svg viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.5 1v8M3 7l3.5 3.5L10 7"/><path d="M1 11h11"/></svg>
-            Download the DiSC Deep Dive Guide
-          </a>
         </div>
 
       </div>
+
+      <a class="disc-download disc-download-cta" href="/pdfs/disc-communication-deep-dive.pdf" download>
+        <svg viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.5 1v8M3 7l3.5 3.5L10 7"/><path d="M1 11h11"/></svg>
+        Download the DiSC Deep Dive Guide
+      </a>
     </div>
   </section>
 
@@ -903,7 +899,9 @@
 
 <script>
   function toggleMobileNav() {
-    document.getElementById('mobile-menu').classList.toggle('open');
+    const menu = document.getElementById('mobile-menu');
+    const isOpen = menu.classList.toggle('open');
+    document.getElementById('hamburger-btn').setAttribute('aria-expanded', isOpen ? 'true' : 'false');
   }
 </script>
 </body>
