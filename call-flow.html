@@ -793,13 +793,22 @@
   </div>
 </div>
 
+<div class="confirm-overlay hidden" id="alert-overlay">
+  <div class="confirm-box" role="alertdialog" aria-modal="true" aria-labelledby="alert-message">
+    <p id="alert-message"></p>
+    <div class="confirm-actions">
+      <button class="confirm-ok" id="alert-ok-btn" onclick="closeAlert()">Got it</button>
+    </div>
+  </div>
+</div>
+
 <header>
   <h1>Cable & Internet Tech Support · Call Guide</h1>
   <span>Select a style — scripts adapt to each step</span>
   <a class="header-back" href="/">← bryanjodon.com</a>
 </header>
 
-<div class="layout">
+<main class="layout">
 
   <!-- LEFT SIDEBAR -->
   <div class="sidebar-left">
@@ -846,10 +855,10 @@
     </div>
 
   </div>
-</div>
+</main>
 
 <!-- PRINT OVERLAY -->
-<div id="print-overlay">
+<div id="print-overlay" role="dialog" aria-modal="true" aria-labelledby="print-title">
   <div class="print-container">
     <button class="print-close-btn" onclick="closePrint()">✕ Close</button>
     <div class="print-title" id="print-title">DISC Call Script</div>
@@ -1510,7 +1519,7 @@ function renderStep0() {
   card.innerHTML = `
     <div class="step-header" role="button" tabindex="0" onclick="toggleCard('step-0')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleCard('step-0')}">
       <span class="step-num" style="background:var(--text-muted);">0</span>
-      <span class="step-title">Reading the Room</span>
+      <h3 class="step-title">Reading the Room</h3>
       <span class="step-tag tag-both">Before You Start</span>
       <span class="step-chevron">▼</span>
     </div>
@@ -1580,7 +1589,7 @@ function renderSteps() {
     card.innerHTML = `
       <div class="step-header" role="button" tabindex="0" onclick="toggleCard('${step.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleCard('${step.id}')}">
         <span class="step-num ${isVideo ? 'video-num' : ''}">${isVideo ? 'V' : ''}${step.seq}</span>
-        <span class="step-title">${step.title}</span>
+        <h3 class="step-title">${step.title}</h3>
         <span class="step-tag ${tagClass}">${tagLabel}</span>
         <span class="step-chevron">▼</span>
       </div>
@@ -1696,17 +1705,46 @@ function renderBreadcrumb() {
 }
 
 let _confirmResolve = null;
+let _lastFocusedEl = null;
+
 function showConfirm(message) {
   return new Promise(resolve => {
     _confirmResolve = resolve;
+    _lastFocusedEl = document.activeElement;
     document.getElementById('confirm-message').textContent = message;
-    document.getElementById('confirm-overlay').classList.remove('hidden');
+    const overlay = document.getElementById('confirm-overlay');
+    overlay.classList.remove('hidden');
+    document.querySelector('#confirm-overlay .confirm-cancel').focus();
   });
 }
 function confirmResolve(result) {
   document.getElementById('confirm-overlay').classList.add('hidden');
+  if (_lastFocusedEl) { _lastFocusedEl.focus(); _lastFocusedEl = null; }
   if (_confirmResolve) { _confirmResolve(result); _confirmResolve = null; }
 }
+
+function showAlert(message) {
+  _lastFocusedEl = document.activeElement;
+  document.getElementById('alert-message').textContent = message;
+  const overlay = document.getElementById('alert-overlay');
+  overlay.classList.remove('hidden');
+  document.getElementById('alert-ok-btn').focus();
+}
+function closeAlert() {
+  document.getElementById('alert-overlay').classList.add('hidden');
+  if (_lastFocusedEl) { _lastFocusedEl.focus(); _lastFocusedEl = null; }
+}
+
+document.addEventListener('keydown', (e) => {
+  if (e.key !== 'Escape') return;
+  if (!document.getElementById('confirm-overlay').classList.contains('hidden')) {
+    confirmResolve(false);
+  } else if (!document.getElementById('alert-overlay').classList.contains('hidden')) {
+    closeAlert();
+  } else if (document.getElementById('print-overlay').classList.contains('visible')) {
+    closePrint();
+  }
+});
 
 async function resetRead() {
   const ok = await showConfirm('Start a new call? This clears your current read and path history — it can\'t be undone.');
@@ -1791,7 +1829,7 @@ function getStepType(step) {
 
 function openPrint() {
   if (!currentDisc) {
-    alert('Pick a read for at least one step before exporting.');
+    showAlert('Pick a read for at least one step before exporting.');
     return;
   }
 
@@ -1839,11 +1877,14 @@ function openPrint() {
   renderGroup('🌐 Internet Repair', iSteps, false);
   renderGroup('📺 Video / Cable TV Repair', vSteps, true);
 
+  _lastFocusedEl = document.activeElement;
   document.getElementById('print-overlay').classList.add('visible');
+  document.querySelector('.print-close-btn').focus();
 }
 
 function closePrint() {
   document.getElementById('print-overlay').classList.remove('visible');
+  if (_lastFocusedEl) { _lastFocusedEl.focus(); _lastFocusedEl = null; }
 }
 
 // ─────────────────────────────────────────────
