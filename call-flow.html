@@ -787,8 +787,8 @@
   <div class="confirm-box" role="alertdialog" aria-modal="true" aria-labelledby="confirm-message">
     <p id="confirm-message"></p>
     <div class="confirm-actions">
-      <button class="confirm-cancel" onclick="confirmResolve(false)">Cancel</button>
-      <button class="confirm-ok" onclick="confirmResolve(true)">Start New</button>
+      <button class="confirm-cancel" onclick="confirmResolve(false)">Keep this call</button>
+      <button class="confirm-ok" onclick="confirmResolve(true)">Start new call</button>
     </div>
   </div>
 </div>
@@ -1709,7 +1709,7 @@ function confirmResolve(result) {
 }
 
 async function resetRead() {
-  const ok = await showConfirm('Start a new call? This clears the current read and the path history.');
+  const ok = await showConfirm('Start a new call? This clears your current read and path history — it can\'t be undone.');
   if (!ok) return;
   currentDisc = null;
   stepTypeLog = {};
@@ -1830,7 +1830,7 @@ function openPrint() {
           ? `<div class="print-script">${escHtml(data.script)}</div>
              ${data.coaching_note ? `<div class="print-coaching"><strong>Delivery:</strong> ${escHtml(data.coaching_note)}</div>` : ''}
              ${data.watch_for ? `<div class="print-watch"><strong>Listen For:</strong> ${escHtml(data.watch_for)}</div>` : ''}`
-          : `<div class="print-empty">Script not available.</div>`
+          : `<div class="print-empty">No script — this step wasn't answered during the call.</div>`
         }`;
       body.appendChild(div);
     });
