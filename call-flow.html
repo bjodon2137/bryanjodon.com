@@ -1631,11 +1631,9 @@ function pickStepType(stepId, type) {
   renderSteps();
   updateProgress();
   renderBreadcrumb();
-
-  if (nextId) {
-    const el = document.getElementById(`card-${nextId}`);
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }
+  // No auto-scroll: the next step opens already-expanded below the current
+  // one, but navigation stays put so you can read coaching/watch_for while
+  // delivering the current line, then scroll down at your own pace.
 }
 
 function renderBreadcrumb() {
