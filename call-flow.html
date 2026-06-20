@@ -491,6 +491,149 @@
     margin-top: 4px;
   }
   .print-empty { font-size: 13px; color: var(--text-muted); font-style: italic; }
+  .print-disc-used {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: var(--text-muted);
+    margin-left: 8px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1px 7px;
+  }
+
+  /* ── RECLASSIFY CHOOSER (per-step) ── */
+  .reclass-strip {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    background: #f9fafb;
+    border: 1px dashed var(--border);
+    border-radius: 6px;
+  }
+  .reclass-prompt {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-right: 2px;
+  }
+  .reclass-current {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 9px;
+    border-radius: 10px;
+    cursor: default;
+  }
+  .reclass-current-D { background: var(--d-light); color: var(--d-color); border: 1px solid var(--d-color); }
+  .reclass-current-I { background: var(--i-light); color: var(--i-color); border: 1px solid var(--i-color); }
+  .reclass-current-S { background: var(--s-light); color: var(--s-color); border: 1px solid var(--s-color); }
+  .reclass-current-C { background: var(--c-light); color: var(--c-color); border: 1px solid var(--c-color); }
+  .reclass-option {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #fff;
+    transition: all 0.15s;
+  }
+  .reclass-option.reclass-D { border: 1px solid var(--d-color); color: var(--d-color); }
+  .reclass-option.reclass-D:hover { background: var(--d-light); }
+  .reclass-option.reclass-I { border: 1px solid var(--i-color); color: var(--i-color); }
+  .reclass-option.reclass-I:hover { background: var(--i-light); }
+  .reclass-option.reclass-S { border: 1px solid var(--s-color); color: var(--s-color); }
+  .reclass-option.reclass-S:hover { background: var(--s-light); }
+  .reclass-option.reclass-C { border: 1px solid var(--c-color); color: var(--c-color); }
+  .reclass-option.reclass-C:hover { background: var(--c-light); }
+  .reclass-other {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #f3f4f6;
+    color: var(--text-muted);
+    border: 1px solid #d1d5db;
+    transition: all 0.15s;
+  }
+  .reclass-other:hover { background: #e5e7eb; }
+  .reclass-other.noted { background: #e5e7eb; color: #374151; border-color: #9ca3af; }
+  .reclass-pending {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-style: italic;
+    padding: 8px 2px;
+  }
+  .other-note-box {
+    margin: -4px 0 10px;
+    padding: 8px 10px;
+    background: #f9fafb;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .other-note-box textarea {
+    width: 100%;
+    font-family: inherit;
+    font-size: 12px;
+    padding: 6px 8px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    resize: vertical;
+  }
+  .other-save-btn {
+    align-self: flex-end;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    background: var(--accent-light);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .other-save-btn:hover { background: var(--accent); color: #fff; }
+
+  /* ── READ PATH (breadcrumb) ── */
+  .reset-path-btn {
+    width: 100%;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 8px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    background: #fff;
+    color: var(--text-muted);
+    cursor: pointer;
+    margin-bottom: 8px;
+  }
+  .reset-path-btn:hover { border-color: var(--d-color); color: var(--d-color); background: var(--d-light); }
+  .breadcrumb-trail {
+    font-size: 11px;
+    color: var(--text-muted);
+    line-height: 1.6;
+    max-height: 220px;
+    overflow-y: auto;
+  }
+  .breadcrumb-row { padding: 3px 0; border-bottom: 1px solid #f3f4f6; }
+  .breadcrumb-row:last-child { border-bottom: none; }
+  .breadcrumb-row.breadcrumb-other { color: #4b5563; }
+  .bc-type {
+    font-weight: 800;
+    padding: 0 5px;
+    border-radius: 6px;
+  }
+  .bc-D { background: var(--d-light); color: var(--d-color); }
+  .bc-I { background: var(--i-light); color: var(--i-color); }
+  .bc-S { background: var(--s-light); color: var(--s-color); }
+  .bc-C { background: var(--c-light); color: var(--c-color); }
+  .bc-kind { font-size: 10px; color: #9ca3af; }
 
   @media print {
     #print-overlay { display: block !important; position: static; background: none; overflow: visible; }
@@ -515,7 +658,8 @@
 
     <!-- DISC Selector -->
     <div class="panel">
-      <div class="panel-header">Who's on the line?</div>
+      <div class="panel-header">Manual Override</div>
+      <div style="padding: 8px 12px 0; font-size:11px; color:var(--text-muted); line-height:1.4;">Jump straight to a type — bypasses adjacency, e.g. from prior account notes.</div>
       <div class="disc-selector">
         <button class="disc-btn d-btn active" onclick="selectDisc('D')" id="btn-D">
           <span class="badge">D</span>
@@ -548,6 +692,15 @@
       </div>
     </div>
 
+    <!-- Read Path (breadcrumb) -->
+    <div class="panel">
+      <div class="panel-header">Read Path</div>
+      <div style="padding: 10px 12px;">
+        <button class="reset-path-btn" onclick="resetRead()">↺ Reset / New Call</button>
+        <div class="breadcrumb-trail" id="breadcrumb-trail">No read selected yet.</div>
+      </div>
+    </div>
+
     <!-- Print -->
     <div class="panel">
       <div style="padding: 12px;">
@@ -557,7 +710,7 @@
 
     <!-- Ready indicator -->
     <div style="font-size:11px; padding:4px 2px; color: var(--text-muted); text-align:center;" id="progress-info">
-      All scripts ready
+      Pick a read to begin
     </div>
 
   </div>
@@ -1243,18 +1396,35 @@ const SCRIPTS = {
 // ─────────────────────────────────────────────
 //  STATE
 // ─────────────────────────────────────────────
-let currentDisc = 'D';
-let currentFilter = 'all';
+// Fixed DISC wheel adjacency — do not deviate. Opposite types are never
+// offered as a one-click option; that big a mismatch needs a manual reset.
+//   D(red) adj I,C · I(yellow) adj D,S · S(green) adj I,C · C(blue) adj D,S
+const ADJACENCY = { D: ['I','C'], I: ['D','S'], S: ['I','C'], C: ['D','S'] };
+const DISC_NAMES = {D: 'Dominant', I: 'Influential', S: 'Steady', C: 'Conscientious'};
 
-// Storage helpers — used only for persisting DISC selection across sessions
+let currentDisc = null;     // active read; null = no read picked yet (pre-step-1 state)
+let currentFilter = 'all';
+let stepTypeLog = {};       // stepId -> DISC type active when that step was last touched
+let breadcrumbLog = [];     // [{label, type, kind: 'initial'|'shift'|'override'|'other', note?}]
+let openSteps = new Set();  // stepIds currently expanded — preserved across re-renders
+
+// Storage helpers — persist the read, the path taken, and per-step state
 function storeSave(key, value) {
   try { localStorage.setItem(key, JSON.stringify(value)); } catch(e) {}
 }
 function storeLoad(key, fallback) {
   try {
     const raw = localStorage.getItem(key);
-    return raw ? JSON.parse(raw) : fallback;
+    return raw !== null ? JSON.parse(raw) : fallback;
   } catch(e) { return fallback; }
+}
+function persistState() {
+  storeSave('activeType', currentDisc);
+  storeSave('stepTypeLog', stepTypeLog);
+  storeSave('breadcrumbLog', breadcrumbLog);
+}
+function stepLabel(step) {
+  return (step.type === 'video' ? '📺 V' : '🌐 ') + step.seq;
 }
 
 // ─────────────────────────────────────────────
@@ -1276,6 +1446,8 @@ function renderSteps() {
     const tagLabel = step.type === 'both' ? 'Both' : (isVideo ? 'Video' : 'Internet');
     const tagClass = step.type === 'both' ? 'tag-both' : (isVideo ? 'tag-video' : 'tag-internet');
 
+    card.className += openSteps.has(step.id) ? ' open' : '';
+
     card.innerHTML = `
       <div class="step-header" onclick="toggleCard('${step.id}')">
         <span class="step-num ${isVideo ? 'video-num' : ''}">${isVideo ? 'V' : ''}${step.seq}</span>
@@ -1285,8 +1457,9 @@ function renderSteps() {
       </div>
       <div class="step-body" id="body-${step.id}">
         <div class="step-description ${isVideo ? 'video-desc' : ''}">${step.description}</div>
+        ${renderChooser(step)}
         <div id="output-${step.id}">
-          ${renderStepOutput(step)}
+          ${currentDisc ? renderStepOutput(step) : `<div class="reclass-pending">Pick a read above to see this step's script.</div>`}
         </div>
       </div>`;
 
@@ -1296,16 +1469,124 @@ function renderSteps() {
   document.getElementById('step-count').textContent = `${visible} steps`;
 }
 
+// ─────────────────────────────────────────────
+//  RE-CLASSIFY CHOOSER — per-step "what are you hearing now?"
+// ─────────────────────────────────────────────
+function renderChooser(step) {
+  const stepId = step.id;
+  const label = stepLabel(step);
+  const otherEntries = breadcrumbLog.filter(e => e.label === label && e.kind === 'other');
+  const otherNoted = otherEntries.length > 0;
+  const lastNote = otherNoted ? otherEntries[otherEntries.length - 1].note : '';
+
+  if (currentDisc === null) {
+    // No read picked yet anywhere — show all 4, no opposite-type restriction applies.
+    const boxes = ['D','I','S','C'].map(d =>
+      `<button class="reclass-option reclass-${d}" onclick="chooseType('${stepId}','${d}')">${d} · ${DISC_NAMES[d]}</button>`
+    ).join('');
+    return `
+      <div class="reclass-strip">
+        <span class="reclass-prompt">What are you hearing?</span>
+        ${boxes}
+      </div>`;
+  }
+
+  const adj = ADJACENCY[currentDisc];
+  const boxes = adj.map(d =>
+    `<button class="reclass-option reclass-${d}" onclick="chooseType('${stepId}','${d}')">${d} · ${DISC_NAMES[d]}</button>`
+  ).join('');
+
+  return `
+    <div class="reclass-strip">
+      <span class="reclass-prompt">What are you hearing now?</span>
+      <span class="reclass-current reclass-current-${currentDisc}">Currently: ${DISC_NAMES[currentDisc]}</span>
+      ${boxes}
+      <button class="reclass-other ${otherNoted ? 'noted' : ''}" title="${escHtml(lastNote)}" onclick="toggleOtherBox('${stepId}')">Other / not sure${otherNoted ? ' 📝' : ''}</button>
+    </div>
+    <div class="other-note-box" id="othernote-${stepId}" style="display:none">
+      <textarea id="otherinput-${stepId}" rows="2" placeholder="e.g. seems anxious about cost, doesn't fit cleanly">${escHtml(lastNote)}</textarea>
+      <button class="other-save-btn" onclick="saveOtherNote('${stepId}')">Save note</button>
+    </div>`;
+}
+
+function chooseType(stepId, type) {
+  const step = STEPS.find(s => s.id === stepId);
+  const isInitial = currentDisc === null;
+  currentDisc = type;
+  stepTypeLog[stepId] = type;
+  breadcrumbLog.push({ label: stepLabel(step), type, kind: isInitial ? 'initial' : 'shift' });
+  ['D','I','S','C'].forEach(d => {
+    document.getElementById(`btn-${d}`).classList.toggle('active', d === type);
+  });
+  persistState();
+  renderSteps();
+  updateProgress();
+  renderBreadcrumb();
+}
+
+function toggleOtherBox(stepId) {
+  const box = document.getElementById(`othernote-${stepId}`);
+  if (!box) return;
+  const opening = box.style.display === 'none';
+  box.style.display = opening ? 'block' : 'none';
+  if (opening) {
+    const input = document.getElementById(`otherinput-${stepId}`);
+    if (input) input.focus();
+  }
+}
+
+function saveOtherNote(stepId) {
+  const input = document.getElementById(`otherinput-${stepId}`);
+  if (!input) return;
+  const text = input.value.trim();
+  if (!text) return;
+  const step = STEPS.find(s => s.id === stepId);
+  stepTypeLog[stepId] = currentDisc; // "other" doesn't change the active type
+  breadcrumbLog.push({ label: stepLabel(step), type: currentDisc, kind: 'other', note: text });
+  persistState();
+  renderSteps();
+  updateProgress();
+  renderBreadcrumb();
+}
+
+function renderBreadcrumb() {
+  const el = document.getElementById('breadcrumb-trail');
+  if (!el) return;
+  if (!breadcrumbLog.length) {
+    el.innerHTML = 'No read selected yet.';
+    return;
+  }
+  el.innerHTML = breadcrumbLog.map(e => {
+    if (e.kind === 'other') {
+      return `<div class="breadcrumb-row breadcrumb-other">${e.label}: <span class="bc-type bc-${e.type}">${e.type}</span> <span class="bc-kind">other noted</span>${e.note ? ' — "' + escHtml(e.note) + '"' : ''}</div>`;
+    }
+    const verb = e.kind === 'initial' ? 'start' : (e.kind === 'override' ? 'override' : 'shift');
+    return `<div class="breadcrumb-row">${e.label}: <span class="bc-type bc-${e.type}">${e.type}</span> <span class="bc-kind">(${verb})</span></div>`;
+  }).join('');
+  el.scrollTop = el.scrollHeight;
+}
+
+function resetRead() {
+  if (!confirm('Start a new call? This clears the current read and the path history.')) return;
+  currentDisc = null;
+  stepTypeLog = {};
+  breadcrumbLog = [];
+  openSteps.clear();
+  ['D','I','S','C'].forEach(d => document.getElementById(`btn-${d}`).classList.remove('active'));
+  persistState();
+  renderSteps();
+  updateProgress();
+  renderBreadcrumb();
+}
+
 function renderStepOutput(step) {
   const data = SCRIPTS[currentDisc] && SCRIPTS[currentDisc][step.id];
   if (!data) return '';
 
-  const discNames = {D: 'Dominant', I: 'Influential', S: 'Steady', C: 'Conscientious'};
-
   return `
     <div class="script-output">
       <div class="script-output-header">
-        <span class="disc-label ${currentDisc}">${currentDisc} — ${discNames[currentDisc]}</span>
+        <span class="disc-label ${currentDisc}">${currentDisc} — ${DISC_NAMES[currentDisc]}</span>
         <button class="copy-btn" onclick="copyScript('${step.id}', this)">📋 Copy Script</button>
       </div>
       <div class="script-text" id="script-text-${step.id}">${escHtml(data.script)}</div>
@@ -1319,26 +1600,31 @@ function escHtml(str) {
 }
 
 function toggleCard(stepId) {
+  if (openSteps.has(stepId)) openSteps.delete(stepId); else openSteps.add(stepId);
   document.getElementById(`card-${stepId}`).classList.toggle('open');
 }
 
 function updateProgress() {
-  const discNames = {D: 'Dominant', I: 'Influential', S: 'Steady', C: 'Conscientious'};
-  document.getElementById('progress-info').textContent =
-    `All ${STEPS.length} scripts ready · ${discNames[currentDisc]}`;
+  const el = document.getElementById('progress-info');
+  el.textContent = currentDisc
+    ? `Current read: ${DISC_NAMES[currentDisc]} (${currentDisc}) · ${STEPS.length} steps`
+    : 'Pick a read to begin';
 }
 
 // ─────────────────────────────────────────────
-//  DISC + FILTER SELECTION
+//  MANUAL OVERRIDE + FILTER SELECTION
 // ─────────────────────────────────────────────
 function selectDisc(disc) {
+  const isInitial = currentDisc === null;
   currentDisc = disc;
   ['D','I','S','C'].forEach(d => {
     document.getElementById(`btn-${d}`).classList.toggle('active', d === disc);
   });
-  storeSave('lastDisc', disc);
+  breadcrumbLog.push({ label: 'Manual override', type: disc, kind: isInitial ? 'initial' : 'override' });
+  persistState();
   renderSteps();
   updateProgress();
+  renderBreadcrumb();
 }
 
 function filterService(type) {
@@ -1382,11 +1668,25 @@ function copyScript(stepId, btn) {
 // ─────────────────────────────────────────────
 //  PRINT / EXPORT
 // ─────────────────────────────────────────────
+function getStepType(step) {
+  return stepTypeLog[step.id] || currentDisc;
+}
+
 function openPrint() {
-  const discNames = {D: 'Dominant (D)', I: 'Influential (I)', S: 'Steady (S)', C: 'Conscientious (C)'};
-  document.getElementById('print-title').textContent = `DISC Call Script — ${discNames[currentDisc]}`;
-  document.getElementById('print-subtitle').textContent =
-    `${new Date().toLocaleDateString()} · ${currentFilter === 'all' ? 'Internet + Video steps' : currentFilter + ' steps only'}`;
+  if (!currentDisc) {
+    alert('Pick a read for at least one step before exporting.');
+    return;
+  }
+
+  document.getElementById('print-title').textContent = 'DISC Call Script — Adaptive Read';
+
+  const pathSummary = breadcrumbLog.length
+    ? breadcrumbLog.map(e => `${e.label}: ${e.type}${e.kind === 'other' ? ' (note)' : ''}`).join('  →  ')
+    : `Single read: ${DISC_NAMES[currentDisc]} (${currentDisc})`;
+
+  document.getElementById('print-subtitle').innerHTML =
+    `${new Date().toLocaleDateString()} · ${currentFilter === 'all' ? 'Internet + Video steps' : currentFilter + ' steps only'}` +
+    `<br><span style="font-size:11px;">Path taken: ${escHtml(pathSummary)}</span>`;
 
   const body = document.getElementById('print-body');
   body.innerHTML = '';
@@ -1403,11 +1703,12 @@ function openPrint() {
     body.appendChild(h);
 
     stepList.forEach(step => {
-      const data = SCRIPTS[currentDisc] && SCRIPTS[currentDisc][step.id];
+      const type = getStepType(step);
+      const data = type && SCRIPTS[type] && SCRIPTS[type][step.id];
       const div = document.createElement('div');
       div.className = 'print-step';
       div.innerHTML = `
-        <div class="print-step-title ${isVideo ? 'video-title' : ''}">${isVideo ? 'V' : ''}${step.seq}. ${step.title}</div>
+        <div class="print-step-title ${isVideo ? 'video-title' : ''}">${isVideo ? 'V' : ''}${step.seq}. ${step.title}${type ? `<span class="print-disc-used">${type} — ${DISC_NAMES[type]}</span>` : ''}</div>
         ${data
           ? `<div class="print-script">${escHtml(data.script)}</div>
              ${data.coaching_note ? `<div class="print-coaching"><strong>Delivery:</strong> ${escHtml(data.coaching_note)}</div>` : ''}
@@ -1432,7 +1733,9 @@ function closePrint() {
 //  INIT
 // ─────────────────────────────────────────────
 function init() {
-  currentDisc = storeLoad('lastDisc', 'D');
+  currentDisc = storeLoad('activeType', null);
+  stepTypeLog = storeLoad('stepTypeLog', {});
+  breadcrumbLog = storeLoad('breadcrumbLog', []);
 
   ['D','I','S','C'].forEach(d => {
     document.getElementById(`btn-${d}`).classList.toggle('active', d === currentDisc);
@@ -1440,6 +1743,7 @@ function init() {
 
   renderSteps();
   updateProgress();
+  renderBreadcrumb();
 }
 
 init();
