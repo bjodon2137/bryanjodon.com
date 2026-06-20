@@ -16,7 +16,7 @@
     --text-muted: #6b7280;
     --accent: #0052a5;
     --accent-light: #e8f0fb;
-    --d-color: #dc2626;
+    --d-color: #b91c1c;
     --d-light: #fef2f2;
     --i-color: #b45309;
     --i-light: #fffbeb;
@@ -30,8 +30,25 @@
     --coaching-border: #f59e0b;
     --watchfor-bg: #f0fdf4;
     --watchfor-border: #10b981;
+    --gray-50: #f9fafb;
+    --gray-100: #f3f4f6;
+    --gray-200: #e5e7eb;
+    --gray-400: #9ca3af;
+    --gray-600: #4b5563;
+    --gray-700: #374151;
+    --gray-800: #1f2937;
+    --video-color-dark: #6d28d9;
+    --coaching-text: #78350f;
+    --watchfor-text: #064e3b;
+    --radius-sm: 5px;
     --radius: 8px;
+    --radius-md: 10px;
+    --radius-lg: 12px;
+    --radius-pill: 20px;
     --shadow: 0 1px 3px rgba(0,0,0,0.10);
+    --shadow-md: 0 3px 8px rgba(0,0,0,0.12);
+    --shadow-lg: 0 8px 32px rgba(0,0,0,0.2);
+    --shadow-modal: 0 10px 30px rgba(0,0,0,0.3);
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -143,7 +160,7 @@
   .disc-btn.active.i-btn { border-color: var(--i-color); background: var(--i-light); }
   .disc-btn.active.s-btn { border-color: var(--s-color); background: var(--s-light); }
   .disc-btn.active.c-btn { border-color: var(--c-color); background: var(--c-light); }
-  .disc-btn:hover:not(.active) { border-color: #9ca3af; background: #f9fafb; }
+  .disc-btn:hover:not(.active) { border-color: var(--gray-400); background: var(--gray-50); }
 
   .disc-desc { font-size: 11px; color: var(--text-muted); line-height: 1.35; }
 
@@ -166,7 +183,7 @@
     text-align: left;
     transition: all 0.15s;
   }
-  .step-disc-tile:hover:not(.selected) { border-color: #9ca3af; background: #f9fafb; }
+  .step-disc-tile:hover:not(.selected) { border-color: var(--gray-400); background: var(--gray-50); }
   .step-disc-tile-head {
     display: flex;
     align-items: center;
@@ -200,7 +217,7 @@
   .step-disc-tile-script {
     font-size: 11px;
     line-height: 1.45;
-    color: #4b5563;
+    color: var(--gray-600);
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
@@ -266,13 +283,13 @@
   .toggle-btn.active-internet { border-color: var(--accent); background: var(--accent); color: #fff; }
   .toggle-btn.active-video { border-color: var(--video-color); background: var(--video-color); color: #fff; }
   .toggle-btn.active-all { border-color: var(--accent); background: var(--accent); color: #fff; }
-  .toggle-btn:not(.active-internet):not(.active-video):not(.active-all):hover { border-color: #9ca3af; background: #f9fafb; }
+  .toggle-btn:not(.active-internet):not(.active-video):not(.active-all):hover { border-color: var(--gray-400); background: var(--gray-50); }
   .toggle-sep { color: var(--border); font-size: 18px; }
   .step-count-badge {
     margin-left: auto;
     font-size: 11px;
     color: var(--text-muted);
-    background: #f3f4f6;
+    background: var(--gray-100);
     border-radius: 12px;
     padding: 3px 10px;
   }
@@ -288,7 +305,7 @@
     overflow: hidden;
     transition: box-shadow 0.15s;
   }
-  .step-card:hover { box-shadow: 0 3px 8px rgba(0,0,0,0.12); }
+  .step-card:hover { box-shadow: var(--shadow-md); }
   .step-card.hidden { display: none; }
 
   .step-header {
@@ -329,8 +346,8 @@
     text-transform: uppercase;
     letter-spacing: 0.4px;
   }
-  .tag-internet { background: #dbeafe; color: #1d4ed8; }
-  .tag-video { background: var(--video-light); color: #6d28d9; }
+  .tag-internet { background: #dbeafe; color: var(--c-color); }
+  .tag-video { background: var(--video-light); color: var(--video-color-dark); }
   .tag-both { background: #dcfce7; color: #15803d; }
 
   .step-chevron {
@@ -345,7 +362,7 @@
 
   .step-description {
     font-size: 13px;
-    color: #374151;
+    color: var(--gray-700);
     line-height: 1.6;
     margin-bottom: 12px;
     padding: 10px 12px;
@@ -395,7 +412,7 @@
     font-size: 13px;
     font-weight: 700;
     line-height: 1.65;
-    color: #1f2937;
+    color: var(--gray-800);
     background: #fff;
     border: 1px solid var(--border);
     border-radius: 6px;
@@ -410,7 +427,7 @@
     border-left: 4px solid var(--coaching-border);
     border-radius: 0 6px 6px 0;
     font-size: 12px;
-    color: #78350f;
+    color: var(--coaching-text);
     line-height: 1.5;
   }
   .coaching-note strong {
@@ -430,7 +447,7 @@
     border-left: 4px solid var(--watchfor-border);
     border-radius: 0 6px 6px 0;
     font-size: 12px;
-    color: #064e3b;
+    color: var(--watchfor-text);
     line-height: 1.5;
   }
   .watch-for strong {
@@ -447,7 +464,7 @@
     margin-bottom: 10px;
     padding: 9px 12px;
     background: #ede9fe;
-    border-left: 4px solid #7c3aed;
+    border-left: 4px solid var(--video-color);
     border-radius: 0 6px 6px 0;
     font-size: 12px;
     color: #4c1d95;
@@ -493,10 +510,10 @@
   .disc-card-body { padding: 10px 12px; background: #fff; }
   .disc-signal {
     font-size: 12px;
-    color: #374151;
+    color: var(--gray-700);
     line-height: 1.5;
     padding: 4px 0;
-    border-bottom: 1px solid #f3f4f6;
+    border-bottom: 1px solid var(--gray-100);
   }
   .disc-signal:last-child { border-bottom: none; }
   .disc-signal::before { content: "• "; color: var(--text-muted); }
@@ -517,7 +534,7 @@
     margin: 30px auto;
     padding: 36px 48px;
     border-radius: var(--radius);
-    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    box-shadow: var(--shadow-lg);
   }
   .print-close-btn {
     position: sticky;
@@ -557,12 +574,12 @@
     font-size: 13px;
     font-weight: 700;
     line-height: 1.7;
-    color: #1f2937;
+    color: var(--gray-800);
     margin-bottom: 6px;
   }
   .print-coaching {
     font-size: 11px;
-    color: #78350f;
+    color: var(--coaching-text);
     padding: 6px 10px;
     background: var(--coaching-bg);
     border-left: 3px solid var(--coaching-border);
@@ -570,7 +587,7 @@
   }
   .print-watch {
     font-size: 11px;
-    color: #064e3b;
+    color: var(--watchfor-text);
     padding: 6px 10px;
     background: var(--watchfor-bg);
     border-left: 3px solid var(--watchfor-border);
@@ -597,7 +614,7 @@
     gap: 6px;
     margin-bottom: 10px;
     padding: 8px 10px;
-    background: #f9fafb;
+    background: var(--gray-50);
     border: 1px dashed var(--border);
     border-radius: 6px;
   }
@@ -641,13 +658,13 @@
     padding: 3px 10px;
     border-radius: 10px;
     cursor: pointer;
-    background: #f3f4f6;
+    background: var(--gray-100);
     color: var(--text-muted);
-    border: 1px solid #d1d5db;
+    border: 1px solid var(--border);
     transition: all 0.15s;
   }
-  .reclass-other:hover { background: #e5e7eb; }
-  .reclass-other.noted { background: #e5e7eb; color: #374151; border-color: #9ca3af; }
+  .reclass-other:hover { background: var(--gray-200); }
+  .reclass-other.noted { background: var(--gray-200); color: var(--gray-700); border-color: var(--gray-400); }
   .reclass-pending {
     font-size: 12px;
     color: var(--text-muted);
@@ -657,7 +674,7 @@
   .other-note-box {
     margin: -4px 0 10px;
     padding: 8px 10px;
-    background: #f9fafb;
+    background: var(--gray-50);
     border: 1px solid var(--border);
     border-radius: 6px;
     display: flex;
@@ -707,9 +724,9 @@
     max-height: 220px;
     overflow-y: auto;
   }
-  .breadcrumb-row { padding: 3px 0; border-bottom: 1px solid #f3f4f6; }
+  .breadcrumb-row { padding: 3px 0; border-bottom: 1px solid var(--gray-100); }
   .breadcrumb-row:last-child { border-bottom: none; }
-  .breadcrumb-row.breadcrumb-other { color: #4b5563; }
+  .breadcrumb-row.breadcrumb-other { color: var(--gray-600); }
   .bc-type {
     font-weight: 800;
     padding: 0 5px;
@@ -719,7 +736,7 @@
   .bc-I { background: var(--i-light); color: var(--i-color); }
   .bc-S { background: var(--s-light); color: var(--s-color); }
   .bc-C { background: var(--c-light); color: var(--c-color); }
-  .bc-kind { font-size: 10px; color: #9ca3af; }
+  .bc-kind { font-size: 10px; color: var(--gray-400); }
 
   @media print {
     #print-overlay { display: block !important; position: static; background: none; overflow: visible; }
@@ -744,7 +761,7 @@
     padding: 20px 24px;
     max-width: 360px;
     width: 90%;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    box-shadow: var(--shadow-modal);
   }
   .confirm-box p {
     margin: 0 0 16px;
@@ -1492,7 +1509,7 @@ function renderStep0() {
   card.id = 'card-step-0';
   card.innerHTML = `
     <div class="step-header" role="button" tabindex="0" onclick="toggleCard('step-0')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleCard('step-0')}">
-      <span class="step-num" style="background:#6b7280;">0</span>
+      <span class="step-num" style="background:var(--text-muted);">0</span>
       <span class="step-title">Reading the Room</span>
       <span class="step-tag tag-both">Before You Start</span>
       <span class="step-chevron">▼</span>
@@ -1798,7 +1815,7 @@ function openPrint() {
   function renderGroup(title, stepList, isVideo) {
     if (!stepList.length) return;
     const h = document.createElement('h2');
-    h.style.cssText = `font-size:15px;font-weight:800;color:${isVideo ? '#6d28d9' : '#0052a5'};margin:20px 0 10px;padding-bottom:6px;border-bottom:2px solid ${isVideo ? '#7c3aed' : '#0052a5'}`;
+    h.style.cssText = `font-size:15px;font-weight:800;color:${isVideo ? 'var(--video-color-dark)' : 'var(--accent)'};margin:20px 0 10px;padding-bottom:6px;border-bottom:2px solid ${isVideo ? 'var(--video-color)' : 'var(--accent)'}`;
     h.textContent = title;
     body.appendChild(h);
 
