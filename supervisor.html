@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Supervisor Dashboard · Call Guide</title>
+<style>
+  :root {
+    --bg: #f3f2ef;
+    --panel: #ffffff;
+    --border: #d1d5db;
+    --text: #111827;
+    --text-muted: #6b7280;
+    --accent: #0052a5;
+    --accent-light: #e8f0fb;
+    --d-color: #b91c1c;
+    --d-light: #fef2f2;
+    --i-color: #b45309;
+    --i-light: #fffbeb;
+    --s-color: #047857;
+    --s-light: #ecfdf5;
+    --c-color: #1d4ed8;
+    --c-light: #eff6ff;
+    --gray-100: #f3f4f6;
+    --gray-400: #9ca3af;
+    --gray-600: #4b5563;
+    --radius: 8px;
+    --radius-md: 10px;
+    --shadow: 0 1px 3px rgba(0,0,0,0.10);
+    --shadow-md: 0 3px 8px rgba(0,0,0,0.12);
+    --shadow-modal: 0 10px 30px rgba(0,0,0,0.3);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  header {
+    background: var(--accent);
+    color: #fff;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+  header h1 { font-size: 17px; font-weight: 700; letter-spacing: 0.3px; }
+  header span { font-size: 12px; opacity: 0.8; }
+  .header-back {
+    font-size: 12px;
+    color: rgba(255,255,255,0.75);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .header-back:hover { color: #fff; }
+
+  main {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+  }
+
+  .notice {
+    background: var(--accent-light);
+    border: 1px solid var(--accent);
+    border-radius: var(--radius);
+    padding: 12px 16px;
+    font-size: 12.5px;
+    color: var(--text);
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .panel-header {
+    font-size: 13px;
+    font-weight: 700;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    background: var(--gray-100);
+  }
+  .panel-body { padding: 16px; }
+
+  .import-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .import-row input[type="file"] {
+    font-size: 12.5px;
+  }
+  .btn {
+    font-size: 12.5px;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: #fff;
+    color: var(--text);
+    cursor: pointer;
+  }
+  .btn:hover { border-color: var(--accent); color: var(--accent); }
+  .btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .btn-primary:hover { background: #003d80; color: #fff; }
+  .btn-danger { color: var(--d-color); }
+  .btn-danger:hover { border-color: var(--d-color); color: var(--d-color); background: var(--d-light); }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+  }
+  .stat-box {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px;
+    text-align: center;
+  }
+  .stat-num { font-size: 24px; font-weight: 800; }
+  .stat-label { font-size: 11px; color: var(--text-muted); margin-top: 4px; }
+
+  .bar-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .bar-label { width: 130px; font-size: 12.5px; font-weight: 600; flex-shrink: 0; }
+  .bar-track { flex: 1; height: 14px; background: var(--gray-100); border-radius: 7px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 7px; }
+  .bar-count { width: 70px; text-align: right; font-size: 12px; color: var(--text-muted); flex-shrink: 0; }
+
+  .bar-D { background: var(--d-color); }
+  .bar-I { background: var(--i-color); }
+  .bar-S { background: var(--s-color); }
+  .bar-C { background: var(--c-color); }
+  .bar-resolved { background: var(--s-color); }
+  .bar-escalated { background: var(--d-color); }
+
+  table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--gray-100); }
+  th { color: var(--text-muted); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.3px; }
+  tbody tr:hover { background: var(--gray-100); }
+  .tag-D { background: var(--d-light); color: var(--d-color); padding: 1px 6px; border-radius: 4px; font-weight: 700; }
+  .tag-I { background: var(--i-light); color: var(--i-color); padding: 1px 6px; border-radius: 4px; font-weight: 700; }
+  .tag-S { background: var(--s-light); color: var(--s-color); padding: 1px 6px; border-radius: 4px; font-weight: 700; }
+  .tag-C { background: var(--c-light); color: var(--c-color); padding: 1px 6px; border-radius: 4px; font-weight: 700; }
+  .tag-resolved { color: var(--s-color); font-weight: 700; }
+  .tag-escalated { color: var(--d-color); font-weight: 700; }
+
+  .empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--text-muted);
+    font-size: 13px;
+  }
+
+  .table-wrap { overflow-x: auto; }
+
+  .confirm-overlay {
+    position: fixed; inset: 0; background: rgba(17,24,39,0.5);
+    display: flex; align-items: center; justify-content: center; z-index: 1000;
+  }
+  .confirm-overlay.hidden { display: none; }
+  .confirm-box {
+    background: var(--panel); border-radius: 10px; padding: 20px 24px;
+    max-width: 360px; width: 90%; box-shadow: var(--shadow-modal);
+  }
+  .confirm-box p { margin: 0 0 16px; font-size: 14px; color: var(--text); line-height: 1.5; }
+  .confirm-actions { display: flex; gap: 10px; justify-content: flex-end; }
+  .confirm-actions button {
+    padding: 8px 16px; border-radius: 6px; border: 1px solid var(--border);
+    cursor: pointer; font-size: 13px; font-weight: 600;
+  }
+  .confirm-actions .confirm-cancel { background: #fff; color: var(--text); }
+  .confirm-actions .confirm-ok { background: var(--d-color); color: #fff; border-color: var(--d-color); }
+</style>
+</head>
+<body>
+
+<div class="confirm-overlay hidden" id="confirm-overlay">
+  <div class="confirm-box" role="alertdialog" aria-modal="true" aria-labelledby="confirm-message">
+    <p id="confirm-message"></p>
+    <div class="confirm-actions">
+      <button class="confirm-cancel" onclick="confirmResolve(false)">Cancel</button>
+      <button class="confirm-ok" onclick="confirmResolve(true)">Clear all data</button>
+    </div>
+  </div>
+</div>
+
+<header>
+  <h1>Supervisor Dashboard</h1>
+  <span>Aggregated call outcomes — imported from rep exports</span>
+  <a class="header-back" href="/call-flow.html">← Call Guide</a>
+</header>
+
+<main>
+
+  <div class="notice">
+    This dashboard has no login and isn't linked from the site — keep its URL private. Data lives only in this browser:
+    each rep exports their log from the Call Guide ("Export My Log") and you import the file(s) here. There's no shared
+    server, so re-import after clearing browser data, and merge files from all reps for a complete picture.
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">Import Rep Logs</div>
+    <div class="panel-body">
+      <div class="import-row">
+        <input type="file" id="file-input" accept="application/json" multiple onchange="handleFiles(this.files)">
+        <button class="btn btn-danger" onclick="clearAllData()">Clear All Data</button>
+        <button class="btn" onclick="exportAggregateCsv()">Export Aggregate as CSV</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="dashboard-content">
+    <!-- populated by JS -->
+  </div>
+
+</main>
+
+<script>
+let _confirmResolve = null;
+function showConfirm(message) {
+  return new Promise(resolve => {
+    _confirmResolve = resolve;
+    document.getElementById('confirm-message').textContent = message;
+    document.getElementById('confirm-overlay').classList.remove('hidden');
+  });
+}
+function confirmResolve(result) {
+  document.getElementById('confirm-overlay').classList.add('hidden');
+  if (_confirmResolve) { _confirmResolve(result); _confirmResolve = null; }
+}
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && !document.getElementById('confirm-overlay').classList.contains('hidden')) {
+    confirmResolve(false);
+  }
+});
+
+const DISC_NAMES = { D: 'Dominance', I: 'Influence', S: 'Steadiness', C: 'Conscientiousness' };
+
+function loadAggregate() {
+  try {
+    const raw = localStorage.getItem('supervisorAggregate');
+    return raw ? JSON.parse(raw) : [];
+  } catch(e) { return []; }
+}
+function saveAggregate(entries) {
+  try { localStorage.setItem('supervisorAggregate', JSON.stringify(entries)); } catch(e) {}
+}
+
+function handleFiles(fileList) {
+  const files = Array.from(fileList || []);
+  if (!files.length) return;
+  let pending = files.length;
+  const aggregate = loadAggregate();
+
+  files.forEach(file => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const data = JSON.parse(reader.result);
+        const rep = (data.rep || '(unnamed)').trim();
+        const entries = Array.isArray(data.entries) ? data.entries : [];
+        entries.forEach(e => {
+          aggregate.push({
+            ts: e.ts,
+            rep: e.rep || rep,
+            discType: e.discType || null,
+            filter: e.filter || 'all',
+            outcome: e.outcome || 'unknown',
+            note: e.note || ''
+          });
+        });
+      } catch(err) {
+        console.warn('Could not parse file', file.name, err);
+      }
+      pending--;
+      if (pending === 0) {
+        const seen = new Set();
+        const deduped = aggregate.filter(e => {
+          const key = e.ts + '|' + e.rep;
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        });
+        saveAggregate(deduped);
+        document.getElementById('file-input').value = '';
+        render();
+      }
+    };
+    reader.readAsText(file);
+  });
+}
+
+async function clearAllData() {
+  const ok = await showConfirm('Clear all imported supervisor data? This only affects this browser and can\'t be undone.');
+  if (!ok) return;
+  saveAggregate([]);
+  render();
+}
+
+function exportAggregateCsv() {
+  const data = loadAggregate();
+  if (!data.length) return;
+  const header = ['timestamp','rep','disc_type','service_filter','outcome','note'];
+  const rows = data.map(e => [
+    new Date(e.ts).toISOString(),
+    e.rep,
+    e.discType || '',
+    e.filter || '',
+    e.outcome || '',
+    (e.note || '').replace(/"/g,'""')
+  ].map(v => `"${String(v).replace(/"/g,'""')}"`).join(','));
+  const csv = [header.join(','), ...rows].join('\n');
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `supervisor-call-log_${new Date().toISOString().slice(0,10)}.csv`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function escHtml(str) {
+  return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function render() {
+  const data = loadAggregate();
+  const content = document.getElementById('dashboard-content');
+
+  if (!data.length) {
+    content.innerHTML = `
+      <div class="panel">
+        <div class="empty-state">
+          No data yet. Import a rep's exported call log above to see results here.
+        </div>
+      </div>`;
+    return;
+  }
+
+  const total = data.length;
+  const resolved = data.filter(e => e.outcome === 'resolved').length;
+  const escalated = data.filter(e => e.outcome === 'escalated').length;
+  const resolvedPct = total ? Math.round((resolved / total) * 100) : 0;
+  const escalatedPct = total ? Math.round((escalated / total) * 100) : 0;
+
+  const discCounts = { D: 0, I: 0, S: 0, C: 0 };
+  data.forEach(e => { if (discCounts.hasOwnProperty(e.discType)) discCounts[e.discType]++; });
+  const maxDisc = Math.max(1, ...Object.values(discCounts));
+
+  const repMap = {};
+  data.forEach(e => {
+    const rep = e.rep || '(unnamed)';
+    if (!repMap[rep]) repMap[rep] = { total: 0, resolved: 0, discCounts: { D:0, I:0, S:0, C:0 } };
+    repMap[rep].total++;
+    if (e.outcome === 'resolved') repMap[rep].resolved++;
+    if (repMap[rep].discCounts.hasOwnProperty(e.discType)) repMap[rep].discCounts[e.discType]++;
+  });
+
+  const repRows = Object.entries(repMap)
+    .sort((a,b) => b[1].total - a[1].total)
+    .map(([rep, stats]) => {
+      const topType = Object.entries(stats.discCounts).sort((a,b) => b[1]-a[1])[0];
+      const topLabel = topType && topType[1] > 0 ? `<span class="tag-${topType[0]}">${topType[0]}</span>` : '—';
+      const pct = stats.total ? Math.round((stats.resolved / stats.total) * 100) : 0;
+      return `<tr><td>${escHtml(rep)}</td><td>${stats.total}</td><td>${pct}%</td><td>${topLabel}</td></tr>`;
+    }).join('');
+
+  const recentRows = data.slice().sort((a,b) => b.ts - a.ts).slice(0, 100).map(e => `
+    <tr>
+      <td>${new Date(e.ts).toLocaleString()}</td>
+      <td>${escHtml(e.rep)}</td>
+      <td>${e.discType ? `<span class="tag-${e.discType}">${e.discType}</span>` : '—'}</td>
+      <td><span class="tag-${e.outcome}">${e.outcome === 'resolved' ? 'Resolved' : e.outcome === 'escalated' ? 'Escalated' : '—'}</span></td>
+      <td>${escHtml(e.note) || '<span style="color:var(--text-muted)">—</span>'}</td>
+    </tr>`).join('');
+
+  content.innerHTML = `
+    <div class="panel">
+      <div class="panel-header">Summary</div>
+      <div class="panel-body">
+        <div class="stat-grid">
+          <div class="stat-box"><div class="stat-num">${total}</div><div class="stat-label">Total Calls Logged</div></div>
+          <div class="stat-box"><div class="stat-num">${resolvedPct}%</div><div class="stat-label">Resolved</div></div>
+          <div class="stat-box"><div class="stat-num">${escalatedPct}%</div><div class="stat-label">Escalated</div></div>
+          <div class="stat-box"><div class="stat-num">${Object.keys(repMap).length}</div><div class="stat-label">Reps Reporting</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">Outcome Breakdown</div>
+      <div class="panel-body">
+        <div class="bar-row">
+          <div class="bar-label">Resolved</div>
+          <div class="bar-track"><div class="bar-fill bar-resolved" style="width:${resolvedPct}%"></div></div>
+          <div class="bar-count">${resolved} calls</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">Escalated</div>
+          <div class="bar-track"><div class="bar-fill bar-escalated" style="width:${escalatedPct}%"></div></div>
+          <div class="bar-count">${escalated} calls</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">DISC Type Distribution</div>
+      <div class="panel-body">
+        ${['D','I','S','C'].map(t => `
+          <div class="bar-row">
+            <div class="bar-label">${t} — ${DISC_NAMES[t]}</div>
+            <div class="bar-track"><div class="bar-fill bar-${t}" style="width:${(discCounts[t]/maxDisc)*100}%"></div></div>
+            <div class="bar-count">${discCounts[t]} calls</div>
+          </div>`).join('')}
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">By Rep</div>
+      <div class="panel-body table-wrap">
+        <table>
+          <thead><tr><th>Rep</th><th>Calls</th><th>Resolved %</th><th>Most-used Type</th></tr></thead>
+          <tbody>${repRows}</tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">Recent Entries (latest 100)</div>
+      <div class="panel-body table-wrap">
+        <table>
+          <thead><tr><th>Time</th><th>Rep</th><th>Type</th><th>Outcome</th><th>Note</th></tr></thead>
+          <tbody>${recentRows}</tbody>
+        </table>
+      </div>
+    </div>
+  `;
+}
+
+render();
+</script>
+</body>
+</html>
