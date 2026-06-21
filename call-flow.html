@@ -780,6 +780,59 @@
   }
   .confirm-actions .confirm-cancel { background: #fff; color: var(--text); }
   .confirm-actions .confirm-ok { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+  .log-box { max-width: 380px; }
+  .log-outcome-row { display: flex; gap: 8px; margin-bottom: 14px; }
+  .log-outcome-btn {
+    flex: 1;
+    padding: 10px 8px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .log-outcome-btn.selected.log-resolved { background: var(--s-light); border-color: var(--s-color); color: var(--s-color); }
+  .log-outcome-btn.selected.log-escalated { background: var(--d-light); border-color: var(--d-color); color: var(--d-color); }
+  .log-note-label { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); margin-bottom: 4px; }
+  .log-note-input {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 13px;
+    font-family: inherit;
+    resize: vertical;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+  }
+  .confirm-ok:disabled { opacity: 0.5; cursor: not-allowed; }
+  .call-log-panel-body { padding: 12px; }
+  .rep-name-row { margin-bottom: 10px; }
+  .rep-name-row label { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); margin-bottom: 4px; }
+  .rep-name-input {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 8px;
+    font-size: 12px;
+    font-family: inherit;
+    box-sizing: border-box;
+  }
+  .export-log-btn {
+    width: 100%;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 8px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    background: #fff;
+    color: var(--text-muted);
+    cursor: pointer;
+  }
+  .export-log-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .call-log-count { font-size: 11px; color: var(--text-muted); margin-top: 6px; text-align: center; }
 </style>
 </head>
 <body>
@@ -798,6 +851,22 @@
     <p id="alert-message"></p>
     <div class="confirm-actions">
       <button class="confirm-ok" id="alert-ok-btn" onclick="closeAlert()">Got it</button>
+    </div>
+  </div>
+</div>
+
+<div class="confirm-overlay hidden" id="log-overlay">
+  <div class="confirm-box log-box" role="dialog" aria-modal="true" aria-labelledby="log-title">
+    <p id="log-title" style="margin-bottom:10px;">How did that call go?</p>
+    <div class="log-outcome-row">
+      <button class="log-outcome-btn log-resolved" id="log-resolved-btn" onclick="setLogOutcome('resolved')">Resolved</button>
+      <button class="log-outcome-btn log-escalated" id="log-escalated-btn" onclick="setLogOutcome('escalated')">Escalated</button>
+    </div>
+    <label for="log-note" class="log-note-label">Note (optional)</label>
+    <textarea id="log-note" class="log-note-input" rows="2" placeholder="Anything worth flagging for your supervisor..."></textarea>
+    <div class="confirm-actions">
+      <button class="confirm-cancel" onclick="skipLog()">Skip</button>
+      <button class="confirm-ok" id="log-save-btn" onclick="saveLog()" disabled>Save &amp; continue</button>
     </div>
   </div>
 </div>
@@ -826,6 +895,19 @@
     <div class="panel">
       <div style="padding: 12px;">
         <button class="print-btn" onclick="openPrint()">Print / Export Script</button>
+      </div>
+    </div>
+
+    <!-- Call Log -->
+    <div class="panel">
+      <div class="panel-header">Call Log</div>
+      <div class="call-log-panel-body">
+        <div class="rep-name-row">
+          <label for="rep-name-input">Logging as (optional)</label>
+          <input type="text" id="rep-name-input" class="rep-name-input" placeholder="Your name" oninput="saveRepName()">
+        </div>
+        <button class="export-log-btn" onclick="exportMyLog()">Export My Log</button>
+        <div class="call-log-count" id="call-log-count">0 calls logged this session</div>
       </div>
     </div>
 
@@ -1735,10 +1817,107 @@ function closeAlert() {
   if (_lastFocusedEl) { _lastFocusedEl.focus(); _lastFocusedEl = null; }
 }
 
+// ─────────────────────────────────────────────
+//  CALL LOG (client-side, no backend — see supervisor.html)
+// ─────────────────────────────────────────────
+let _logResolve = null;
+let _logOutcome = null;
+
+function saveRepName() {
+  storeSave('repName', document.getElementById('rep-name-input').value);
+}
+
+function loadRepName() {
+  const name = storeLoad('repName', '');
+  const input = document.getElementById('rep-name-input');
+  if (input) input.value = name;
+}
+
+function showLog() {
+  return new Promise(resolve => {
+    _logResolve = resolve;
+    _logOutcome = null;
+    _lastFocusedEl = document.activeElement;
+    document.getElementById('log-note').value = '';
+    document.getElementById('log-resolved-btn').classList.remove('selected');
+    document.getElementById('log-escalated-btn').classList.remove('selected');
+    document.getElementById('log-save-btn').disabled = true;
+    const overlay = document.getElementById('log-overlay');
+    overlay.classList.remove('hidden');
+    document.getElementById('log-resolved-btn').focus();
+  });
+}
+
+function setLogOutcome(outcome) {
+  _logOutcome = outcome;
+  document.getElementById('log-resolved-btn').classList.toggle('selected', outcome === 'resolved');
+  document.getElementById('log-escalated-btn').classList.toggle('selected', outcome === 'escalated');
+  document.getElementById('log-save-btn').disabled = false;
+}
+
+function closeLogOverlay() {
+  document.getElementById('log-overlay').classList.add('hidden');
+  if (_lastFocusedEl) { _lastFocusedEl.focus(); _lastFocusedEl = null; }
+}
+
+function saveLog() {
+  if (!_logOutcome) return;
+  const note = document.getElementById('log-note').value.trim();
+  logCall(_logOutcome, note);
+  closeLogOverlay();
+  if (_logResolve) { _logResolve(true); _logResolve = null; }
+}
+
+function skipLog() {
+  closeLogOverlay();
+  if (_logResolve) { _logResolve(true); _logResolve = null; }
+}
+
+function logCall(outcome, note) {
+  const log = storeLoad('callLog', []);
+  log.push({
+    ts: Date.now(),
+    rep: storeLoad('repName', '').trim() || '(unnamed)',
+    discType: currentDisc,
+    filter: currentFilter,
+    outcome: outcome,
+    note: note || ''
+  });
+  storeSave('callLog', log);
+  updateCallLogCount();
+}
+
+function updateCallLogCount() {
+  const log = storeLoad('callLog', []);
+  const el = document.getElementById('call-log-count');
+  if (el) el.textContent = `${log.length} call${log.length === 1 ? '' : 's'} logged this session`;
+}
+
+function exportMyLog() {
+  const log = storeLoad('callLog', []);
+  if (!log.length) {
+    showAlert('No calls logged yet — nothing to export.');
+    return;
+  }
+  const payload = { exportedAt: new Date().toISOString(), rep: storeLoad('repName', '').trim() || '(unnamed)', entries: log };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  const datePart = new Date().toISOString().slice(0,10);
+  a.href = url;
+  a.download = `call-log_${(payload.rep || 'rep').replace(/[^a-z0-9]+/gi,'-')}_${datePart}.json`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
 document.addEventListener('keydown', (e) => {
   if (e.key !== 'Escape') return;
   if (!document.getElementById('confirm-overlay').classList.contains('hidden')) {
     confirmResolve(false);
+  } else if (!document.getElementById('log-overlay').classList.contains('hidden')) {
+    skipLog();
   } else if (!document.getElementById('alert-overlay').classList.contains('hidden')) {
     closeAlert();
   } else if (document.getElementById('print-overlay').classList.contains('visible')) {
@@ -1749,6 +1928,9 @@ document.addEventListener('keydown', (e) => {
 async function resetRead() {
   const ok = await showConfirm('Start a new call? This clears your current read and path history — it can\'t be undone.');
   if (!ok) return;
+  if (currentDisc) {
+    await showLog();
+  }
   currentDisc = null;
   stepTypeLog = {};
   breadcrumbLog = [];
@@ -1904,6 +2086,8 @@ function init() {
   renderSteps();
   updateProgress();
   renderBreadcrumb();
+  loadRepName();
+  updateCallLogCount();
 }
 
 init();
