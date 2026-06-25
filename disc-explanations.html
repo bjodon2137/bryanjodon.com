@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>20 Tech Issues, Explained 4 Ways — Bryan Jodon</title>
+  <meta name="description" content="How to explain twenty common cable and internet tech support issues to a customer — written four different ways, one for each DiSC communication style." />
+  <link rel="canonical" href="https://bryanjodon.com/disc-explanations.html" />
+  <meta property="og:title" content="20 Tech Issues, Explained 4 Ways — DiSC Style" />
+  <meta property="og:description" content="The same technical explanation, written for D, i, S, and C customers." />
+  <meta property="og:url" content="https://bryanjodon.com/disc-explanations.html" />
+  <meta property="og:type" content="article" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #fafaf9; --surface: #f4f3f1; --border: #e5e3df;
+      --text: #18181b; --muted: #71717a;
+      --d: #c0392b; --i: #d97706; --s: #16a34a; --c: #1d4ed8;
+      --d-light: #fef2f2; --i-light: #fffbeb; --s-light: #ecfdf5; --c-light: #eff6ff;
+      --serif: 'DM Serif Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --max: 760px; --pad: clamp(1.25rem, 5vw, 2.5rem);
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--sans); background: var(--bg); color: var(--text); line-height: 1.65; font-size: 1rem; -webkit-font-smoothing: antialiased; }
+
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(250,250,249,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); padding: 0 var(--pad); height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-brand { font-family: var(--serif); font-size: 1.1rem; color: var(--text); text-decoration: none; }
+    .nav-back { font-size: 0.825rem; color: var(--muted); text-decoration: none; display: flex; align-items: center; gap: 0.35rem; transition: color 0.15s; }
+    .nav-back:hover { color: var(--text); }
+
+    article { max-width: var(--max); margin: 0 auto; padding: clamp(3rem, 8vw, 5rem) var(--pad) clamp(4rem, 10vw, 7rem); }
+
+    .article-meta { margin-bottom: 2.5rem; }
+    .article-label { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 1rem; }
+    h1 { font-family: var(--serif); font-size: clamp(2rem, 5vw, 3rem); font-weight: 400; line-height: 1.15; margin-bottom: 1rem; letter-spacing: -0.01em; }
+    .article-intro { font-size: 1.1rem; color: var(--muted); line-height: 1.75; }
+
+    .article-body { margin-top: 3rem; }
+    .article-body p { font-size: 1rem; color: var(--muted); line-height: 1.85; margin-bottom: 1.5rem; }
+    .article-body p:last-child { margin-bottom: 0; }
+    h2 { font-family: var(--serif); font-size: 1.6rem; font-weight: 400; margin: 3rem 0 0.5rem; line-height: 1.25; }
+    .h2-sub { font-size: 0.875rem; color: var(--muted); margin-bottom: 1.5rem; }
+
+    .concept-block { margin: 2.25rem 0; padding-top: 1.5rem; border-top: 1px solid var(--border); }
+    .concept-block:first-of-type { border-top: none; padding-top: 0; }
+    .concept-num { font-size: 0.75rem; font-weight: 600; color: var(--muted); letter-spacing: 0.05em; }
+    .concept-title { font-size: 1.15rem; font-weight: 600; color: var(--text); margin: 0.2rem 0 1rem; }
+
+    .style-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+    @media (max-width: 640px) { .style-grid { grid-template-columns: 1fr; } }
+    .style-card { border: 1px solid var(--border); border-radius: 10px; padding: 1rem 1.1rem; }
+    .style-card-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+    .style-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+    .style-letter { font-family: var(--serif); font-size: 1rem; }
+    .style-name { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+    .style-card p { font-size: 0.875rem; color: var(--text); line-height: 1.6; margin-bottom: 0; }
+
+    .style-card.d { background: var(--d-light); }
+    .style-card.i { background: var(--i-light); }
+    .style-card.s { background: var(--s-light); }
+    .style-card.c { background: var(--c-light); }
+
+    .callout { background: var(--surface); border-left: 3px solid var(--border); padding: 1.25rem 1.5rem; margin: 2rem 0; border-radius: 0 8px 8px 0; }
+    .callout p { font-size: 0.95rem; color: var(--text); line-height: 1.7; margin-bottom: 0; font-style: italic; }
+
+    .article-cta { margin-top: 3.5rem; padding: 2rem; background: var(--text); border-radius: 10px; text-align: center; }
+    .article-cta p { font-size: 0.875rem; color: rgba(255,255,255,0.55); margin-bottom: 1.25rem; line-height: 1.65; }
+    .article-cta .cta-title { font-family: var(--serif); font-size: 1.35rem; color: #fff; margin-bottom: 0.5rem; }
+    .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.7rem 1.4rem; background: #fff; color: var(--text); text-decoration: none; font-size: 0.875rem; font-weight: 500; border-radius: 6px; transition: opacity 0.15s; margin: 0.25rem; }
+    .btn:hover { opacity: 0.85; }
+    .btn-ghost-light { background: transparent; color: rgba(255,255,255,0.7); border: 1px solid rgba(255,255,255,0.25); }
+    .btn-ghost-light:hover { color: #fff; border-color: rgba(255,255,255,0.6); opacity: 1; }
+
+    .divider { height: 1px; background: var(--border); margin: 2.5rem 0; }
+
+    footer { border-top: 1px solid var(--border); padding: 2rem var(--pad); }
+    .footer-inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .footer-name { font-family: var(--serif); font-size: 0.95rem; color: var(--muted); }
+    .footer-copy { font-size: 0.775rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="/">Bryan Jodon</a>
+  <a class="nav-back" href="/">
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 6H1M5 2L1 6l4 4"/></svg>
+    Home
+  </a>
+</nav>
+
+<article>
+  <div class="article-meta">
+    <p class="article-label">DiSC Communication · Reference</p>
+    <h1>20 tech issues, explained 4 ways.</h1>
+    <p class="article-intro">The facts of a tech support call never change — what changes is how you deliver them. Below are twenty common cable and internet issues, each explained once for every DiSC style: the same truth, four different deliveries.</p>
+  </div>
+
+  <div class="article-body">
+
+    <p>This is a companion piece to the <a href="/call-flow.html" style="color:var(--text);text-decoration:underline;">DiSC Call Flow Tool</a> — where that tool scripts what to say at each step of a call, this page focuses on a narrower skill: explaining a technical concept itself in a way that lands with a specific style of listener. A D-type doesn't want the mechanism, just the fix. A C-type wants the mechanism. Same fact, different shape.</p>
+
+    <h2>TV &amp; Video Issues</h2>
+    <p class="h2-sub">What's on the screen, and what it actually means.</p>
+
+    <div class="concept-block">
+      <p class="concept-num">01</p>
+      <p class="concept-title">No signal on screen</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>No signal means the TV isn't getting a feed from whatever it's pointed at. Check the input — power and cable connection. Fix that, fix the picture.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>No signal just means the TV's looking at an input that's not talking back right now — like calling a phone that's turned off. Let's check what's plugged in and get it talking again.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>No signal sounds alarming, but it's usually simple — it just means the TV isn't receiving anything from the source it's set to. We'll check the power and the cable together, no rush.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>A "no signal" message indicates the TV's selected input isn't receiving a valid video feed — typically caused by an unpowered source device, a disconnected cable, or an incorrect input selection. We'll isolate which by checking each in sequence.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">02</p>
+      <p class="concept-title">Pixelation or breakup</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Pixelation means the signal's weak or dropping data — usually a connection issue between the box and the wall, not the TV itself.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Picture looking like a jigsaw puzzle? That's pixelation — basically the signal's struggling to keep up, like a bad phone connection breaking up mid-sentence.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>Pixelation can be frustrating to watch, but it almost always points to a signal strength issue, not something wrong with your TV. We'll check the connections first.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Pixelation occurs when the decoder receives a video signal with degraded integrity — insufficient data arrives to render a full frame. Root causes include weak signal strength, damaged cabling, or excessive line splitting.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">03</p>
+      <p class="concept-title">Frozen picture</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Frozen picture means the box stopped processing the feed — reboot it, that clears most freezes.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>A frozen screen is like your box hit pause without telling you — a quick reboot usually gets it moving again.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>I know a frozen screen feels like something's broken, but it's usually just the box needing a fresh restart — totally fixable, and we'll do it together.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>A frozen frame indicates the receiver has stalled in processing the incoming stream, often due to a software hang or buffer overflow. A full power cycle clears the memory state and resolves most cases.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">04</p>
+      <p class="concept-title">Audio with no picture (or vice versa)</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Audio with no picture is usually an HDMI handshake issue — the cable's sending sound but not video. Reseat the HDMI.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Sound but no picture is a classic sign the HDMI cable and the TV aren't quite syncing up — like they're talking but not making eye contact. A reseat usually fixes it.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>That mismatch — hearing it but not seeing it — is more common than you'd think, and it's almost always a cable connection issue, not a bigger problem. Let's check the HDMI together.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Audio-without-video typically indicates a failed HDMI handshake, where the audio channel negotiates successfully but the video channel does not. Reseating the cable or trying an alternate port resolves this in most cases.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">05</p>
+      <p class="concept-title">On-screen error code</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>An error code tells us exactly what's wrong — read it to me and I'll know the fix in seconds.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Good news about an error code — it's actually the box telling us exactly what's going on, so read it to me and we'll knock it out fast.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>An error code can look scary, but it's actually helpful — it tells us precisely what's happening so we don't have to guess. Whenever you're ready, just read me exactly what's on screen.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>On-screen error codes map to specific fault categories — authorization, signal, or hardware. Read the exact code as displayed, including any letters and numbers, so we reference the correct resolution path.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">06</p>
+      <p class="concept-title">Blank cable box display</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Blank display usually means no power, not no signal. Check the outlet first.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>If the box's display is totally dark, that's usually a power thing, not a signal thing — let's make sure it's actually getting juice from the outlet.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>A blank display is one of the easier ones to check — it almost always just means the box isn't getting power. We'll start there, no pressure.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>A completely blank front-panel display indicates a power failure rather than a signal or authorization issue, distinct from a lit display simply not showing a channel. Verify the outlet and power cord before any signal-level troubleshooting.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">07</p>
+      <p class="concept-title">Wrong HDMI input selected</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>If the picture's wrong or missing, check the TV's set to the right HDMI input — that's the number one culprit.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Half the time when something looks off, the TV's just pointed at the wrong HDMI port — like dialing the wrong extension. Let's cycle through inputs and find the right one.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>This one's usually a quick fix — your TV might just be set to look at a different HDMI port than the one your box is plugged into. Let's check that together before anything else.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Confirm which physical HDMI port the set-top box is connected to, then verify the TV's input selection matches that exact port number — a common cause of perceived "no signal" issues.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">08</p>
+      <p class="concept-title">Channel guide not updating</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Guide not updating is a data refresh issue — a reboot or refresh signal usually fixes it.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>An outdated guide is annoying, but it's just the box needing fresh program data — a quick reboot or refresh from our end usually sorts it right out.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>A guide that's behind isn't a sign anything's broken — it just needs a data refresh, and we can take care of that without much trouble at all.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Guide data is delivered via a separate data stream from the video feed and can desync if the box missed a scheduled update. A reboot forces a full re-download; alternatively we can send a refresh signal remotely.</p></div>
+      </div>
+    </div>
+
+    <h2>Internet &amp; Connectivity</h2>
+    <p class="h2-sub">What's actually happening between the wall and the screen.</p>
+
+    <div class="concept-block">
+      <p class="concept-num">09</p>
+      <p class="concept-title">Modem light: blinking vs. solid</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Solid Online light means connected. Blinking or off means it's not — that's the light to watch.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Think of the Online light like a heartbeat — solid means it's steady and connected, blinking means it's still trying to find its rhythm.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>The Online light is the easiest way to check things at a glance — solid means you're connected, and if it's blinking or off, that just tells us where to look next. No need to worry yet.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>The Online indicator reflects the modem's registration state with the provider network. Solid illumination confirms successful registration; a slow blink indicates an attempt in progress; a rapid blink or unlit state indicates failure.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">10</p>
+      <p class="concept-title">Wi-Fi connected, but no internet</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Connected to Wi-Fi but nothing loads means the modem itself isn't online — that's a different fix than a Wi-Fi problem.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Showing connected but nothing loading is a sneaky one — your device and the router are talking just fine, the problem's actually further upstream. We'll check the modem next.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>It can feel confusing when it says "connected" but nothing works — that's actually really common, and it usually means the issue is with the modem's connection to us, not your Wi-Fi.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>A device reporting an active Wi-Fi connection without internet access indicates local-network success but a WAN-side failure — the router has connectivity to client devices but lacks a valid upstream connection. This isolates the issue to the modem or provider link.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">11</p>
+      <p class="concept-title">Slow speeds vs. no connection</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Slow is different from down. Slow means we check speed test results against your plan; down means we check the modem lights first.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Slow and "not working at all" are actually two different problems with two different fixes — so first things first, is anything loading at all, just slowly, or is nothing loading?</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>It helps to separate these two — a slow connection and no connection are different things with different causes, so let's figure out which one you're actually seeing before we go further.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Distinguishing degraded throughput from a complete outage is the first diagnostic branch point. A speed test quantifies throughput against the subscribed plan; complete failure instead points to registration or physical-layer issues.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">12</p>
+      <p class="concept-title">One device works, others don't</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>If one device works and others don't, it's not us — it's that device or its Wi-Fi connection. Isolate it.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>If your phone's fine but the laptop's not, that's actually good news — it means the internet itself is working, we just need to get that one device reconnected.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>When only one device is having trouble, that's actually a really good sign — it means your connection overall is fine, and we just need to focus on that one device.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Device-specific failure with otherwise normal network function indicates the issue is local to that device's adapter or saved Wi-Fi profile, not the modem, router, or provider connection. Isolate by forgetting and rejoining the network on the affected device.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">13</p>
+      <p class="concept-title">Intermittent drops</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Drops that come and go usually mean overheating or interference — not a full outage.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Connections that drop and come back are kind of like a flaky signal — usually it's heat or interference messing with things, not a total failure.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>I know intermittent issues are some of the most frustrating because they're unpredictable — but that pattern tells us something useful: it points to overheating or interference rather than something fully broken.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Intermittent disconnection, unlike a sustained outage, typically correlates with thermal throttling, RF interference, or a marginal signal level that periodically falls below threshold. Time-of-day and duration patterns help narrow the cause.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">14</p>
+      <p class="concept-title">Loose coax cable</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Loose coax is the single most common cause of signal loss — finger-tight both ends, every time.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>You'd be surprised how often a wiggly coax cable is the whole problem — just a quick finger-tighten at both ends can make a world of difference.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>This is one of the easiest things to check, and it's worth doing first — just make sure that round cable is snug at both ends. It's a really common fix.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>A loose coaxial connection introduces signal attenuation and impedance mismatch, both degrading signal-to-noise ratio. Connections should be finger-tight at both the wall outlet and the device — over-tightening with tools can damage the connector.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">15</p>
+      <p class="concept-title">Router vs. modem vs. gateway</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Modem connects to us. Router broadcasts your Wi-Fi. Gateway does both in one box.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Think of the modem as the door to the internet, and the router as the one spreading Wi-Fi around your house — a gateway is just both jobs in one box.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>These terms get mixed up a lot, so no worries if it's confusing — the modem connects you to us, the router creates your Wi-Fi, and a gateway is simply both combined.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>The modem terminates the provider's physical connection and translates it to Ethernet. The router manages local IP addressing and Wi-Fi broadcast. A gateway integrates both into a single unit.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">16</p>
+      <p class="concept-title">Area outage vs. in-home issue</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>If it's an outage, nothing we do at your end will fix it — that gets checked first, before any troubleshooting.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Before we touch anything at your place, let's just rule out whether this is a bigger issue on our end — no point troubleshooting your gear if it's actually us.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>The very first thing we check is whether there's a known issue in your area — that way we're not asking you to do a bunch of steps for something that isn't even on your end.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Area-wide outages are checked first via internal monitoring before any customer-side troubleshooting begins, since in-home steps cannot resolve an upstream network or infrastructure fault.</p></div>
+      </div>
+    </div>
+
+    <h2>Equipment &amp; Maintenance</h2>
+    <p class="h2-sub">Why the standard advice (wait, reboot, ventilate) actually works.</p>
+
+    <div class="concept-block">
+      <p class="concept-num">17</p>
+      <p class="concept-title">Why the power-cycle wait time matters</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>60 seconds unplugged, not 30 — rushing the reboot is why it doesn't fix anything.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>The full minute unplugged really does matter — think of it like giving the device enough time to fully forget what it was doing before it tries again.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>I know waiting can feel like it's dragging on, but giving it the full 60 seconds really does make a difference — it's worth the short wait to do it right.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Capacitors and onboard memory retain residual charge and cached state briefly after power loss. A full 60-second interval ensures complete discharge and state reset, which a shorter cycle does not reliably achieve.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">18</p>
+      <p class="concept-title">Firmware or equipment out of date</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Old firmware causes weird, random issues — a forced update usually clears them.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Sometimes the gear just needs a software refresh — like an app update on your phone, it can quietly fix a bunch of odd little glitches.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>Outdated firmware can cause some strange, hard-to-pin-down issues, but the fix is usually painless — we just push an update and let the device catch up.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Firmware governs core device behavior, and an outdated version can contain known bugs already resolved in later releases. We can check the current version against the latest available and push an update if behind.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">19</p>
+      <p class="concept-title">Equipment overheating or randomly resetting</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>If it keeps randomly rebooting, it's probably overheating — check ventilation, move it off carpet or out of a cabinet.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Random reboots are often just the equipment running a little warm — make sure it's got some breathing room, off the carpet and out of any closed cabinet.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>If your equipment keeps resetting on its own, that's frustrating, but it's usually just overheating — something as simple as more airflow around it can make a real difference.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Spontaneous reboots without user interaction are a common symptom of thermal protection triggering. Confirm adequate ventilation — equipment should not be enclosed in a cabinet, stacked, or placed on carpet, all of which restrict airflow.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">20</p>
+      <p class="concept-title">Remote control pairing issues</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Remote not responding is usually a pairing or battery issue — re-pair it or swap batteries, that's most of it.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>A remote acting up is almost always just a battery or pairing hiccup — an easy fix once we know which one it is.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>Remote issues are one of the simpler things to sort out — it's almost always just batteries or needing to re-pair, and we can walk through either one together.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Remote unresponsiveness generally traces to depleted batteries or a lost RF/Bluetooth pairing with the receiver. Confirm battery charge first, then initiate pairing if batteries test fine.</p></div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <p>None of these explanations change the facts on the call. They change whether the customer feels handled or feels heard — and that difference is the entire job.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="article-cta">
+      <p class="cta-title">Want this built into your call flow?</p>
+      <p>The DiSC Call Flow Tool scripts what to say at every step of a tech support call, adapted live to each customer's style.</p>
+      <a class="btn" href="/call-flow.html">Open the Call Flow Tool</a>
+      <a class="btn btn-ghost-light" href="mailto:bryan@bryanjodon.com?subject=Intro Call Request">Book a free intro call</a>
+    </div>
+
+  </div>
+</article>
+
+<footer>
+  <div class="footer-inner">
+    <span class="footer-name">Bryan Jodon</span>
+    <span class="footer-copy">&copy; 2026</span>
+  </div>
+</footer>
+
+</body>
+</html>
