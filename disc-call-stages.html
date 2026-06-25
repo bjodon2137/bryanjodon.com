@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DiSC Through Every Stage of a Support Call — Bryan Jodon</title>
+  <meta name="description" content="A stage-by-stage guide to adapting your communication style across a tech support call — from greeting through close — for each DiSC type, with do/don't language and short scenarios." />
+  <link rel="canonical" href="https://bryanjodon.com/disc-call-stages.html" />
+  <meta property="og:title" content="DiSC Through Every Stage of a Support Call" />
+  <meta property="og:description" content="What to adapt at each stage of a call — open, discovery, diagnosis, resolution, misread recovery, escalation, close — for D, i, S, and C." />
+  <meta property="og:url" content="https://bryanjodon.com/disc-call-stages.html" />
+  <meta property="og:type" content="article" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #fafaf9; --surface: #f4f3f1; --border: #e5e3df;
+      --text: #18181b; --muted: #71717a;
+      --d: #c0392b; --i: #d97706; --s: #16a34a; --c: #1d4ed8;
+      --d-light: #fef2f2; --i-light: #fffbeb; --s-light: #ecfdf5; --c-light: #eff6ff;
+      --serif: 'DM Serif Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --max: 760px; --pad: clamp(1.25rem, 5vw, 2.5rem);
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--sans); background: var(--bg); color: var(--text); line-height: 1.65; font-size: 1rem; -webkit-font-smoothing: antialiased; }
+
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(250,250,249,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); padding: 0 var(--pad); height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-brand { font-family: var(--serif); font-size: 1.1rem; color: var(--text); text-decoration: none; }
+    .nav-back { font-size: 0.825rem; color: var(--muted); text-decoration: none; display: flex; align-items: center; gap: 0.35rem; transition: color 0.15s; }
+    .nav-back:hover { color: var(--text); }
+
+    article { max-width: var(--max); margin: 0 auto; padding: clamp(3rem, 8vw, 5rem) var(--pad) clamp(4rem, 10vw, 7rem); }
+
+    .article-meta { margin-bottom: 2.5rem; }
+    .article-label { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 1rem; }
+    h1 { font-family: var(--serif); font-size: clamp(2rem, 5vw, 3rem); font-weight: 400; line-height: 1.15; margin-bottom: 1rem; letter-spacing: -0.01em; }
+    .article-intro { font-size: 1.1rem; color: var(--muted); line-height: 1.75; }
+
+    .article-body { margin-top: 3rem; }
+    .article-body p { font-size: 1rem; color: var(--muted); line-height: 1.85; margin-bottom: 1.5rem; }
+    .article-body p:last-child { margin-bottom: 0; }
+    h2 { font-family: var(--serif); font-size: 1.6rem; font-weight: 400; margin: 3rem 0 0.5rem; line-height: 1.25; }
+    .h2-sub { font-size: 0.875rem; color: var(--muted); margin-bottom: 1.5rem; }
+
+    .stage-toc { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.75rem 0 0; }
+    .stage-toc a { font-size: 0.8rem; color: var(--text); text-decoration: none; background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 0.4rem 0.85rem; transition: opacity 0.15s; }
+    .stage-toc a:hover { opacity: 0.7; }
+
+    .concept-block { margin: 2.5rem 0; padding-top: 1.75rem; border-top: 1px solid var(--border); }
+    .concept-block:first-of-type { border-top: none; padding-top: 0; }
+    .concept-num { font-size: 0.75rem; font-weight: 600; color: var(--muted); letter-spacing: 0.05em; }
+    .concept-title { font-size: 1.3rem; font-family: var(--serif); color: var(--text); margin: 0.2rem 0 0.5rem; }
+    .concept-desc { font-size: 0.925rem; color: var(--muted); line-height: 1.7; margin-bottom: 1.25rem; }
+
+    .style-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 1.25rem; }
+    @media (max-width: 640px) { .style-grid { grid-template-columns: 1fr; } }
+    .style-card { border: 1px solid var(--border); border-radius: 10px; padding: 1rem 1.1rem; }
+    .style-card-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+    .style-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+    .style-letter { font-family: var(--serif); font-size: 1rem; }
+    .style-name { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+    .style-card p { font-size: 0.85rem; color: var(--text); line-height: 1.6; margin-bottom: 0.5rem; }
+    .style-card p:last-child { margin-bottom: 0; }
+    .style-card .say { font-style: italic; }
+    .style-card .watch { font-size: 0.78rem; color: var(--muted); }
+    .style-card .watch strong { color: var(--text); font-weight: 500; }
+
+    .style-card.d { background: var(--d-light); }
+    .style-card.i { background: var(--i-light); }
+    .style-card.s { background: var(--s-light); }
+    .style-card.c { background: var(--c-light); }
+
+    .scenario { background: var(--surface); border-left: 3px solid var(--border); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; }
+    .scenario p { font-size: 0.875rem; color: var(--text); line-height: 1.7; margin-bottom: 0; }
+    .scenario .scenario-label { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 0.4rem; }
+
+    .callout { background: var(--surface); border-left: 3px solid var(--border); padding: 1.25rem 1.5rem; margin: 2rem 0; border-radius: 0 8px 8px 0; }
+    .callout p { font-size: 0.95rem; color: var(--text); line-height: 1.7; margin-bottom: 0; font-style: italic; }
+
+    .article-cta { margin-top: 3.5rem; padding: 2rem; background: var(--text); border-radius: 10px; text-align: center; }
+    .article-cta p { font-size: 0.875rem; color: rgba(255,255,255,0.55); margin-bottom: 1.25rem; line-height: 1.65; }
+    .article-cta .cta-title { font-family: var(--serif); font-size: 1.35rem; color: #fff; margin-bottom: 0.5rem; }
+    .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.7rem 1.4rem; background: #fff; color: var(--text); text-decoration: none; font-size: 0.875rem; font-weight: 500; border-radius: 6px; transition: opacity 0.15s; margin: 0.25rem; }
+    .btn:hover { opacity: 0.85; }
+    .btn-ghost-light { background: transparent; color: rgba(255,255,255,0.7); border: 1px solid rgba(255,255,255,0.25); }
+    .btn-ghost-light:hover { color: #fff; border-color: rgba(255,255,255,0.6); opacity: 1; }
+
+    .divider { height: 1px; background: var(--border); margin: 2.5rem 0; }
+
+    footer { border-top: 1px solid var(--border); padding: 2rem var(--pad); }
+    .footer-inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .footer-name { font-family: var(--serif); font-size: 0.95rem; color: var(--muted); }
+    .footer-copy { font-size: 0.775rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="/">Bryan Jodon</a>
+  <a class="nav-back" href="/">
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 6H1M5 2L1 6l4 4"/></svg>
+    Home
+  </a>
+</nav>
+
+<article>
+  <div class="article-meta">
+    <p class="article-label">DiSC Communication · Reference</p>
+    <h1>DiSC through every stage of a call.</h1>
+    <p class="article-intro">A tech support call isn't one conversation — it's several, stacked back to back. What works at the greeting can work against you at diagnosis. Here's what to adjust at each stage, for each style, including what to do when you read someone wrong.</p>
+  </div>
+
+  <div class="article-body">
+
+    <p>This maps directly onto the <a href="/call-flow.html" style="color:var(--text);text-decoration:underline;">DiSC Call Flow Tool</a> — its 23 steps (13 internet, 10 video) move through the same seven stages below, and its built-in misread-recovery banners use the exact language quoted in the Misread Recovery section. If you're using the tool live, this page is the "why" behind what it's already prompting you to say.</p>
+
+    <div class="stage-toc">
+      <a href="#open">1. Open</a>
+      <a href="#discovery">2. Discovery</a>
+      <a href="#diagnosis">3. Diagnosis</a>
+      <a href="#resolution">4. Resolution</a>
+      <a href="#misread">5. Misread Recovery</a>
+      <a href="#escalation">6. Escalation</a>
+      <a href="#close">7. Close</a>
+    </div>
+
+    <div class="concept-block" id="open">
+      <p class="concept-num">STAGE 1</p>
+      <p class="concept-title">Open &amp; Greeting</p>
+      <p class="concept-desc">The first 10 seconds set the pace for the whole call — but customers don't reveal their style by announcing it. This stage is about reading tone and pace from how they answer your first question, not deciding their style outright. In the tool, this lines up with the "Reading the Room" step before Step 1.</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p class="say">"Let's get this sorted — can I get your name and the address on the account?"</p><p class="watch"><strong>Watch for:</strong> short answers, no small talk, may interrupt your greeting script entirely.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p class="say">"Thanks for calling in — I'll get you sorted. First, who do I have the pleasure of helping today?"</p><p class="watch"><strong>Watch for:</strong> chatty, friendly, may answer the wrong question while telling a story.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p class="say">"Hi, thanks for your patience — I'm here to help. Can you start with your name and address?"</p><p class="watch"><strong>Watch for:</strong> softer, slower delivery, may apologize for calling or hesitate before answering.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p class="say">"Good afternoon. To pull up the right account, I'll need your name and service address."</p><p class="watch"><strong>Watch for:</strong> precise, may volunteer account numbers or specifics unprompted.</p></div>
+      </div>
+      <div class="scenario">
+        <span class="scenario-label">Quick scenario</span>
+        <p>Customer answers your greeting with "Yeah, hi, look, my internet's been down for an hour" before you've finished your line. That clipped, get-to-it tone is a D signal — drop the rest of the scripted greeting and move straight to gathering details.</p>
+      </div>
+    </div>
+
+    <div class="concept-block" id="discovery">
+      <p class="concept-num">STAGE 2</p>
+      <p class="concept-title">Discovery</p>
+      <p class="concept-desc">This is where the customer describes the problem in their own words — Step i-2 / v-1 in the tool ("Gather Issue Details"). The skill here isn't talking, it's listening differently depending on style: some customers need to be drawn out, others need to be reined in.</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p class="say">"Got it. Full outage, slow, or just one device?"</p><p class="watch"><strong>Watch for:</strong> getting talked over if you ask open-ended questions — narrow to multiple choice.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p class="say">"Oh no, that's frustrating! Tell me what's going on — when did you first notice it?"</p><p class="watch"><strong>Watch for:</strong> tangents — gently redirect with warmth, not a cutoff.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p class="say">"No rush at all — just walk me through what's been happening."</p><p class="watch"><strong>Watch for:</strong> minimizing their own problem ("it's probably nothing") — take it seriously anyway.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p class="say">"Can you give me specifics — error codes, light patterns, exact timing?"</p><p class="watch"><strong>Watch for:</strong> they may already have done their own diagnosis — ask what they've already tried.</p></div>
+      </div>
+      <div class="scenario">
+        <span class="scenario-label">Quick scenario</span>
+        <p>A customer says "I don't really know computers but the little light on the box thing is doing something weird, I think it's blinking?" That hedging, self-deprecating tone reads S — slow down, normalize not knowing terminology, and offer to describe what to look for rather than asking them to diagnose it themselves.</p>
+      </div>
+    </div>
+
+    <div class="concept-block" id="diagnosis">
+      <p class="concept-num">STAGE 3</p>
+      <p class="concept-title">Diagnosis</p>
+      <p class="concept-desc">Steps i-3 through i-6 / v-2 through v-7 in the tool — checking for area outages, identifying equipment, reading lights and displays. This stage involves the most back-and-forth, and the most opportunity for a customer to feel either rushed or condescended to.</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p class="say">"Checking now for an outage in your area — give me five seconds."</p><p class="watch"><strong>Watch for:</strong> impatience with silence — narrate briefly rather than going quiet.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p class="say">"Let's play detective for a second — I'm checking if this is a bigger thing on our end."</p><p class="watch"><strong>Watch for:</strong> keep energy up during dead air, or they may disengage.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p class="say">"I'm checking a couple things on my end — you haven't done anything wrong, this is just normal troubleshooting."</p><p class="watch"><strong>Watch for:</strong> they may apologize during dead air — reassure, don't just fill silence.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p class="say">"I'm cross-referencing your modem's signal levels against our outage map now."</p><p class="watch"><strong>Watch for:</strong> they may ask why a step matters — have the actual reason ready, not just "standard procedure."</p></div>
+      </div>
+      <div class="scenario">
+        <span class="scenario-label">Quick scenario</span>
+        <p>Customer asks "Why do you need to know what kind of modem I have? Can't you just see that?" That's not hostility — for a C, it's a request for the underlying logic. Explaining that equipment type changes which lights/steps apply (rather than just repeating the question) usually resolves it instantly.</p>
+      </div>
+    </div>
+
+    <div class="concept-block" id="resolution">
+      <p class="concept-num">STAGE 4</p>
+      <p class="concept-title">Resolution</p>
+      <p class="concept-desc">The reboot, the refresh signal, the test — steps i-7 through i-9 / v-5 through v-9. Customers are often asked to wait here (the 60-second power-cycle window is non-negotiable), and how that wait is framed matters as much as the fix itself.</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p class="say">"60 seconds, starting now. Don't plug it back in early — it won't fully reset if you do."</p><p class="watch"><strong>Watch for:</strong> the urge to rush the wait themselves — be direct about why the timing matters.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p class="say">"Alright, unplugged! While we wait the minute, how's your day going otherwise?"</p><p class="watch"><strong>Watch for:</strong> use the wait time for rapport, not silence — it keeps them engaged instead of restless.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p class="say">"Take your time unplugging it — I'll stay on the line the whole 60 seconds with you."</p><p class="watch"><strong>Watch for:</strong> don't disappear during the wait — staying present matters more than the content of what's said.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p class="say">"The full 60 seconds lets onboard memory fully discharge — a shorter wait won't reliably reset it."</p><p class="watch"><strong>Watch for:</strong> giving a vague "just trust me" — they'll comply faster once they know the mechanism.</p></div>
+      </div>
+      <div class="scenario">
+        <span class="scenario-label">Quick scenario</span>
+        <p>A customer says "I'll just unplug it for 10 seconds, that's basically the same thing, right?" Rather than repeating the instruction, briefly explain why it isn't the same — for most styles, the reason ("the modem needs the full minute to fully clear") gets more compliance than restating the rule.</p>
+      </div>
+    </div>
+
+    <div class="concept-block" id="misread">
+      <p class="concept-num">STAGE 5</p>
+      <p class="concept-title">Misread Recovery</p>
+      <p class="concept-desc">Sometimes the read was wrong — what looked like D was actually a stressed S, or a quiet C turns out to be an I who just hadn't warmed up yet. The call-flow tool has a built-in recovery banner for exactly this moment, triggered the instant you reclassify mid-call. The lines below are the tool's actual recovery language — use them verbatim or as a model.</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p class="say">"Got it — switching gears. I'll keep this quick and skip ahead to what matters."</p><p class="watch"><strong>Watch for:</strong> don't over-explain the switch — a D wants the new approach, not an apology for the old one.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p class="say">"Ah, gotcha — let's recalibrate. I'll walk through this with you a little differently."</p><p class="watch"><strong>Watch for:</strong> keep it light — treat the correction as normal conversation, not a stumble.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p class="say">"No problem at all — let's slow down and take this at whatever pace works for you."</p><p class="watch"><strong>Watch for:</strong> reassure explicitly that the misread isn't their fault or an inconvenience.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p class="say">"Understood — adjusting my approach. I'll be more precise about the next few steps."</p><p class="watch"><strong>Watch for:</strong> don't just apologize — naming the specific adjustment rebuilds credibility faster.</p></div>
+      </div>
+      <div class="scenario">
+        <span class="scenario-label">Quick scenario</span>
+        <p>You opened brisk and direct, assuming D, but three exchanges in the customer keeps asking "wait, can you back up — why does that happen?" That's a C signal you missed. Reclassify out loud using the C recovery line above, then start giving the mechanism behind each step rather than just the instruction.</p>
+      </div>
+    </div>
+
+    <div class="concept-block" id="escalation">
+      <p class="concept-num">STAGE 6</p>
+      <p class="concept-title">Escalation</p>
+      <p class="concept-desc">The tool's final step in each path is literally titled "Resolution or Escalation" — the moment you tell a customer the issue needs a technician, a different team, or more time than this call allows. This is the highest-stakes adaptation point: handled well, escalation builds trust; handled poorly, it reads as a brush-off regardless of style.</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p class="say">"This needs a technician on-site. I can get you booked for [day] — want the soonest slot?"</p><p class="watch"><strong>Watch for:</strong> don't hedge or apologize excessively — lead with the next concrete action.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p class="say">"I really wish I could fix this one over the phone, but I'm going to get our tech team out to take great care of you."</p><p class="watch"><strong>Watch for:</strong> don't let the warmth replace clarity on what happens next and when.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p class="say">"This is going to need a technician, but you've done everything right — let's get you scheduled."</p><p class="watch"><strong>Watch for:</strong> explicitly remove blame — S customers often worry escalation means they did something wrong.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p class="say">"Based on the signal levels we found, this requires a line technician — here's exactly what they'll check on-site."</p><p class="watch"><strong>Watch for:</strong> give the actual diagnostic reasoning for the escalation, not just the decision.</p></div>
+      </div>
+      <div class="scenario">
+        <span class="scenario-label">Quick scenario</span>
+        <p>Every troubleshooting step has been exhausted and the issue still isn't resolved. A D customer who's been clipped and efficient the whole call doesn't want sympathy here — they want the next available appointment slot stated plainly. Offering comfort instead of a date will read as stalling.</p>
+      </div>
+    </div>
+
+    <div class="concept-block" id="close">
+      <p class="concept-num">STAGE 7</p>
+      <p class="concept-title">Close</p>
+      <p class="concept-desc">The wrap-up — confirming the outcome, logging it, and ending the call. In the tool, this is where the call-outcome log (Resolved/Escalated + optional note) appears. The close is also where a rushed call can undo good work done earlier, or a slow one can finally lose a D customer's patience.</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p class="say">"You're all set — fixed and confirmed. Anything else before I let you go?"</p><p class="watch"><strong>Watch for:</strong> a long wrap-up script will undo the efficiency they valued the whole call.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p class="say">"Glad we got that sorted! It was great chatting with you — call back anytime if anything comes up."</p><p class="watch"><strong>Watch for:</strong> end warmly, not abruptly — a flat close can feel like a cold shoulder.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p class="say">"That should do it — and if anything comes back, you can call again and we'll pick right back up."</p><p class="watch"><strong>Watch for:</strong> confirm explicitly that calling back isn't a burden — reassurance matters even at the end.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p class="say">"To summarize: we identified [cause], resolved it via [fix], and confirmed signal levels are back to normal."</p><p class="watch"><strong>Watch for:</strong> skipping the summary will leave them feeling the call ended without real confirmation.</p></div>
+      </div>
+      <div class="scenario">
+        <span class="scenario-label">Quick scenario</span>
+        <p>The fix worked, but the customer goes quiet at the close instead of confirming. For an S, silence at the end often means lingering uncertainty, not satisfaction — a direct check-in ("just to confirm, is everything working on your end now?") gets a real answer instead of an assumed one.</p>
+      </div>
+    </div>
+
+    <div class="callout">
+      <p>The style doesn't change what's true about the problem. It changes whether the customer feels like the call was about them, or about the script.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="article-cta">
+      <p class="cta-title">See it built into a live tool</p>
+      <p>The DiSC Call Flow Tool walks through all 23 steps of an internet or video call with pre-written language for every style — plus the misread-recovery banner referenced above.</p>
+      <a class="btn" href="/call-flow.html">Open the Call Flow Tool</a>
+      <a class="btn btn-ghost-light" href="mailto:bryan@bryanjodon.com?subject=Intro Call Request">Book a free intro call</a>
+    </div>
+
+  </div>
+</article>
+
+<footer>
+  <div class="footer-inner">
+    <span class="footer-name">Bryan Jodon</span>
+    <span class="footer-copy">&copy; 2026</span>
+  </div>
+</footer>
+
+</body>
+</html>
