@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>20 Tech Support Analogies — Bryan Jodon</title>
+  <meta name="description" content="Twenty everyday analogies for explaining cable and internet technical concepts to customers — one version for each DiSC communication style." />
+  <link rel="canonical" href="https://bryanjodon.com/disc-analogies.html" />
+  <meta property="og:title" content="20 Tech Support Analogies — DiSC Style" />
+  <meta property="og:description" content="The same analogy, reshaped for D, i, S, and C listeners." />
+  <meta property="og:url" content="https://bryanjodon.com/disc-analogies.html" />
+  <meta property="og:type" content="article" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #fafaf9; --surface: #f4f3f1; --border: #e5e3df;
+      --text: #18181b; --muted: #71717a;
+      --d: #c0392b; --i: #d97706; --s: #16a34a; --c: #1d4ed8;
+      --d-light: #fef2f2; --i-light: #fffbeb; --s-light: #ecfdf5; --c-light: #eff6ff;
+      --serif: 'DM Serif Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --max: 760px; --pad: clamp(1.25rem, 5vw, 2.5rem);
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--sans); background: var(--bg); color: var(--text); line-height: 1.65; font-size: 1rem; -webkit-font-smoothing: antialiased; }
+
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(250,250,249,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); padding: 0 var(--pad); height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-brand { font-family: var(--serif); font-size: 1.1rem; color: var(--text); text-decoration: none; }
+    .nav-back { font-size: 0.825rem; color: var(--muted); text-decoration: none; display: flex; align-items: center; gap: 0.35rem; transition: color 0.15s; }
+    .nav-back:hover { color: var(--text); }
+
+    article { max-width: var(--max); margin: 0 auto; padding: clamp(3rem, 8vw, 5rem) var(--pad) clamp(4rem, 10vw, 7rem); }
+
+    .article-meta { margin-bottom: 2.5rem; }
+    .article-label { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 1rem; }
+    h1 { font-family: var(--serif); font-size: clamp(2rem, 5vw, 3rem); font-weight: 400; line-height: 1.15; margin-bottom: 1rem; letter-spacing: -0.01em; }
+    .article-intro { font-size: 1.1rem; color: var(--muted); line-height: 1.75; }
+
+    .article-body { margin-top: 3rem; }
+    .article-body p { font-size: 1rem; color: var(--muted); line-height: 1.85; margin-bottom: 1.5rem; }
+    .article-body p:last-child { margin-bottom: 0; }
+    h2 { font-family: var(--serif); font-size: 1.6rem; font-weight: 400; margin: 3rem 0 0.5rem; line-height: 1.25; }
+    .h2-sub { font-size: 0.875rem; color: var(--muted); margin-bottom: 1.5rem; }
+
+    .concept-block { margin: 2.25rem 0; padding-top: 1.5rem; border-top: 1px solid var(--border); }
+    .concept-block:first-of-type { border-top: none; padding-top: 0; }
+    .concept-num { font-size: 0.75rem; font-weight: 600; color: var(--muted); letter-spacing: 0.05em; }
+    .concept-title { font-size: 1.15rem; font-weight: 600; color: var(--text); margin: 0.2rem 0 1rem; }
+
+    .style-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+    @media (max-width: 640px) { .style-grid { grid-template-columns: 1fr; } }
+    .style-card { border: 1px solid var(--border); border-radius: 10px; padding: 1rem 1.1rem; }
+    .style-card-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+    .style-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+    .style-letter { font-family: var(--serif); font-size: 1rem; }
+    .style-name { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+    .style-card p { font-size: 0.875rem; color: var(--text); line-height: 1.6; margin-bottom: 0; }
+
+    .style-card.d { background: var(--d-light); }
+    .style-card.i { background: var(--i-light); }
+    .style-card.s { background: var(--s-light); }
+    .style-card.c { background: var(--c-light); }
+
+    .callout { background: var(--surface); border-left: 3px solid var(--border); padding: 1.25rem 1.5rem; margin: 2rem 0; border-radius: 0 8px 8px 0; }
+    .callout p { font-size: 0.95rem; color: var(--text); line-height: 1.7; margin-bottom: 0; font-style: italic; }
+
+    .article-cta { margin-top: 3.5rem; padding: 2rem; background: var(--text); border-radius: 10px; text-align: center; }
+    .article-cta p { font-size: 0.875rem; color: rgba(255,255,255,0.55); margin-bottom: 1.25rem; line-height: 1.65; }
+    .article-cta .cta-title { font-family: var(--serif); font-size: 1.35rem; color: #fff; margin-bottom: 0.5rem; }
+    .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.7rem 1.4rem; background: #fff; color: var(--text); text-decoration: none; font-size: 0.875rem; font-weight: 500; border-radius: 6px; transition: opacity 0.15s; margin: 0.25rem; }
+    .btn:hover { opacity: 0.85; }
+    .btn-ghost-light { background: transparent; color: rgba(255,255,255,0.7); border: 1px solid rgba(255,255,255,0.25); }
+    .btn-ghost-light:hover { color: #fff; border-color: rgba(255,255,255,0.6); opacity: 1; }
+
+    .divider { height: 1px; background: var(--border); margin: 2.5rem 0; }
+
+    footer { border-top: 1px solid var(--border); padding: 2rem var(--pad); }
+    .footer-inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .footer-name { font-family: var(--serif); font-size: 0.95rem; color: var(--muted); }
+    .footer-copy { font-size: 0.775rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="/">Bryan Jodon</a>
+  <a class="nav-back" href="/">
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 6H1M5 2L1 6l4 4"/></svg>
+    Home
+  </a>
+</nav>
+
+<article>
+  <div class="article-meta">
+    <p class="article-label">DiSC Communication · Reference</p>
+    <h1>20 tech support analogies, in 4 styles.</h1>
+    <p class="article-intro">A good analogy does the explaining for you — but the right analogy depends on who's listening. Here are twenty everyday comparisons for common tech concepts, each reshaped for D, i, S, and C.</p>
+  </div>
+
+  <div class="article-body">
+
+    <p>This is a companion to <a href="/disc-explanations.html" style="color:var(--text);text-decoration:underline;">20 Tech Issues, Explained 4 Ways</a> — where that page explains the mechanism, this page leans entirely on comparison. Analogies make abstract infrastructure feel familiar, but the comparison that clicks for one style can feel like clutter to another. A D-type wants the analogy in one line; a C-type wants it to actually hold up under scrutiny.</p>
+
+    <h2>Connections &amp; Infrastructure</h2>
+    <p class="h2-sub">Modems, routers, signal, and what's really moving through the wall.</p>
+
+    <div class="concept-block">
+      <p class="concept-num">01</p>
+      <p class="concept-title">Modem &amp; router, as a building</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Modem's the front door. Router's the hallways inside. Door's locked, nothing inside matters.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Picture an apartment building — the modem's the front door letting the internet in, and the router's the hallways handing it out to every room.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>It might help to think of it like a building — the modem is the front door where the internet first arrives, and the router is what shares it through the hallways to every room. Knowing which one's having trouble helps us know where to look.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>If it helps the mental model: the modem functions as the building's main entrance, terminating the external connection, while the router functions as the internal hallway system, distributing that connection by IP address to each room/device.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">02</p>
+      <p class="concept-title">Bandwidth, as a highway</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Bandwidth's lane count, not speed limit. More devices, more lanes needed.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Think of bandwidth like lanes on a highway — your plan sets how many lanes you've got, and the more devices streaming at once, the more lanes get used up.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>It can help to think of bandwidth like a highway with a certain number of lanes — when a lot of devices are active at once, things naturally slow down, and that's not anything wrong on your end.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Bandwidth is analogous to total highway capacity — a fixed number of lanes, not a speed limit. Concurrent device usage divides that fixed capacity, which is why aggregate throughput drops as simultaneous demand rises.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">03</p>
+      <p class="concept-title">Signal strength, as a radio station</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Weak signal is like a fading radio station — more static the further or more blocked you are.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>It's a lot like driving away from a radio station — the signal gets weaker and staticky the farther you go or the more walls it has to push through.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>Think of it like a car radio losing a station as you drive further away — the signal naturally weakens with distance and walls in between, and that's a really normal thing to run into.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Signal attenuation behaves like AM/FM radio reception — signal strength decreases with distance and is further degraded by physical obstructions (walls, floors, large appliances) that absorb or reflect the RF signal.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">04</p>
+      <p class="concept-title">Latency vs. speed, as a mail truck</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Speed is truck size, latency is how long the trip takes. Big truck, slow road — still feels laggy.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Speed is how big the delivery truck is, latency's how long the drive takes — you can have a huge truck and still feel slow if the drive itself takes forever, which is what happens in games or video calls.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>One way to think about it — speed is like the size of a delivery truck, and latency is how long the actual drive takes. You can have a fast plan and still notice lag on calls or games, and that's just a different thing we'd look at.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Throughput (speed) measures data volume per unit time, analogous to truck capacity; latency measures round-trip delay, analogous to transit time. High throughput with high latency still produces perceptible lag in real-time applications like calls or gaming.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">05</p>
+      <p class="concept-title">Wi-Fi vs. Ethernet, as a radio vs. a phone line</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Wi-Fi's a radio broadcast, Ethernet's a direct line. Direct line's always more reliable.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Wi-Fi's basically a radio broadcast floating through the air, while Ethernet's like a direct phone line — no static possible, because there's nothing in between to interrupt it.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>It can help to picture Wi-Fi like a radio signal traveling through the air, while a wired connection is more like a direct phone line — nothing in between to interrupt it. Neither one is wrong, just different trade-offs.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Wi-Fi transmits over shared RF spectrum, subject to interference and contention from other devices/networks. A wired Ethernet connection is a dedicated physical medium, eliminating RF interference and typically yielding lower latency and more consistent throughput.</p></div>
+      </div>
+    </div>
+
+    <h2>Performance &amp; Behavior</h2>
+    <p class="h2-sub">Why things slow down, freeze, or act unpredictably.</p>
+
+    <div class="concept-block">
+      <p class="concept-num">06</p>
+      <p class="concept-title">Buffering, as a kitchen running out ahead of orders</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Buffering means the data's arriving slower than you're watching it. Speed problem, not device problem.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Buffering's like a kitchen falling behind on orders — the food's coming, just not as fast as it's being eaten, so things pause to catch up.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>You can think of buffering like a kitchen that's a little behind on orders — the food's still coming, it's just arriving a touch slower than it's being served. It's annoying, but it tells us exactly what to check.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Buffering occurs when the playback buffer's data consumption rate exceeds its replenishment rate — i.e., available throughput falls below the stream's required bitrate. The player pauses to allow the buffer to refill before resuming.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">07</p>
+      <p class="concept-title">IP address, as a street address</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>IP address is your device's mailing address. Wrong address, mail goes nowhere.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>An IP address is basically your device's mailing address online — if it's wrong or expired, things get sent and just never arrive.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>Think of an IP address like your device's mailing address on the internet — every so often that address needs to refresh, and when it doesn't, things just can't find their way back to you. We can fix that pretty easily.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>An IP address functions as a network-layer destination identifier, analogous to a postal address. DHCP leases expire and renew periodically; a failed renewal or address conflict can result in unreachable or misrouted traffic until a fresh lease is obtained.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">08</p>
+      <p class="concept-title">DNS, as a phone book</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>DNS is the phone book that turns a website name into an address. Broken phone book, sites won't load even if internet's fine.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>DNS is like a phone book that translates a website's name into its actual address — if that lookup's having a bad day, sites won't load even though your internet's perfectly fine.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>It might help to think of DNS like a phone book — it looks up a website's name and finds its actual address. When that lookup hiccups, websites can fail to load even though your connection itself is working just fine. It's a separate, fixable thing.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>DNS resolves human-readable domain names to numeric IP addresses, functioning like a directory lookup. A DNS resolution failure prevents the browser from locating the destination server even when the underlying internet connection is fully functional — switching to an alternate DNS resolver often isolates the issue.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">09</p>
+      <p class="concept-title">Cache &amp; cookies, as a sticky note pile</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Cache is old saved info the app's using instead of checking fresh. Clear it, problem usually gone.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Cache is kind of like a pile of old sticky notes the app keeps referencing instead of double-checking — clearing it out is like giving it a clean slate.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>You can think of cache like a stack of sticky notes the app keeps using instead of checking for something newer — clearing it just gives it a clean, fresh start, and nothing important gets lost in the process.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Cached data is locally stored to reduce repeated network requests, but stale or corrupted cache entries can cause the application to render outdated or incorrect content. Clearing the cache forces a fresh retrieval from the source.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">10</p>
+      <p class="concept-title">A reboot vs. a factory reset, as cleaning a room</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Reboot is tidying up. Factory reset is emptying the whole room. We almost never need the second one.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>A reboot's like tidying up a messy room, while a factory reset is emptying the whole thing out and starting over — and the good news is, we almost never need to go that far.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>I want to reassure you — a reboot is just like tidying a room, nothing gets lost. A factory reset is much bigger, like emptying the whole room out, and we'd only ever go there as a last resort, with you fully in the loop first.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>A reboot clears volatile memory and restarts running processes without altering stored configuration. A factory reset erases all stored configuration and returns the device to default settings — a destructive, last-resort step requiring reconfiguration afterward.</p></div>
+      </div>
+    </div>
+
+    <h2>Bigger-Picture Concepts</h2>
+    <p class="h2-sub">Networks, interference, and the trade-offs customers ask about.</p>
+
+    <div class="concept-block">
+      <p class="concept-num">11</p>
+      <p class="concept-title">Mesh Wi-Fi, as relay runners</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Mesh is multiple routers passing the signal like a relay race instead of one shouting across the whole house.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Mesh Wi-Fi is like a relay race — instead of one runner trying to shout across the whole house, you've got teammates passing the signal along so it stays strong everywhere.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>It can help to picture mesh Wi-Fi like a relay race — instead of one router trying to cover the whole house alone, several work together to pass the signal along, so coverage stays steady room to room.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>A mesh system distributes multiple access points that communicate with each other to extend coverage, functionally similar to a relay handoff — client devices roam between nodes seamlessly rather than relying on a single, distance-limited broadcast point.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">12</p>
+      <p class="concept-title">Coax vs. fiber, as a garden hose vs. a fire hose</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Coax is a garden hose, fiber's a fire hose. Both carry water, one carries a lot more.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Coax cable's kind of like a garden hose and fiber's like a fire hose — both deliver, but one's built to move a whole lot more at once.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>One way to picture the difference — coax is like a garden hose, and fiber's like a fire hose. Both work, it's really just a question of how much can move through at once, and what's available where you live.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Coaxial cable carries an electrical signal with bandwidth limited by cable quality and shared-node congestion. Fiber-optic cable carries a light-based signal with substantially higher theoretical bandwidth and lower susceptibility to interference and degradation over distance.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">13</p>
+      <p class="concept-title">Channel interference, as overlapping conversations</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Neighbor's Wi-Fi on the same channel is like two people shouting over each other. Switch channels, stop competing.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>If a neighbor's router is on the same channel as yours, it's like two people trying to talk over each other at a party — switching channels is like finding a quieter corner.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>You can think of channel interference like two conversations happening too close together at a party — everyone talks a little louder and it gets harder to hear. Moving to a different channel is like finding a quieter spot, and it's a simple change to make.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Wireless channel overlap with neighboring networks operating on the same or adjacent frequency causes co-channel interference, increasing collision rates and reducing effective throughput. Selecting a less congested channel, often automatically, mitigates this.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">14</p>
+      <p class="concept-title">Smart home device crowding, as too many radios in one room</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Dozens of smart devices on one router is like dozens of radios all playing at once — things get crowded.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>A house full of smart devices is a bit like a room full of radios all playing at the same time — eventually it gets crowded and a little chaotic for the network.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>It helps to picture a lot of smart devices like a room full of radios all playing at once — it's not that anything's wrong, there's just a lot going on, and sometimes spreading things out or upgrading equipment gives everyone room to breathe.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>A high density of connected IoT devices increases contention for shared wireless airtime and can exhaust the router's concurrent-connection table, degrading performance even when raw bandwidth is sufficient. A dedicated IoT network band or upgraded hardware addresses this.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">15</p>
+      <p class="concept-title">Data caps, as a gas tank</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Data cap is a tank size, not a speed limit. Empty tank doesn't mean broken car.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>A data cap's basically a gas tank size, not a speed limit — running low doesn't mean the car's broken, it just means it's time to refuel or wait for the next cycle.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>Think of a data cap like the size of a gas tank rather than how fast the car can go — running close to the limit isn't a sign anything's broken, it just means usage has been high, and there are usually a few easy ways to manage it.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>A data cap is a usage-volume ceiling, conceptually distinct from connection speed — analogous to fuel-tank capacity versus engine performance. Approaching the cap does not affect throughput; it affects whether overage charges or throttling apply once exceeded.</p></div>
+      </div>
+    </div>
+
+    <h2>Less Common, Still Worth Having</h2>
+    <p class="h2-sub">VPNs, software updates, and the "is it the hardware?" question.</p>
+
+    <div class="concept-block">
+      <p class="concept-num">16</p>
+      <p class="concept-title">VPN, as a private tunnel</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>VPN is a private tunnel through public roads. Slower sometimes, but the trade-off is privacy.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>A VPN's like a private tunnel running underneath the regular roads — it can add a little travel time, but you get there with a lot more privacy.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>You can think of a VPN like a private tunnel running alongside the regular roads — it might add a little time to the trip, but that's a normal trade-off for the extra privacy it gives you, not a sign of a problem.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>A VPN encrypts traffic and routes it through an intermediary server, analogous to a private tunnel beneath public infrastructure. The added encryption/routing overhead typically introduces measurable latency and can reduce throughput versus a direct connection — an expected trade-off, not a fault.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">17</p>
+      <p class="concept-title">Software update vs. hardware swap, as a tune-up vs. a new engine</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Software update's a tune-up. New equipment is a new engine. We try the tune-up first, always.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>A software update's like a tune-up — quick and often does the trick. Swapping equipment is more like putting in a new engine, which we only do if the tune-up genuinely isn't enough.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>It can help to think of a software update like a quick tune-up, and replacing equipment like putting in a new engine — a much bigger step. We'll always try the simpler option first and only move to equipment if it's genuinely needed.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>A firmware/software update resolves software-layer defects without altering physical components, comparable to a mechanical tune-up. Hardware replacement addresses physical degradation or capability limits the software cannot fix — pursued only after software-level remediation has been ruled out.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">18</p>
+      <p class="concept-title">Network congestion at peak hours, as rush hour traffic</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Evenings are rush hour for the network. Same roads, more cars, naturally slower.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Evenings are basically rush hour for the internet — same roads, just a whole lot more traffic, since everyone's home and online at once.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>Evening slowdowns are a lot like rush hour traffic — the roads haven't changed, there's just more going on at once. It's a really common, expected pattern, not something specific to your connection.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Peak-hour congestion results from aggregate demand across all users sharing a local network segment exceeding available capacity at that moment — analogous to commuter traffic volume on fixed road infrastructure. Performance typically recovers as concurrent demand decreases.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">19</p>
+      <p class="concept-title">A splitter, as dividing a pizza</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>Every splitter you add cuts the signal smaller — like slicing one pizza more ways.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>Splitters are kind of like cutting a pizza into more slices — same pizza, but each piece gets a little smaller every time you add another cut.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>You can think of splitters like slicing a pizza — the more cuts you make, the smaller each slice gets. It's not anything wrong with the line, just something worth knowing about as we look at how many splitters are in place.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>Each splitter introduces signal loss, typically 3.5dB per output, dividing the available signal power across all downstream connections. Cascading multiple splitters compounds this loss and can drop signal below the threshold required for a stable connection.</p></div>
+      </div>
+    </div>
+
+    <div class="concept-block">
+      <p class="concept-num">20</p>
+      <p class="concept-title">An outage map, as a weather forecast</p>
+      <div class="style-grid">
+        <div class="style-card d"><div class="style-card-header"><span class="style-dot" style="background:var(--d)"></span><span class="style-letter" style="color:var(--d)">D</span><span class="style-name">Dominance</span></div><p>The outage map is a forecast, not a guarantee. We check it first, then verify your specific line.</p></div>
+        <div class="style-card i"><div class="style-card-header"><span class="style-dot" style="background:var(--i)"></span><span class="style-letter" style="color:var(--i)">i</span><span class="style-name">Influence</span></div><p>An outage map's a bit like a weather forecast — it tells us what's likely happening in the area, but we still check your specific connection to be sure.</p></div>
+        <div class="style-card s"><div class="style-card-header"><span class="style-dot" style="background:var(--s)"></span><span class="style-letter" style="color:var(--s)">S</span><span class="style-name">Steadiness</span></div><p>Think of the outage map like a weather forecast for your area — it gives us a good first read, but we'll still check your exact line directly, just so we're not guessing on something this important to you.</p></div>
+        <div class="style-card c"><div class="style-card-header"><span class="style-dot" style="background:var(--c)"></span><span class="style-letter" style="color:var(--c)">C</span><span class="style-name">Conscientiousness</span></div><p>An area outage map reflects aggregated reports and network monitoring data for a region, similar to a weather forecast model — it indicates probability and pattern, not a confirmed status for any individual line, which still warrants direct verification.</p></div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <p>An analogy is a shortcut, not a substitute for accuracy. The goal isn't to sound clever — it's to make the truth land faster for the person in front of you.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="article-cta">
+      <p class="cta-title">Want this built into your call flow?</p>
+      <p>The DiSC Call Flow Tool scripts what to say at every step of a tech support call, adapted live to each customer's style.</p>
+      <a class="btn" href="/call-flow.html">Open the Call Flow Tool</a>
+      <a class="btn btn-ghost-light" href="mailto:bryan@bryanjodon.com?subject=Intro Call Request">Book a free intro call</a>
+    </div>
+
+  </div>
+</article>
+
+<footer>
+  <div class="footer-inner">
+    <span class="footer-name">Bryan Jodon</span>
+    <span class="footer-copy">&copy; 2026</span>
+  </div>
+</footer>
+
+</body>
+</html>
