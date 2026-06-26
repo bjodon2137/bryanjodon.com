@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calming Each Style When They're Already Angry | Bryan Jodon</title>
+  <meta name="description" content="Most reps calm every angry caller the same way, usually the way they'd want to be calmed themselves. Here's why the move that settles a D backfires on an S, and what de-escalation actually sounds like for each style." />
+  <link rel="canonical" href="https://bryanjodon.com/articles/calming-each-style-when-angry.html" />
+  <meta property="og:title" content="Calming Each Style When They're Already Angry" />
+  <meta property="og:description" content="The move that settles a D backfires on an S. Here's what de-escalation actually sounds like for each DiSC style." />
+  <meta property="og:url" content="https://bryanjodon.com/articles/calming-each-style-when-angry.html" />
+  <meta property="og:type" content="article" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #fafaf9; --surface: #f4f3f1; --border: #e5e3df;
+      --text: #18181b; --muted: #71717a;
+      --d: #c0392b; --i: #d97706; --s: #16a34a; --c: #1d4ed8;
+      --serif: 'DM Serif Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --max: 680px; --pad: clamp(1.25rem, 5vw, 2.5rem);
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--sans); background: var(--bg); color: var(--text); line-height: 1.65; font-size: 1rem; -webkit-font-smoothing: antialiased; }
+
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(250,250,249,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); padding: 0 var(--pad); height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-brand { font-family: var(--serif); font-size: 1.1rem; color: var(--text); text-decoration: none; }
+    .nav-back { font-size: 0.825rem; color: var(--muted); text-decoration: none; display: flex; align-items: center; gap: 0.35rem; transition: color 0.15s; }
+    .nav-back:hover { color: var(--text); }
+
+    article { max-width: var(--max); margin: 0 auto; padding: clamp(3rem, 8vw, 5rem) var(--pad) clamp(4rem, 10vw, 7rem); }
+    .article-meta { margin-bottom: 2.5rem; }
+    .article-label { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 1rem; }
+    h1 { font-family: var(--serif); font-size: clamp(1.9rem, 4.5vw, 2.8rem); font-weight: 400; line-height: 1.15; margin-bottom: 1rem; letter-spacing: -0.01em; }
+    .article-intro { font-size: 1.1rem; color: var(--muted); line-height: 1.75; }
+    .article-body { margin-top: 3rem; }
+    .article-body p { font-size: 1rem; color: var(--muted); line-height: 1.85; margin-bottom: 1.5rem; }
+    h2 { font-family: var(--serif); font-size: 1.5rem; font-weight: 400; margin: 2.5rem 0 1rem; line-height: 1.25; }
+
+    .style-block { border-left: 3px solid var(--border); padding: 1.25rem 1.5rem; margin: 1.5rem 0; }
+    .style-block.d-block { border-left-color: var(--d); }
+    .style-block.i-block { border-left-color: var(--i); }
+    .style-block.s-block { border-left-color: var(--s); }
+    .style-block.c-block { border-left-color: var(--c); }
+    .style-block-label { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.75rem; }
+    .style-block.d-block .style-block-label { color: var(--d); }
+    .style-block.i-block .style-block-label { color: var(--i); }
+    .style-block.s-block .style-block-label { color: var(--s); }
+    .style-block.c-block .style-block-label { color: var(--c); }
+    .style-block p { font-size: 0.925rem; color: var(--muted); line-height: 1.75; margin-bottom: 0.75rem; }
+    .style-block p:last-child { margin-bottom: 0; }
+    .style-block strong { color: var(--text); font-weight: 500; }
+
+    .callout { background: var(--surface); border-left: 3px solid var(--border); padding: 1.25rem 1.5rem; margin: 2rem 0; border-radius: 0 8px 8px 0; }
+    .callout p { font-size: 0.95rem; color: var(--text); line-height: 1.7; margin-bottom: 0; font-style: italic; }
+
+    .article-cta { margin-top: 3.5rem; padding: 2rem; background: var(--text); border-radius: 10px; text-align: center; }
+    .article-cta p { font-size: 0.875rem; color: rgba(255,255,255,0.55); margin-bottom: 1.25rem; line-height: 1.65; }
+    .article-cta .cta-title { font-family: var(--serif); font-size: 1.35rem; color: #fff; margin-bottom: 0.5rem; }
+    .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.7rem 1.4rem; background: #fff; color: var(--text); text-decoration: none; font-size: 0.875rem; font-weight: 500; border-radius: 6px; transition: opacity 0.15s; margin: 0.25rem; }
+    .btn:hover { opacity: 0.85; }
+    .btn-ghost-light { background: transparent; color: rgba(255,255,255,0.7); border: 1px solid rgba(255,255,255,0.25); }
+    .btn-ghost-light:hover { color: #fff; border-color: rgba(255,255,255,0.6); opacity: 1; }
+
+    .divider { height: 1px; background: var(--border); margin: 2.5rem 0; }
+    footer { border-top: 1px solid var(--border); padding: 2rem var(--pad); }
+    .footer-inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .footer-name { font-family: var(--serif); font-size: 0.95rem; color: var(--muted); }
+    .footer-copy { font-size: 0.775rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="/">Bryan Jodon</a>
+  <a class="nav-back" href="/articles/">
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 6H1M5 2L1 6l4 4"/></svg>
+    All articles
+  </a>
+</nav>
+
+<article>
+  <div class="article-meta">
+    <p class="article-label">DiSC Framework &middot; De-escalation</p>
+    <h1>Calming Each Style When They're Already Angry</h1>
+    <p class="article-intro">Same outage. Two angry callers, back to back. The first one you talk down in ninety seconds and the second one gets hotter the more you say. Nothing changed about you between those two calls. You used the same voice, the same lines, the same calm. So why did it land for one and blow up the other?</p>
+  </div>
+
+  <div class="article-body">
+
+    <p>Because they weren't angry in the same direction, and you ran the same calming move on both.</p>
+
+    <p>Most reps have a default way they settle people down. Usually it's the way you'd want to be settled down yourself. If reassurance calms you, you reassure. If a fast fix calms you, you go straight to the fix. That works on the callers who are wired like you. It quietly backfires on the ones who aren't.</p>
+
+    <h2>What anger does to a style</h2>
+
+    <p>DiSC sorts behavior on two lines. Pace: some people run fast and outgoing, some run measured and reserved. Focus: some lead with the task, some lead with the people. The four styles sit across from each other like points on a circle. D and S are opposites. i and C are opposites. That part of the model rests on something solid, decades of work on how people relate to each other, so the idea that opposites alarm each other isn't just a slogan.</p>
+
+    <p>Here's the part that's trainer wisdom more than measured science, so hold it loosely and use it anyway: anger usually turns a style up, not sideways. People don't become someone new under pressure. They become more of what they already were. The blunt one gets blunter. The talker gets louder and harder to follow. The steady one goes quiet. The precise one goes cold.</p>
+
+    <p>That's the read you're making in the first few seconds. Not the full diagnosis, just the lean. Is this person coming at me fast and hard, or pulling back and going flat? Are they all about the problem, or all about how they've been treated? You can't reliably type a stranger in ten seconds and you shouldn't try. You can catch a direction, and the direction is enough to pick your move.</p>
+
+    <h2>The D who's angry</h2>
+
+    <div class="style-block d-block">
+      <p class="style-block-label">D Dominance</p>
+      <p>The internet has been down two days. The caller opens with "I don't want the troubleshooting steps, I want a credit and a date when this is fixed." No patience for your usual build-up.</p>
+      <p>Your instinct is to reassure and walk the steps. To a D, that reads as stalling, and stalling reads as you not taking them seriously. They get sharper. Now you've got an escalation that didn't need to happen.</p>
+      <p>What calms a D is control and a fast path to done. Lead with the decision. "Here's what I can do right now. I'm putting a credit on the account for the downtime, and the repair is scheduled for Thursday. Want me to start with the credit?" You can still do your careful work. You just put the outcome first, because the outcome is what lowers their temperature. Give them a sense that the call is moving and that they're steering it, and the heat drops fast.</p>
+    </div>
+
+    <h2>The S who's angry</h2>
+
+    <div class="style-block s-block">
+      <p class="style-block-label">S Steadiness</p>
+      <p>Same outage. This caller was patient about it. What set them off is that a technician was promised yesterday and nobody came. That broken promise is the actual wound, more than the outage.</p>
+      <p>Your instinct, maybe sharpened by the last call, is to move fast and close this out. To an S, speed feels like being brushed off again. So they go quiet. And here's the trap: you might read that quiet as the call calming down. It isn't. A quiet S is often a withdrawn S, agreeing on the surface so the call will end, not because anything got fixed for them.</p>
+      <p>What calms an S is steadiness and no surprises. Slow down. Name the broken promise out loud. "You were told someone would be there yesterday, and no one showed. That's on us, and I get why you're done with it." Then give them a plan they can count on, with the next step spelled out and a way to reach you if it slips again. They don't need it fast. They need it to hold.</p>
+    </div>
+
+    <h2>The C who's angry</h2>
+
+    <div class="style-block c-block">
+      <p class="style-block-label">C Conscientiousness</p>
+      <p>A billing error. This caller isn't yelling. They're cold and exact, asking for the specific date the charge posted and the exact amount, building a case.</p>
+      <p>Your instinct is warmth. "I completely understand how frustrating this is." To a C, empathy with no facts behind it is fluff, and fluff makes them trust you less. They get colder and more precise, because now they're not sure you actually know what happened.</p>
+      <p>What calms a C is accuracy and a clean owning of the error. Skip the feelings opener. Go to the specifics. "You were charged 89 dollars on the third. That's a billing error on our end. I'm reversing it today, and you'll see it back within two cycles." Precise, owned, corrected. You can be human about it, but the substance comes first. Get the facts right and the cold breaks on its own.</p>
+    </div>
+
+    <h2>The i who's angry</h2>
+
+    <div class="style-block i-block">
+      <p class="style-block-label">i Influence</p>
+      <p>This one's loud and fast and a little scattered. They're upset, they've got three complaints braided together, and most of all they want to be heard.</p>
+      <p>Your instinct, especially if you're a get-to-the-fix kind of rep, is to cut through it and start solving. To an i, jumping to the technical fix feels like you talking over them. So they ramp up, because being heard is the thing they came for and they haven't gotten it yet.</p>
+      <p>What calms an i is acknowledgment before task. Let them feel heard first. "Okay, that's a lot to deal with at once, and I can hear how done you are with it. Let me make sure I've got all of it." Reflect the gist back so they know it landed. Then move to the fix. Once an i feels heard, they'll usually come along with you easily. Skip that step and you'll fight them the whole call.</p>
+    </div>
+
+    <h2>The whole move</h2>
+
+    <p>You're not learning four scripts. You're learning to stop running your own calming move on everyone.</p>
+
+    <p>Read the lean in the first few seconds. Fast and hard, or pulling back and flat. Task, or people. Then make one adjustment, not ten. Lead with the decision for a D. Slow down and steady the S. Get precise for a C. Let the i feel heard first. One move toward how this person takes in information.</p>
+
+    <div class="callout">
+      <p>Real callers are messier than these four. Plenty are blends, and some sound like one style until the call turns and they show another. So you keep testing the read instead of locking it in. If your first move isn't working, that's information. Try the opposite. The point isn't to label people correctly. It's to stop using the calming move that happens to be gasoline for the person actually on your line.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="article-cta">
+      <p class="cta-title">Want the full de-escalation playbook?</p>
+      <p>The DiSC Deep Dive Guide includes communication scripts for every style, a cross-style friction matrix, and 36 exercises for building real fluency, not just awareness.</p>
+      <a class="btn" href="/pdfs/disc-communication-deep-dive.pdf" download>Download free PDF guide</a>
+      <a class="btn btn-ghost-light" href="mailto:bryan@bryanjodon.com?subject=Intro Call Request">Book a free intro call</a>
+    </div>
+
+  </div>
+</article>
+
+<footer>
+  <div class="footer-inner">
+    <span class="footer-name">Bryan Jodon</span>
+    <span class="footer-copy">&copy; 2026</span>
+  </div>
+</footer>
+
+</body>
+</html>
