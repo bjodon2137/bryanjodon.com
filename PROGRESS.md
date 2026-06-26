@@ -4,6 +4,11 @@ Running log of autonomous work on bryanjodon.com. One entry per change, newest f
 
 ---
 
+### 2026-06-26 — Full voice/copy rewrite pass across homepage, articles, and reference pages
+**Files:** `index.html`, `articles/index.html`, `articles/what-is-disc.html`, `articles/giving-feedback-by-style.html`, `articles/d-vs-c-at-work.html`, `articles/i-vs-s-at-work.html`, `disc-explanations.html`, `disc-analogies.html`, `disc-call-stages.html`
+**What:** Applied a 10-file copy deck (produced by a prior content-review pass) across the whole site: removed em-dashes from visible body text, cut AI-tell phrases ("load-bearing," "seamlessly," etc.), tightened restate-the-closer habits, and varied sentence length, all via exact-string Python replacements guarded by `assert count==1` so only text nodes changed, never markup. `/call-flow.html` was left untouched per the deck (its script data and the call-stages page quote it verbatim). On the three reference pages, only narrative wrapper text changed; the 20-item DISC content arrays and the call-stages page's quoted script lines/"Watch for" notes are untouched reference artifacts. Also fixed a pre-existing truncation bug found in `articles/index.html` (missing a card, footer, and closing tags since at least commit 33b9581) as its own separate commit.
+**Next up:** None outstanding from this pass. Title/meta-tag em-dashes were left alone since the copy deck never specified changes there.
+
 ### 2026-06-25 — Add disc-explanations.html, link from homepage Tools section
 **Files:** `disc-explanations.html` (new), `index.html`
 **What:** Built a new reference page with 20 common cable/internet tech-support concepts (TV & video, internet & connectivity, equipment & maintenance), each explained four ways — one per DiSC style (D/i/S/C) — matching the visual style of the existing `/articles/` pages (serif headings, 720px column, style-card pattern). Linked it as a new "Reference" work-card in the homepage Projects & Tools grid, right after the Call Flow Tool card. Page links back to `/` and forward to `/call-flow.html`.
